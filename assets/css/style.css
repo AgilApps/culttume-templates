@@ -161,14 +161,14 @@ footer {
   float: left;
   width: 100%;
   height: 350px;
-  background: gainsboro;
+  background: #323232;
   margin: 25px auto 0px auto;
 }
 /* line 155, ../../scss/style.scss */
 footer #footer-content {
   width: 1080px;
   height: 325px;
-  background: #8b8b8b;
+  background: #323232;
 }
 
 /* **************************************** .box-content ************************************************ */

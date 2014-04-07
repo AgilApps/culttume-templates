@@ -3971,7 +3971,7 @@ select::-ms-expand {
   padding-top: 0;
   padding-bottom: 0;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px; /* custom modification*/
   overflow: hidden;
   font-size: 0.875rem;
   height: 2.3125rem;

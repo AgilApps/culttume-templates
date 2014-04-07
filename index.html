@@ -20,6 +20,12 @@
         </ul>
         <section class="top-bar-section">
           <!-- Right Nav Section -->
+          <div class="large-2 small-2 columns">
+            <input type="text" placeholder="Find Stuff">
+          </div>
+          <div class="large-2 small-2 columns">
+            <a href="#" class="alert button expand">Search</a>
+          </div>
           <div class="photo_user_mini">
           <ul class="right">
             <li class="has-dropdown">
@@ -35,22 +41,58 @@
 
     <!-- *************************************** # Wrapper ***************************************************-->
     <div id="float_menu">
+      <dl class="accordion" data-accordion>
+  <dd>
+    <a href="#panel1">Accordion 1</a>
+    <div id="panel1" class="content active">
+      <dl class="tabs" data-tab>
+        <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
+        <dd><a href="#panel2-2">Tab 2</a></dd>
+        <dd><a href="#panel2-3">Tab 3</a></dd>
+        <dd><a href="#panel2-4">Tab 4</a></dd>
+      </dl>
+      <div class="tabs-content">
+        <div class="content active" id="panel2-1">
+          <p>First panel content goes here...</p>
+        </div>
+        <div class="content" id="panel2-2">
+          <p>Second panel content goes here...</p>
+        </div>
+        <div class="content" id="panel2-3">
+          <p>Third panel content goes here...</p>
+        </div>
+        <div class="content" id="panel2-4">
+          <p>Fourth panel content goes here...</p>
+        </div>
+      </div>
+    </div>
+  </dd>
+  <dd>
+    <a href="#panel2">Accordion 2</a>
+    <div id="panel2" class="content">
+      Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+  </dd>
+  <dd>
+    <a href="#panel3">Accordion 3</a>
+    <div id="panel3" class="content">
+      Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+  </dd>
+</dl>
       
       
     </div>
     <div id="wrapper">
-    
-        <nav id="nav_aside">
-          
-        </nav>
-      </aside>
+      
     </div>
     <!-- *********************************** end # Wrapper **************************************************-->
 
     <!-- *************************************** footer ***************************************************-->
-	  <!--<footer>
-      <div id="footer-content"></div>
-    </footer>-->
+    <footer>
+      asdfa
+    </footer>
+	
     <!-- ************************************* end footer ***************************************************-->
     <script src="assets/js/foundation/foundation.js"></script>
     <script src="assets/js/foundation/foundation.topbar.js"></script>

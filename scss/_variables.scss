@@ -1,0 +1,84 @@
+@import url(fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+@import '_mixins';
+
+//Declaration of variables Culttu.me.
+
+//	Colors Culttume
+$black  : #323232;
+$yellow : #FFEE20;
+$purple : #64387F;
+$orange : #F39720;
+$bluesky: #23AAE1;
+$red    : #E84F35;
+$grey1  : #DCDCDC;
+$grey2  : #8B8B8B;
+$grey3  : #A5A5A5;
+$grey4  : #878787;
+$grey5  : #4D4D4D;
+$white  : #FFFFFF;
+
+
+// Fonts
+$font-stack2: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$font-stack1: "Open Sans", sans-serif;//google font
+
+
+// size of the titles
+$sizeh1 : 22px;
+//	Configuraciones por secciones
+
+//dimensions
+$width_general : 100%; //body o div
+$height_general : 100%; //body o div
+
+$width_menufloat : 160px; //Floating menu
+
+$width_box_content : 320px; //box content
+$height_box_content_small : 160px; //box content
+$height_box_content_big : 250px; //box content
+
+$width_product_box_content : 300px; // size base
+$height_img_box_content : 150px; //
+$height_music_box_content : 90px; //
+
+$height_info_box_content : 30px; //
+
+$width_box_title_content : 273px;
+$height_box_title_content : 47px;
+$width_h3_title_content : 258px;
+$height_h3_title_content : 37px;
+$width_p_title_content : 220px;
+$height_p_title_content : 20px;
+$dimensions_ico_social_title_content : 26px;
+
+$width_box_content_follower : 240px; //box content
+$height_box_content_follower : 432px;//box content
+
+$width_box_perfil : 692px; //box configuration profile
+
+
+
+$width_wrapper: 1080px;//content of content
+
+$width_wrapper_content_div:1020px;
+
+$width_mini_logo : 154px ; //Logo head width
+
+$width_input : 160px; //Width based inputs
+
+$height_header : 40px; //Header
+$height_mini_logo : 35px;
+$height_input : 30px; //heigth base inputs
+$height_footer : 350px; //heigth of footer
+$height_footer_content : 325px; //heigth the content of footer
+
+
+//	
+$margin_cont : 5px 10px; //Margin Windows Content
+$radius : 0px; //border of windows content
+$pad_0 : 0px; //Padding
+
+
+
+
+

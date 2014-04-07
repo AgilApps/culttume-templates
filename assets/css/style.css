@@ -1,0 +1,248 @@
+@import url(fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+/* styles are imported and declared variables */
+/*layout styles in css*/
+/* **************************************** Body ************************************************ */
+/* line 10, ../../scss/style.scss */
+body {
+  width: 100%;
+  height: 100% !important;
+  background: white;
+  overflow-x: hidden;
+  overflow-y: visible;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 100%;
+  font-size: 100%;
+}
+
+/* **************************************** Header ********************************************** */
+/* line 23, ../../scss/style.scss */
+header {
+  width: 100%;
+  height: 40px;
+  background: #323232;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  z-index: 999;
+  	/*position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      padding: $pad_0;*/
+}
+/* line 38, ../../scss/style.scss */
+header #cabecera {
+  max-width: 1080px;
+  height: auto;
+  margin: auto;
+  background: transparent;
+  overflow: visible;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  padding: 0px;
+  			/*#logo {
+  				width: $width_mini_logo;
+  				height: $height_mini_logo;
+  				background: $red;
+  				margin: 2.5px 0px;
+  
+  				float:left;
+  			}
+  	    	.titlle_pag{
+  	    		width: auto;
+  				height: $height_header;
+  				background: transparent;
+  				margin: 0 auto 0 30%;
+  				float:left;
+  				
+  					h1{
+  						color: $white;
+  						font-family: $font-stack1;
+  						font-size: $sizeh1;
+  						font-variant:small-caps;
+  						font-weight:lighter;
+  						margin-top:2px;
+  					}
+  	    	}
+  	    	.finder{
+  	    		float:left;
+  
+  	    		width: $width_mini_logo;
+  				height: $height_header;
+  				background: transparent;
+  				margin: 2.5px auto 2.5px 10%;
+  
+  	    			input{
+  	    				width: $width_input;
+  						height: $height_input;
+  						background: $white;
+  		    			padding: $pad_0;
+  		    		}
+  		    .photo_user_mini{
+  		    	float:left;
+  
+  	    		width: 40px;
+  				height: 40px;
+  				background: $yellow;
+  		    }
+      	}*/
+}
+
+/* ******************************************** Menu ******************************************************* */
+/* line 100, ../../scss/style.scss */
+#float_menu {
+  width: 160px;
+  height: 250px;
+  background: #323232;
+  margin-top: 60px;
+  float: left;
+  margin-left: 10px;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  z-index: 90;
+  position: relative;
+  top: 0px;
+  right: 0;
+  left: 0px;
+  padding: 0px;
+}
+
+/* ************************************************* Wrapper ************************************************ */
+/* line 122, ../../scss/style.scss */
+#wrapper {
+  width: 1080px;
+  height: 100% !important;
+  background: gainsboro;
+  margin: 60px 10px 10px 5px;
+  float: left;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  padding: 0px;
+}
+/* line 132, ../../scss/style.scss */
+#wrapper #content_div {
+  width: 1020px;
+  height: 100% !important;
+  background: gainsboro;
+  margin: 0 0 0px 200px;
+}
+/* line 138, ../../scss/style.scss */
+#wrapper #content_div .window_perfil {
+  width: 692px;
+  height: 250px;
+  background: white;
+}
+
+/* ********************************************** footer ************************************************ */
+/* line 148, ../../scss/style.scss */
+footer {
+  width: 100%;
+  height: 350px;
+  background: gainsboro;
+  margin: 25px auto 0px auto;
+}
+/* line 154, ../../scss/style.scss */
+footer #footer-content {
+  width: 1080px;
+  height: 325px;
+  background: #8b8b8b;
+  margin: 0px auto 0px auto;
+}
+
+/* **************************************** .box-content ************************************************ */
+/* line 163, ../../scss/style.scss */
+.box-content {
+  float: left;
+  width: 320px;
+  height: auto;
+  background: gainsboro;
+  margin: 5px 10px;
+  border: 1px solid #8b8b8b;
+}
+/* line 171, ../../scss/style.scss */
+.box-content .header-box-content {
+  width: 320px;
+  height: 47px;
+  /*h3 tittle box content*/
+}
+/* line 175, ../../scss/style.scss */
+.box-content .header-box-content .title-box-content {
+  float: left;
+  width: 258px;
+  height: 37px;
+  background: #ffee20;
+  margin: 0;
+  padding: 5px 5px 5px 10px;
+  font-variant: small-caps;
+}
+/* line 185, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content {
+  float: right;
+  width: 47px;
+  height: 47px;
+  background: #a5a5a5;
+  margin: 0px;
+}
+/* line 194, ../../scss/style.scss */
+.box-content .photo-box-content {
+  width: 300px;
+  max-height: 150px;
+  min-height: 150px;
+  background: #323232;
+  margin: 10px auto;
+}
+/* line 201, ../../scss/style.scss */
+.box-content .music-box-content {
+  width: 300px;
+  max-height: 90px;
+  min-height: 90px;
+  background: #323232;
+  margin: 10px auto;
+}
+/* line 208, ../../scss/style.scss */
+.box-content .info-box-content {
+  width: 320px;
+  height: 30px;
+  background: #a5a5a5;
+  margin: 0px;
+}
+/* line 215, ../../scss/style.scss */
+.box-content .info-box-content .user-name-box-content .user-name-mini {
+  float: left;
+  width: 220px;
+  height: 20px;
+  background: #e84f35;
+  margin: 5px 0;
+  padding: 0 0 0 10px;
+  font-size: 12px;
+}
+/* line 229, ../../scss/style.scss */
+.box-content .info-box-content .ico-social .share-fb, .box-content .info-box-content .ico-social .share-tw, .box-content .info-box-content .ico-social .share-g {
+  float: right;
+  width: 26px;
+  height: 26px;
+  background: #ffee20;
+  margin: 2px 1px;
+}

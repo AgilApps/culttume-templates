@@ -1,0 +1,239 @@
+/* styles are imported and declared variables */
+
+@import '_mixins';
+@import '_variables';
+
+
+/*layout styles in css*/
+
+/* **************************************** Body ************************************************ */
+body {
+	width: $width_general;
+	height: $height_general !important;
+	background: $white;
+	overflow-x: hidden;
+	overflow-y: visible;
+	font-family: $font-stack1;
+	font-weight:300;
+	line-height:100%;
+	font-size:100%;
+}
+
+/* **************************************** Header ********************************************** */
+header {
+	width: $width_general;
+	height: $height_header;
+	background: $black;
+	@include transform-translate3d();
+	@include border-radius(0px);
+
+	z-index: 999;
+
+	/*position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: $pad_0;*/
+		
+		#cabecera{
+			max-width: $width_wrapper;
+			height: auto;
+			margin: auto;
+			background: transparent;//
+			overflow: visible;
+			@include transform-translate3d();
+			@include border-radius(0px);
+			padding: $pad_0;
+
+			/*#logo {
+				width: $width_mini_logo;
+				height: $height_mini_logo;
+				background: $red;
+				margin: 2.5px 0px;
+
+				float:left;
+			}
+	    	.titlle_pag{
+	    		width: auto;
+				height: $height_header;
+				background: transparent;
+				margin: 0 auto 0 30%;
+				float:left;
+				
+					h1{
+						color: $white;
+						font-family: $font-stack1;
+						font-size: $sizeh1;
+						font-variant:small-caps;
+						font-weight:lighter;
+						margin-top:2px;
+					}
+	    	}
+	    	.finder{
+	    		float:left;
+
+	    		width: $width_mini_logo;
+				height: $height_header;
+				background: transparent;
+				margin: 2.5px auto 2.5px 10%;
+
+	    			input{
+	    				width: $width_input;
+						height: $height_input;
+						background: $white;
+		    			padding: $pad_0;
+		    		}
+		    .photo_user_mini{
+		    	float:left;
+
+	    		width: 40px;
+				height: 40px;
+				background: $yellow;
+		    }
+    	}*/
+		}
+    	
+	}
+
+/* ******************************************** Menu ******************************************************* */
+
+#float_menu{
+	width:$width_menufloat;
+	height:$height_box_content_big;
+	background: $black;
+	margin-top: 60px;
+	float:left;
+	margin-left: 10px;
+	overflow: hidden;
+	@include transform-translate3d();
+	@include border-radius(0px);
+
+	z-index: 90;
+
+	position: relative;
+    top: 0px;
+    right: 0;
+    left: 0px;
+    padding: $pad_0;
+}
+
+/* ************************************************* Wrapper ************************************************ */
+
+#wrapper {
+	width: $width_wrapper;
+	height: $height_general !important;
+	background: $grey1;
+	margin: 60px 10px 10px 5px;
+	float:left;
+	font-family: $font-stack2;
+	font-size:100%;
+	padding: $pad_0;
+
+		#content_div {
+			width: $width_wrapper_content_div;
+			height: $height_general !important;
+			background: $grey1;
+			margin: 0 0 0px $width_menufloat+40px;
+
+				.window_perfil{
+					width:$width_box_perfil;
+					height:$height_box_content_big;
+					background: $white;
+				}
+		}
+}
+
+/* ********************************************** footer ************************************************ */
+
+footer{
+	width:$width_general;
+	height: $height_footer;
+	background: $grey1;
+	margin: 25px auto 0px auto;
+
+	#footer-content{
+		width:$width_wrapper;
+		height:$height_footer_content;
+		background: $grey2;
+		margin: 0px auto 0px auto;
+	}
+}
+
+/* **************************************** .box-content ************************************************ */
+.box-content{
+	float:left;
+
+	width: $width_box_content;
+	height: auto;
+	background: $grey1;
+	margin: $margin_cont;
+	border: 1px solid $grey2;
+	.header-box-content{
+		width: $width_box_content;
+		height: $height_box_title_content;
+		/*h3 tittle box content*/
+		.title-box-content{
+			float:left;
+
+			width: $width_h3_title_content;
+			height: $height_h3_title_content;
+			background: $yellow;
+			margin: 0;
+			padding:5px 5px 5px 10px;
+			font-variant: small-caps;
+		}
+		.ico-id-content{
+			float:right;
+
+			width: $height_box_title_content;
+			height: $height_box_title_content;
+			background: $grey3;
+			margin:0px;
+		}
+	}
+	.photo-box-content{
+		width: $width_product_box_content;
+		max-height: $height_img_box_content;
+		min-height: $height_img_box_content;
+		background: $black;
+		margin:10px auto;
+	}
+	.music-box-content{
+		width: $width_product_box_content;
+		max-height: $height_music_box_content;
+		min-height: $height_music_box_content;
+		background: $black;
+		margin:10px auto;
+	}
+	.info-box-content{
+		width: $width_box_content;
+		height: $height_info_box_content;
+		background: $grey3;
+		margin:0px;
+		.user-name-box-content{
+			
+			.user-name-mini{
+				float:left;
+
+				width: $width_p_title_content;
+				height: $height_p_title_content;
+				background: $red;
+				margin:5px 0;
+				padding:0 0 0 10px;
+
+				font-size: 12px;
+			}
+		}
+		.ico-social{
+			
+				.share-fb, .share-tw, .share-g{
+					float:right;
+
+					width:$dimensions_ico_social_title_content;
+					height:$dimensions_ico_social_title_content;
+					background: $yellow;
+					margin:2px 1px;
+				}
+		}
+	}
+}

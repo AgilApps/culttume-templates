@@ -64,7 +64,7 @@ header #subheader .photo_user_mini {
 }
 
 /* ******************************************** Menu ******************************************************* */
-/* line 59, ../../scss/style.scss */
+/* line 58, ../../scss/style.scss */
 #float_menu {
   width: 160px;
   height: auto;
@@ -90,7 +90,7 @@ header #subheader .photo_user_mini {
 }
 
 /* ************************************************* Wrapper ************************************************ */
-/* line 82, ../../scss/style.scss */
+/* line 76, ../../scss/style.scss */
 #wrapper {
   float: left;
   min-width: 1080px;
@@ -103,22 +103,51 @@ header #subheader .photo_user_mini {
   line-height: 100%;
   padding: 0px;
 }
-/* line 95, ../../scss/style.scss */
+/* line 89, ../../scss/style.scss */
 #wrapper #content_div {
   width: 1020px;
   height: 100% !important;
   background: gainsboro;
   margin: 0 0 0px 200px;
 }
-/* line 101, ../../scss/style.scss */
+/* line 95, ../../scss/style.scss */
 #wrapper #content_div .window_perfil {
   width: 692px;
   height: 250px;
   background: white;
 }
 
+/* line 103, ../../scss/style.scss */
+#general_aboutme {
+  float: left;
+  width: 725px;
+  height: auto;
+  border: 0px solid #a5a5a5;
+  background: white;
+  margin: 5px auto 10px 5px;
+}
+
+/* line 112, ../../scss/style.scss */
+#section_aboutme {
+  width: 239px;
+  background: #8b8b8b;
+  float: left;
+  margin: 1px;
+  height: auto;
+}
+
+/* line 120, ../../scss/style.scss */
+#section_followers {
+  width: 380px;
+  margin: 10px;
+  float: left;
+  background: gainsboro;
+  margin: 60px auto 10px 5px;
+  border: 0px solid #8b8b8b;
+}
+
 /* ********************************************** footer ************************************************ */
-/* line 111, ../../scss/style.scss */
+/* line 131, ../../scss/style.scss */
 footer {
   float: left;
   width: 100%;
@@ -126,7 +155,7 @@ footer {
   background: #323232;
   margin: 25px auto 0px auto;
 }
-/* line 118, ../../scss/style.scss */
+/* line 139, ../../scss/style.scss */
 footer #footer-content {
   width: 1080px;
   height: 325px;
@@ -135,7 +164,7 @@ footer #footer-content {
 }
 
 /* **************************************** .box-content ************************************************ */
-/* line 127, ../../scss/style.scss */
+/* line 148, ../../scss/style.scss */
 .box-content {
   float: left;
   width: 320px;
@@ -149,9 +178,8 @@ footer #footer-content {
   font-size: 100%;
   /*the dimension of this div will be content  photos, ilustrations, animates and video*/
   /*the characteristics of this content only will be content API soundcloud*/
-  /**/
 }
-/* line 140, ../../scss/style.scss */
+/* line 162, ../../scss/style.scss */
 .box-content .header-box-content {
   width: 320px;
   height: 47px;
@@ -159,7 +187,7 @@ footer #footer-content {
   overflow: hidden;
   /*h3 tittle box content*/
 }
-/* line 146, ../../scss/style.scss */
+/* line 169, ../../scss/style.scss */
 .box-content .header-box-content .title-box-content {
   float: left;
   width: 258px;
@@ -172,14 +200,14 @@ footer #footer-content {
   font-weight: 300;
   font-size: 100%;
 }
-/* line 159, ../../scss/style.scss */
+/* line 182, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content {
   float: right;
   width: 47px;
   height: 47px;
   margin: 0;
 }
-/* line 167, ../../scss/style.scss */
+/* line 189, ../../scss/style.scss */
 .box-content .header-box-content .subtitle-box-content {
   float: left;
   width: 258px;
@@ -191,7 +219,7 @@ footer #footer-content {
   font-weight: 300;
   font-size: 11px;
 }
-/* line 181, ../../scss/style.scss */
+/* line 205, ../../scss/style.scss */
 .box-content .product-box-content {
   width: 300px;
   max-height: 150px;
@@ -199,7 +227,7 @@ footer #footer-content {
   background: white;
   margin: 10px auto;
 }
-/* line 188, ../../scss/style.scss */
+/* line 213, ../../scss/style.scss */
 .box-content .music-box-content {
   width: 300px;
   max-height: 90px;
@@ -207,18 +235,18 @@ footer #footer-content {
   background: white;
   margin: 10px auto;
 }
-/* line 196, ../../scss/style.scss */
+/* line 221, ../../scss/style.scss */
 .box-content .info-box-content {
   width: 320px;
   height: 30px;
   background: transparent;
   margin: 0px;
 }
-/* line 201, ../../scss/style.scss */
+/* line 226, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content {
   background: #ff0000;
 }
-/* line 203, ../../scss/style.scss */
+/* line 228, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content .user-name-mini {
   float: left;
   width: 220px;
@@ -228,33 +256,33 @@ footer #footer-content {
   padding: 0 0 0 10px;
   font-size: 12px;
 }
-/* line 216, ../../scss/style.scss */
+/* line 241, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-fb, .box-content .info-box-content .ico-social .share-tw, .box-content .info-box-content .ico-social .share-g {
   float: right;
   width: 26px;
   height: 26px;
   margin: 2px 1px;
 }
-/* line 225, ../../scss/style.scss */
+/* line 251, ../../scss/style.scss */
 .box-content label {
   line-height: 100%;
   font-weight: 300;
   font-size: 12px;
 }
-/* line 230, ../../scss/style.scss */
+/* line 258, ../../scss/style.scss */
 .box-content .form-setting {
   width: 290px;
   height: auto;
   background: transparent;
   margin: 0 10px;
 }
-/* line 237, ../../scss/style.scss */
+/* line 265, ../../scss/style.scss */
 .box-content textarea {
   width: 300px;
   max-height: auto;
   min-height: 100px;
 }
-/* line 242, ../../scss/style.scss */
+/* line 271, ../../scss/style.scss */
 .box-content .preview-photo-user {
   width: 100px;
   height: 100px;
@@ -263,7 +291,7 @@ footer #footer-content {
 }
 
 /* ******************************** content related to the event manager ********************************/
-/* line 251, ../../scss/style.scss */
+/* line 280, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -275,7 +303,7 @@ footer #footer-content {
 }
 
 /*  ***************************************************** form register and login *************************** */
-/* line 263, ../../scss/style.scss */
+/* line 292, ../../scss/style.scss */
 #lean_overlay {
   position: fixed;
   z-index: 100;
@@ -287,7 +315,7 @@ footer #footer-content {
   display: none;
 }
 
-/* line 274, ../../scss/style.scss */
+/* line 304, ../../scss/style.scss */
 .popupContainer {
   position: absolute;
   width: 330px;
@@ -297,61 +325,61 @@ footer #footer-content {
   background: #FFF;
 }
 
-/* line 283, ../../scss/style.scss */
+/* line 314, ../../scss/style.scss */
 #modal_trigger {
   margin: 0px auto;
   width: 100px;
   display: block;
 }
 
-/* line 289, ../../scss/style.scss */
+/* line 321, ../../scss/style.scss */
 .btn {
   padding: 10px 20px;
   background: #F4F4F2;
 }
 
-/* line 293, ../../scss/style.scss */
+/* line 326, ../../scss/style.scss */
 .btn_red {
   background: #ED6347;
   color: #FFF;
 }
 
-/* line 298, ../../scss/style.scss */
+/* line 332, ../../scss/style.scss */
 .btn:hover {
   background: #E4E4E2;
 }
 
-/* line 301, ../../scss/style.scss */
+/* line 336, ../../scss/style.scss */
 .btn_red:hover {
   background: #C12B05;
 }
 
-/* line 305, ../../scss/style.scss */
+/* line 340, ../../scss/style.scss */
 a.btn {
   color: #666;
   text-align: center;
   text-decoration: none;
 }
 
-/* line 310, ../../scss/style.scss */
+/* line 346, ../../scss/style.scss */
 a.btn_red {
   color: #FFF;
 }
 
-/* line 314, ../../scss/style.scss */
+/* line 351, ../../scss/style.scss */
 .one_half {
   width: 50%;
   display: block;
   float: left;
 }
-/* line 319, ../../scss/style.scss */
+/* line 357, ../../scss/style.scss */
 .one_half .last {
   width: 45%;
   margin-left: 5%;
 }
 
 /* Popup Styles*/
-/* line 328, ../../scss/style.scss */
+/* line 366, ../../scss/style.scss */
 .popupHeader {
   font-size: 16px;
   text-transform: uppercase;
@@ -361,7 +389,7 @@ a.btn_red {
   border-bottom: 1px solid #DDD;
   font-weight: bold;
 }
-/* line 337, ../../scss/style.scss */
+/* line 376, ../../scss/style.scss */
 .popupHeader .modal_close {
   position: absolute;
   right: 0;
@@ -373,13 +401,13 @@ a.btn_red {
   font-size: 16px;
 }
 
-/* line 348, ../../scss/style.scss */
+/* line 387, ../../scss/style.scss */
 .popupBody {
   padding: 20px;
 }
 
 /* Social Login Form */
-/* line 356, ../../scss/style.scss */
+/* line 396, ../../scss/style.scss */
 .social_login .social_box {
   display: block;
   clear: both;
@@ -388,7 +416,7 @@ a.btn_red {
   background: #F4F4F2;
   overflow: hidden;
 }
-/* line 364, ../../scss/style.scss */
+/* line 404, ../../scss/style.scss */
 .social_login .icon {
   display: block;
   width: 10px;
@@ -399,7 +427,7 @@ a.btn_red {
   font-size: 16px;
   text-align: center;
 }
-/* line 374, ../../scss/style.scss */
+/* line 414, ../../scss/style.scss */
 .social_login .icon_title {
   display: block;
   padding: 5px 0;
@@ -408,20 +436,20 @@ a.btn_red {
   font-size: 16px;
   color: #777;
 }
-/* line 382, ../../scss/style.scss */
+/* line 422, ../../scss/style.scss */
 .social_login .social_box:hover {
   background: #E4E4E2;
 }
-/* line 385, ../../scss/style.scss */
+/* line 425, ../../scss/style.scss */
 .social_login .fb .icon {
   background: #3B5998;
 }
-/* line 388, ../../scss/style.scss */
+/* line 428, ../../scss/style.scss */
 .social_login .google .icon {
   background: #DD4B39;
 }
 
-/* line 394, ../../scss/style.scss */
+/* line 434, ../../scss/style.scss */
 .centeredText {
   text-align: center;
   margin: 20px 0;
@@ -430,27 +458,27 @@ a.btn_red {
   text-transform: uppercase;
 }
 
-/* line 402, ../../scss/style.scss */
+/* line 443, ../../scss/style.scss */
 .action_btns {
   clear: both;
   overflow: hidden;
 }
-/* line 406, ../../scss/style.scss */
+/* line 447, ../../scss/style.scss */
 .action_btns a {
   display: block;
 }
 
 /* User Login Form */
-/* line 412, ../../scss/style.scss */
+/* line 453, ../../scss/style.scss */
 .user_login {
   display: none;
 }
-/* line 415, ../../scss/style.scss */
+/* line 456, ../../scss/style.scss */
 .user_login label {
   display: block;
   margin-bottom: 5px;
 }
-/* line 420, ../../scss/style.scss */
+/* line 461, ../../scss/style.scss */
 .user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {
   display: block;
   width: 90%;
@@ -458,23 +486,23 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 427, ../../scss/style.scss */
+/* line 468, ../../scss/style.scss */
 .user_login input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 431, ../../scss/style.scss */
+/* line 472, ../../scss/style.scss */
 .user_login input[type="checkbox"] + label {
   float: left;
 }
-/* line 434, ../../scss/style.scss */
+/* line 475, ../../scss/style.scss */
 .user_login .checkbox {
   margin-bottom: 10px;
   clear: both;
   overflow: hidden;
 }
 
-/* line 440, ../../scss/style.scss */
+/* line 481, ../../scss/style.scss */
 .forgot_password {
   display: block;
   margin: 20px 0 10px;
@@ -485,16 +513,16 @@ a.btn_red {
 }
 
 /* User Register Form */
-/* line 450, ../../scss/style.scss */
+/* line 492, ../../scss/style.scss */
 .user_register {
   display: none;
 }
-/* line 453, ../../scss/style.scss */
+/* line 496, ../../scss/style.scss */
 .user_register label {
   display: block;
   margin-bottom: 5px;
 }
-/* line 458, ../../scss/style.scss */
+/* line 501, ../../scss/style.scss */
 .user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {
   display: block;
   width: 90%;
@@ -502,16 +530,16 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 465, ../../scss/style.scss */
+/* line 508, ../../scss/style.scss */
 .user_register input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 469, ../../scss/style.scss */
+/* line 512, ../../scss/style.scss */
 .user_register input[type="checkbox"] + label {
   float: left;
 }
-/* line 472, ../../scss/style.scss */
+/* line 515, ../../scss/style.scss */
 .user_register .checkbox {
   margin-bottom: 10px;
   clear: both;

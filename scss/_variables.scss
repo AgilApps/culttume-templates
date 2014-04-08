@@ -26,13 +26,21 @@ $font-stack1: "Open Sans", sans-serif;//google font
 // ************************************************* size of the titles ************************************
 $sizeh1 : 22px;
 
-//	************************************* setting sections **************************************************
 
 // ************************************* dimensions ********************************************************
 $width_general : 100%; //body o div
 $height_general : 100%; //body o div
 
 $width_menufloat : 160px; //Floating menu
+
+// **************************************** dimensions aboutme **********************************************
+
+$width_general_aboutme: 725px;	
+$width_followers:380px;
+$margin_followers:10px;
+
+
+// *********************************** end dimensions aboutme **********************************************
 
 $width_box_content : 320px; //box content
 $height_box_content_small : 160px; //box content

@@ -2,7 +2,7 @@
 /* styles are imported and declared variables */
 /*layout styles in css*/
 /* **************************************** Body ************************************************ */
-/* line 10, ../../scss/style.scss */
+/* line 9, ../../scss/style.scss */
 body {
   width: 100%;
   height: 100% !important;
@@ -16,7 +16,7 @@ body {
 }
 
 /* **************************************** Header ********************************************** */
-/* line 23, ../../scss/style.scss */
+/* line 22, ../../scss/style.scss */
 header {
   width: 100%;
   height: 40px;
@@ -37,8 +37,8 @@ header {
       left: 0;
       padding: $pad_0;*/
 }
-/* line 38, ../../scss/style.scss */
-header #cabecera {
+/* line 37, ../../scss/style.scss */
+header #subheader {
   max-width: 1080px;
   height: 40px;
   margin: auto;
@@ -56,7 +56,7 @@ header #cabecera {
   padding: 0px;
 }
 /* line 47, ../../scss/style.scss */
-header #cabecera .photo_user_mini {
+header #subheader .photo_user_mini {
   float: right;
   width: 100px;
   height: 40px;
@@ -90,7 +90,7 @@ header #cabecera .photo_user_mini {
 }
 
 /* ************************************************* Wrapper ************************************************ */
-/* line 80, ../../scss/style.scss */
+/* line 82, ../../scss/style.scss */
 #wrapper {
   float: left;
   min-width: 1080px;
@@ -103,14 +103,14 @@ header #cabecera .photo_user_mini {
   line-height: 100%;
   padding: 0px;
 }
-/* line 93, ../../scss/style.scss */
+/* line 95, ../../scss/style.scss */
 #wrapper #content_div {
   width: 1020px;
   height: 100% !important;
   background: gainsboro;
   margin: 0 0 0px 200px;
 }
-/* line 99, ../../scss/style.scss */
+/* line 101, ../../scss/style.scss */
 #wrapper #content_div .window_perfil {
   width: 692px;
   height: 250px;
@@ -118,7 +118,7 @@ header #cabecera .photo_user_mini {
 }
 
 /* ********************************************** footer ************************************************ */
-/* line 109, ../../scss/style.scss */
+/* line 111, ../../scss/style.scss */
 footer {
   float: left;
   width: 100%;
@@ -126,7 +126,7 @@ footer {
   background: #323232;
   margin: 25px auto 0px auto;
 }
-/* line 116, ../../scss/style.scss */
+/* line 118, ../../scss/style.scss */
 footer #footer-content {
   width: 1080px;
   height: 325px;
@@ -135,7 +135,7 @@ footer #footer-content {
 }
 
 /* **************************************** .box-content ************************************************ */
-/* line 125, ../../scss/style.scss */
+/* line 127, ../../scss/style.scss */
 .box-content {
   float: left;
   width: 320px;
@@ -151,7 +151,7 @@ footer #footer-content {
   /*the characteristics of this content only will be content API soundcloud*/
   /**/
 }
-/* line 138, ../../scss/style.scss */
+/* line 140, ../../scss/style.scss */
 .box-content .header-box-content {
   width: 320px;
   height: 47px;
@@ -159,7 +159,7 @@ footer #footer-content {
   overflow: hidden;
   /*h3 tittle box content*/
 }
-/* line 144, ../../scss/style.scss */
+/* line 146, ../../scss/style.scss */
 .box-content .header-box-content .title-box-content {
   float: left;
   width: 258px;
@@ -172,14 +172,14 @@ footer #footer-content {
   font-weight: 300;
   font-size: 100%;
 }
-/* line 157, ../../scss/style.scss */
+/* line 159, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content {
   float: right;
   width: 47px;
   height: 47px;
   margin: 0;
 }
-/* line 165, ../../scss/style.scss */
+/* line 167, ../../scss/style.scss */
 .box-content .header-box-content .subtitle-box-content {
   float: left;
   width: 258px;
@@ -191,7 +191,7 @@ footer #footer-content {
   font-weight: 300;
   font-size: 11px;
 }
-/* line 179, ../../scss/style.scss */
+/* line 181, ../../scss/style.scss */
 .box-content .product-box-content {
   width: 300px;
   max-height: 150px;
@@ -199,7 +199,7 @@ footer #footer-content {
   background: white;
   margin: 10px auto;
 }
-/* line 186, ../../scss/style.scss */
+/* line 188, ../../scss/style.scss */
 .box-content .music-box-content {
   width: 300px;
   max-height: 90px;
@@ -207,18 +207,18 @@ footer #footer-content {
   background: white;
   margin: 10px auto;
 }
-/* line 194, ../../scss/style.scss */
+/* line 196, ../../scss/style.scss */
 .box-content .info-box-content {
   width: 320px;
   height: 30px;
   background: transparent;
   margin: 0px;
 }
-/* line 199, ../../scss/style.scss */
+/* line 201, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content {
   background: #ff0000;
 }
-/* line 201, ../../scss/style.scss */
+/* line 203, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content .user-name-mini {
   float: left;
   width: 220px;
@@ -228,33 +228,33 @@ footer #footer-content {
   padding: 0 0 0 10px;
   font-size: 12px;
 }
-/* line 214, ../../scss/style.scss */
+/* line 216, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-fb, .box-content .info-box-content .ico-social .share-tw, .box-content .info-box-content .ico-social .share-g {
   float: right;
   width: 26px;
   height: 26px;
   margin: 2px 1px;
 }
-/* line 223, ../../scss/style.scss */
+/* line 225, ../../scss/style.scss */
 .box-content label {
   line-height: 100%;
   font-weight: 300;
   font-size: 12px;
 }
-/* line 228, ../../scss/style.scss */
+/* line 230, ../../scss/style.scss */
 .box-content .form-setting {
   width: 290px;
   height: auto;
   background: transparent;
   margin: 0 10px;
 }
-/* line 235, ../../scss/style.scss */
+/* line 237, ../../scss/style.scss */
 .box-content textarea {
   width: 300px;
   max-height: auto;
   min-height: 100px;
 }
-/* line 240, ../../scss/style.scss */
+/* line 242, ../../scss/style.scss */
 .box-content .preview-photo-user {
   width: 100px;
   height: 100px;
@@ -263,7 +263,7 @@ footer #footer-content {
 }
 
 /* ******************************** content related to the event manager ********************************/
-/* line 249, ../../scss/style.scss */
+/* line 251, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -274,8 +274,8 @@ footer #footer-content {
   overflow: hidden;
 }
 
-/*Codigo de prueba */
-/* line 261, ../../scss/style.scss */
+/*  ***************************************************** form register and login *************************** */
+/* line 263, ../../scss/style.scss */
 #lean_overlay {
   position: fixed;
   z-index: 100;
@@ -287,7 +287,7 @@ footer #footer-content {
   display: none;
 }
 
-/* line 272, ../../scss/style.scss */
+/* line 274, ../../scss/style.scss */
 .popupContainer {
   position: absolute;
   width: 330px;
@@ -297,61 +297,61 @@ footer #footer-content {
   background: #FFF;
 }
 
-/* line 281, ../../scss/style.scss */
+/* line 283, ../../scss/style.scss */
 #modal_trigger {
-  margin: 100px auto;
+  margin: 0px auto;
   width: 100px;
   display: block;
 }
 
-/* line 287, ../../scss/style.scss */
+/* line 289, ../../scss/style.scss */
 .btn {
   padding: 10px 20px;
   background: #F4F4F2;
 }
 
-/* line 291, ../../scss/style.scss */
+/* line 293, ../../scss/style.scss */
 .btn_red {
   background: #ED6347;
   color: #FFF;
 }
 
-/* line 296, ../../scss/style.scss */
+/* line 298, ../../scss/style.scss */
 .btn:hover {
   background: #E4E4E2;
 }
 
-/* line 299, ../../scss/style.scss */
+/* line 301, ../../scss/style.scss */
 .btn_red:hover {
   background: #C12B05;
 }
 
-/* line 303, ../../scss/style.scss */
+/* line 305, ../../scss/style.scss */
 a.btn {
   color: #666;
   text-align: center;
   text-decoration: none;
 }
 
-/* line 308, ../../scss/style.scss */
+/* line 310, ../../scss/style.scss */
 a.btn_red {
   color: #FFF;
 }
 
-/* line 312, ../../scss/style.scss */
+/* line 314, ../../scss/style.scss */
 .one_half {
   width: 50%;
   display: block;
   float: left;
 }
-/* line 317, ../../scss/style.scss */
+/* line 319, ../../scss/style.scss */
 .one_half .last {
   width: 45%;
   margin-left: 5%;
 }
 
 /* Popup Styles*/
-/* line 326, ../../scss/style.scss */
+/* line 328, ../../scss/style.scss */
 .popupHeader {
   font-size: 16px;
   text-transform: uppercase;
@@ -361,7 +361,7 @@ a.btn_red {
   border-bottom: 1px solid #DDD;
   font-weight: bold;
 }
-/* line 335, ../../scss/style.scss */
+/* line 337, ../../scss/style.scss */
 .popupHeader .modal_close {
   position: absolute;
   right: 0;
@@ -373,13 +373,13 @@ a.btn_red {
   font-size: 16px;
 }
 
-/* line 346, ../../scss/style.scss */
+/* line 348, ../../scss/style.scss */
 .popupBody {
   padding: 20px;
 }
 
 /* Social Login Form */
-/* line 354, ../../scss/style.scss */
+/* line 356, ../../scss/style.scss */
 .social_login .social_box {
   display: block;
   clear: both;
@@ -388,7 +388,7 @@ a.btn_red {
   background: #F4F4F2;
   overflow: hidden;
 }
-/* line 362, ../../scss/style.scss */
+/* line 364, ../../scss/style.scss */
 .social_login .icon {
   display: block;
   width: 10px;
@@ -399,7 +399,7 @@ a.btn_red {
   font-size: 16px;
   text-align: center;
 }
-/* line 372, ../../scss/style.scss */
+/* line 374, ../../scss/style.scss */
 .social_login .icon_title {
   display: block;
   padding: 5px 0;
@@ -408,20 +408,20 @@ a.btn_red {
   font-size: 16px;
   color: #777;
 }
-/* line 380, ../../scss/style.scss */
+/* line 382, ../../scss/style.scss */
 .social_login .social_box:hover {
   background: #E4E4E2;
 }
-/* line 383, ../../scss/style.scss */
+/* line 385, ../../scss/style.scss */
 .social_login .fb .icon {
   background: #3B5998;
 }
-/* line 386, ../../scss/style.scss */
+/* line 388, ../../scss/style.scss */
 .social_login .google .icon {
   background: #DD4B39;
 }
 
-/* line 392, ../../scss/style.scss */
+/* line 394, ../../scss/style.scss */
 .centeredText {
   text-align: center;
   margin: 20px 0;
@@ -430,27 +430,27 @@ a.btn_red {
   text-transform: uppercase;
 }
 
-/* line 400, ../../scss/style.scss */
+/* line 402, ../../scss/style.scss */
 .action_btns {
   clear: both;
   overflow: hidden;
 }
-/* line 404, ../../scss/style.scss */
+/* line 406, ../../scss/style.scss */
 .action_btns a {
   display: block;
 }
 
 /* User Login Form */
-/* line 410, ../../scss/style.scss */
+/* line 412, ../../scss/style.scss */
 .user_login {
   display: none;
 }
-/* line 413, ../../scss/style.scss */
+/* line 415, ../../scss/style.scss */
 .user_login label {
   display: block;
   margin-bottom: 5px;
 }
-/* line 418, ../../scss/style.scss */
+/* line 420, ../../scss/style.scss */
 .user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {
   display: block;
   width: 90%;
@@ -458,23 +458,23 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 425, ../../scss/style.scss */
+/* line 427, ../../scss/style.scss */
 .user_login input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 429, ../../scss/style.scss */
+/* line 431, ../../scss/style.scss */
 .user_login input[type="checkbox"] + label {
   float: left;
 }
-/* line 432, ../../scss/style.scss */
+/* line 434, ../../scss/style.scss */
 .user_login .checkbox {
   margin-bottom: 10px;
   clear: both;
   overflow: hidden;
 }
 
-/* line 438, ../../scss/style.scss */
+/* line 440, ../../scss/style.scss */
 .forgot_password {
   display: block;
   margin: 20px 0 10px;
@@ -485,16 +485,16 @@ a.btn_red {
 }
 
 /* User Register Form */
-/* line 448, ../../scss/style.scss */
+/* line 450, ../../scss/style.scss */
 .user_register {
   display: none;
 }
-/* line 451, ../../scss/style.scss */
+/* line 453, ../../scss/style.scss */
 .user_register label {
   display: block;
   margin-bottom: 5px;
 }
-/* line 456, ../../scss/style.scss */
+/* line 458, ../../scss/style.scss */
 .user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {
   display: block;
   width: 90%;
@@ -502,16 +502,16 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 463, ../../scss/style.scss */
+/* line 465, ../../scss/style.scss */
 .user_register input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 467, ../../scss/style.scss */
+/* line 469, ../../scss/style.scss */
 .user_register input[type="checkbox"] + label {
   float: left;
 }
-/* line 470, ../../scss/style.scss */
+/* line 472, ../../scss/style.scss */
 .user_register .checkbox {
   margin-bottom: 10px;
   clear: both;

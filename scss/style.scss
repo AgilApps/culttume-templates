@@ -3,12 +3,11 @@
 @import '_mixins';
 @import '_variables';
 
-
 /*layout styles in css*/
 
 /* **************************************** Body ************************************************ */
 body {
-	width: $width_general;
+	width: $width_general; //100%
 	height: $height_general !important;
 	background: $white;
 	overflow-x: hidden;
@@ -35,7 +34,7 @@ header {
     left: 0;
     padding: $pad_0;*/
 		
-		#cabecera{
+		#subheader{
 			max-width: $width_wrapper;
 			height: $height_header;
 			margin: auto;
@@ -44,12 +43,13 @@ header {
 			@include transform-translate3d();
 			@include border-radius(0px);
 			padding: $pad_0;
-				.photo_user_mini{
-					float:right;
-					width:100px;
-					height:$height_header;
-					margin:-5px 0 0 0;
-				}
+
+			.photo_user_mini{
+				float:right;
+				width:100px;
+				height:$height_header;
+				margin:-5px 0 0 0;
+			}
 		}
     	
 	}
@@ -65,16 +65,18 @@ header {
 	overflow: hidden;
 	@include transform-translate3d();
 	@include border-radius(0px);
-
 	z-index: 90;
-
 	position: relative;
     top: 0px;
     right: 0;
     left: 0px;
     padding: $pad_0;
-}
 
+    .accordeon{
+
+
+    }
+}
 /* ************************************************* Wrapper ************************************************ */
 
 #wrapper {
@@ -123,8 +125,8 @@ footer{
 
 /* **************************************** .box-content ************************************************ */
 .box-content{
-	float:left;
 
+	float:left;
 	width: $width_box_content;
 	height: auto;
 	background: $grey1;
@@ -256,8 +258,8 @@ footer{
 	border: 1px dashed $grey2;
 	overflow: hidden;
 }
-/*Codigo de prueba */
 
+/*  ***************************************************** form register and login *************************** */
 #lean_overlay {
     position: fixed;
     z-index:100;
@@ -279,7 +281,7 @@ footer{
 }
 
 #modal_trigger {
-	margin:100px auto; 
+	margin:0px auto; 
 	width:100px; 
 	display:block;
 }

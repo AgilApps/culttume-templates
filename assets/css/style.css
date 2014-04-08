@@ -40,7 +40,7 @@ header {
 /* line 38, ../../scss/style.scss */
 header #cabecera {
   max-width: 1080px;
-  height: auto;
+  height: 40px;
   margin: auto;
   background: transparent;
   overflow: visible;
@@ -54,63 +54,23 @@ header #cabecera {
   -ms-border-radius: 0px;
   border-radius: 0px;
   padding: 0px;
-  			/*#logo {
-  				width: $width_mini_logo;
-  				height: $height_mini_logo;
-  				background: $red;
-  				margin: 2.5px 0px;
-  
-  				float:left;
-  			}
-  	    	.titlle_pag{
-  	    		width: auto;
-  				height: $height_header;
-  				background: transparent;
-  				margin: 0 auto 0 30%;
-  				float:left;
-  				
-  					h1{
-  						color: $white;
-  						font-family: $font-stack1;
-  						font-size: $sizeh1;
-  						font-variant:small-caps;
-  						font-weight:lighter;
-  						margin-top:2px;
-  					}
-  	    	}
-  	    	.finder{
-  	    		float:left;
-  
-  	    		width: $width_mini_logo;
-  				height: $height_header;
-  				background: transparent;
-  				margin: 2.5px auto 2.5px 10%;
-  
-  	    			input{
-  	    				width: $width_input;
-  						height: $height_input;
-  						background: $white;
-  		    			padding: $pad_0;
-  		    		}
-  		    .photo_user_mini{
-  		    	float:left;
-  
-  	    		width: 40px;
-  				height: 40px;
-  				background: $yellow;
-  		    }
-      	}*/
+}
+/* line 47, ../../scss/style.scss */
+header #cabecera .photo_user_mini {
+  float: right;
+  width: 100px;
+  height: 40px;
+  margin: -5px 0 0 0;
 }
 
 /* ******************************************** Menu ******************************************************* */
-/* line 100, ../../scss/style.scss */
+/* line 59, ../../scss/style.scss */
 #float_menu {
   width: 160px;
   height: auto;
   background: #323232;
-  margin-top: 60px;
+  margin: 60px 10px auto 10px;
   float: left;
-  margin-left: 10px;
   overflow: hidden;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -130,25 +90,27 @@ header #cabecera {
 }
 
 /* ************************************************* Wrapper ************************************************ */
-/* line 122, ../../scss/style.scss */
+/* line 80, ../../scss/style.scss */
 #wrapper {
-  width: 1080px;
-  height: 100% !important;
-  background: gainsboro;
-  margin: 60px 10px 10px 5px;
   float: left;
+  min-width: 1080px;
+  max-width: 1080px;
+  height: auto;
+  background: white;
+  margin: 60px auto 10px 5px;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 100%;
+  line-height: 100%;
   padding: 0px;
 }
-/* line 132, ../../scss/style.scss */
+/* line 93, ../../scss/style.scss */
 #wrapper #content_div {
   width: 1020px;
   height: 100% !important;
   background: gainsboro;
   margin: 0 0 0px 200px;
 }
-/* line 138, ../../scss/style.scss */
+/* line 99, ../../scss/style.scss */
 #wrapper #content_div .window_perfil {
   width: 692px;
   height: 250px;
@@ -156,7 +118,7 @@ header #cabecera {
 }
 
 /* ********************************************** footer ************************************************ */
-/* line 148, ../../scss/style.scss */
+/* line 109, ../../scss/style.scss */
 footer {
   float: left;
   width: 100%;
@@ -164,91 +126,156 @@ footer {
   background: #323232;
   margin: 25px auto 0px auto;
 }
-/* line 155, ../../scss/style.scss */
+/* line 116, ../../scss/style.scss */
 footer #footer-content {
   width: 1080px;
   height: 325px;
   background: #323232;
+  margin: 0 auto;
 }
 
 /* **************************************** .box-content ************************************************ */
-/* line 163, ../../scss/style.scss */
+/* line 125, ../../scss/style.scss */
 .box-content {
   float: left;
   width: 320px;
   height: auto;
   background: gainsboro;
   margin: 5px 10px;
-  border: 1px solid #8b8b8b;
+  border: 0px solid #8b8b8b;
+  overflow: hidden;
+  line-height: 100%;
+  font-weight: 300;
+  font-size: 100%;
+  /*the dimension of this div will be content  photos, ilustrations, animates and video*/
+  /*the characteristics of this content only will be content API soundcloud*/
+  /**/
 }
-/* line 171, ../../scss/style.scss */
+/* line 138, ../../scss/style.scss */
 .box-content .header-box-content {
   width: 320px;
   height: 47px;
+  background: gainsboro;
+  overflow: hidden;
   /*h3 tittle box content*/
 }
-/* line 175, ../../scss/style.scss */
+/* line 144, ../../scss/style.scss */
 .box-content .header-box-content .title-box-content {
   float: left;
   width: 258px;
   height: 37px;
-  background: #ffee20;
+  background: transparent;
   margin: 0;
   padding: 5px 5px 5px 10px;
   font-variant: small-caps;
+  line-height: 100%;
+  font-weight: 300;
+  font-size: 100%;
 }
-/* line 185, ../../scss/style.scss */
+/* line 157, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content {
   float: right;
   width: 47px;
   height: 47px;
-  background: #a5a5a5;
-  margin: 0px;
+  margin: 0;
 }
-/* line 194, ../../scss/style.scss */
-.box-content .photo-box-content {
+/* line 165, ../../scss/style.scss */
+.box-content .header-box-content .subtitle-box-content {
+  float: left;
+  width: 258px;
+  height: 37px;
+  background: transparent;
+  margin: -10px 0 0 0;
+  padding: 0px 0px 0px 10px;
+  line-height: 100%;
+  font-weight: 300;
+  font-size: 11px;
+}
+/* line 179, ../../scss/style.scss */
+.box-content .product-box-content {
   width: 300px;
   max-height: 150px;
   min-height: 150px;
-  background: #323232;
+  background: white;
   margin: 10px auto;
 }
-/* line 201, ../../scss/style.scss */
+/* line 186, ../../scss/style.scss */
 .box-content .music-box-content {
   width: 300px;
   max-height: 90px;
   min-height: 90px;
-  background: #323232;
+  background: white;
   margin: 10px auto;
 }
-/* line 208, ../../scss/style.scss */
+/* line 194, ../../scss/style.scss */
 .box-content .info-box-content {
   width: 320px;
   height: 30px;
-  background: #a5a5a5;
+  background: transparent;
   margin: 0px;
 }
-/* line 215, ../../scss/style.scss */
+/* line 199, ../../scss/style.scss */
+.box-content .info-box-content .user-name-box-content {
+  background: #ff0000;
+}
+/* line 201, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content .user-name-mini {
   float: left;
   width: 220px;
   height: 20px;
-  background: #e84f35;
+  background: transparent;
   margin: 5px 0;
   padding: 0 0 0 10px;
   font-size: 12px;
 }
-/* line 229, ../../scss/style.scss */
+/* line 214, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-fb, .box-content .info-box-content .ico-social .share-tw, .box-content .info-box-content .ico-social .share-g {
   float: right;
   width: 26px;
   height: 26px;
-  background: #ffee20;
   margin: 2px 1px;
+}
+/* line 223, ../../scss/style.scss */
+.box-content label {
+  line-height: 100%;
+  font-weight: 300;
+  font-size: 12px;
+}
+/* line 228, ../../scss/style.scss */
+.box-content .form-setting {
+  width: 290px;
+  height: auto;
+  background: transparent;
+  margin: 0 10px;
+}
+/* line 235, ../../scss/style.scss */
+.box-content textarea {
+  width: 300px;
+  max-height: auto;
+  min-height: 100px;
+}
+/* line 240, ../../scss/style.scss */
+.box-content .preview-photo-user {
+  width: 100px;
+  height: 100px;
+  background: white;
+  margin: 0 30px 30px;
+}
+
+/* ******************************** content related to the event manager ********************************/
+/* line 249, ../../scss/style.scss */
+.box-new-content {
+  float: left;
+  width: 320px;
+  height: 80px;
+  background: white;
+  margin: 5px 10px;
+  border: 1px dashed #8b8b8b;
+  overflow: hidden;
 }
 
 /*Codigo de prueba */
-/* line 243, ../../scss/style.scss */
+/* line 261, ../../scss/style.scss */
 #lean_overlay {
   position: fixed;
   z-index: 100;
@@ -260,7 +287,7 @@ footer #footer-content {
   display: none;
 }
 
-/* line 254, ../../scss/style.scss */
+/* line 272, ../../scss/style.scss */
 .popupContainer {
   position: absolute;
   width: 330px;
@@ -270,68 +297,68 @@ footer #footer-content {
   background: #FFF;
 }
 
-/* line 263, ../../scss/style.scss */
+/* line 281, ../../scss/style.scss */
 #modal_trigger {
   margin: 100px auto;
   width: 100px;
   display: block;
 }
 
-/* line 265, ../../scss/style.scss */
+/* line 283, ../../scss/style.scss */
 .btn {
   padding: 10px 20px;
   background: #F4F4F2;
 }
 
-/* line 266, ../../scss/style.scss */
+/* line 284, ../../scss/style.scss */
 .btn_red {
   background: #ED6347;
   color: #FFF;
 }
 
-/* line 268, ../../scss/style.scss */
+/* line 286, ../../scss/style.scss */
 .btn:hover {
   background: #E4E4E2;
 }
 
-/* line 269, ../../scss/style.scss */
+/* line 287, ../../scss/style.scss */
 .btn_red:hover {
   background: #C12B05;
 }
 
-/* line 271, ../../scss/style.scss */
+/* line 289, ../../scss/style.scss */
 a.btn {
   color: #666;
   text-align: center;
   text-decoration: none;
 }
 
-/* line 272, ../../scss/style.scss */
+/* line 290, ../../scss/style.scss */
 a.btn_red {
   color: #FFF;
 }
 
-/* line 274, ../../scss/style.scss */
+/* line 292, ../../scss/style.scss */
 .one_half {
   width: 50%;
   display: block;
   float: left;
 }
 
-/* line 275, ../../scss/style.scss */
+/* line 293, ../../scss/style.scss */
 .one_half.last {
   width: 45%;
   margin-left: 5%;
 }
 
 /* Popup Styles*/
-/* line 278, ../../scss/style.scss */
+/* line 296, ../../scss/style.scss */
 .popupHeader {
   font-size: 16px;
   text-transform: uppercase;
 }
 
-/* line 279, ../../scss/style.scss */
+/* line 297, ../../scss/style.scss */
 .popupHeader {
   background: #F4F4F2;
   position: relative;
@@ -340,7 +367,7 @@ a.btn_red {
   font-weight: bold;
 }
 
-/* line 280, ../../scss/style.scss */
+/* line 298, ../../scss/style.scss */
 .popupHeader .modal_close {
   position: absolute;
   right: 0;
@@ -352,13 +379,13 @@ a.btn_red {
   font-size: 16px;
 }
 
-/* line 282, ../../scss/style.scss */
+/* line 300, ../../scss/style.scss */
 .popupBody {
   padding: 20px;
 }
 
 /* Social Login Form */
-/* line 287, ../../scss/style.scss */
+/* line 305, ../../scss/style.scss */
 .social_login .social_box {
   display: block;
   clear: both;
@@ -368,7 +395,7 @@ a.btn_red {
   overflow: hidden;
 }
 
-/* line 288, ../../scss/style.scss */
+/* line 306, ../../scss/style.scss */
 .social_login .icon {
   display: block;
   width: 10px;
@@ -380,17 +407,17 @@ a.btn_red {
   text-align: center;
 }
 
-/* line 289, ../../scss/style.scss */
+/* line 307, ../../scss/style.scss */
 .social_login .fb .icon {
   background: #3B5998;
 }
 
-/* line 290, ../../scss/style.scss */
+/* line 308, ../../scss/style.scss */
 .social_login .google .icon {
   background: #DD4B39;
 }
 
-/* line 291, ../../scss/style.scss */
+/* line 309, ../../scss/style.scss */
 .social_login .icon_title {
   display: block;
   padding: 5px 0;
@@ -400,12 +427,12 @@ a.btn_red {
   color: #777;
 }
 
-/* line 292, ../../scss/style.scss */
+/* line 310, ../../scss/style.scss */
 .social_login .social_box:hover {
   background: #E4E4E2;
 }
 
-/* line 294, ../../scss/style.scss */
+/* line 312, ../../scss/style.scss */
 .centeredText {
   text-align: center;
   margin: 20px 0;
@@ -414,30 +441,30 @@ a.btn_red {
   text-transform: uppercase;
 }
 
-/* line 296, ../../scss/style.scss */
+/* line 314, ../../scss/style.scss */
 .action_btns {
   clear: both;
   overflow: hidden;
 }
 
-/* line 297, ../../scss/style.scss */
+/* line 315, ../../scss/style.scss */
 .action_btns a {
   display: block;
 }
 
 /* User Login Form */
-/* line 300, ../../scss/style.scss */
+/* line 318, ../../scss/style.scss */
 .user_login {
   display: none;
 }
 
-/* line 301, ../../scss/style.scss */
+/* line 319, ../../scss/style.scss */
 .user_login label {
   display: block;
   margin-bottom: 5px;
 }
 
-/* line 302, ../../scss/style.scss */
+/* line 320, ../../scss/style.scss */
 .user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {
   display: block;
   width: 90%;
@@ -446,25 +473,25 @@ a.btn_red {
   color: #666;
 }
 
-/* line 303, ../../scss/style.scss */
+/* line 321, ../../scss/style.scss */
 .user_login input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
 
-/* line 304, ../../scss/style.scss */
+/* line 322, ../../scss/style.scss */
 .user_login input[type="checkbox"] + label {
   float: left;
 }
 
-/* line 306, ../../scss/style.scss */
+/* line 324, ../../scss/style.scss */
 .user_login .checkbox {
   margin-bottom: 10px;
   clear: both;
   overflow: hidden;
 }
 
-/* line 307, ../../scss/style.scss */
+/* line 325, ../../scss/style.scss */
 .forgot_password {
   display: block;
   margin: 20px 0 10px;
@@ -475,18 +502,18 @@ a.btn_red {
 }
 
 /* User Register Form */
-/* line 310, ../../scss/style.scss */
+/* line 328, ../../scss/style.scss */
 .user_register {
   display: none;
 }
 
-/* line 311, ../../scss/style.scss */
+/* line 329, ../../scss/style.scss */
 .user_register label {
   display: block;
   margin-bottom: 5px;
 }
 
-/* line 312, ../../scss/style.scss */
+/* line 330, ../../scss/style.scss */
 .user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {
   display: block;
   width: 90%;
@@ -495,18 +522,18 @@ a.btn_red {
   color: #666;
 }
 
-/* line 313, ../../scss/style.scss */
+/* line 331, ../../scss/style.scss */
 .user_register input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
 
-/* line 314, ../../scss/style.scss */
+/* line 332, ../../scss/style.scss */
 .user_register input[type="checkbox"] + label {
   float: left;
 }
 
-/* line 316, ../../scss/style.scss */
+/* line 334, ../../scss/style.scss */
 .user_register .checkbox {
   margin-bottom: 10px;
   clear: both;

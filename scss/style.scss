@@ -37,60 +37,19 @@ header {
 		
 		#cabecera{
 			max-width: $width_wrapper;
-			height: auto;
+			height: $height_header;
 			margin: auto;
 			background: transparent;//
 			overflow: visible;
 			@include transform-translate3d();
 			@include border-radius(0px);
 			padding: $pad_0;
-
-			/*#logo {
-				width: $width_mini_logo;
-				height: $height_mini_logo;
-				background: $red;
-				margin: 2.5px 0px;
-
-				float:left;
-			}
-	    	.titlle_pag{
-	    		width: auto;
-				height: $height_header;
-				background: transparent;
-				margin: 0 auto 0 30%;
-				float:left;
-				
-					h1{
-						color: $white;
-						font-family: $font-stack1;
-						font-size: $sizeh1;
-						font-variant:small-caps;
-						font-weight:lighter;
-						margin-top:2px;
-					}
-	    	}
-	    	.finder{
-	    		float:left;
-
-	    		width: $width_mini_logo;
-				height: $height_header;
-				background: transparent;
-				margin: 2.5px auto 2.5px 10%;
-
-	    			input{
-	    				width: $width_input;
-						height: $height_input;
-						background: $white;
-		    			padding: $pad_0;
-		    		}
-		    .photo_user_mini{
-		    	float:left;
-
-	    		width: 40px;
-				height: 40px;
-				background: $yellow;
-		    }
-    	}*/
+				.photo_user_mini{
+					float:right;
+					width:100px;
+					height:$height_header;
+					margin:-5px 0 0 0;
+				}
 		}
     	
 	}
@@ -101,9 +60,8 @@ header {
 	width:$width_menufloat;
 	height:auto;
 	background: $black;
-	margin-top: 60px;
+	margin: 60px 10px auto 10px;
 	float:left;
-	margin-left: 10px;
 	overflow: hidden;
 	@include transform-translate3d();
 	@include border-radius(0px);
@@ -120,13 +78,16 @@ header {
 /* ************************************************* Wrapper ************************************************ */
 
 #wrapper {
-	width: $width_wrapper;
-	height: $height_general !important;
-	background: $grey1;
-	margin: 60px 10px 10px 5px;
 	float:left;
+
+	min-width: $width_wrapper;
+	max-width: $width_wrapper;
+	height: auto;
+	background: $white;
+	margin: 60px auto 10px 5px;
 	font-family: $font-stack2;
 	font-size:100%;
+	line-height:100%;
 	padding: $pad_0;
 
 		#content_div {
@@ -156,6 +117,7 @@ footer{
 		width:$width_wrapper;
 		height:$height_footer_content;
 		background: $black;
+		margin:0 auto;
 	}
 }
 
@@ -167,77 +129,133 @@ footer{
 	height: auto;
 	background: $grey1;
 	margin: $margin_cont;
-	border: 1px solid $grey2;
+	border: 0px solid $grey2;
+	overflow: hidden;
+
+	line-height:100%;
+	font-weight:300;
+	font-size:100%;
 	.header-box-content{
 		width: $width_box_content;
 		height: $height_box_title_content;
+		background: $grey1;
+		overflow: hidden;
 		/*h3 tittle box content*/
 		.title-box-content{
 			float:left;
 
 			width: $width_h3_title_content;
 			height: $height_h3_title_content;
-			background: $yellow;
+			background: transparent;
 			margin: 0;
 			padding:5px 5px 5px 10px;
 			font-variant: small-caps;
+			line-height:100%;
+			font-weight:300;
+			font-size:100%;
 		}
 		.ico-id-content{
 			float:right;
 
 			width: $height_box_title_content;
 			height: $height_box_title_content;
-			background: $grey3;
-			margin:0px;
+			margin:0;
+		}
+        
+		.subtitle-box-content{
+			float:left;
+
+			width: $width_h3_title_content;
+			height: $height_h3_title_content;
+			background: transparent;
+			margin: -10px 0 0 0;
+			padding:0px 0px 0px 10px;
+			line-height:100%;
+			font-weight:300;
+			font-size:11px;
 		}
 	}
-	.photo-box-content{
+    /*the dimension of this div will be content  photos, ilustrations, animates and video*/
+	.product-box-content{
 		width: $width_product_box_content;
 		max-height: $height_img_box_content;
 		min-height: $height_img_box_content;
-		background: $black;
+		background: $white;
 		margin:10px auto;
-	}
+	}/*the characteristics of this content only will be content API soundcloud*/
 	.music-box-content{
 		width: $width_product_box_content;
 		max-height: $height_music_box_content;
 		min-height: $height_music_box_content;
-		background: $black;
+		background: $white;
 		margin:10px auto;
 	}
+    /**/
 	.info-box-content{
 		width: $width_box_content;
 		height: $height_info_box_content;
-		background: $grey3;
+		background: transparent;
 		margin:0px;
 		.user-name-box-content{
-			
+			background: #ff0000;
 			.user-name-mini{
 				float:left;
 
 				width: $width_p_title_content;
 				height: $height_p_title_content;
-				background: $red;
+				background: transparent;
 				margin:5px 0;
 				padding:0 0 0 10px;
 
 				font-size: 12px;
-			}
-		}
+            }
+        }
 		.ico-social{
-			
-				.share-fb, .share-tw, .share-g{
-					float:right;
+            .share-fb, .share-tw, .share-g{
+                float:right;
 
-					width:$dimensions_ico_social_title_content;
-					height:$dimensions_ico_social_title_content;
-					background: $yellow;
-					margin:2px 1px;
-				}
+                width:$dimensions_ico_social_title_content;
+                height:$dimensions_ico_social_title_content;
+                margin:2px 1px;
+            }
 		}
 	}
+    label{	
+			line-height:100%;
+			font-weight:300;
+			font-size:12px;
+			}
+	.form-setting{
+		width: $width_box_form_setting;
+		height: auto;
+		background: transparent;
+		margin:0 10px;
+			
+	}
+	textarea{
+		width: $width_product_box_content;
+		max-height: auto;
+		min-height: $height_img_box_content+-50px;
+	}
+    .preview-photo-user{
+        width: 100px;
+		height: 100px;
+		background: $white;
+        margin: 0 30px 30px;
+    }
 }
 
+/* ******************************** content related to the event manager ********************************/
+.box-new-content{
+	float:left;
+
+	width: $width_box_content;
+	height: $height_box_new_content;
+	background: $white;
+	margin: $margin_cont;
+	border: 1px dashed $grey2;
+	overflow: hidden;
+}
 /*Codigo de prueba */
 
 #lean_overlay {

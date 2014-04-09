@@ -52,9 +52,9 @@ header {
 
 #float_menu{
 
-	width:$width_menufloat;
+	width:$width_menufloat; //160px
 	height:auto;
-	background: $black;
+	background: $grey1;
 	margin: 60px 10px auto 10px;
 	float:left;
 	overflow: hidden;
@@ -66,6 +66,13 @@ header {
     right: 0;
     left: 0px;
     padding: $pad_0;
+
+    .img_float_menu{
+
+    	width: 140px;
+    	margin: 10px 10px 10px 10px;
+    	background: $bluesky;
+    }
 }
 
 /* ************************************************* Wrapper ************************************************ */
@@ -376,7 +383,7 @@ footer{
 	}
 
     .preview-photo-user{
-    	
+
         width: 100px;
 		height: 100px;
 		background: $white;

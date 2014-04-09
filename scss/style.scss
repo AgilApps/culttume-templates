@@ -9,12 +9,11 @@
 body {
 	width: $width_general; //100%
 	height: $height_general !important;
-	background: $white;
+	background: $white2;
 	overflow-x: hidden;
 	overflow-y: visible;
 	font-family: $font-stack1;
 	font-weight:300;
-	line-height:100%;
 	font-size:100%;	
 }
 
@@ -140,7 +139,7 @@ footer{
 		width:$width_wrapper;
 		height:$height_footer_content;
 		background: $black;
-		margin:0 auto;
+		margin: 0px auto 0px auto;
 	}
 }
 
@@ -150,9 +149,9 @@ footer{
 	float:left;
 	width: $width_box_content;
 	height: auto;
-	background: $grey1;
+	background: $white;
 	margin: $margin_cont;
-	border: 0px solid $grey2;
+	border: 1px solid $grey1;
 	overflow: hidden;
 
 	line-height:100%;
@@ -163,7 +162,7 @@ footer{
 
 		width: $width_box_content;
 		height: $height_box_title_content;
-		background: $grey1;
+		background: $white;
 		overflow: hidden;
 		/*h3 tittle box content*/
 		.title-box-content{
@@ -181,9 +180,33 @@ footer{
 		}
 		.ico-id-content{
 			float:right;
+
 			width: $height_box_title_content;
 			height: $height_box_title_content;
 			margin:0;
+				.ico-id-photo,.ico-id-music,.ico-id-video,
+				.ico-id-animation,.ico-id-illustration,.ico-id-web,
+				.ico-id-password, .ico-id-about-you,
+				.ico-id-basic-info, .ico-id-user-photo, .ico-id-notification{
+					width:$dimensions_ico_product;
+					height:$dimensions_ico_product;
+					margin:5px auto 0 auto;  
+					background-size:100% 100%;
+					background-repeat:no-repeat;
+					background-position:center center;
+				}
+				.ico-id-photo{	background:url(../img/ico-photos.png);}
+				.ico-id-music{	background:url(../img/ico-music.png);}
+				.ico-id-video{	background:url(../img/ico-video.png);}
+				.ico-id-animation{	background:url(../img/ico-animation.png);}
+				.ico-id-illustration{	background:url(../img/ico-illustration.png);}
+				.ico-id-web{	background:url(../img/ico-web.png);}
+				.ico-id-password{	background:url(../img/ico-password.png);}
+				.ico-id-about-you{	background:url(../img/ico-about-you.png);}
+				.ico-id-basic-info{	background:url(../img/ico-basic-info.png);}
+				.ico-id-user-photo{	background:url(../img/ico-user-photo.png);}
+				.ico-id-notification{	background:url(../img/ico-notification.png);
+			}
 		}
         
 		.subtitle-box-content{
@@ -198,6 +221,11 @@ footer{
 			font-weight:300;
 			font-size:11px;
 		}
+	}
+	.line-color-grey{
+		width:$width_box_content;
+		height:1px;
+		background: $grey0;
 	}
 
 
@@ -237,14 +265,68 @@ footer{
 				font-size: 12px;
             }
         }
+
 		.ico-social{
-            .share-fb, .share-tw, .share-g{
+			.share-social{
                 float:right;
 
+                background: transparent;
                 width:$dimensions_ico_social_title_content;
                 height:$dimensions_ico_social_title_content;
-                margin:2px 1px;
+                margin:5px 5px 0 0;
+                cursor: pointer;
+				/* social shares configuration  */
+                    .share-fb{
+                        width:$dimensions_ico_social_share;
+                        height:$dimensions_ico_social_share;
+                        background:url(../img/ico-fb.png), $white;//  
+                        background-size:16px 16px;
+                        background-repeat:no-repeat;
+                        background-position:center center;
+                    }
+                    .share-tw{
+                        width:$dimensions_ico_social_share;
+                        height:$dimensions_ico_social_share;
+                        background:url(../img/ico-tw.png), $white;//  
+                        background-size:16px 16px;
+                        background-repeat:no-repeat;
+                        background-position:center center;
+                    }
+                    .share-g{
+                        width:$dimensions_ico_social_share;
+                        height:$dimensions_ico_social_share;
+                        background:url(../img/ico-g.png), $white;//  
+                        background-size:16px 16px;
+                        background-repeat:no-repeat;
+                        background-position:center center;
+                    }
             }
+		}
+	}	
+
+	.deleat-account{
+		width:200px;
+		height:2.3125rem;
+		margin:0 20%;
+		background: transparent;
+
+		.ico-id-deleat{
+			float:left;
+			width:$dimensions_ico_product;
+			height:$dimensions_ico_product;
+			margin:0 1px 0 auto;
+			font-size: 0.875rem;
+			background:url(../img/ico-deleat.png);
+			background-size:100% 100%;
+			background-repeat:no-repeat;
+			background-position:center center;
+		}
+		.label-link{
+			float:left;
+			font-size: 1rem;
+			color:$bluesky;
+			text-align: center;
+			margin:10px auto 0 20px;
 		}
 	}
 

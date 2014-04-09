@@ -4,18 +4,22 @@
 // *********************************** Declaration of variables Culttu.me. ***********************************
 
 //	Colors Culttume
-$black  : #323232;
+$black: #323232;
 $yellow : #FFEE20;
 $purple : #64387F;
 $orange : #F39720;
-$bluesky: #23AAE1;
-$red    : #E84F35;
-$grey1  : #DCDCDC;
-$grey2  : #8B8B8B;
-$grey3  : #A5A5A5;
-$grey4  : #878787;
-$grey5  : #4D4D4D;
-$white  : #FFFFFF;
+$bluesky : #23AAE1;
+$red : #E84F35;
+$grey1 : #eeeeee; // Modificacion
+$grey2 : #8B8B8B;
+$grey3 : #A5A5A5;
+$grey4 : #878787;
+$grey5 : #4D4D4D;
+$white : #FFFFFF;
+$white2 : #F6F6F6;
+$color_google : #DD4B39; // Modificacion
+$color_twitter : #52A8E9; // Modificacion
+$color_facebook : #537ABB; // Modificacion
 
 
 // ************************************************* Fonts *****************************************************
@@ -30,7 +34,6 @@ $sizeh1 : 22px;
 // ************************************* dimensions ********************************************************
 $width_general : 100%; //body o div
 $height_general : 100%; //body o div
-
 $width_menufloat : 160px; //Floating menu
 
 // **************************************** dimensions aboutme **********************************************
@@ -67,6 +70,10 @@ $width_box_perfil : 692px; //box configuration profile
 
 $width_box_form_setting : 290px;//tamaño predeterminado de formulario
 $height_box_new_content : 80px;//Tamaño establecido para el alto de div "new event"
+
+$dimensions_ico_social_share : 20px;
+$dimensions_ico_product : 35px;
+$grey0 : #d6d6d6;
 
 
 $width_wrapper: 1080px;//content of content

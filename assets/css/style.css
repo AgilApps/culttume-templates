@@ -6,17 +6,16 @@
 body {
   width: 100%;
   height: 100% !important;
-  background: white;
+  background: #f6f6f6;
   overflow-x: hidden;
   overflow-y: visible;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  line-height: 100%;
   font-size: 100%;
 }
 
 /* **************************************** Header ********************************************** */
-/* line 22, ../../scss/style.scss */
+/* line 21, ../../scss/style.scss */
 header {
   width: 100%;
   height: 40px;
@@ -37,7 +36,7 @@ header {
       left: 0;
       padding: $pad_0;*/
 }
-/* line 37, ../../scss/style.scss */
+/* line 36, ../../scss/style.scss */
 header #subheader {
   max-width: 1080px;
   height: 40px;
@@ -55,7 +54,7 @@ header #subheader {
   border-radius: 0px;
   padding: 0px;
 }
-/* line 47, ../../scss/style.scss */
+/* line 46, ../../scss/style.scss */
 header #subheader .photo_user_mini {
   float: right;
   width: 100px;
@@ -64,7 +63,7 @@ header #subheader .photo_user_mini {
 }
 
 /* ******************************************** Menu ******************************************************* */
-/* line 58, ../../scss/style.scss */
+/* line 57, ../../scss/style.scss */
 #float_menu {
   width: 160px;
   height: auto;
@@ -90,7 +89,7 @@ header #subheader .photo_user_mini {
 }
 
 /* ************************************************* Wrapper ************************************************ */
-/* line 76, ../../scss/style.scss */
+/* line 75, ../../scss/style.scss */
 #wrapper {
   float: left;
   min-width: 1080px;
@@ -103,21 +102,21 @@ header #subheader .photo_user_mini {
   line-height: 100%;
   padding: 0px;
 }
-/* line 89, ../../scss/style.scss */
+/* line 88, ../../scss/style.scss */
 #wrapper #content_div {
   width: 1020px;
   height: 100% !important;
-  background: gainsboro;
+  background: #eeeeee;
   margin: 0 0 0px 200px;
 }
-/* line 95, ../../scss/style.scss */
+/* line 94, ../../scss/style.scss */
 #wrapper #content_div .window_perfil {
   width: 692px;
   height: 250px;
   background: white;
 }
 
-/* line 103, ../../scss/style.scss */
+/* line 102, ../../scss/style.scss */
 #general_aboutme {
   float: left;
   width: 725px;
@@ -127,7 +126,7 @@ header #subheader .photo_user_mini {
   margin: 5px auto 10px 5px;
 }
 
-/* line 112, ../../scss/style.scss */
+/* line 111, ../../scss/style.scss */
 #section_aboutme {
   width: 239px;
   background: #8b8b8b;
@@ -136,18 +135,18 @@ header #subheader .photo_user_mini {
   height: auto;
 }
 
-/* line 120, ../../scss/style.scss */
+/* line 119, ../../scss/style.scss */
 #section_followers {
   width: 380px;
   margin: 10px;
   float: left;
-  background: gainsboro;
+  background: #eeeeee;
   margin: 60px auto 10px 5px;
   border: 0px solid #8b8b8b;
 }
 
 /* ********************************************** footer ************************************************ */
-/* line 131, ../../scss/style.scss */
+/* line 130, ../../scss/style.scss */
 footer {
   float: left;
   width: 100%;
@@ -155,23 +154,23 @@ footer {
   background: #323232;
   margin: 25px auto 0px auto;
 }
-/* line 139, ../../scss/style.scss */
+/* line 138, ../../scss/style.scss */
 footer #footer-content {
   width: 1080px;
   height: 325px;
   background: #323232;
-  margin: 0 auto;
+  margin: 0px auto 0px auto;
 }
 
 /* **************************************** .box-content ************************************************ */
-/* line 148, ../../scss/style.scss */
+/* line 147, ../../scss/style.scss */
 .box-content {
   float: left;
   width: 320px;
   height: auto;
-  background: gainsboro;
+  background: white;
   margin: 5px 10px;
-  border: 0px solid #8b8b8b;
+  border: 1px solid #eeeeee;
   overflow: hidden;
   line-height: 100%;
   font-weight: 300;
@@ -179,15 +178,15 @@ footer #footer-content {
   /*the dimension of this div will be content  photos, ilustrations, animates and video*/
   /*the characteristics of this content only will be content API soundcloud*/
 }
-/* line 162, ../../scss/style.scss */
+/* line 161, ../../scss/style.scss */
 .box-content .header-box-content {
   width: 320px;
   height: 47px;
-  background: gainsboro;
+  background: white;
   overflow: hidden;
   /*h3 tittle box content*/
 }
-/* line 169, ../../scss/style.scss */
+/* line 168, ../../scss/style.scss */
 .box-content .header-box-content .title-box-content {
   float: left;
   width: 258px;
@@ -200,14 +199,70 @@ footer #footer-content {
   font-weight: 300;
   font-size: 100%;
 }
-/* line 182, ../../scss/style.scss */
+/* line 181, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content {
   float: right;
   width: 47px;
   height: 47px;
   margin: 0;
 }
-/* line 189, ../../scss/style.scss */
+/* line 190, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-photo, .box-content .header-box-content .ico-id-content .ico-id-music, .box-content .header-box-content .ico-id-content .ico-id-video,
+.box-content .header-box-content .ico-id-content .ico-id-animation, .box-content .header-box-content .ico-id-content .ico-id-illustration, .box-content .header-box-content .ico-id-content .ico-id-web,
+.box-content .header-box-content .ico-id-content .ico-id-password, .box-content .header-box-content .ico-id-content .ico-id-about-you,
+.box-content .header-box-content .ico-id-content .ico-id-basic-info, .box-content .header-box-content .ico-id-content .ico-id-user-photo, .box-content .header-box-content .ico-id-content .ico-id-notification {
+  width: 35px;
+  height: 35px;
+  margin: 5px auto 0 auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 198, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-photo {
+  background: url(../img/ico-photos.png);
+}
+/* line 199, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-music {
+  background: url(../img/ico-music.png);
+}
+/* line 200, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-video {
+  background: url(../img/ico-video.png);
+}
+/* line 201, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-animation {
+  background: url(../img/ico-animation.png);
+}
+/* line 202, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-illustration {
+  background: url(../img/ico-illustration.png);
+}
+/* line 203, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-web {
+  background: url(../img/ico-web.png);
+}
+/* line 204, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-password {
+  background: url(../img/ico-password.png);
+}
+/* line 205, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-about-you {
+  background: url(../img/ico-about-you.png);
+}
+/* line 206, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-basic-info {
+  background: url(../img/ico-basic-info.png);
+}
+/* line 207, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-user-photo {
+  background: url(../img/ico-user-photo.png);
+}
+/* line 208, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-notification {
+  background: url(../img/ico-notification.png);
+}
+/* line 212, ../../scss/style.scss */
 .box-content .header-box-content .subtitle-box-content {
   float: left;
   width: 258px;
@@ -219,7 +274,13 @@ footer #footer-content {
   font-weight: 300;
   font-size: 11px;
 }
-/* line 205, ../../scss/style.scss */
+/* line 225, ../../scss/style.scss */
+.box-content .line-color-grey {
+  width: 320px;
+  height: 1px;
+  background: #d6d6d6;
+}
+/* line 233, ../../scss/style.scss */
 .box-content .product-box-content {
   width: 300px;
   max-height: 150px;
@@ -227,7 +288,7 @@ footer #footer-content {
   background: white;
   margin: 10px auto;
 }
-/* line 213, ../../scss/style.scss */
+/* line 241, ../../scss/style.scss */
 .box-content .music-box-content {
   width: 300px;
   max-height: 90px;
@@ -235,18 +296,18 @@ footer #footer-content {
   background: white;
   margin: 10px auto;
 }
-/* line 221, ../../scss/style.scss */
+/* line 249, ../../scss/style.scss */
 .box-content .info-box-content {
   width: 320px;
   height: 30px;
   background: transparent;
   margin: 0px;
 }
-/* line 226, ../../scss/style.scss */
+/* line 254, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content {
   background: #ff0000;
 }
-/* line 228, ../../scss/style.scss */
+/* line 256, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content .user-name-mini {
   float: left;
   width: 220px;
@@ -256,33 +317,90 @@ footer #footer-content {
   padding: 0 0 0 10px;
   font-size: 12px;
 }
-/* line 241, ../../scss/style.scss */
-.box-content .info-box-content .ico-social .share-fb, .box-content .info-box-content .ico-social .share-tw, .box-content .info-box-content .ico-social .share-g {
+/* line 270, ../../scss/style.scss */
+.box-content .info-box-content .ico-social .share-social {
   float: right;
+  background: transparent;
   width: 26px;
   height: 26px;
-  margin: 2px 1px;
+  margin: 5px 5px 0 0;
+  cursor: pointer;
+  /* social shares configuration  */
 }
-/* line 251, ../../scss/style.scss */
+/* line 279, ../../scss/style.scss */
+.box-content .info-box-content .ico-social .share-social .share-fb {
+  width: 20px;
+  height: 20px;
+  background: url(../img/ico-fb.png), white;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 287, ../../scss/style.scss */
+.box-content .info-box-content .ico-social .share-social .share-tw {
+  width: 20px;
+  height: 20px;
+  background: url(../img/ico-tw.png), white;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 295, ../../scss/style.scss */
+.box-content .info-box-content .ico-social .share-social .share-g {
+  width: 20px;
+  height: 20px;
+  background: url(../img/ico-g.png), white;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 307, ../../scss/style.scss */
+.box-content .deleat-account {
+  width: 200px;
+  height: 2.3125rem;
+  margin: 0 20%;
+  background: transparent;
+}
+/* line 313, ../../scss/style.scss */
+.box-content .deleat-account .ico-id-deleat {
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin: 0 1px 0 auto;
+  font-size: 0.875rem;
+  background: url(../img/ico-deleat.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 324, ../../scss/style.scss */
+.box-content .deleat-account .label-link {
+  float: left;
+  font-size: 1rem;
+  color: #23aae1;
+  text-align: center;
+  margin: 10px auto 0 20px;
+}
+/* line 333, ../../scss/style.scss */
 .box-content label {
   line-height: 100%;
   font-weight: 300;
   font-size: 12px;
 }
-/* line 258, ../../scss/style.scss */
+/* line 340, ../../scss/style.scss */
 .box-content .form-setting {
   width: 290px;
   height: auto;
   background: transparent;
   margin: 0 10px;
 }
-/* line 265, ../../scss/style.scss */
+/* line 347, ../../scss/style.scss */
 .box-content textarea {
   width: 300px;
   max-height: auto;
   min-height: 100px;
 }
-/* line 271, ../../scss/style.scss */
+/* line 353, ../../scss/style.scss */
 .box-content .preview-photo-user {
   width: 100px;
   height: 100px;
@@ -291,7 +409,7 @@ footer #footer-content {
 }
 
 /* ******************************** content related to the event manager ********************************/
-/* line 280, ../../scss/style.scss */
+/* line 362, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -303,7 +421,7 @@ footer #footer-content {
 }
 
 /*  ***************************************************** form register and login *************************** */
-/* line 292, ../../scss/style.scss */
+/* line 374, ../../scss/style.scss */
 #lean_overlay {
   position: fixed;
   z-index: 100;
@@ -315,7 +433,7 @@ footer #footer-content {
   display: none;
 }
 
-/* line 304, ../../scss/style.scss */
+/* line 386, ../../scss/style.scss */
 .popupContainer {
   position: absolute;
   width: 330px;
@@ -325,61 +443,61 @@ footer #footer-content {
   background: #FFF;
 }
 
-/* line 314, ../../scss/style.scss */
+/* line 396, ../../scss/style.scss */
 #modal_trigger {
   margin: 0px auto;
   width: 100px;
   display: block;
 }
 
-/* line 321, ../../scss/style.scss */
+/* line 403, ../../scss/style.scss */
 .btn {
   padding: 10px 20px;
   background: #F4F4F2;
 }
 
-/* line 326, ../../scss/style.scss */
+/* line 408, ../../scss/style.scss */
 .btn_red {
   background: #ED6347;
   color: #FFF;
 }
 
-/* line 332, ../../scss/style.scss */
+/* line 414, ../../scss/style.scss */
 .btn:hover {
   background: #E4E4E2;
 }
 
-/* line 336, ../../scss/style.scss */
+/* line 418, ../../scss/style.scss */
 .btn_red:hover {
   background: #C12B05;
 }
 
-/* line 340, ../../scss/style.scss */
+/* line 422, ../../scss/style.scss */
 a.btn {
   color: #666;
   text-align: center;
   text-decoration: none;
 }
 
-/* line 346, ../../scss/style.scss */
+/* line 428, ../../scss/style.scss */
 a.btn_red {
   color: #FFF;
 }
 
-/* line 351, ../../scss/style.scss */
+/* line 433, ../../scss/style.scss */
 .one_half {
   width: 50%;
   display: block;
   float: left;
 }
-/* line 357, ../../scss/style.scss */
+/* line 439, ../../scss/style.scss */
 .one_half .last {
   width: 45%;
   margin-left: 5%;
 }
 
 /* Popup Styles*/
-/* line 366, ../../scss/style.scss */
+/* line 448, ../../scss/style.scss */
 .popupHeader {
   font-size: 16px;
   text-transform: uppercase;
@@ -389,7 +507,7 @@ a.btn_red {
   border-bottom: 1px solid #DDD;
   font-weight: bold;
 }
-/* line 376, ../../scss/style.scss */
+/* line 458, ../../scss/style.scss */
 .popupHeader .modal_close {
   position: absolute;
   right: 0;
@@ -401,13 +519,13 @@ a.btn_red {
   font-size: 16px;
 }
 
-/* line 387, ../../scss/style.scss */
+/* line 469, ../../scss/style.scss */
 .popupBody {
   padding: 20px;
 }
 
 /* Social Login Form */
-/* line 396, ../../scss/style.scss */
+/* line 478, ../../scss/style.scss */
 .social_login .social_box {
   display: block;
   clear: both;
@@ -416,7 +534,7 @@ a.btn_red {
   background: #F4F4F2;
   overflow: hidden;
 }
-/* line 404, ../../scss/style.scss */
+/* line 486, ../../scss/style.scss */
 .social_login .icon {
   display: block;
   width: 10px;
@@ -427,7 +545,7 @@ a.btn_red {
   font-size: 16px;
   text-align: center;
 }
-/* line 414, ../../scss/style.scss */
+/* line 496, ../../scss/style.scss */
 .social_login .icon_title {
   display: block;
   padding: 5px 0;
@@ -436,20 +554,20 @@ a.btn_red {
   font-size: 16px;
   color: #777;
 }
-/* line 422, ../../scss/style.scss */
+/* line 504, ../../scss/style.scss */
 .social_login .social_box:hover {
   background: #E4E4E2;
 }
-/* line 425, ../../scss/style.scss */
+/* line 507, ../../scss/style.scss */
 .social_login .fb .icon {
   background: #3B5998;
 }
-/* line 428, ../../scss/style.scss */
+/* line 510, ../../scss/style.scss */
 .social_login .google .icon {
   background: #DD4B39;
 }
 
-/* line 434, ../../scss/style.scss */
+/* line 516, ../../scss/style.scss */
 .centeredText {
   text-align: center;
   margin: 20px 0;
@@ -458,27 +576,27 @@ a.btn_red {
   text-transform: uppercase;
 }
 
-/* line 443, ../../scss/style.scss */
+/* line 525, ../../scss/style.scss */
 .action_btns {
   clear: both;
   overflow: hidden;
 }
-/* line 447, ../../scss/style.scss */
+/* line 529, ../../scss/style.scss */
 .action_btns a {
   display: block;
 }
 
 /* User Login Form */
-/* line 453, ../../scss/style.scss */
+/* line 535, ../../scss/style.scss */
 .user_login {
   display: none;
 }
-/* line 456, ../../scss/style.scss */
+/* line 538, ../../scss/style.scss */
 .user_login label {
   display: block;
   margin-bottom: 5px;
 }
-/* line 461, ../../scss/style.scss */
+/* line 543, ../../scss/style.scss */
 .user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {
   display: block;
   width: 90%;
@@ -486,23 +604,23 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 468, ../../scss/style.scss */
+/* line 550, ../../scss/style.scss */
 .user_login input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 472, ../../scss/style.scss */
+/* line 554, ../../scss/style.scss */
 .user_login input[type="checkbox"] + label {
   float: left;
 }
-/* line 475, ../../scss/style.scss */
+/* line 557, ../../scss/style.scss */
 .user_login .checkbox {
   margin-bottom: 10px;
   clear: both;
   overflow: hidden;
 }
 
-/* line 481, ../../scss/style.scss */
+/* line 563, ../../scss/style.scss */
 .forgot_password {
   display: block;
   margin: 20px 0 10px;
@@ -513,16 +631,16 @@ a.btn_red {
 }
 
 /* User Register Form */
-/* line 492, ../../scss/style.scss */
+/* line 574, ../../scss/style.scss */
 .user_register {
   display: none;
 }
-/* line 496, ../../scss/style.scss */
+/* line 578, ../../scss/style.scss */
 .user_register label {
   display: block;
   margin-bottom: 5px;
 }
-/* line 501, ../../scss/style.scss */
+/* line 583, ../../scss/style.scss */
 .user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {
   display: block;
   width: 90%;
@@ -530,16 +648,16 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 508, ../../scss/style.scss */
+/* line 590, ../../scss/style.scss */
 .user_register input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 512, ../../scss/style.scss */
+/* line 594, ../../scss/style.scss */
 .user_register input[type="checkbox"] + label {
   float: left;
 }
-/* line 515, ../../scss/style.scss */
+/* line 597, ../../scss/style.scss */
 .user_register .checkbox {
   margin-bottom: 10px;
   clear: both;

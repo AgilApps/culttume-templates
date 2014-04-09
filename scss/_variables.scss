@@ -4,41 +4,41 @@
 // *********************************** Declaration of variables Culttu.me. ***********************************
 
 //	Colors Culttume
-$black   	  	: #323232;
-$yellow  	  	: #FFEE20;
-$purple  	  	: #64387F;
-$orange  	  	: #F39720;
-$bluesky 	  	: #23AAE1;
-$red     	  	: #E84F35;
-$grey0          : #d6d6d6;
-$grey1   	  	: #eeeeee; 
-$grey2   	  	: #8B8B8B;
-$grey3   	  	: #A5A5A5;
-$grey4   	  	: #878787;
-$grey5   	  	: #4D4D4D;
-$white   	  	: #FFFFFF;
-$white2 	  	: #F6F6F6;
-$color_google 	: #DD4B39; 
-$color_twitter 	: #52A8E9; 
-$color_facebook : #537ABB;
+$black:#323232;
+$yellow:#FFEE20;
+$purple: #64387F;
+$orange: #F39720;
+$bluesky: #23AAE1;
+$red: #E84F35;
+$grey0: #d6d6d6;
+$grey1: #eeeeee; 
+$grey2: #8B8B8B;
+$grey3: #A5A5A5;
+$grey4: #878787;
+$grey5: #4D4D4D;
+$white: #FFFFFF;
+$white2: #F6F6F6;
+$color_google: #DD4B39; 
+$color_twitter: #52A8E9; 
+$color_facebook: #537ABB;
 
 
 
 // ************************************************* Fonts *****************************************************
 
-$font-stack1: "Open Sans", sans-serif;//google font
-$font-stack2: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$font-stack1:"Open Sans", sans-serif;//google font
+$font-stack2:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 
 
 // ************************************************* size of the titles ************************************
 
-$sizeh1 : 22px;
+$sizeh1:22px;
 
 // ************************************* dimensions ********************************************************
 
-$width_general 	 : 100%; //body o div
-$height_general  : 100%; //body o div
-$width_menufloat : 160px; //Floating menu
+$width_general: 100%; //body o div
+$height_general: 100%; //body o div
+$width_menufloat: 160px; //Floating menu
 
 // **************************************** dimensions aboutme **********************************************
 
@@ -63,16 +63,15 @@ $height_h3_title_content 			 : 37px;
 $width_p_title_content 				 : 220px;
 $height_p_title_content 			 : 20px;
 $dimensions_ico_social_title_content : 26px;
-$width_box_content_follower 		 : 240px; //box content
+$width_box_content_follower 		 : 240px;//box content
 $height_box_content_follower 		 : 432px;//box content:
-$width_box_perfil 					 : 692px; //box configuration profile
-$width_box_form_setting 			 : 290px;//tamaño predeterminado de formulario
-$height_box_new_content              : 80px;//Tamaño establecido para el alto de div "new event"
+$width_box_perfil                    : 692px;//box configuration profile
+$width_box_form_setting 			 : 290px;//default form size
+$height_box_new_content              : 80px;//Set size for the height of div new event
 $dimensions_ico_social_share         : 20px;
 $dimensions_ico_product              : 35px;
 
-/******************************** Wrapper ****************************************************
-/
+/******************************** Wrapper ****************************************************/
 $width_wrapper             : 1080px;//content of content
 $width_wrapper_content_div : 1020px;
 $width_mini_logo 		   : 154px ; //Logo head width

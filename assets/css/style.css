@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 /* styles are imported and declared variables */
-/******************************** Wrapper ****************************************************/
 /*General properties of the body*/
 /* line 7, ../../scss/style.scss */
 body {
@@ -48,7 +47,7 @@ header #subheader .photo_user_mini {
   max-width: 1240px;
   border: 1px solid #23aae1;
   height: auto;
-  background: white;
+  background: transparent;
   margin: 30px 10px 10px;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 100%;
@@ -164,22 +163,7 @@ header #subheader .photo_user_mini {
   text-align: justify;
   padding: 5px 5px 5px 5px;
 }
-/* line 169, ../../scss/style.scss */
-#section_general #section_aboutme2 #description_aboutme {
-  width: 239;
-  margin: auto;
-  font-family: "Open Sans", sans-serif;
-}
-/* line 173, ../../scss/style.scss */
-#section_general #section_aboutme2 #description_aboutme p {
-  font-size: 0.9rem;
-}
-/* line 176, ../../scss/style.scss */
-#section_general #section_aboutme2 #description_aboutme h1 {
-  font-size: 1.5rem;
-  font-family: "Open Sans", sans-serif;
-}
-/* line 183, ../../scss/style.scss */
+/* line 170, ../../scss/style.scss */
 #section_general #section_social_profile {
   width: 70px;
   background: #eeeeee;
@@ -190,18 +174,7 @@ header #subheader .photo_user_mini {
   text-align: justify;
   padding: 5px 5px 5px 5px;
 }
-/* line 194, ../../scss/style.scss */
-#section_general #section_social_profile #description_aboutme {
-  width: 239;
-  margin: auto;
-  font-family: "Open Sans", sans-serif;
-}
-/* line 198, ../../scss/style.scss */
-#section_general #section_social_profile #description_aboutme h1 {
-  font-size: 1.5rem;
-  font-family: "Open Sans", sans-serif;
-}
-/* line 205, ../../scss/style.scss */
+/* line 182, ../../scss/style.scss */
 #section_general #section_followers {
   width: 250px;
   border: 1px solid #23aae1;
@@ -211,7 +184,22 @@ header #subheader .photo_user_mini {
   border: 1px solid #23aae1;
   font-family: "Open Sans", sans-serif;
 }
-/* line 216, ../../scss/style.scss */
+/* line 193, ../../scss/style.scss */
+#section_general #description_aboutme {
+  width: 239;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+}
+/* line 197, ../../scss/style.scss */
+#section_general #description_aboutme p {
+  font-size: 0.9rem;
+}
+/* line 200, ../../scss/style.scss */
+#section_general #description_aboutme h1 {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+/* line 206, ../../scss/style.scss */
 #section_general #section_statistics {
   width: 1010px;
   background: transparent;
@@ -227,7 +215,7 @@ header #subheader .photo_user_mini {
 /*here are all the sections belonging to profile*/
 /* This section will display the list of followers */
 /* properties general footer  */
-/* line 238, ../../scss/style.scss */
+/* line 228, ../../scss/style.scss */
 footer {
   float: left;
   width: 100%;
@@ -236,7 +224,7 @@ footer {
   margin: 25px auto 0px auto;
   /* inside the footer */
 }
-/* line 247, ../../scss/style.scss */
+/* line 237, ../../scss/style.scss */
 footer #footer-content {
   width: 1240px;
   height: 325px;
@@ -246,7 +234,7 @@ footer #footer-content {
 
 /*************************************** Content general styles boxes ********************************************************/
 /*.box-content Has styles boxes and properties */
-/* line 258, ../../scss/style.scss */
+/* line 248, ../../scss/style.scss */
 .box-content {
   float: left;
   width: 320px;
@@ -261,14 +249,14 @@ footer #footer-content {
   /*the dimension of this div will be content  photos, ilustrations, animates and video*/
   /*the characteristics of this content only will be content API soundcloud*/
 }
-/* line 272, ../../scss/style.scss */
+/* line 262, ../../scss/style.scss */
 .box-content .header-box-content {
   width: 320px;
   height: 47px;
   background: white;
   overflow: hidden;
 }
-/* line 279, ../../scss/style.scss */
+/* line 269, ../../scss/style.scss */
 .box-content .header-box-content .title-box-content {
   float: left;
   width: 258px;
@@ -281,14 +269,14 @@ footer #footer-content {
   font-weight: 300;
   font-size: 100%;
 }
-/* line 293, ../../scss/style.scss */
+/* line 283, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content {
   float: right;
   width: 47px;
   height: 47px;
   margin: 0;
 }
-/* line 303, ../../scss/style.scss */
+/* line 293, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-photo, .box-content .header-box-content .ico-id-content .ico-id-music, .box-content .header-box-content .ico-id-content .ico-id-video,
 .box-content .header-box-content .ico-id-content .ico-id-animation, .box-content .header-box-content .ico-id-content .ico-id-illustration, .box-content .header-box-content .ico-id-content .ico-id-web,
 .box-content .header-box-content .ico-id-content .ico-id-password, .box-content .header-box-content .ico-id-content .ico-id-about-you,
@@ -300,51 +288,51 @@ footer #footer-content {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 313, ../../scss/style.scss */
+/* line 303, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-photo {
   background: url(../img/ico-photos.png);
 }
-/* line 314, ../../scss/style.scss */
+/* line 304, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-music {
   background: url(../img/ico-music.png);
 }
-/* line 315, ../../scss/style.scss */
+/* line 305, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-video {
   background: url(../img/ico-video.png);
 }
-/* line 316, ../../scss/style.scss */
+/* line 306, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-animation {
   background: url(../img/ico-animation.png);
 }
-/* line 317, ../../scss/style.scss */
+/* line 307, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-illustration {
   background: url(../img/ico-illustration.png);
 }
-/* line 318, ../../scss/style.scss */
+/* line 308, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-web {
   background: url(../img/ico-web.png);
 }
-/* line 319, ../../scss/style.scss */
+/* line 309, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-password {
   background: url(../img/ico-password.png);
 }
-/* line 320, ../../scss/style.scss */
+/* line 310, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-about-you {
   background: url(../img/ico-about-you.png);
 }
-/* line 321, ../../scss/style.scss */
+/* line 311, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-basic-info {
   background: url(../img/ico-basic-info.png);
 }
-/* line 322, ../../scss/style.scss */
+/* line 312, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-user-photo {
   background: url(../img/ico-user-photo.png);
 }
-/* line 323, ../../scss/style.scss */
+/* line 313, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-notification {
   background: url(../img/ico-notification.png);
 }
-/* line 327, ../../scss/style.scss */
+/* line 317, ../../scss/style.scss */
 .box-content .header-box-content .subtitle-box-content {
   float: left;
   width: 258px;
@@ -356,13 +344,13 @@ footer #footer-content {
   font-weight: 300;
   font-size: 11px;
 }
-/* line 341, ../../scss/style.scss */
+/* line 331, ../../scss/style.scss */
 .box-content .line-color-grey {
   width: 320px;
   height: 1px;
   background: #d6d6d6;
 }
-/* line 350, ../../scss/style.scss */
+/* line 340, ../../scss/style.scss */
 .box-content .product-box-content {
   width: 300px;
   max-height: 150px;
@@ -370,7 +358,7 @@ footer #footer-content {
   background: white;
   margin: 10px auto;
 }
-/* line 360, ../../scss/style.scss */
+/* line 350, ../../scss/style.scss */
 .box-content .music-box-content {
   width: 300px;
   max-height: 90px;
@@ -378,18 +366,18 @@ footer #footer-content {
   background: white;
   margin: 10px auto;
 }
-/* line 369, ../../scss/style.scss */
+/* line 359, ../../scss/style.scss */
 .box-content .info-box-content {
   width: 320px;
   height: 30px;
   background: transparent;
   margin: 0px;
 }
-/* line 376, ../../scss/style.scss */
+/* line 366, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content {
   background: #ff0000;
 }
-/* line 380, ../../scss/style.scss */
+/* line 370, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content .user-name-mini {
   float: left;
   width: 220px;
@@ -399,7 +387,7 @@ footer #footer-content {
   padding: 0 0 0 10px;
   font-size: 12px;
 }
-/* line 394, ../../scss/style.scss */
+/* line 384, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-social {
   float: right;
   background: transparent;
@@ -409,7 +397,7 @@ footer #footer-content {
   cursor: pointer;
   /* social shares configuration  */
 }
-/* line 404, ../../scss/style.scss */
+/* line 394, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-social .share-fb {
   width: 20px;
   height: 20px;
@@ -418,7 +406,7 @@ footer #footer-content {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 413, ../../scss/style.scss */
+/* line 403, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-social .share-tw {
   width: 20px;
   height: 20px;
@@ -427,7 +415,7 @@ footer #footer-content {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 422, ../../scss/style.scss */
+/* line 412, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-social .share-g {
   width: 20px;
   height: 20px;
@@ -436,14 +424,14 @@ footer #footer-content {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 435, ../../scss/style.scss */
+/* line 425, ../../scss/style.scss */
 .box-content .deleat-account {
   width: 200px;
   height: 2.3125rem;
   margin: 0 20%;
   background: transparent;
 }
-/* line 442, ../../scss/style.scss */
+/* line 432, ../../scss/style.scss */
 .box-content .deleat-account .ico-id-deleat {
   float: left;
   width: 35px;
@@ -455,7 +443,7 @@ footer #footer-content {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 454, ../../scss/style.scss */
+/* line 444, ../../scss/style.scss */
 .box-content .deleat-account .label-link {
   float: left;
   font-size: 1rem;
@@ -463,26 +451,26 @@ footer #footer-content {
   text-align: center;
   margin: 10px auto 0 20px;
 }
-/* line 464, ../../scss/style.scss */
+/* line 454, ../../scss/style.scss */
 .box-content label {
   line-height: 100%;
   font-weight: 300;
   font-size: 12px;
 }
-/* line 471, ../../scss/style.scss */
+/* line 461, ../../scss/style.scss */
 .box-content .form-setting {
   width: 290px;
   height: auto;
   background: transparent;
   margin: 0 10px;
 }
-/* line 479, ../../scss/style.scss */
+/* line 469, ../../scss/style.scss */
 .box-content textarea {
   width: 300px;
   max-height: auto;
   min-height: 100px;
 }
-/* line 486, ../../scss/style.scss */
+/* line 476, ../../scss/style.scss */
 .box-content .preview-photo-user {
   width: 100px;
   height: 100px;
@@ -492,7 +480,7 @@ footer #footer-content {
 
 /* ******************************** Content general styles boxes ************************************************************/
 /* content related to the event manager */
-/* line 499, ../../scss/style.scss */
+/* line 489, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -504,7 +492,7 @@ footer #footer-content {
 }
 
 /* form register and login */
-/* line 511, ../../scss/style.scss */
+/* line 501, ../../scss/style.scss */
 #lean_overlay {
   position: fixed;
   z-index: 100;
@@ -516,7 +504,7 @@ footer #footer-content {
   display: none;
 }
 
-/* line 523, ../../scss/style.scss */
+/* line 513, ../../scss/style.scss */
 .popupContainer {
   position: absolute;
   width: 330px;
@@ -526,61 +514,61 @@ footer #footer-content {
   background: #FFF;
 }
 
-/* line 533, ../../scss/style.scss */
+/* line 523, ../../scss/style.scss */
 #modal_trigger {
   margin: 0px auto;
   width: 100px;
   display: block;
 }
 
-/* line 540, ../../scss/style.scss */
+/* line 530, ../../scss/style.scss */
 .btn {
   padding: 10px 20px;
   background: #F4F4F2;
 }
 
-/* line 545, ../../scss/style.scss */
+/* line 535, ../../scss/style.scss */
 .btn_red {
   background: #ED6347;
   color: #FFF;
 }
 
-/* line 551, ../../scss/style.scss */
+/* line 541, ../../scss/style.scss */
 .btn:hover {
   background: #E4E4E2;
 }
 
-/* line 555, ../../scss/style.scss */
+/* line 545, ../../scss/style.scss */
 .btn_red:hover {
   background: #C12B05;
 }
 
-/* line 559, ../../scss/style.scss */
+/* line 549, ../../scss/style.scss */
 a.btn {
   color: #666;
   text-align: center;
   text-decoration: none;
 }
 
-/* line 565, ../../scss/style.scss */
+/* line 555, ../../scss/style.scss */
 a.btn_red {
   color: #FFF;
 }
 
-/* line 570, ../../scss/style.scss */
+/* line 560, ../../scss/style.scss */
 .one_half {
   width: 50%;
   display: block;
   float: left;
 }
-/* line 576, ../../scss/style.scss */
+/* line 566, ../../scss/style.scss */
 .one_half .last {
   width: 45%;
   margin-left: 5%;
 }
 
 /* Popup Styles*/
-/* line 585, ../../scss/style.scss */
+/* line 575, ../../scss/style.scss */
 .popupHeader {
   font-size: 16px;
   text-transform: uppercase;
@@ -590,7 +578,7 @@ a.btn_red {
   border-bottom: 1px solid #DDD;
   font-weight: bold;
 }
-/* line 595, ../../scss/style.scss */
+/* line 585, ../../scss/style.scss */
 .popupHeader .modal_close {
   position: absolute;
   right: 0;
@@ -602,13 +590,13 @@ a.btn_red {
   font-size: 16px;
 }
 
-/* line 606, ../../scss/style.scss */
+/* line 596, ../../scss/style.scss */
 .popupBody {
   padding: 20px;
 }
 
 /* Social Login Form */
-/* line 615, ../../scss/style.scss */
+/* line 605, ../../scss/style.scss */
 .social_login .social_box {
   display: block;
   clear: both;
@@ -617,7 +605,7 @@ a.btn_red {
   background: #F4F4F2;
   overflow: hidden;
 }
-/* line 623, ../../scss/style.scss */
+/* line 613, ../../scss/style.scss */
 .social_login .icon {
   display: block;
   width: 10px;
@@ -628,7 +616,7 @@ a.btn_red {
   font-size: 16px;
   text-align: center;
 }
-/* line 633, ../../scss/style.scss */
+/* line 623, ../../scss/style.scss */
 .social_login .icon_title {
   display: block;
   padding: 5px 0;
@@ -637,20 +625,20 @@ a.btn_red {
   font-size: 16px;
   color: #777;
 }
-/* line 641, ../../scss/style.scss */
+/* line 631, ../../scss/style.scss */
 .social_login .social_box:hover {
   background: #E4E4E2;
 }
-/* line 644, ../../scss/style.scss */
+/* line 634, ../../scss/style.scss */
 .social_login .fb .icon {
   background: #3B5998;
 }
-/* line 647, ../../scss/style.scss */
+/* line 637, ../../scss/style.scss */
 .social_login .google .icon {
   background: #DD4B39;
 }
 
-/* line 653, ../../scss/style.scss */
+/* line 643, ../../scss/style.scss */
 .centeredText {
   text-align: center;
   margin: 20px 0;
@@ -659,27 +647,27 @@ a.btn_red {
   text-transform: uppercase;
 }
 
-/* line 662, ../../scss/style.scss */
+/* line 652, ../../scss/style.scss */
 .action_btns {
   clear: both;
   overflow: hidden;
 }
-/* line 666, ../../scss/style.scss */
+/* line 656, ../../scss/style.scss */
 .action_btns a {
   display: block;
 }
 
 /* User Login Form */
-/* line 672, ../../scss/style.scss */
+/* line 662, ../../scss/style.scss */
 .user_login {
   display: none;
 }
-/* line 675, ../../scss/style.scss */
+/* line 665, ../../scss/style.scss */
 .user_login label {
   display: block;
   margin-bottom: 5px;
 }
-/* line 680, ../../scss/style.scss */
+/* line 670, ../../scss/style.scss */
 .user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {
   display: block;
   width: 90%;
@@ -687,23 +675,23 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 687, ../../scss/style.scss */
+/* line 677, ../../scss/style.scss */
 .user_login input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 691, ../../scss/style.scss */
+/* line 681, ../../scss/style.scss */
 .user_login input[type="checkbox"] + label {
   float: left;
 }
-/* line 694, ../../scss/style.scss */
+/* line 684, ../../scss/style.scss */
 .user_login .checkbox {
   margin-bottom: 10px;
   clear: both;
   overflow: hidden;
 }
 
-/* line 700, ../../scss/style.scss */
+/* line 690, ../../scss/style.scss */
 .forgot_password {
   display: block;
   margin: 20px 0 10px;
@@ -714,16 +702,16 @@ a.btn_red {
 }
 
 /* User Register Form */
-/* line 711, ../../scss/style.scss */
+/* line 701, ../../scss/style.scss */
 .user_register {
   display: none;
 }
-/* line 715, ../../scss/style.scss */
+/* line 705, ../../scss/style.scss */
 .user_register label {
   display: block;
   margin-bottom: 5px;
 }
-/* line 720, ../../scss/style.scss */
+/* line 710, ../../scss/style.scss */
 .user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {
   display: block;
   width: 90%;
@@ -731,16 +719,16 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 727, ../../scss/style.scss */
+/* line 717, ../../scss/style.scss */
 .user_register input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 731, ../../scss/style.scss */
+/* line 721, ../../scss/style.scss */
 .user_register input[type="checkbox"] + label {
   float: left;
 }
-/* line 734, ../../scss/style.scss */
+/* line 724, ../../scss/style.scss */
 .user_register .checkbox {
   margin-bottom: 10px;
   clear: both;

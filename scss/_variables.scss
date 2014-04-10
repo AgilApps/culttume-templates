@@ -3,7 +3,7 @@
 
 // *********************************** Declaration of variables Culttu.me. ***********************************
 
-////////////////////////////////////////////////Colors Culttume ///////////////////////////////////////////////
+//Colors Culttume
 $black  :#323232;
 $yellow :#FFEE20;
 $purple :#64387F;
@@ -23,65 +23,50 @@ $color_twitter :#52A8E9;
 $color_facebook:#537ABB;
 
 
-////////////////////////////////////////////////      Fonts    ///////////////////////////////////////////////
-
+// Fonts
 $font-stack1:"Open Sans", sans-serif;//google font
 $font-stack2:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 
 
-////////////////////////////////////////////////      Size of titles    ///////////////////////////////////////////////
-
+//Size of titles
 $sizeh1:22px;
 
-////////////////////////////////////////////////      Dimensions Body   ///////////////////////////////////////////////
-
+// Dimensions Body
 $dimensions_general: 100%; //replace width_general and height_general
 
-
-
-////////////////////////////////////////////////      Dimensions Header   ///////////////////////////////////////////////
-
-
-
-////////////////////////////////////////////////      Dimensions Wrapper   ///////////////////////////////////////////////
+//Dimensions Wrapper
 $width_wrapper: 1240px;
 
 
 
 $width_menufloat: 160px; //Floating menu
 
-// **************************************** dimensions aboutme **********************************************
-
+//Dimensions aboutme 
 $width_general_aboutme : 725px;	
 $width_followers       : 250px;
-
-
-// *********************************** end dimensions aboutme **********************************************
-
-$width_box_content 					 : 320px; 
-$height_box_content_small 			 : 160px; 
-$height_box_content_big 			 : 250px; 
-$width_product_box_content 			 : 300px; 
-$height_img_box_content 			 : 150px; 
-$height_music_box_content 			 : 90px; 
-$height_info_box_content 			 : 30px; 
-$width_box_title_content 			 : 270px;
-$height_box_title_content 			 : 47px;
-$width_h3_title_content 			 : 258px;
-$height_h3_title_content 			 : 37px;
-$width_p_title_content 				 : 220px;
-$height_p_title_content 			 : 20px;
+$width_box_content 	   : 320px; 
+$height_box_content_small : 160px; 
+$height_box_content_big   : 250px; 
+$width_product_box_content: 300px; 
+$height_img_box_content   : 150px; 
+$height_music_box_content : 90px; 
+$height_info_box_content  : 30px; 
+$width_box_title_content  : 270px;
+$height_box_title_content : 47px;
+$width_h3_title_content   : 258px;
+$height_h3_title_content  : 37px;
+$width_p_title_content 	  : 220px;
+$height_p_title_content   : 20px;
 $dimensions_ico_social_title_content : 26px;
-$width_box_content_follower 		 : 240px;//box content
-$height_box_content_follower 		 : 432px;//box content:
-$width_box_perfil                    : 692px;//box configuration profile
-$width_box_form_setting 			 : 290px;//default form size
-$height_box_new_content              : 80px;//Set size for the height of div new event
-$dimensions_ico_social_share         : 20px;
-$dimensions_ico_product              : 35px;
+$width_box_content_follower  : 240px;//box content
+$height_box_content_follower : 432px;//box content:
+$width_box_perfil            : 692px;//box configuration profile
+$width_box_form_setting 	 : 290px;//default form size
+$height_box_new_content      : 80px;//Set size for the height of div new event
+$dimensions_ico_social_share : 20px;
+$dimensions_ico_product      : 35px;
 
-/******************************** Wrapper ****************************************************/
-
+//Wrapper
 $width_wrapper_content_div : 1020px;
 $width_mini_logo 		   : 154px ; //Logo head width
 $width_input               : 160px; //Width based inputs

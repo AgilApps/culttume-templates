@@ -52,7 +52,7 @@ header {
 	max-width: $width_wrapper;//1240px
 	border: 1px solid $bluesky;
 	height: auto;
-	background: $white;
+	background: transparent;
 	margin: 30px 10px 10px ;
 	font-family: $font-stack2;
 	font-size:100%;
@@ -165,19 +165,6 @@ header {
 		height:auto;
 		text-align:justify;
 		padding: 5px 5px 5px 5px;
-	
-		#description_aboutme{
-			width: 239;
-			margin: auto;
-			font-family: $font-stack1;
-				p{
-					font-size:0.9rem;
-				}
-				h1{
-					font-size: 1.5rem;
-					font-family: $font-stack1;
-			}
-		}
 	}
 
 	#section_social_profile{
@@ -190,16 +177,6 @@ header {
 		height:auto;
 		text-align:justify;
 		padding: 5px 5px 5px 5px;
-	
-		#description_aboutme{
-			width: 239;
-			margin: auto;
-			font-family: $font-stack1;
-				h1{
-					font-size: 1.5rem;
-					font-family: $font-stack1;
-			}
-		}
 	}
 
 	#section_followers{
@@ -212,6 +189,19 @@ header {
 		border: 1px solid $bluesky;
 		font-family: $font-stack1;
 	}
+
+	#description_aboutme{
+		width: 239;
+		margin: auto;
+		font-family: $font-stack1;
+			p{
+				font-size:0.9rem;
+			}
+			h1{
+				font-size: 1.5rem;
+				font-family: $font-stack1;
+			}
+		}
 
 	#section_statistics{
 

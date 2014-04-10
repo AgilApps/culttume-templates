@@ -1,8 +1,8 @@
-/* styles are imported and declared variables */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+/* styles are imported and declared variables */
 /******************************** Wrapper ****************************************************/
-/*layout styles in css*/
-/* **************************************** Body ************************************************ */
+/*General properties of the body*/
+/* line 8, ../../scss/style.scss */
 body {
   width: 100%;
   height: 100% !important;
@@ -11,9 +11,11 @@ body {
   overflow-y: visible;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  font-size: 100%; }
+  font-size: 100%;
+}
 
-/* **************************************** Header ********************************************** */
+/* General properties of the Header */
+/* line 21, ../../scss/style.scss */
 header {
   width: 100%;
   height: 40px;
@@ -27,37 +29,16 @@ header {
   -o-border-radius: 0px;
   -ms-border-radius: 0px;
   border-radius: 0px;
-  z-index: 999; }
-  header #subheader {
-    max-width: 1080px;
-    height: 40px;
-    margin: auto;
-    background: transparent;
-    overflow: visible;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -o-border-radius: 0px;
-    -ms-border-radius: 0px;
-    border-radius: 0px;
-    padding: 0px; }
-    header #subheader .photo_user_mini {
-      float: right;
-      width: 100px;
-      height: 40px;
-      margin: -5px 0 0 0; }
-
-/* ******************************************** Menu ******************************************************* */
-#float_image {
-  width: 160px;
-  height: auto;
-  background: #64387f;
-  margin: 60px 10px auto 10px;
-  float: left;
-  overflow: hidden;
+  z-index: 999;
+  /*properties of the div that is inside header*/
+}
+/* line 31, ../../scss/style.scss */
+header #subheader {
+  max-width: 1080px;
+  height: 40px;
+  margin: auto;
+  background: transparent;
+  overflow: visible;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
@@ -67,17 +48,23 @@ header {
   -o-border-radius: 0px;
   -ms-border-radius: 0px;
   border-radius: 0px;
-  z-index: 90;
-  position: relative;
-  top: 0px;
-  right: 0;
-  left: 0px;
-  padding: 0px; }
+  padding: 0px;
+  /* photo that appears on the right side of the header */
+}
+/* line 43, ../../scss/style.scss */
+header #subheader .photo_user_mini {
+  float: right;
+  width: 100px;
+  height: 40px;
+  margin: -5px 0 0 0;
+}
 
+/* menu where they go from which they access any product or category */
+/* line 54, ../../scss/style.scss */
 #float_menu {
   width: 160px;
   height: auto;
-  background: #eeeeee;
+  background: white;
   margin: 60px 10px auto 10px;
   float: left;
   overflow: hidden;
@@ -92,78 +79,116 @@ header {
   border-radius: 0px;
   z-index: 90;
   position: relative;
+  border: 1px solid #23aae1;
   top: 0px;
   right: 0;
   left: 0px;
-  padding: 0px; }
-  #float_menu .img_float_menu {
-    width: 140px;
-    height: 300px;
-    margin: 10px 10px 10px 10px;
-    background: #23aae1; }
+  padding: 0px;
+}
+/* line 74, ../../scss/style.scss */
+#float_menu .menu ul {
+  list-style: none;
+  float: left;
+  margin: 10px 10px auto 10px;
+}
+/* line 80, ../../scss/style.scss */
+#float_menu .menu ul li {
+  float: left;
+  width: 160px;
+  background: #323232;
+  padding: 5px;
+}
+/* line 85, ../../scss/style.scss */
+#float_menu .menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+/* line 92, ../../scss/style.scss */
+#float_menu .menu ul li a :hover {
+  background: #23aae1;
+}
+/* line 97, ../../scss/style.scss */
+#float_menu .menu ul li h2 {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
 
-/* ************************************************* Wrapper ************************************************ */
+/* This will be the content of the page */
+/* line 108, ../../scss/style.scss */
 #wrapper {
   float: left;
   min-width: 1080px;
   max-width: 1080px;
+  border: 1px solid #23aae1;
   height: auto;
   background: white;
   margin: 60px auto 10px 5px;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 100%;
-  padding: 0px; }
-  #wrapper #content_div {
-    width: 1020px;
-    height: 100% !important;
-    background: #eeeeee;
-    margin: 0 0 0px 200px; }
-    #wrapper #content_div .window_perfil {
-      width: 692px;
-      height: 250px;
-      background: white; }
+  padding: 0px;
+}
 
+/*here are all the sections belonging to profile*/
+/* line 124, ../../scss/style.scss */
 #general_aboutme {
   float: left;
   width: 725px;
   height: auto;
-  border: 0px solid #a5a5a5;
+  border: 1px solid #23aae1;
   background: white;
-  margin: 5px auto 10px 5px; }
-
-#section_aboutme {
+  margin: 5px auto 10px 5px;
+}
+/* line 133, ../../scss/style.scss */
+#general_aboutme #section_aboutme {
   width: 239px;
   background: #eeeeee;
   float: left;
   margin: 1px;
-  height: auto; }
-  #section_aboutme #description_aboutme {
-    width: 239;
-    margin: auto; }
+  border: 1px solid #23aae1;
+  height: auto;
+}
+/* line 142, ../../scss/style.scss */
+#general_aboutme #section_aboutme #description_aboutme {
+  width: 239;
+  margin: auto;
+}
 
+/* This section will display the list of followers */
+/* line 150, ../../scss/style.scss */
 #section_followers {
   width: 380px;
   margin: 10px;
   float: left;
   background: #64387f;
   margin: 60px auto 10px 5px;
-  border: 0px solid #64387f; }
+  border: 0px solid #64387f;
+}
 
-/* ********************************************** footer ************************************************ */
+/* properties general footer  */
+/* line 162, ../../scss/style.scss */
 footer {
   float: left;
   width: 100%;
   height: 350px;
   background: #323232;
-  margin: 25px auto 0px auto; }
-  footer #footer-content {
-    width: 1080px;
-    height: 325px;
-    background: #323232;
-    margin: 0px auto 0px auto; }
+  margin: 25px auto 0px auto;
+  /* inside the footer */
+}
+/* line 171, ../../scss/style.scss */
+footer #footer-content {
+  width: 1080px;
+  height: 325px;
+  background: #323232;
+  margin: 0px auto 0px auto;
+}
 
-/* **************************************** .box-content ************************************************ */
+/*************************************** Content general styles boxes ********************************************************/
+/*.box-content Has styles boxes and properties */
+/* line 182, ../../scss/style.scss */
 .box-content {
   float: left;
   width: 320px;
@@ -176,171 +201,240 @@ footer {
   font-weight: 300;
   font-size: 100%;
   /*the dimension of this div will be content  photos, ilustrations, animates and video*/
-  /*the characteristics of this content only will be content API soundcloud*/ }
-  .box-content .header-box-content {
-    width: 320px;
-    height: 47px;
-    background: white;
-    overflow: hidden; }
-    .box-content .header-box-content .title-box-content {
-      float: left;
-      width: 258px;
-      height: 37px;
-      background: transparent;
-      margin: 0;
-      padding: 5px 5px 5px 10px;
-      font-variant: small-caps;
-      line-height: 100%;
-      font-weight: 300;
-      font-size: 100%; }
-    .box-content .header-box-content .ico-id-content {
-      float: right;
-      width: 47px;
-      height: 47px;
-      margin: 0; }
-      .box-content .header-box-content .ico-id-content .ico-id-photo, .box-content .header-box-content .ico-id-content .ico-id-music, .box-content .header-box-content .ico-id-content .ico-id-video,
-      .box-content .header-box-content .ico-id-content .ico-id-animation, .box-content .header-box-content .ico-id-content .ico-id-illustration, .box-content .header-box-content .ico-id-content .ico-id-web,
-      .box-content .header-box-content .ico-id-content .ico-id-password, .box-content .header-box-content .ico-id-content .ico-id-about-you,
-      .box-content .header-box-content .ico-id-content .ico-id-basic-info, .box-content .header-box-content .ico-id-content .ico-id-user-photo, .box-content .header-box-content .ico-id-content .ico-id-notification {
-        width: 35px;
-        height: 35px;
-        margin: 5px auto 0 auto;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        background-position: center center; }
-      .box-content .header-box-content .ico-id-content .ico-id-photo {
-        background: url(../img/ico-photos.png); }
-      .box-content .header-box-content .ico-id-content .ico-id-music {
-        background: url(../img/ico-music.png); }
-      .box-content .header-box-content .ico-id-content .ico-id-video {
-        background: url(../img/ico-video.png); }
-      .box-content .header-box-content .ico-id-content .ico-id-animation {
-        background: url(../img/ico-animation.png); }
-      .box-content .header-box-content .ico-id-content .ico-id-illustration {
-        background: url(../img/ico-illustration.png); }
-      .box-content .header-box-content .ico-id-content .ico-id-web {
-        background: url(../img/ico-web.png); }
-      .box-content .header-box-content .ico-id-content .ico-id-password {
-        background: url(../img/ico-password.png); }
-      .box-content .header-box-content .ico-id-content .ico-id-about-you {
-        background: url(../img/ico-about-you.png); }
-      .box-content .header-box-content .ico-id-content .ico-id-basic-info {
-        background: url(../img/ico-basic-info.png); }
-      .box-content .header-box-content .ico-id-content .ico-id-user-photo {
-        background: url(../img/ico-user-photo.png); }
-      .box-content .header-box-content .ico-id-content .ico-id-notification {
-        background: url(../img/ico-notification.png); }
-    .box-content .header-box-content .subtitle-box-content {
-      float: left;
-      width: 258px;
-      height: 37px;
-      background: transparent;
-      margin: -10px 0 0 0;
-      padding: 0px 0px 0px 10px;
-      line-height: 100%;
-      font-weight: 300;
-      font-size: 11px; }
-  .box-content .line-color-grey {
-    width: 320px;
-    height: 1px;
-    background: #d6d6d6; }
-  .box-content .product-box-content {
-    width: 300px;
-    max-height: 150px;
-    min-height: 150px;
-    background: white;
-    margin: 10px auto; }
-  .box-content .music-box-content {
-    width: 300px;
-    max-height: 90px;
-    min-height: 90px;
-    background: white;
-    margin: 10px auto; }
-  .box-content .info-box-content {
-    width: 320px;
-    height: 30px;
-    background: transparent;
-    margin: 0px; }
-    .box-content .info-box-content .user-name-box-content {
-      background: #ff0000; }
-      .box-content .info-box-content .user-name-box-content .user-name-mini {
-        float: left;
-        width: 220px;
-        height: 20px;
-        background: transparent;
-        margin: 5px 0;
-        padding: 0 0 0 10px;
-        font-size: 12px; }
-    .box-content .info-box-content .ico-social .share-social {
-      float: right;
-      background: transparent;
-      width: 26px;
-      height: 26px;
-      margin: 5px 5px 0 0;
-      cursor: pointer;
-      /* social shares configuration  */ }
-      .box-content .info-box-content .ico-social .share-social .share-fb {
-        width: 20px;
-        height: 20px;
-        background: url(../img/ico-fb.png), white;
-        background-size: 16px 16px;
-        background-repeat: no-repeat;
-        background-position: center center; }
-      .box-content .info-box-content .ico-social .share-social .share-tw {
-        width: 20px;
-        height: 20px;
-        background: url(../img/ico-tw.png), white;
-        background-size: 16px 16px;
-        background-repeat: no-repeat;
-        background-position: center center; }
-      .box-content .info-box-content .ico-social .share-social .share-g {
-        width: 20px;
-        height: 20px;
-        background: url(../img/ico-g.png), white;
-        background-size: 16px 16px;
-        background-repeat: no-repeat;
-        background-position: center center; }
-  .box-content .deleat-account {
-    width: 200px;
-    height: 2.3125rem;
-    margin: 0 20%;
-    background: transparent; }
-    .box-content .deleat-account .ico-id-deleat {
-      float: left;
-      width: 35px;
-      height: 35px;
-      margin: 0 1px 0 auto;
-      font-size: 0.875rem;
-      background: url(../img/ico-deleat.png);
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      background-position: center center; }
-    .box-content .deleat-account .label-link {
-      float: left;
-      font-size: 1rem;
-      color: #23aae1;
-      text-align: center;
-      margin: 10px auto 0 20px; }
-  .box-content label {
-    line-height: 100%;
-    font-weight: 300;
-    font-size: 12px; }
-  .box-content .form-setting {
-    width: 290px;
-    height: auto;
-    background: transparent;
-    margin: 0 10px; }
-  .box-content textarea {
-    width: 300px;
-    max-height: auto;
-    min-height: 100px; }
-  .box-content .preview-photo-user {
-    width: 100px;
-    height: 100px;
-    background: white;
-    margin: 0 30px 30px; }
+  /*the characteristics of this content only will be content API soundcloud*/
+}
+/* line 196, ../../scss/style.scss */
+.box-content .header-box-content {
+  width: 320px;
+  height: 47px;
+  background: white;
+  overflow: hidden;
+}
+/* line 203, ../../scss/style.scss */
+.box-content .header-box-content .title-box-content {
+  float: left;
+  width: 258px;
+  height: 37px;
+  background: transparent;
+  margin: 0;
+  padding: 5px 5px 5px 10px;
+  font-variant: small-caps;
+  line-height: 100%;
+  font-weight: 300;
+  font-size: 100%;
+}
+/* line 217, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content {
+  float: right;
+  width: 47px;
+  height: 47px;
+  margin: 0;
+}
+/* line 227, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-photo, .box-content .header-box-content .ico-id-content .ico-id-music, .box-content .header-box-content .ico-id-content .ico-id-video,
+.box-content .header-box-content .ico-id-content .ico-id-animation, .box-content .header-box-content .ico-id-content .ico-id-illustration, .box-content .header-box-content .ico-id-content .ico-id-web,
+.box-content .header-box-content .ico-id-content .ico-id-password, .box-content .header-box-content .ico-id-content .ico-id-about-you,
+.box-content .header-box-content .ico-id-content .ico-id-basic-info, .box-content .header-box-content .ico-id-content .ico-id-user-photo, .box-content .header-box-content .ico-id-content .ico-id-notification {
+  width: 35px;
+  height: 35px;
+  margin: 5px auto 0 auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 237, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-photo {
+  background: url(../img/ico-photos.png);
+}
+/* line 238, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-music {
+  background: url(../img/ico-music.png);
+}
+/* line 239, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-video {
+  background: url(../img/ico-video.png);
+}
+/* line 240, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-animation {
+  background: url(../img/ico-animation.png);
+}
+/* line 241, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-illustration {
+  background: url(../img/ico-illustration.png);
+}
+/* line 242, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-web {
+  background: url(../img/ico-web.png);
+}
+/* line 243, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-password {
+  background: url(../img/ico-password.png);
+}
+/* line 244, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-about-you {
+  background: url(../img/ico-about-you.png);
+}
+/* line 245, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-basic-info {
+  background: url(../img/ico-basic-info.png);
+}
+/* line 246, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-user-photo {
+  background: url(../img/ico-user-photo.png);
+}
+/* line 247, ../../scss/style.scss */
+.box-content .header-box-content .ico-id-content .ico-id-notification {
+  background: url(../img/ico-notification.png);
+}
+/* line 251, ../../scss/style.scss */
+.box-content .header-box-content .subtitle-box-content {
+  float: left;
+  width: 258px;
+  height: 37px;
+  background: transparent;
+  margin: -10px 0 0 0;
+  padding: 0px 0px 0px 10px;
+  line-height: 100%;
+  font-weight: 300;
+  font-size: 11px;
+}
+/* line 265, ../../scss/style.scss */
+.box-content .line-color-grey {
+  width: 320px;
+  height: 1px;
+  background: #d6d6d6;
+}
+/* line 274, ../../scss/style.scss */
+.box-content .product-box-content {
+  width: 300px;
+  max-height: 150px;
+  min-height: 150px;
+  background: white;
+  margin: 10px auto;
+}
+/* line 284, ../../scss/style.scss */
+.box-content .music-box-content {
+  width: 300px;
+  max-height: 90px;
+  min-height: 90px;
+  background: white;
+  margin: 10px auto;
+}
+/* line 293, ../../scss/style.scss */
+.box-content .info-box-content {
+  width: 320px;
+  height: 30px;
+  background: transparent;
+  margin: 0px;
+}
+/* line 300, ../../scss/style.scss */
+.box-content .info-box-content .user-name-box-content {
+  background: #ff0000;
+}
+/* line 304, ../../scss/style.scss */
+.box-content .info-box-content .user-name-box-content .user-name-mini {
+  float: left;
+  width: 220px;
+  height: 20px;
+  background: transparent;
+  margin: 5px 0;
+  padding: 0 0 0 10px;
+  font-size: 12px;
+}
+/* line 318, ../../scss/style.scss */
+.box-content .info-box-content .ico-social .share-social {
+  float: right;
+  background: transparent;
+  width: 26px;
+  height: 26px;
+  margin: 5px 5px 0 0;
+  cursor: pointer;
+  /* social shares configuration  */
+}
+/* line 328, ../../scss/style.scss */
+.box-content .info-box-content .ico-social .share-social .share-fb {
+  width: 20px;
+  height: 20px;
+  background: url(../img/ico-fb.png), white;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 337, ../../scss/style.scss */
+.box-content .info-box-content .ico-social .share-social .share-tw {
+  width: 20px;
+  height: 20px;
+  background: url(../img/ico-tw.png), white;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 346, ../../scss/style.scss */
+.box-content .info-box-content .ico-social .share-social .share-g {
+  width: 20px;
+  height: 20px;
+  background: url(../img/ico-g.png), white;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 359, ../../scss/style.scss */
+.box-content .deleat-account {
+  width: 200px;
+  height: 2.3125rem;
+  margin: 0 20%;
+  background: transparent;
+}
+/* line 366, ../../scss/style.scss */
+.box-content .deleat-account .ico-id-deleat {
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin: 0 1px 0 auto;
+  font-size: 0.875rem;
+  background: url(../img/ico-deleat.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 378, ../../scss/style.scss */
+.box-content .deleat-account .label-link {
+  float: left;
+  font-size: 1rem;
+  color: #23aae1;
+  text-align: center;
+  margin: 10px auto 0 20px;
+}
+/* line 388, ../../scss/style.scss */
+.box-content label {
+  line-height: 100%;
+  font-weight: 300;
+  font-size: 12px;
+}
+/* line 395, ../../scss/style.scss */
+.box-content .form-setting {
+  width: 290px;
+  height: auto;
+  background: transparent;
+  margin: 0 10px;
+}
+/* line 403, ../../scss/style.scss */
+.box-content textarea {
+  width: 300px;
+  max-height: auto;
+  min-height: 100px;
+}
+/* line 410, ../../scss/style.scss */
+.box-content .preview-photo-user {
+  width: 100px;
+  height: 100px;
+  background: white;
+  margin: 0 30px 30px;
+}
 
-/* ******************************** content related to the event manager ********************************/
+/* ******************************** Content general styles boxes ************************************************************/
+/* content related to the event manager */
+/* line 423, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -348,9 +442,11 @@ footer {
   background: white;
   margin: 5px 10px;
   border: 1px dashed #8b8b8b;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
-/*  ***************************************************** form register and login *************************** */
+/* form register and login */
+/* line 435, ../../scss/style.scss */
 #lean_overlay {
   position: fixed;
   z-index: 100;
@@ -359,52 +455,74 @@ footer {
   height: 100%;
   width: 100%;
   background: #000;
-  display: none; }
+  display: none;
+}
 
+/* line 447, ../../scss/style.scss */
 .popupContainer {
   position: absolute;
   width: 330px;
   height: auto;
   left: 45%;
   top: 80px;
-  background: #FFF; }
+  background: #FFF;
+}
 
+/* line 457, ../../scss/style.scss */
 #modal_trigger {
   margin: 0px auto;
   width: 100px;
-  display: block; }
+  display: block;
+}
 
+/* line 464, ../../scss/style.scss */
 .btn {
   padding: 10px 20px;
-  background: #F4F4F2; }
+  background: #F4F4F2;
+}
 
+/* line 469, ../../scss/style.scss */
 .btn_red {
   background: #ED6347;
-  color: #FFF; }
+  color: #FFF;
+}
 
+/* line 475, ../../scss/style.scss */
 .btn:hover {
-  background: #E4E4E2; }
+  background: #E4E4E2;
+}
 
+/* line 479, ../../scss/style.scss */
 .btn_red:hover {
-  background: #C12B05; }
+  background: #C12B05;
+}
 
+/* line 483, ../../scss/style.scss */
 a.btn {
   color: #666;
   text-align: center;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+/* line 489, ../../scss/style.scss */
 a.btn_red {
-  color: #FFF; }
+  color: #FFF;
+}
 
+/* line 494, ../../scss/style.scss */
 .one_half {
   width: 50%;
   display: block;
-  float: left; }
-  .one_half .last {
-    width: 45%;
-    margin-left: 5%; }
+  float: left;
+}
+/* line 500, ../../scss/style.scss */
+.one_half .last {
+  width: 45%;
+  margin-left: 5%;
+}
 
 /* Popup Styles*/
+/* line 509, ../../scss/style.scss */
 .popupHeader {
   font-size: 16px;
   text-transform: uppercase;
@@ -412,28 +530,36 @@ a.btn_red {
   position: relative;
   padding: 10px 20px;
   border-bottom: 1px solid #DDD;
-  font-weight: bold; }
-  .popupHeader .modal_close {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 10px 15px;
-    background: #E4E4E2;
-    cursor: pointer;
-    color: #aaa;
-    font-size: 16px; }
+  font-weight: bold;
+}
+/* line 519, ../../scss/style.scss */
+.popupHeader .modal_close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 15px;
+  background: #E4E4E2;
+  cursor: pointer;
+  color: #aaa;
+  font-size: 16px;
+}
 
+/* line 530, ../../scss/style.scss */
 .popupBody {
-  padding: 20px; }
+  padding: 20px;
+}
 
 /* Social Login Form */
+/* line 539, ../../scss/style.scss */
 .social_login .social_box {
   display: block;
   clear: both;
   padding: 10px;
   margin-bottom: 10px;
   background: #F4F4F2;
-  overflow: hidden; }
+  overflow: hidden;
+}
+/* line 547, ../../scss/style.scss */
 .social_login .icon {
   display: block;
   width: 10px;
@@ -442,82 +568,123 @@ a.btn_red {
   float: left;
   color: #FFF;
   font-size: 16px;
-  text-align: center; }
+  text-align: center;
+}
+/* line 557, ../../scss/style.scss */
 .social_login .icon_title {
   display: block;
   padding: 5px 0;
   float: left;
   font-weight: bold;
   font-size: 16px;
-  color: #777; }
+  color: #777;
+}
+/* line 565, ../../scss/style.scss */
 .social_login .social_box:hover {
-  background: #E4E4E2; }
+  background: #E4E4E2;
+}
+/* line 568, ../../scss/style.scss */
 .social_login .fb .icon {
-  background: #3B5998; }
+  background: #3B5998;
+}
+/* line 571, ../../scss/style.scss */
 .social_login .google .icon {
-  background: #DD4B39; }
+  background: #DD4B39;
+}
 
+/* line 577, ../../scss/style.scss */
 .centeredText {
   text-align: center;
   margin: 20px 0;
   clear: both;
   overflow: hidden;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
+/* line 586, ../../scss/style.scss */
 .action_btns {
   clear: both;
-  overflow: hidden; }
-  .action_btns a {
-    display: block; }
+  overflow: hidden;
+}
+/* line 590, ../../scss/style.scss */
+.action_btns a {
+  display: block;
+}
 
 /* User Login Form */
+/* line 596, ../../scss/style.scss */
 .user_login {
-  display: none; }
-  .user_login label {
-    display: block;
-    margin-bottom: 5px; }
-  .user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {
-    display: block;
-    width: 90%;
-    padding: 10px;
-    border: 1px solid #DDD;
-    color: #666; }
-  .user_login input[type="checkbox"] {
-    float: left;
-    margin-right: 5px; }
-  .user_login input[type="checkbox"] + label {
-    float: left; }
-  .user_login .checkbox {
-    margin-bottom: 10px;
-    clear: both;
-    overflow: hidden; }
+  display: none;
+}
+/* line 599, ../../scss/style.scss */
+.user_login label {
+  display: block;
+  margin-bottom: 5px;
+}
+/* line 604, ../../scss/style.scss */
+.user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #DDD;
+  color: #666;
+}
+/* line 611, ../../scss/style.scss */
+.user_login input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+/* line 615, ../../scss/style.scss */
+.user_login input[type="checkbox"] + label {
+  float: left;
+}
+/* line 618, ../../scss/style.scss */
+.user_login .checkbox {
+  margin-bottom: 10px;
+  clear: both;
+  overflow: hidden;
+}
 
+/* line 624, ../../scss/style.scss */
 .forgot_password {
   display: block;
   margin: 20px 0 10px;
   clear: both;
   overflow: hidden;
   text-decoration: none;
-  color: #ED6347; }
+  color: #ED6347;
+}
 
 /* User Register Form */
+/* line 635, ../../scss/style.scss */
 .user_register {
-  display: none; }
-  .user_register label {
-    display: block;
-    margin-bottom: 5px; }
-  .user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {
-    display: block;
-    width: 90%;
-    padding: 10px;
-    border: 1px solid #DDD;
-    color: #666; }
-  .user_register input[type="checkbox"] {
-    float: left;
-    margin-right: 5px; }
-  .user_register input[type="checkbox"] + label {
-    float: left; }
-  .user_register .checkbox {
-    margin-bottom: 10px;
-    clear: both;
-    overflow: hidden; }
+  display: none;
+}
+/* line 639, ../../scss/style.scss */
+.user_register label {
+  display: block;
+  margin-bottom: 5px;
+}
+/* line 644, ../../scss/style.scss */
+.user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #DDD;
+  color: #666;
+}
+/* line 651, ../../scss/style.scss */
+.user_register input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+/* line 655, ../../scss/style.scss */
+.user_register input[type="checkbox"] + label {
+  float: left;
+}
+/* line 658, ../../scss/style.scss */
+.user_register .checkbox {
+  margin-bottom: 10px;
+  clear: both;
+  overflow: hidden;
+}

@@ -1,24 +1,23 @@
+
 /* styles are imported and declared variables */
 
 @import '_mixins';
 @import '_variables';
 
-/*layout styles in css*/
-
-/* **************************************** Body ************************************************ */
+/*General properties of the body*/
 body {
 
-	width:      $width_general; //100%
-	height:     $height_general !important;
-	background: $white2;
-	overflow-x: hidden;
-	overflow-y: visible;
+	width:$width_general; //100%
+	height:$height_general !important;
+	background:$white2;
+	overflow-x:hidden;
+	overflow-y:visible;
 	font-family:$font-stack1;
 	font-weight:300;
 	font-size:100%;
 }
 
-/* **************************************** Header ********************************************** */
+/* General properties of the Header */
 header {
 
 	width: $width_general;
@@ -27,7 +26,8 @@ header {
 	@include transform-translate3d();
 	@include border-radius(0px);
 	z-index: 999;
-		
+    
+    /*properties of the div that is inside header*/
 	#subheader{
 
 		max-width: $width_wrapper;
@@ -38,7 +38,8 @@ header {
 		@include transform-translate3d();
 		@include border-radius(0px);
 		padding: $pad_0;
-
+        
+        /* photo that appears on the right side of the header */
 		.photo_user_mini{
 			float:right;
 			width:100px;
@@ -48,30 +49,13 @@ header {
 	}	
 }
 
-/* ******************************************** Menu ******************************************************* */
-#float_image{
 
-	width:$width_menufloat; //160px
-	height:auto;
-	background: $purple;
-	margin: 60px 10px auto 10px;
-	float:left;
-	overflow: hidden;
-	@include transform-translate3d();
-	@include border-radius(0px);
-	z-index: 90;
-	position: relative;
-    top: 0px;
-    right: 0;
-    left: 0px;
-    padding: $pad_0;
-}
-
+/* menu where they go from which they access any product or category */
 #float_menu{
 
 	width:$width_menufloat; //160px
 	height:auto;
-	background: $grey1;
+	background: $white;
 	margin: 60px 10px auto 10px;
 	float:left;
 	overflow: hidden;
@@ -79,28 +63,54 @@ header {
 	@include border-radius(0px);
 	z-index: 90;
 	position: relative;
+	border: 1px solid $bluesky;
     top: 0px;
     right: 0;
     left: 0px;
     padding: $pad_0;
+	
+	.menu{
 
+		ul{
 
-    .img_float_menu{
+		    list-style:none;
+		    float:left;
+		    margin: 10px 10px auto 10px;
 
-    	width: 140px;
-        height: 300px;
-    	margin: 10px 10px 10px 10px;
-    	background: $bluesky;
-    }
+		    li{
+		    	float:left;
+    			width:$width_menufloat;
+    			background: $black;
+    			padding:5px;
+    			a{
 
+				    color: $white;
+				    text-decoration:none;
+				    font-family:$font-stack1;
+				    font-size: 13px;
+
+				    :hover{
+
+					    background:$bluesky ;
+					}
+				}
+				h2{
+					text-align: center;
+					color: $white;
+					font-family:$font-stack1;
+				}
+		    }
+		}
+	}
 }
-/* ************************************************* Wrapper ************************************************ */
 
+/* This will be the content of the page */
 #wrapper {
 
 	float:left;
 	min-width: $width_wrapper;
 	max-width: $width_wrapper;
+	border: 1px solid $bluesky;
 	height: auto;
 	background: $white;
 	margin: 60px auto 10px 5px;
@@ -108,47 +118,35 @@ header {
 	font-size:100%;
 	line-height:100%;
 	padding: $pad_0;
-
-	#content_div {
-
-		width: $width_wrapper_content_div;
-		height: $height_general !important;
-		background: $grey1;
-		margin: 0 0 0px $width_menufloat+40px;
-
-		.window_perfil{
-
-			width:$width_box_perfil;
-			height:$height_box_content_big;
-			background: $white;
-		}
-	}
 }
 
+/*here are all the sections belonging to profile*/
 #general_aboutme{
 
 	float: left;
-	width: $width_general_aboutme;
+	width: $width_general_aboutme; //725px
 	height: auto;
-	border: 0px solid $grey3;
+	border: 1px solid $bluesky;
 	background: $white;
 	margin: 5px auto 10px 5px;
+    
+    #section_aboutme{
+
+	    width:239px;
+	    background:$grey1;
+	    float:left;
+	    margin:1px;
+	    border: 1px solid $bluesky;
+	    height:auto;
+
+	    #description_aboutme{
+		    width: 239;
+		    margin: auto;
+	    }
+    }
 }
 
-#section_aboutme{
-
-	width:239px;
-	background:$grey1;
-	float:left;
-	margin:1px;
-	height:auto;
-
-	#description_aboutme{
-		width: 239;
-		margin: auto;
-	}
-}
-
+/* This section will display the list of followers */
 #section_followers{
 
 	width:$width_followers;
@@ -159,7 +157,7 @@ header {
 	border: 0px solid $purple;
 }
 
-/* ********************************************** footer ************************************************ */
+/* properties general footer  */
 
 footer{
 
@@ -168,7 +166,8 @@ footer{
 	height: $height_footer;
 	background: $black;
 	margin: 25px auto 0px auto;
-
+    
+    /* inside the footer */
 	#footer-content{
 
 		width:$width_wrapper;
@@ -177,8 +176,9 @@ footer{
 		margin: 0px auto 0px auto;
 	}
 }
+/*************************************** Content general styles boxes ********************************************************/
 
-/* **************************************** .box-content ************************************************ */
+/*.box-content Has styles boxes and properties */
 .box-content{
 
 	float:left;
@@ -191,7 +191,8 @@ footer{
 	line-height:100%;
 	font-weight:300;
 	font-size:100%;
-
+    
+    
 	.header-box-content{
 
 		width: $width_box_content;
@@ -415,7 +416,10 @@ footer{
     }
 }
 
-/* ******************************** content related to the event manager ********************************/
+/* ******************************** Content general styles boxes ************************************************************/
+
+/* content related to the event manager */
+
 .box-new-content{
 	
 	float:left;
@@ -427,7 +431,7 @@ footer{
 	overflow: hidden;
 }
 
-/*  ***************************************************** form register and login *************************** */
+/* form register and login */
 #lean_overlay {
 
     position: fixed;

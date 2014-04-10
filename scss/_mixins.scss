@@ -13,6 +13,13 @@
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
+@mixin filter-grey($filter) {
+	-webkit-filter: grayscale($filter);
+	-moz-filter: grayscale($filter);
+	-ms-filter: grayscale($filter);
+	-o-filter: grayscale($filter);
+	filter: grayscale($filter);
+}
 
 
 

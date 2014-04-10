@@ -452,25 +452,53 @@ footer #footer-content {
   margin: 10px auto 0 20px;
 }
 /* line 454, ../../scss/style.scss */
+.box-content .deleat-object {
+  width: 200px;
+  height: 2.3125rem;
+  margin: 0 20%;
+  background: transparent;
+  /*  */
+  /*  */
+}
+/* line 460, ../../scss/style.scss */
+.box-content .deleat-object .ico-id-deleat {
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin: 0 1px 0 auto;
+  background: url(../img/ico-deleat.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 470, ../../scss/style.scss */
+.box-content .deleat-object .label-link {
+  float: left;
+  font-size: 0.875rem;
+  color: #23aae1;
+  text-align: center;
+  margin: 10px auto 0 20px;
+}
+/* line 479, ../../scss/style.scss */
 .box-content label {
   line-height: 100%;
   font-weight: 300;
   font-size: 12px;
 }
-/* line 461, ../../scss/style.scss */
+/* line 486, ../../scss/style.scss */
 .box-content .form-setting {
   width: 290px;
   height: auto;
   background: transparent;
   margin: 0 10px;
 }
-/* line 469, ../../scss/style.scss */
+/* line 494, ../../scss/style.scss */
 .box-content textarea {
   width: 300px;
   max-height: auto;
   min-height: 100px;
 }
-/* line 476, ../../scss/style.scss */
+/* line 501, ../../scss/style.scss */
 .box-content .preview-photo-user {
   width: 100px;
   height: 100px;
@@ -480,7 +508,7 @@ footer #footer-content {
 
 /* ******************************** Content general styles boxes ************************************************************/
 /* content related to the event manager */
-/* line 489, ../../scss/style.scss */
+/* line 514, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -492,7 +520,7 @@ footer #footer-content {
 }
 
 /* form register and login */
-/* line 501, ../../scss/style.scss */
+/* line 526, ../../scss/style.scss */
 #lean_overlay {
   position: fixed;
   z-index: 100;
@@ -504,7 +532,7 @@ footer #footer-content {
   display: none;
 }
 
-/* line 513, ../../scss/style.scss */
+/* line 538, ../../scss/style.scss */
 .popupContainer {
   position: absolute;
   width: 330px;
@@ -514,61 +542,61 @@ footer #footer-content {
   background: #FFF;
 }
 
-/* line 523, ../../scss/style.scss */
+/* line 548, ../../scss/style.scss */
 #modal_trigger {
   margin: 0px auto;
   width: 100px;
   display: block;
 }
 
-/* line 530, ../../scss/style.scss */
+/* line 555, ../../scss/style.scss */
 .btn {
   padding: 10px 20px;
   background: #F4F4F2;
 }
 
-/* line 535, ../../scss/style.scss */
+/* line 560, ../../scss/style.scss */
 .btn_red {
   background: #ED6347;
   color: #FFF;
 }
 
-/* line 541, ../../scss/style.scss */
+/* line 566, ../../scss/style.scss */
 .btn:hover {
   background: #E4E4E2;
 }
 
-/* line 545, ../../scss/style.scss */
+/* line 570, ../../scss/style.scss */
 .btn_red:hover {
   background: #C12B05;
 }
 
-/* line 549, ../../scss/style.scss */
+/* line 574, ../../scss/style.scss */
 a.btn {
   color: #666;
   text-align: center;
   text-decoration: none;
 }
 
-/* line 555, ../../scss/style.scss */
+/* line 580, ../../scss/style.scss */
 a.btn_red {
   color: #FFF;
 }
 
-/* line 560, ../../scss/style.scss */
+/* line 585, ../../scss/style.scss */
 .one_half {
   width: 50%;
   display: block;
   float: left;
 }
-/* line 566, ../../scss/style.scss */
+/* line 591, ../../scss/style.scss */
 .one_half .last {
   width: 45%;
   margin-left: 5%;
 }
 
 /* Popup Styles*/
-/* line 575, ../../scss/style.scss */
+/* line 600, ../../scss/style.scss */
 .popupHeader {
   font-size: 16px;
   text-transform: uppercase;
@@ -578,7 +606,7 @@ a.btn_red {
   border-bottom: 1px solid #DDD;
   font-weight: bold;
 }
-/* line 585, ../../scss/style.scss */
+/* line 610, ../../scss/style.scss */
 .popupHeader .modal_close {
   position: absolute;
   right: 0;
@@ -590,13 +618,13 @@ a.btn_red {
   font-size: 16px;
 }
 
-/* line 596, ../../scss/style.scss */
+/* line 621, ../../scss/style.scss */
 .popupBody {
   padding: 20px;
 }
 
 /* Social Login Form */
-/* line 605, ../../scss/style.scss */
+/* line 630, ../../scss/style.scss */
 .social_login .social_box {
   display: block;
   clear: both;
@@ -605,7 +633,7 @@ a.btn_red {
   background: #F4F4F2;
   overflow: hidden;
 }
-/* line 613, ../../scss/style.scss */
+/* line 638, ../../scss/style.scss */
 .social_login .icon {
   display: block;
   width: 10px;
@@ -616,7 +644,7 @@ a.btn_red {
   font-size: 16px;
   text-align: center;
 }
-/* line 623, ../../scss/style.scss */
+/* line 648, ../../scss/style.scss */
 .social_login .icon_title {
   display: block;
   padding: 5px 0;
@@ -625,20 +653,20 @@ a.btn_red {
   font-size: 16px;
   color: #777;
 }
-/* line 631, ../../scss/style.scss */
+/* line 656, ../../scss/style.scss */
 .social_login .social_box:hover {
   background: #E4E4E2;
 }
-/* line 634, ../../scss/style.scss */
+/* line 659, ../../scss/style.scss */
 .social_login .fb .icon {
   background: #3B5998;
 }
-/* line 637, ../../scss/style.scss */
+/* line 662, ../../scss/style.scss */
 .social_login .google .icon {
   background: #DD4B39;
 }
 
-/* line 643, ../../scss/style.scss */
+/* line 668, ../../scss/style.scss */
 .centeredText {
   text-align: center;
   margin: 20px 0;
@@ -647,27 +675,27 @@ a.btn_red {
   text-transform: uppercase;
 }
 
-/* line 652, ../../scss/style.scss */
+/* line 677, ../../scss/style.scss */
 .action_btns {
   clear: both;
   overflow: hidden;
 }
-/* line 656, ../../scss/style.scss */
+/* line 681, ../../scss/style.scss */
 .action_btns a {
   display: block;
 }
 
 /* User Login Form */
-/* line 662, ../../scss/style.scss */
+/* line 687, ../../scss/style.scss */
 .user_login {
   display: none;
 }
-/* line 665, ../../scss/style.scss */
+/* line 690, ../../scss/style.scss */
 .user_login label {
   display: block;
   margin-bottom: 5px;
 }
-/* line 670, ../../scss/style.scss */
+/* line 695, ../../scss/style.scss */
 .user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {
   display: block;
   width: 90%;
@@ -675,23 +703,23 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 677, ../../scss/style.scss */
+/* line 702, ../../scss/style.scss */
 .user_login input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 681, ../../scss/style.scss */
+/* line 706, ../../scss/style.scss */
 .user_login input[type="checkbox"] + label {
   float: left;
 }
-/* line 684, ../../scss/style.scss */
+/* line 709, ../../scss/style.scss */
 .user_login .checkbox {
   margin-bottom: 10px;
   clear: both;
   overflow: hidden;
 }
 
-/* line 690, ../../scss/style.scss */
+/* line 715, ../../scss/style.scss */
 .forgot_password {
   display: block;
   margin: 20px 0 10px;
@@ -702,16 +730,16 @@ a.btn_red {
 }
 
 /* User Register Form */
-/* line 701, ../../scss/style.scss */
+/* line 726, ../../scss/style.scss */
 .user_register {
   display: none;
 }
-/* line 705, ../../scss/style.scss */
+/* line 730, ../../scss/style.scss */
 .user_register label {
   display: block;
   margin-bottom: 5px;
 }
-/* line 710, ../../scss/style.scss */
+/* line 735, ../../scss/style.scss */
 .user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {
   display: block;
   width: 90%;
@@ -719,16 +747,16 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 717, ../../scss/style.scss */
+/* line 742, ../../scss/style.scss */
 .user_register input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 721, ../../scss/style.scss */
+/* line 746, ../../scss/style.scss */
 .user_register input[type="checkbox"] + label {
   float: left;
 }
-/* line 724, ../../scss/style.scss */
+/* line 749, ../../scss/style.scss */
 .user_register .checkbox {
   margin-bottom: 10px;
   clear: both;

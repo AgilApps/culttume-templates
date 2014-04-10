@@ -451,6 +451,31 @@ footer{
 		}
 	}
 
+	.deleat-object{
+		width:200px;
+		height:2.3125rem;
+		margin:0 20%;
+		background: transparent;
+		/*  */
+		.ico-id-deleat{
+				float:left;
+				width:$dimensions_ico_product;
+				height:$dimensions_ico_product;
+				margin:0 1px 0 auto;
+				background:url(../img/ico-deleat.png);
+				background-size:100% 100%;
+				background-repeat:no-repeat;
+				background-position:center center;
+		}/*  */
+		.label-link{
+			float:left;
+			font-size: 0.875rem;
+			color:$bluesky;
+			text-align: center;
+			margin:10px auto 0 20px;
+		}
+	}
+
     label{	
 
 		line-height:100%;

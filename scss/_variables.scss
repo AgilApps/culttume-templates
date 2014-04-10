@@ -3,41 +3,51 @@
 
 // *********************************** Declaration of variables Culttu.me. ***********************************
 
-//	Colors Culttume
-$black:#323232;
-$yellow:#FFEE20;
-$purple: #64387F;
-$orange: #F39720;
-$bluesky: #23AAE1;
-$red: #E84F35;
-$grey0: #d6d6d6;
-$grey1: #eeeeee; 
-$grey2: #8B8B8B;
-$grey3: #A5A5A5;
-$grey4: #878787;
-$grey5: #4D4D4D;
-$white: #FFFFFF;
-$white2: #F6F6F6;
-$color_google: #DD4B39; 
-$color_twitter: #52A8E9; 
-$color_facebook: #537ABB;
+////////////////////////////////////////////////Colors Culttume ///////////////////////////////////////////////
+$black  :#323232;
+$yellow :#FFEE20;
+$purple :#64387F;
+$orange :#F39720;
+$bluesky:#23AAE1;
+$red    :#E84F35;
+$grey0  :#d6d6d6;
+$grey1  :#eeeeee; 
+$grey2  :#8B8B8B;
+$grey3  :#A5A5A5;
+$grey4  :#878787;
+$grey5  :#4D4D4D;
+$white  :#FFFFFF;
+$white2 :#F6F6F6;
+$color_google  :#DD4B39; 
+$color_twitter :#52A8E9; 
+$color_facebook:#537ABB;
 
 
-
-// ************************************************* Fonts *****************************************************
+////////////////////////////////////////////////      Fonts    ///////////////////////////////////////////////
 
 $font-stack1:"Open Sans", sans-serif;//google font
 $font-stack2:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 
 
-// ************************************************* size of the titles ************************************
+////////////////////////////////////////////////      Size of titles    ///////////////////////////////////////////////
 
 $sizeh1:22px;
 
-// ************************************* dimensions ********************************************************
+////////////////////////////////////////////////      Dimensions Body   ///////////////////////////////////////////////
 
-$width_general: 100%; //body o div
-$height_general: 100%; //body o div
+$dimensions_general: 100%; //replace width_general and height_general
+
+
+
+////////////////////////////////////////////////      Dimensions Header   ///////////////////////////////////////////////
+
+
+
+////////////////////////////////////////////////      Dimensions Wrapper   ///////////////////////////////////////////////
+$width_wrapper: 1240px;
+
+
+
 $width_menufloat: 160px; //Floating menu
 
 // **************************************** dimensions aboutme **********************************************
@@ -72,7 +82,7 @@ $dimensions_ico_social_share         : 20px;
 $dimensions_ico_product              : 35px;
 
 /******************************** Wrapper ****************************************************/
-$width_wrapper             : 1080px;//content of content
+
 $width_wrapper_content_div : 1020px;
 $width_mini_logo 		   : 154px ; //Logo head width
 $width_input               : 160px; //Width based inputs

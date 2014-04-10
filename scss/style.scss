@@ -1,4 +1,3 @@
-
 /* styles are imported and declared variables */
 
 @import '_mixins';
@@ -7,9 +6,9 @@
 /*General properties of the body*/
 body {
 
-	width:$width_general; //100%
-	height:$height_general !important;
-	background:$white2;
+	width:$dimensions_general; 
+	height:$dimensions_general !important;
+	background:$white2; 
 	overflow-x:hidden;
 	overflow-y:visible;
 	font-family:$font-stack1;
@@ -20,33 +19,53 @@ body {
 /* General properties of the Header */
 header {
 
-	width: $width_general;
-	height: $height_header;
+	width: $dimensions_general;//100%
+	height: $height_header;//40px
 	background: $black;
-	@include transform-translate3d();
-	@include border-radius(0px);
 	z-index: 999;
     
     /*properties of the div that is inside header*/
 	#subheader{
 
-		max-width: $width_wrapper;
-		height: $height_header;
+		max-width: $width_wrapper; //1240px
+		height: $height_header; //40px
 		margin: auto;
 		background: transparent;//
 		overflow: visible;
-		@include transform-translate3d();
-		@include border-radius(0px);
 		padding: $pad_0;
         
         /* photo that appears on the right side of the header */
 		.photo_user_mini{
 			float:right;
-			width:100px;
 			height:$height_header;
 			margin:-5px 0 0 0;
 		}
 	}	
+}
+
+
+/* This will be the content of the page */
+#wrapper {
+
+	float:left;
+	min-width: $width_wrapper;//1240px
+	max-width: $width_wrapper;//1240px
+	border: 1px solid $bluesky;
+	height: auto;
+	background: $white;
+	margin: 30px 10px 10px ;
+	font-family: $font-stack2;
+	font-size:100%;
+	line-height:100%;
+	padding: $pad_0;
+
+	#subwrapper{
+		float: left;
+		width: 1060px;
+		border: 1px solid $bluesky;
+		background: $white;
+		margin: 10px 10px 10px 10px;
+	}
 }
 
 
@@ -56,7 +75,7 @@ header {
 	width:$width_menufloat; //160px
 	height:auto;
 	background: $white;
-	margin: 60px 10px auto 10px;
+	margin: 10px 10px 10px 10px;
 	float:left;
 	overflow: hidden;
 	@include transform-translate3d();
@@ -105,47 +124,88 @@ header {
 	}
 }
 
-/* This will be the content of the page */
-#wrapper {
-
-	float:left;
-	min-width: $width_wrapper;
-	max-width: $width_wrapper;
-	border: 1px solid $bluesky;
-	height: auto;
+#section_general{
+	width: 1030px;
+	height:auto;
 	background: $white;
-	margin: 60px auto 10px 5px;
-	font-family: $font-stack2;
-	font-size:100%;
-	line-height:100%;
-	padding: $pad_0;
+	margin: 10px 10px 10px 10px;
+	float:left;
+	overflow: hidden;
+	border: 1px solid $bluesky;
+
+	#section_aboutme{
+
+		width:239px;
+		background:$grey1;
+		float:left;
+		margin: 5px 5px 5px 5px;
+		border: 1px solid $bluesky;
+		height:auto;
+		text-align:justify;
+		padding: 5px 5px 5px 5px;
+	
+		#description_aboutme{
+			width: 239;
+			margin: auto;
+			font-family: $font-stack1;
+				h1{
+					font-size: 24px;
+					font-family: $font-stack1;
+			}
+		}
+	}
+
+	#section_aboutme2{
+
+		width:400px;
+		background:$grey1;
+		float:left;
+		margin: 5px 5px 5px 5px;
+		border: 1px solid $bluesky;
+		height:auto;
+		text-align:justify;
+		padding: 5px 5px 5px 5px;
+	
+		#description_aboutme{
+			width: 239;
+			margin: auto;
+			font-family: $font-stack1;
+				p{
+					font-size:0.9rem;
+				}
+				h1{
+					font-size: 1.5rem;
+					font-family: $font-stack1;
+			}
+		}
+	}
+
+	#section_social_profile{
+
+		width:70px;
+		background:$grey1;
+		float:left;
+		margin: 5px 5px 5px 5px;
+		border: 1px solid $bluesky;
+		height:auto;
+		text-align:justify;
+		padding: 5px 5px 5px 5px;
+	
+		#description_aboutme{
+			width: 239;
+			margin: auto;
+			font-family: $font-stack1;
+				h1{
+					font-size: 24px;
+					font-family: $font-stack1;
+			}
+		}
+	}
+
 }
 
 /*here are all the sections belonging to profile*/
-#general_aboutme{
 
-	float: left;
-	width: $width_general_aboutme; //725px
-	height: auto;
-	border: 1px solid $bluesky;
-	background: $white;
-	margin: 5px auto 10px 5px;
-    
-    #section_aboutme{
-
-	    width:239px;
-	    background:$grey1;
-	    float:left;
-	    margin:1px;
-	    border: 1px solid $bluesky;
-	    height:auto;
-
-	    #description_aboutme{
-		    width: 239;
-		    margin: auto;
-	    }
-    }
-}
 
 /* This section will display the list of followers */
 #section_followers{
@@ -163,7 +223,7 @@ header {
 footer{
 
 	float:left;
-	width:$width_general;
+	width:$dimensions_general;
 	height: $height_footer;
 	background: $black;
 	margin: 25px auto 0px auto;

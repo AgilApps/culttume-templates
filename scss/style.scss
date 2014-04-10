@@ -227,14 +227,14 @@ footer {
 	
 	width:$dimensions_general;
 	height: $height_footer;
-	background: $grey1;
+	background: $white;
 	margin: 0px auto 0px auto;
 
 	/* ********* footer content, social, links, menu, agilapps ******** */
 	.footer-content{
 		width:$width_wrapper;
 		height:$height_footer_content+50px;
-		background: $black;
+		background: $white;
 		margin: 0px auto 0px auto;
 
 		@include transform-translate3d();

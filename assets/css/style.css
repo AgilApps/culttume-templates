@@ -218,7 +218,7 @@ footer {
   float: left;
   width: 100%;
   height: 350px;
-  background: #eeeeee;
+  background: white;
   margin: 0px auto 0px auto;
   /* ********* footer content, social, links, menu, agilapps ******** */
 }
@@ -226,7 +226,7 @@ footer {
 footer .footer-content {
   width: 1240px;
   height: 375px;
-  background: #323232;
+  background: white;
   margin: 0px auto 0px auto;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);

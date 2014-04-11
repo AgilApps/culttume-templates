@@ -50,7 +50,7 @@ header {
 	float:left;
 	min-width: $width_wrapper;//1240px
 	max-width: $width_wrapper;//1240px
-	border: 1px solid $bluesky;
+	//border: 1px solid $bluesky;
 	height: auto;
 	background: transparent;
 	margin: 30px 10px 10px ;
@@ -62,7 +62,7 @@ header {
 	#subwrapper{
 		float: left;
 		width: 1060px;
-		border: 1px solid $bluesky;
+		//border: 1px solid $bluesky;
 		margin: 10px 10px 10px 10px;
 	}
 }
@@ -81,7 +81,7 @@ header {
 	@include border-radius(0px);
 	z-index: 90;
 	position: relative;
-	border: 1px solid $bluesky;
+	//border: 1px solid $bluesky;
     top: 0px;
     right: 0;
     left: 0px;
@@ -129,7 +129,7 @@ header {
 	margin: 10px 10px 10px 10px;
 	float:left;
 	overflow: hidden;
-	border: 1px solid $bluesky;
+	//border: 1px solid $bluesky;
 
 	#section_aboutme{
 
@@ -137,7 +137,7 @@ header {
 		background:$grey1;
 		float:left;
 		margin: 5px 5px 5px 5px;
-		border: 1px solid $bluesky;
+		//border: 1px solid $bluesky;
 		height:auto;
 		text-align:justify;
 		padding: 5px 5px 5px 5px;
@@ -159,7 +159,7 @@ header {
 		background:$grey1;
 		float:left;
 		margin: 5px 5px 5px 5px;
-		border: 1px solid $bluesky;
+		//border: 1px solid $bluesky;
 		height:auto;
 		text-align:justify;
 		padding: 5px 5px 5px 5px;
@@ -171,7 +171,7 @@ header {
 		background:$grey1;
 		float:left;
 		margin: 5px 5px 5px 5px;
-		border: 1px solid $bluesky;
+		//border: 1px solid $bluesky;
 		height:auto;
 		text-align:justify;
 		padding: 5px 5px 5px 5px;
@@ -184,7 +184,7 @@ header {
 		float:left;
 		background: $grey1;
 		margin: 5px 5px 5px 30px;
-		border: 1px solid $bluesky;
+		//border: 1px solid $bluesky;
 		font-family: $font-stack1;
 	}
 
@@ -207,7 +207,7 @@ header {
 		background:transparent;
 		float:left;
 		margin: 5px 5px 5px 5px;
-		border: 1px solid $bluesky;
+		//border: 1px solid $bluesky;
 		height:auto;
 		text-align:justify;
 		padding: 5px 5px 5px 5px;
@@ -234,7 +234,7 @@ footer {
 	.footer-content{
 		width:$width_wrapper;
 		height:$height_footer_content+50px;
-		background: $white;
+		background: transparent;
 		margin: 0px auto 0px auto;
 
 		@include transform-translate3d();
@@ -244,7 +244,7 @@ footer {
 			.sponsors-logos{
 				width:$width_wrapper;
 				height:$height_box_content_small;
-				background: $white;
+				background: transparent;
 				margin: 0px auto 0px auto;
 				overflow: hidden;
 				.logo-sponsor{
@@ -252,19 +252,19 @@ footer {
 					
 					width: $width_menufloat;
 					height: $height_box_content_small; //
-					background: $white;
+					background: transparent;
 					margin:0px 70px;
 				}
 				/* ********* Opacity, filter greyscale and bg sponsors ******** */
-				#img-presidencia{	@include filter-grey(100%);opacity: 0.5; background:url(../img/Presidencia-160x45.png) center center no-repeat, $white;}
-				#img-emprendetic2{	@include filter-grey(100%);opacity: 0.5; background:url(../img/EmprendeTic2-160x45.png) center center no-repeat, $white;}
-				#img-parquesoft{	@include filter-grey(100%);opacity: 0.5; background:url(../img/ParqueSoft-160x45.png) center center no-repeat, $white;}
-				#img-tecnoparque{	@include filter-grey(100%);opacity: 0.5; background:url(../img/Tecnoparque-160x87.png) center center no-repeat, $white;}
-				#img-fondo-emprender{@include filter-grey(100%);opacity: 0.5; background:url(../img/FondoEmprender-160x45.png) center center no-repeat, $white;}
-				#img-apssco{		@include filter-grey(100%);opacity: 0.5; background:url(../img/Apps.co-160x45.png) center center no-repeat, $white;}
-				#img-c3-d{			@include filter-grey(100%);opacity: 0.5; background:url(../img/C3+d-120x155.jpg) center no-repeat, $white;}
-				#img-ventures{		@include filter-grey(100%);opacity: 0.5; background:url(../img/Ventures-160x45.png) center center no-repeat, $white;}
-				#img-fonade{		@include filter-grey(100%);opacity: 0.5; background:url(../img/Fonade-160x128.jpg) center center no-repeat, $white;}
+				#img-presidencia{	@include filter-grey(100%);opacity: 0.5; background:url(../img/Presidencia-160x45.png) center center no-repeat;}
+				#img-emprendetic2{	@include filter-grey(100%);opacity: 0.5; background:url(../img/EmprendeTic2-160x45.png) center center no-repeat;}
+				#img-parquesoft{	@include filter-grey(100%);opacity: 0.5; background:url(../img/ParqueSoft-160x45.png) center center no-repeat;}
+				#img-tecnoparque{	@include filter-grey(100%);opacity: 0.5; background:url(../img/Tecnoparque-160x87.png) center center no-repeat;}
+				#img-fondo-emprender{@include filter-grey(100%);opacity: 0.5; background:url(../img/FondoEmprender-160x45.png) center center no-repeat;}
+				#img-apssco{		@include filter-grey(100%);opacity: 0.5; background:url(../img/Apps.co-160x45.png) center center no-repeat;}
+				#img-c3-d{			@include filter-grey(100%);opacity: 0.5; background:url(../img/C3+d-120x155.jpg) center no-repeat;}
+				#img-ventures{		@include filter-grey(100%);opacity: 0.5; background:url(../img/Ventures-160x45.png) center center no-repeat;}
+				#img-fonade{		@include filter-grey(100%);opacity: 0.5; background:url(../img/Fonade-160x128.jpg) center center no-repeat;}
 				/* ********* Opacity and filter effect ******** */
 				#img-presidencia:hover,#img-emprendetic2:hover,#img-parquesoft:hover,
 				#img-tecnoparque:hover,#img-fondo-emprender:hover,#img-apssco:hover,
@@ -277,7 +277,7 @@ footer {
 			.nav-map{
 				width:$width_box_perfil+108px;
 				height:$height_box_content_small;
-				background: $white;
+				background: transparent;
 				margin: 0px auto 0px auto;
 				overflow: hidden;
 					.sub-nav-map{
@@ -286,10 +286,16 @@ footer {
 						width: $width_menufloat;
 						height: auto; //
 						margin:1px 17.5px auto 17.5px;
-						background: $white;
+						background: transparent;
 					}
 					li{
 						list-style-type:none;
+						h6{
+							font-family: $font-stack1;
+						}
+						a{
+							font-family: $font-stack1;
+						}
 					}
 			}
 	}

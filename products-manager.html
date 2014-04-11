@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximun-scale=1">
+	<title>Culttu.me - Gestor de Eventos</title>
+	<link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/foundation.css" />
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body style="background:#f6f6f6;">
+	<!-- header -->
+	<header class="fixed">
+		<nav id="subheader" class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name"><h1><a href="#"><img src="assets/img/culttume-img-bar-menu.png" alt="Culttu.me"></a></h1></li>
+        </ul>
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <div class="photo_user_mini">
+          <ul class="right">
+            <li class="has-dropdown">
+              	<a href="#"><img src="assets/img/mini-photo-user-blanc.png" alt=""></a>
+                <ul class="dropdown">
+                  <li><a href="#">Registrate!</a></li>
+                  <li><a href="#modal" class="btn" id="modal_trigger" >Inicia Sesión</a></li>
+                </ul>   
+            </li>
+          </ul>
+          </div>
+        </section>
+      </nav>
+	</header>
+
+	<div id="wrapper">
+
+		<div id="float_menu">
+      		<dl class="accordion" data-accordion>
+        		<dd>
+          			<a href="">Gestor de Perfil</a>
+        		</dd>
+        		<dd>
+          			<a href="">Gestor de Eventos</a>
+        		</dd>
+        		<dd>
+          			<a href="#panel3">Gestor de Productos</a>
+        		</dd>
+        		<dd>
+          			<a href="#panel4">Gestor de Tiendas</a>
+        		</dd>
+        		<dd>
+          			<a href="#panel5">Gestor de Campañas</a>
+        		</dd>
+      		</dl>
+    	</div>
+
+    	<!-- General Section-->
+		<div id="section_general">
+			
+			<a href="#">
+			<div class="box-new-content">
+				<div class="new-object">
+					<div class="header-box-content">
+					<a href="">
+						<div class="ico-id-event"></div>
+						<h3 class="title-box-content">Crea un Nuevo evento</h3>
+					</a>
+					</div>
+				</div>
+			</div>
+			</a>
+			<!--div deleat event-->
+	    <div id="deleat-event" class="box-content">
+			<a href="#" class="deleat-object large-8 columns">
+				<label class="label-link">Eliminar Evento</label>
+				<div class="ico-id-deleat"></div>
+			</a>
+		</div>
+		<!--div Resticciones de eventos-->
+	<div class="box-content">
+		<div class="header-box-content">
+			<h3 class="title-box-content">Restricciones</h3>
+			<a class="ico-id-content" href=""><div class="ico-id-basic-info"></div></a>
+			<p class="subtitle-box-content">Define y controla las restricciones de tu evento</p>
+		</div>
+		<div class="line-color-grey"></div>
+		<div class="form-setting">
+			<form>
+				<!--Resticciones de comentarios-->
+			    <div class="small-12">
+			      <div class="row">
+			        <div class="small-3 columns">
+			          <label for="right-label" class="right inline">Comentarios</label>
+			        </div>
+			        <div class="small-9 columns">
+			          <select name="" id="">
+			          	<option value="">Todo el publico</option>
+			          	<option value="">Seguidores</option>
+			          	<option value="">Artistas</option>
+			          	<option value=""></option>
+			          	<option value=""></option>
+			          </select>
+			        </div>
+			      </div>
+			    </div>
+			    <!--Resticciones de visibilidad-->
+			    <div class="small-12">
+			      <div class="row">
+			        <div class="small-3 columns">
+			          <label for="right-label" class="right inline">visibilidad</label>
+			        </div>
+			        <div class="small-9 columns">
+			          <select name="" id="">
+			          	<option value="">Todo el publico</option>
+			          	<option value="">Seguidores</option>
+			          	<option value="">Artistas</option>
+			          	<option value=""></option>
+			          	<option value=""></option>
+			          </select>
+			        </div>
+			      </div>
+			    </div>
+			    <!--Resticciones de likes-->
+			    <div class="small-12">
+			      <div class="row">
+			        <div class="small-3 columns">
+			          <label for="right-label" class="right inline">likes</label>
+			        </div>
+			        <div class="small-9 columns">
+			          <select name="" id="">
+			          	<option value="">Todo el publico</option>
+			          	<option value="">Seguidores</option>
+			          	<option value="">Artistas</option>
+			          	<option value=""></option>
+			          	<option value=""></option>
+			          </select>
+			        </div>
+			      </div>
+			    </div>
+			    <!--Resticciones de compartir-->
+			    <div class="small-12">
+			      <div class="row">
+			        <div class="small-3 columns">
+			          <label for="right-label" class="right inline">Compartir</label>
+			        </div>
+			        <div class="small-9 columns">
+			          <select name="" id="">
+			          	<option value="">Todo el publico</option>
+			          	<option value="">Seguidores</option>
+			          	<option value="">Artistas</option>
+			          	<option value=""></option>
+			          	<option value=""></option>
+			          </select>
+			        </div>
+			      </div>
+			    </div>
+			</form>
+		</div>
+	</div>
+	<!--div subir imagen evento-->
+	<div class="box-content">
+		<div class="header-box-content">
+			<h3 class="title-box-content inline">Imagen Evento</h3>
+            <a class="ico-id-content" href=""><div class="ico-id-user-photo"></div></a>
+            <p class="subtitle-box-content">Selecciona la imagen para tu evento</p>
+		</div>
+        <div class="line-color-grey"></div>
+        <div class="small-12">
+          <div class="form-setting">
+				<div class="row">
+					<div class="small-7 columns">
+					  <input type="file" name="selecciona una foto">
+					</div>
+					<!--div editor vista imagen-->
+					<div class="product-box-content">
+						<img src="assets/img/ico-image-product.png">
+					</div>
+				</div>
+          </div>
+        </div>
+	</div>
+	<!--div Datos de localizacion de evento-->
+	<div class="box-content">
+		<div class="header-box-content">
+			<h3 class="title-box-content">Ubicación</h3>
+			<a class="ico-id-content" href=""><div class="ico-id-basic-info"></div></a>
+			<p class="subtitle-box-content">Define datos exactos del lugar del evento</p>
+		</div>
+		<div class="line-color-grey"></div>
+		<div class="form-setting">
+			<form>
+				<!-- Direccion evento-->
+			    <div class="small-12">
+			      <div class="row">
+			        <div class="small-3 columns">
+			          <label for="right-label" class="right inline">Direccion</label>
+			        </div>
+			        <div class="small-9 columns">
+			          <input type="text" id="right-label" placeholder="Ubicación del evento">
+			        </div>
+			      </div>
+			    </div>
+				<!--Pais evento-->
+			    <div class="small-12">
+			      <div class="row">
+			        <div class="small-3 columns">
+			          <label for="right-label" class="right inline">Pais</label>
+			        </div>
+			        <div class="small-9 columns">
+			          <select name="" id="">
+			          	<option value="">Selecciona el pais</option>
+			          	<option value="">Argentina</option>
+			          	<option value="">Colombia</option>
+			          	<option value="">Paraguay</option>
+			          	<option value="">Chile</option>
+			          </select>
+			        </div>
+			      </div>
+			    </div>
+			    <!--Ciudad de evento-->
+			    <div class="small-12">
+			      <div class="row">
+			        <div class="small-3 columns">
+			          <label for="right-label" class="right inline">Ciudad</label>
+			        </div>
+			        <div class="small-9 columns">
+			          <select name="" id="">
+			          	<option value="">Selecciona la ciudad</option>
+			          	<option value="">Bogotá D.C.</option>
+			          	<option value="">Medellin</option>
+			          	<option value="">Cali</option>
+			          	<option value="">Barranquilla</option>
+			          </select>
+			        </div>
+			      </div>
+			    </div>
+			    <a href="">
+			    	<label class="postfix inline"  style="background:#FFFFFF;">Cargar ubicación en mapa</label>
+			    </a>
+			    <!-- Google map info -->
+			    <div id="map-google" class="small-12">
+			      <div class="row">
+			        <div class="small-12 columns">
+			          <label class="postfix inline" style="background:#FFFFFF;">Google Maps</label>
+			        </div>
+			      </div>
+			    </div>
+			</form>
+		</div>
+	</div>
+	<!--div Musica producto-->
+	<div class="box-content">
+		<div class="header-box-content">
+			<h3 class="title-box-content">50 Byte - Evento recientes </h3>
+			<a class="ico-id-content" href=""><div class="ico-id-event"></div></a>
+		</div>
+		<div class="line-color-grey"></div>
+		<div class="music-box-content">
+			<img src="assets/img/ico-music-product.png">
+		</div>
+		<div class="info-box-content">
+			<a href="">
+				<div class="user-name-box-content">
+					<div class="ico-setting"></div>
+					<div class="user-name-mini">configuración</div>
+				</div>
+			</a>
+			<div class="ico-social">
+				<a class="share-social" href=""><div class="share-fb"></div></a>
+				<a class="share-social" href=""><div class="share-tw"></div></a>
+				<a class="share-social" href=""><div class="share-g"></div></a>
+			</div>
+		</div>
+	</div>
+
+		</div>
+
+	</div>
+	<footer>
+		 <div class="footer-content">
+      <section class="sponsors-logos">
+        <a href="http://bit.ly/1iBv5RT" target="_blank"><article class="logo-sponsor" id="img-presidencia"></article></a>
+        <a href="http://bit.ly/1iBvqUF" target="_blank"><article class="logo-sponsor" id="img-emprendetic2"></article></a>
+        <a href="http://http://bit.ly/1sIifZg" target="_blank"><article class="logo-sponsor" id="img-parquesoft"></article></a>
+        <a href="http://bit.ly/1oRd6i6" target="_blank"><article class="logo-sponsor" id="img-tecnoparque"></article></a>
+        <a href="http://bit.ly/1epGpnu" target="_blank"><article class="logo-sponsor" id="img-fondo-emprender"></article></a>
+        <a href="http://bit.ly/1iz8FzH" target="_blank"><article class="logo-sponsor" id="img-apssco"></article></a>
+        <a href="http://bit.ly/1hqo46n" target="_blank"><article class="logo-sponsor" id="img-c3-d"></article></a>
+        <a href="http://bit.ly/1geBZhC" target="_blank"><article class="logo-sponsor" id="img-ventures"></article></a>
+        <a href="http://bit.ly/1epG4RR" target="_blank"><article class="logo-sponsor" id="img-fonade"></article></a>
+      </section>
+      <section class="nav-map">
+        <article class="sub-nav-map">
+          <ul>
+            <li><h6>Culttu.me</h6></li>
+            <li><a href="http://blog.culttu.me/quienes-somos/" target="_blank">Nosotros</a></li>
+            <li><a href="http://blog.culttu.me/que-es-culttu-me/" target="_blank">Objetivos</a></li>
+            <li><a href="http://blog.culttu.me/" target="_blank">Servicios</a></li>
+            <li><a href="" target="_blank">Condiciones</a></li>
+            <li><a href="" target="_blank">FAQ</a></li>
+          </ul>
+        </article>
+        <article class="sub-nav-map">
+          <ul>
+            <li> <h6>Redes</h6> </li>
+            <li><a href="https://www.facebook.com/Culttu.me" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/culttume" target="_blank">Twitter</a></li>
+            <li><a href="" target="_blank">Google+</a></li>
+            <li><a href="" target="_blank">Youtube</a></li>
+            <li><a href="" target="_blank">Blog</a></li>
+          </ul>
+        </article>
+        <article class="sub-nav-map">
+          <ul>
+            <li> <h6>Ágilapps</h6> </li>
+            <li><a href="http://agilapps.co/" target="_blank">Website</a></li>
+            <li><a href="" target="_blank">Nosotros</a></li>
+            <li><a href="" target="_blank">Productos</a></li>
+            <li><a href="" target="_blank">Contactenos</a></li>
+            <li><a href="" target="_blank">-</a></li>
+          </ul>
+        </article>
+        <article class="sub-nav-map">
+          <ul>
+            <li> <h6>Guía</h6> </li>
+            <li><a href="http://agilapps.co/" target="_blank">Unete a Culttu.me</a></li>
+            <li><a href="" target="_blank">-</a></li>
+            <li><a href="" target="_blank">-</a></li>
+            <li><a href="" target="_blank">-</a></li>
+            <li><a href="" target="_blank">-</a></li>
+          </ul>
+        </article>
+      </section>
+    </div>
+	</footer>
+	
+	<script src="assets/js/vendor/jquery.js"></script>
+	<script src="assets/js/foundation/foundation.js"></script>
+	<script src="assets/js/foundation/foundation.topbar.js"></script>
+	<script src="assets/js/vendor/jquery.leanModal.min.js"></script>
+	<script src="assets/js/vendor/modernizr.js"></script>
+	<script src="assets/js/foundation.min.js"></script>
+	<script src="assets/js/login.js"></script>
+
+    <script>
+      $(document).foundation();
+      var doc = document.documentElement;
+      doc.setAttribute('data-useragent', navigator.userAgent);
+    </script>	
+</body>
+</html>

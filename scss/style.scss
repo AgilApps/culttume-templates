@@ -50,7 +50,7 @@ header {
 	float:left;
 	min-width: $width_wrapper;//1240px
 	max-width: $width_wrapper;//1240px
-	//border: 1px solid $bluesky;
+	border: 1px solid $bluesky;
 	height: auto;
 	background: transparent;
 	margin: 30px 10px 10px ;
@@ -62,7 +62,7 @@ header {
 	#subwrapper{
 		float: left;
 		width: 1060px;
-		//border: 1px solid $bluesky;
+		border: 1px solid $bluesky;
 		margin: 10px 10px 10px 10px;
 	}
 }
@@ -81,7 +81,7 @@ header {
 	@include border-radius(0px);
 	z-index: 90;
 	position: relative;
-	//border: 1px solid $bluesky;
+	border: 1px solid $bluesky;
     top: 0px;
     right: 0;
     left: 0px;
@@ -129,7 +129,7 @@ header {
 	margin: 10px 10px 10px 10px;
 	float:left;
 	overflow: hidden;
-	//border: 1px solid $bluesky;
+	border: 1px solid $bluesky;
 
 	#section_aboutme{
 
@@ -137,7 +137,7 @@ header {
 		background:$grey1;
 		float:left;
 		margin: 5px 5px 5px 5px;
-		//border: 1px solid $bluesky;
+		border: 1px solid $bluesky;
 		height:auto;
 		text-align:justify;
 		padding: 5px 5px 5px 5px;
@@ -159,7 +159,7 @@ header {
 		background:$grey1;
 		float:left;
 		margin: 5px 5px 5px 5px;
-		//border: 1px solid $bluesky;
+		border: 1px solid $bluesky;
 		height:auto;
 		text-align:justify;
 		padding: 5px 5px 5px 5px;
@@ -171,7 +171,7 @@ header {
 		background:$grey1;
 		float:left;
 		margin: 5px 5px 5px 5px;
-		//border: 1px solid $bluesky;
+		border: 1px solid $bluesky;
 		height:auto;
 		text-align:justify;
 		padding: 5px 5px 5px 5px;
@@ -184,7 +184,7 @@ header {
 		float:left;
 		background: $grey1;
 		margin: 5px 5px 5px 30px;
-		//border: 1px solid $bluesky;
+		border: 1px solid $bluesky;
 		font-family: $font-stack1;
 	}
 
@@ -207,7 +207,7 @@ header {
 		background:transparent;
 		float:left;
 		margin: 5px 5px 5px 5px;
-		//border: 1px solid $bluesky;
+		border: 1px solid $bluesky;
 		height:auto;
 		text-align:justify;
 		padding: 5px 5px 5px 5px;
@@ -810,3 +810,49 @@ a.btn_red {
 		overflow: hidden;
 	}
 } 
+
+.box-new-content{
+	float:left;
+
+	width: $width_box_content;
+	height: $height_box_new_content;
+	background: $white;
+	margin: $margin_cont;
+	border: 1px dashed $grey2;
+	overflow: hidden;
+		.new-object{
+			width: $width_h3_title_content;
+			height: $height_header;
+			background: transparent;
+			margin: 23px auto 0 auto;
+			.header-box-content{
+			width: auto;
+			height: $height_header;
+				.title-box-content{
+					float:left;
+					width: $width_p_title_content;
+					height: $height_h3_title_content;
+					background: $white;
+					margin: 0;
+					padding:5px 5px 5px 10px;
+
+					font-variant: small-caps;
+					line-height:100%;
+					font-weight:300;
+					font-size:1.05rem;
+					color:$bluesky;
+				}
+					.ico-id-event, .ico-id-product{
+						float:left;
+						width:$dimensions_ico_product;
+						height:$dimensions_ico_product;
+						margin:0 5px 0 10px;  
+						background-size:100% 100%;
+						background-position:center center;
+					}
+					.ico-id-event{	background: url(../img/ico-event.png) no-repeat;}//
+					.ico-id-product{	background: url(../img/ico-new-event.png) no-repeat;}
+				.ico-id-content{}	
+			}
+		}
+}

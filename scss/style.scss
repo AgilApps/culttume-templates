@@ -73,6 +73,7 @@ header {
 
 	width:$width_menufloat; //160px
 	height:auto;
+	position: fixed;
 	background: $white;
 	margin: 10px 10px 10px 10px;
 	float:left;
@@ -617,7 +618,7 @@ footer {
 }
 .btn_red {
 
-	background: #ED6347; 
+	background: $red; 
 	color: #FFF;
 }
 
@@ -754,6 +755,7 @@ a.btn_red {
 	label {
 		display: block; 
 		margin-bottom:5px;
+		font-family: $font-stack1;
 	}
 
 	input[type="text"],input[type="email"],input[type="password"]{

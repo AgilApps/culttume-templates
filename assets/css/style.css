@@ -45,7 +45,6 @@ header #subheader .photo_user_mini {
   float: left;
   min-width: 1240px;
   max-width: 1240px;
-  border: 1px solid #23aae1;
   height: auto;
   background: transparent;
   margin: 30px 10px 10px;
@@ -58,7 +57,6 @@ header #subheader .photo_user_mini {
 #wrapper #subwrapper {
   float: left;
   width: 1060px;
-  border: 1px solid #23aae1;
   margin: 10px 10px 10px 10px;
 }
 
@@ -82,7 +80,6 @@ header #subheader .photo_user_mini {
   border-radius: 0px;
   z-index: 90;
   position: relative;
-  border: 1px solid #23aae1;
   top: 0px;
   right: 0;
   left: 0px;
@@ -126,7 +123,6 @@ header #subheader .photo_user_mini {
   margin: 10px 10px 10px 10px;
   float: left;
   overflow: hidden;
-  border: 1px solid #23aae1;
 }
 /* line 134, ../../scss/style.scss */
 #section_general #section_aboutme {
@@ -134,7 +130,6 @@ header #subheader .photo_user_mini {
   background: #eeeeee;
   float: left;
   margin: 5px 5px 5px 5px;
-  border: 1px solid #23aae1;
   height: auto;
   text-align: justify;
   padding: 5px 5px 5px 5px;
@@ -156,7 +151,6 @@ header #subheader .photo_user_mini {
   background: #eeeeee;
   float: left;
   margin: 5px 5px 5px 5px;
-  border: 1px solid #23aae1;
   height: auto;
   text-align: justify;
   padding: 5px 5px 5px 5px;
@@ -167,7 +161,6 @@ header #subheader .photo_user_mini {
   background: #eeeeee;
   float: left;
   margin: 5px 5px 5px 5px;
-  border: 1px solid #23aae1;
   height: auto;
   text-align: justify;
   padding: 5px 5px 5px 5px;
@@ -179,7 +172,6 @@ header #subheader .photo_user_mini {
   float: left;
   background: #eeeeee;
   margin: 5px 5px 5px 30px;
-  border: 1px solid #23aae1;
   font-family: "Open Sans", sans-serif;
 }
 /* line 191, ../../scss/style.scss */
@@ -203,7 +195,6 @@ header #subheader .photo_user_mini {
   background: transparent;
   float: left;
   margin: 5px 5px 5px 5px;
-  border: 1px solid #23aae1;
   height: auto;
   text-align: justify;
   padding: 5px 5px 5px 5px;

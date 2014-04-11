@@ -134,7 +134,7 @@ header {
 	#section_aboutme{
 
 		width:239px;
-		background:$grey1;
+		background:$white;
 		float:left;
 		margin: 5px 5px 5px 5px;
 		//border: 1px solid $bluesky;
@@ -156,7 +156,7 @@ header {
 	#section_aboutme2{
 
 		width:400px;
-		background:$grey1;
+		background:$white;
 		float:left;
 		margin: 5px 5px 5px 5px;
 		//border: 1px solid $bluesky;
@@ -168,7 +168,7 @@ header {
 	#section_social_profile{
 
 		width:70px;
-		background:$grey1;
+		background:$white;
 		float:left;
 		margin: 5px 5px 5px 5px;
 		//border: 1px solid $bluesky;
@@ -180,11 +180,10 @@ header {
 	#section_followers{
 
 		width:$width_followers;
-		border: 1px solid $bluesky;
-		float:left;
-		background: $grey1;
-		margin: 5px 5px 5px 30px;
 		//border: 1px solid $bluesky;
+		float:left;
+		background:$white;
+		margin: 5px 5px 5px 30px;
 		font-family: $font-stack1;
 	}
 
@@ -580,7 +579,8 @@ footer {
 	overflow: hidden;
 }
 
-/* form register and login */
+/***************************************************** form register and login ************************************************************ */
+
 #lean_overlay {
 
     position: fixed;
@@ -658,8 +658,9 @@ a.btn_red {
 .popupHeader {
 
 	font-size:16px; 
-	text-transform: uppercase;
-	background:#F4F4F2; 
+	font-family:$font-stack1;
+	background:#F4F4F2;
+	text-align:center; 
 	position:relative; 
 	padding:10px 20px; 
 	border-bottom:1px solid #DDD; 
@@ -672,7 +673,7 @@ a.btn_red {
 		padding:10px 15px; 
 		background:#E4E4E2; 
 		cursor: pointer; 
-		color:#aaa; 
+		color:$red; 
 		font-size:16px;
 	}
 }
@@ -695,15 +696,16 @@ a.btn_red {
 	}
 	.icon {
 		display:block; 
-		width:10px; 
-		padding:5px 10px; 
-		margin-right: 10px; 
+		width:15px; 
+		padding:5px 20px; 
+		margin-right:10px; 
 		float:left; 
 		color:#FFF; 
 		font-size:16px; 
 		text-align: center;
 	}
 	.icon_title {
+		font-family:$font-stack1;
 		display:block; 
 		padding:5px 0; 
 		float:left; 
@@ -720,6 +722,9 @@ a.btn_red {
 	.google .icon {
 		background:#DD4B39;
 	}
+	.tw .icon{
+		background:$color_twitter;
+	}
 }
 
 
@@ -727,9 +732,10 @@ a.btn_red {
 
 	text-align: center; 
 	margin: 20px 0; 
-	clear: both; 
-	overflow: hidden; 
-	text-transform: uppercase;
+	clear: both;
+	padding-bottom: 10px;
+	overflow: hidden;
+	font-family: $font-stack1;
 }
 
 .action_btns {
@@ -737,7 +743,7 @@ a.btn_red {
 	overflow: hidden;
 
 	a {
-		display: block;
+		display: inline-block;
 	}
 }
 

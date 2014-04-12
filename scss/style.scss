@@ -87,41 +87,6 @@ header {
     right: 0;
     left: 0px;
     padding: $pad_0;
-	
-	.menu{
-
-
-		ul{
-
-		    list-style:none;
-		    float:left;
-		    margin: 10px 10px auto 10px;
-
-		    li{
-		    	float:left;
-    			width:$width_menufloat;
-    			background: $black;
-    			padding:5px;
-    			a{
-
-				    color: $white;
-				    text-decoration:none;
-				    font-family:$font-stack1;
-				    font-size: 13px;
-
-				    :hover{
-
-					    background:$bluesky ;
-					}
-				}
-				h2{
-					text-align: center;
-					color: $white;
-					font-family:$font-stack1;
-				}
-		    }
-		}
-	}
 }
 
 #section_general{
@@ -204,7 +169,7 @@ header {
 	#section_statistics{
 
 		width: 1010px;
-		background:transparent;
+		background:$white;
 		float:left;
 		margin: 5px 5px 5px 5px;
 		//border: 1px solid $bluesky;
@@ -215,6 +180,41 @@ header {
 	}
 
 }
+
+.menu{
+
+
+		ul{
+
+		    list-style:none;
+		    float:left;
+		    margin: 10px 10px auto 10px;
+
+		    li{
+		    	float:left;
+    			width:$width_menufloat;
+    			background:transparent;
+    			padding:5px;
+    			a{
+
+				    color: $white;
+				    text-decoration:none;
+				    font-family:$font-stack1;
+				    font-size: 13px;
+
+				    :hover{
+
+					    background:$white ;
+					}
+				}
+				h2{
+					text-align: center;
+					color: $white;
+					font-family:$font-stack1;
+				}
+		    }
+		}
+	}
 
 /*here are all the sections belonging to profile*/
 

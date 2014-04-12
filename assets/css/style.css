@@ -86,38 +86,8 @@ header #subheader .photo_user_mini {
   left: 0px;
   padding: 0px;
 }
-/* line 94, ../../scss/style.scss */
-#float_menu .menu ul {
-  list-style: none;
-  float: left;
-  margin: 10px 10px auto 10px;
-}
-/* line 100, ../../scss/style.scss */
-#float_menu .menu ul li {
-  float: left;
-  width: 160px;
-  background: #323232;
-  padding: 5px;
-}
-/* line 105, ../../scss/style.scss */
-#float_menu .menu ul li a {
-  color: white;
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-  font-size: 13px;
-}
-/* line 112, ../../scss/style.scss */
-#float_menu .menu ul li a :hover {
-  background: #23aae1;
-}
-/* line 117, ../../scss/style.scss */
-#float_menu .menu ul li h2 {
-  text-align: center;
-  color: white;
-  font-family: "Open Sans", sans-serif;
-}
 
-/* line 127, ../../scss/style.scss */
+/* line 92, ../../scss/style.scss */
 #section_general {
   width: 1030px;
   height: auto;
@@ -125,7 +95,7 @@ header #subheader .photo_user_mini {
   float: left;
   overflow: hidden;
 }
-/* line 135, ../../scss/style.scss */
+/* line 100, ../../scss/style.scss */
 #section_general #section_aboutme {
   width: 239px;
   background: white;
@@ -135,18 +105,18 @@ header #subheader .photo_user_mini {
   text-align: justify;
   padding: 5px 5px 5px 5px;
 }
-/* line 146, ../../scss/style.scss */
+/* line 111, ../../scss/style.scss */
 #section_general #section_aboutme #description_aboutme {
   width: 239;
   margin: auto;
   font-family: "Open Sans", sans-serif;
 }
-/* line 150, ../../scss/style.scss */
+/* line 115, ../../scss/style.scss */
 #section_general #section_aboutme #description_aboutme h1 {
   font-size: 24px;
   font-family: "Open Sans", sans-serif;
 }
-/* line 157, ../../scss/style.scss */
+/* line 122, ../../scss/style.scss */
 #section_general #section_aboutme2 {
   width: 400px;
   background: white;
@@ -156,7 +126,7 @@ header #subheader .photo_user_mini {
   text-align: justify;
   padding: 5px 5px 5px 5px;
 }
-/* line 169, ../../scss/style.scss */
+/* line 134, ../../scss/style.scss */
 #section_general #section_social_profile {
   width: 70px;
   background: white;
@@ -166,7 +136,7 @@ header #subheader .photo_user_mini {
   text-align: justify;
   padding: 5px 5px 5px 5px;
 }
-/* line 181, ../../scss/style.scss */
+/* line 146, ../../scss/style.scss */
 #section_general #section_followers {
   width: 250px;
   float: left;
@@ -174,31 +144,62 @@ header #subheader .photo_user_mini {
   margin: 5px 5px 5px 30px;
   font-family: "Open Sans", sans-serif;
 }
-/* line 191, ../../scss/style.scss */
+/* line 156, ../../scss/style.scss */
 #section_general #description_aboutme {
   width: 239;
   margin: auto;
   font-family: "Open Sans", sans-serif;
 }
-/* line 195, ../../scss/style.scss */
+/* line 160, ../../scss/style.scss */
 #section_general #description_aboutme p {
   font-size: 0.9rem;
 }
-/* line 198, ../../scss/style.scss */
+/* line 163, ../../scss/style.scss */
 #section_general #description_aboutme h1 {
   font-size: 1.5rem;
   font-family: "Open Sans", sans-serif;
 }
-/* line 204, ../../scss/style.scss */
+/* line 169, ../../scss/style.scss */
 #section_general #section_statistics {
   width: 1010px;
-  background: transparent;
+  background: white;
   float: left;
   margin: 5px 5px 5px 5px;
   height: auto;
   text-align: justify;
   padding: 5px 5px 5px 5px;
   text-align: center;
+}
+
+/* line 187, ../../scss/style.scss */
+.menu ul {
+  list-style: none;
+  float: left;
+  margin: 10px 10px auto 10px;
+}
+/* line 193, ../../scss/style.scss */
+.menu ul li {
+  float: left;
+  width: 160px;
+  background: transparent;
+  padding: 5px;
+}
+/* line 198, ../../scss/style.scss */
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+/* line 205, ../../scss/style.scss */
+.menu ul li a :hover {
+  background: white;
+}
+/* line 210, ../../scss/style.scss */
+.menu ul li h2 {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*here are all the sections belonging to profile*/

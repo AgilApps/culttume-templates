@@ -61,7 +61,7 @@
           <div class="centeredText">
             <span>o ingresa con tu e-mail</span>
           </div>
-          <div class="action_btns">
+          <div class="action_btns" align="center">
             <div class="one_half"><a href="#" id="login_form" class="btn">Iniciar Sesión</a></div>
             <div class="one_half last"><a href="#" id="register_form" class="btn">Registrase</a></div>
           </div>
@@ -70,52 +70,51 @@
           <!-- Username & Password Login form -->
         <div class="user_login">
           <form>
-            <label>Email</label>
-            <input type="text" />
-            <br />
+            <label for="emailLogin">Email</label>
+            <input type="text" id="emailLogin">
 
-            <label>Contraseña</label>
-            <input type="password" />
-            <br />
+            <label for="passwordLogin">Contraseña</label>
+            <input type="password" id="passwordLogin">
 
             <div class="checkbox">
-            <input id="remember" type="checkbox" />
-            <label for="remember">Recordar mis datos en este navegador</label>
+              <input id="remember" type="checkbox">
+              <label for="remember">Recordar mis datos</label>
             </div>
-
-            <div class="action_btns">
-            <div class="one_half"><a href="#" class="btn back_btn">Atras</a></div>
-            <div class="one_half last"><a href="#" class="btn btn_red">Ingresar</a></div>
+            <div class="action_btns" align="center">
+              <div class="one_half"><a href="#" class="btn back_btn">Atras</a></div>
+              <div class="one_half last"><a href="#" class="btn btn_red">Ingresar</a></div>
             </div>
           </form>
-
           <a href="#" class="forgot_password">¿Has olvidado tu contraseña?</a>
         </div>
 
         <!-- Register Form -->
         <div class="user_register">
-        <form>
-        <label>Nombre</label>
-        <input type="text" />
-        <br />
+        <form action="" method="">
 
-        <label>Email</label>
-        <input type="email" />
-        <br />
+          <label for="nameRegister">Nombre</label>
+          <input type="text" id="nameRegister" >
+         
 
-        <label>Contraseña</label>
-        <input type="password" />
-        <br />
+          <label for="emailRegister">Email</label>
+          <input type="email" id="emailRegister">
+          
+          <label for="usernameRegister">Nombre de Usuario</label>
+          <input type="text" id="usernameRegister">
 
-        <div class="checkbox">
-        <input id="send_updates" type="checkbox">
-        <label for="send_updates">Acepto las condiciones de uso</label>
-        </div>
 
-        <div class="action_btns">
-        <div class="one_half"><a href="#" class="btn back_btn">Atras</a></div>
-        <div class="one_half last"><a href="#" class="btn btn_red">Registrarme</a></div>
-        </div>
+          <label for="passwordRegister">Contraseña</label>
+          <input type="password" id="passwordRegister">
+          
+          <div class="checkbox">
+            <input id="send_updates" type="checkbox">
+            <label for="send_updates">Acepto las condiciones de uso</label>
+          </div>
+          <div class="action_btns" align="center">
+            <div class="one_half"><a href="" class="btn back_btn">Atras</a></div>
+            <div class="one_half last"><a href="" class="btn btn_red">Registrarme</a></div>
+          </div>
+          </div>
         </form>
         </div>
       </section>

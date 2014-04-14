@@ -902,7 +902,6 @@ a.btn_red {
 /* line 803, ../../scss/style.scss */
 .user_register label {
   display: block;
-  margin-bottom: 5px;
 }
 /* line 808, ../../scss/style.scss */
 .user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {

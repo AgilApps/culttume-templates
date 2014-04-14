@@ -74,7 +74,7 @@ header {
 	width:$width_menufloat; //160px
 	height:auto;
 	position: fixed;
-	background: $white;
+	background: $black;
 	margin: 10px 10px 10px 10px;
 	float:left;
 	overflow: hidden;
@@ -87,6 +87,13 @@ header {
     right: 0;
     left: 0px;
     padding: $pad_0;
+    h1{
+    	font-family: $font-stack1;
+    	text-align:center;
+    	font-size: 1.5rem;
+    	background:$black;
+    	color:$white;
+    }
 }
 
 #section_general{

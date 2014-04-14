@@ -66,7 +66,7 @@ header #subheader .photo_user_mini {
   width: 160px;
   height: auto;
   position: fixed;
-  background: white;
+  background: #323232;
   margin: 10px 10px 10px 10px;
   float: left;
   overflow: hidden;
@@ -86,8 +86,16 @@ header #subheader .photo_user_mini {
   left: 0px;
   padding: 0px;
 }
+/* line 90, ../../scss/style.scss */
+#float_menu h1 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  background: #323232;
+  color: white;
+}
 
-/* line 92, ../../scss/style.scss */
+/* line 99, ../../scss/style.scss */
 #section_general {
   width: 1030px;
   height: auto;
@@ -95,7 +103,7 @@ header #subheader .photo_user_mini {
   float: left;
   overflow: hidden;
 }
-/* line 100, ../../scss/style.scss */
+/* line 107, ../../scss/style.scss */
 #section_general #section_aboutme {
   width: 239px;
   background: white;
@@ -105,18 +113,18 @@ header #subheader .photo_user_mini {
   text-align: justify;
   padding: 5px 5px 5px 5px;
 }
-/* line 111, ../../scss/style.scss */
+/* line 118, ../../scss/style.scss */
 #section_general #section_aboutme #description_aboutme {
   width: 239;
   margin: auto;
   font-family: "Open Sans", sans-serif;
 }
-/* line 115, ../../scss/style.scss */
+/* line 122, ../../scss/style.scss */
 #section_general #section_aboutme #description_aboutme h1 {
   font-size: 24px;
   font-family: "Open Sans", sans-serif;
 }
-/* line 122, ../../scss/style.scss */
+/* line 129, ../../scss/style.scss */
 #section_general #section_aboutme2 {
   width: 400px;
   background: white;
@@ -126,7 +134,7 @@ header #subheader .photo_user_mini {
   text-align: justify;
   padding: 5px 5px 5px 5px;
 }
-/* line 134, ../../scss/style.scss */
+/* line 141, ../../scss/style.scss */
 #section_general #section_social_profile {
   width: 70px;
   background: white;
@@ -136,7 +144,7 @@ header #subheader .photo_user_mini {
   text-align: justify;
   padding: 5px 5px 5px 5px;
 }
-/* line 146, ../../scss/style.scss */
+/* line 153, ../../scss/style.scss */
 #section_general #section_followers {
   width: 250px;
   float: left;
@@ -144,22 +152,22 @@ header #subheader .photo_user_mini {
   margin: 5px 5px 5px 30px;
   font-family: "Open Sans", sans-serif;
 }
-/* line 156, ../../scss/style.scss */
+/* line 163, ../../scss/style.scss */
 #section_general #description_aboutme {
   width: 239;
   margin: auto;
   font-family: "Open Sans", sans-serif;
 }
-/* line 160, ../../scss/style.scss */
+/* line 167, ../../scss/style.scss */
 #section_general #description_aboutme p {
   font-size: 0.9rem;
 }
-/* line 163, ../../scss/style.scss */
+/* line 170, ../../scss/style.scss */
 #section_general #description_aboutme h1 {
   font-size: 1.5rem;
   font-family: "Open Sans", sans-serif;
 }
-/* line 169, ../../scss/style.scss */
+/* line 176, ../../scss/style.scss */
 #section_general #section_statistics {
   width: 1010px;
   background: white;
@@ -171,31 +179,31 @@ header #subheader .photo_user_mini {
   text-align: center;
 }
 
-/* line 187, ../../scss/style.scss */
+/* line 194, ../../scss/style.scss */
 .menu ul {
   list-style: none;
   float: left;
   margin: 10px 10px auto 10px;
 }
-/* line 193, ../../scss/style.scss */
+/* line 200, ../../scss/style.scss */
 .menu ul li {
   float: left;
   width: 160px;
   background: transparent;
   padding: 5px;
 }
-/* line 198, ../../scss/style.scss */
+/* line 205, ../../scss/style.scss */
 .menu ul li a {
   color: white;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
 }
-/* line 205, ../../scss/style.scss */
+/* line 212, ../../scss/style.scss */
 .menu ul li a :hover {
   background: white;
 }
-/* line 210, ../../scss/style.scss */
+/* line 217, ../../scss/style.scss */
 .menu ul li h2 {
   text-align: center;
   color: white;
@@ -205,7 +213,7 @@ header #subheader .photo_user_mini {
 /*here are all the sections belonging to profile*/
 /* This section will display the list of followers */
 /* properties general footer  */
-/* line 225, ../../scss/style.scss */
+/* line 232, ../../scss/style.scss */
 footer {
   float: left;
   width: 100%;
@@ -214,7 +222,7 @@ footer {
   margin: 0px auto 0px auto;
   /* ********* footer content, social, links, menu, agilapps ******** */
 }
-/* line 234, ../../scss/style.scss */
+/* line 241, ../../scss/style.scss */
 footer .footer-content {
   width: 1240px;
   height: 375px;
@@ -233,7 +241,7 @@ footer .footer-content {
   /* ********* Sponsors culttume ******** */
   /* ********* navegation general ******** */
 }
-/* line 244, ../../scss/style.scss */
+/* line 251, ../../scss/style.scss */
 footer .footer-content .sponsors-logos {
   width: 1240px;
   height: 160px;
@@ -243,7 +251,7 @@ footer .footer-content .sponsors-logos {
   /* ********* Opacity, filter greyscale and bg sponsors ******** */
   /* ********* Opacity and filter effect ******** */
 }
-/* line 250, ../../scss/style.scss */
+/* line 257, ../../scss/style.scss */
 footer .footer-content .sponsors-logos .logo-sponsor {
   display: inline-block;
   width: 160px;
@@ -251,7 +259,7 @@ footer .footer-content .sponsors-logos .logo-sponsor {
   background: transparent;
   margin: 0px 70px;
 }
-/* line 259, ../../scss/style.scss */
+/* line 266, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-presidencia {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -261,7 +269,7 @@ footer .footer-content .sponsors-logos #img-presidencia {
   opacity: 0.5;
   background: url(../img/Presidencia-160x45.png) center center no-repeat;
 }
-/* line 260, ../../scss/style.scss */
+/* line 267, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-emprendetic2 {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -271,7 +279,7 @@ footer .footer-content .sponsors-logos #img-emprendetic2 {
   opacity: 0.5;
   background: url(../img/EmprendeTic2-160x45.png) center center no-repeat;
 }
-/* line 261, ../../scss/style.scss */
+/* line 268, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-parquesoft {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -281,7 +289,7 @@ footer .footer-content .sponsors-logos #img-parquesoft {
   opacity: 0.5;
   background: url(../img/ParqueSoft-160x45.png) center center no-repeat;
 }
-/* line 262, ../../scss/style.scss */
+/* line 269, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-tecnoparque {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -291,7 +299,7 @@ footer .footer-content .sponsors-logos #img-tecnoparque {
   opacity: 0.5;
   background: url(../img/Tecnoparque-160x87.png) center center no-repeat;
 }
-/* line 263, ../../scss/style.scss */
+/* line 270, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-fondo-emprender {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -301,7 +309,7 @@ footer .footer-content .sponsors-logos #img-fondo-emprender {
   opacity: 0.5;
   background: url(../img/FondoEmprender-160x45.png) center center no-repeat;
 }
-/* line 264, ../../scss/style.scss */
+/* line 271, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-apssco {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -311,7 +319,7 @@ footer .footer-content .sponsors-logos #img-apssco {
   opacity: 0.5;
   background: url(../img/Apps.co-160x45.png) center center no-repeat;
 }
-/* line 265, ../../scss/style.scss */
+/* line 272, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-c3-d {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -321,7 +329,7 @@ footer .footer-content .sponsors-logos #img-c3-d {
   opacity: 0.5;
   background: url(../img/C3+d-120x155.jpg) center no-repeat;
 }
-/* line 266, ../../scss/style.scss */
+/* line 273, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-ventures {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -331,7 +339,7 @@ footer .footer-content .sponsors-logos #img-ventures {
   opacity: 0.5;
   background: url(../img/Ventures-160x45.png) center center no-repeat;
 }
-/* line 267, ../../scss/style.scss */
+/* line 274, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-fonade {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -341,7 +349,7 @@ footer .footer-content .sponsors-logos #img-fonade {
   opacity: 0.5;
   background: url(../img/Fonade-160x128.jpg) center center no-repeat;
 }
-/* line 271, ../../scss/style.scss */
+/* line 278, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-presidencia:hover, footer .footer-content .sponsors-logos #img-emprendetic2:hover, footer .footer-content .sponsors-logos #img-parquesoft:hover,
 footer .footer-content .sponsors-logos #img-tecnoparque:hover, footer .footer-content .sponsors-logos #img-fondo-emprender:hover, footer .footer-content .sponsors-logos #img-apssco:hover,
 footer .footer-content .sponsors-logos #img-c3-d:hover, footer .footer-content .sponsors-logos #img-ventures:hover, footer .footer-content .sponsors-logos #img-fonade:hover {
@@ -352,7 +360,7 @@ footer .footer-content .sponsors-logos #img-c3-d:hover, footer .footer-content .
   filter: grayscale(0%);
   opacity: 5;
 }
-/* line 277, ../../scss/style.scss */
+/* line 284, ../../scss/style.scss */
 footer .footer-content .nav-map {
   width: 800px;
   height: 160px;
@@ -360,7 +368,7 @@ footer .footer-content .nav-map {
   margin: 0px auto 0px auto;
   overflow: hidden;
 }
-/* line 283, ../../scss/style.scss */
+/* line 290, ../../scss/style.scss */
 footer .footer-content .nav-map .sub-nav-map {
   display: inline-block;
   width: 160px;
@@ -368,22 +376,22 @@ footer .footer-content .nav-map .sub-nav-map {
   margin: 1px 17.5px auto 17.5px;
   background: transparent;
 }
-/* line 291, ../../scss/style.scss */
+/* line 298, ../../scss/style.scss */
 footer .footer-content .nav-map li {
   list-style-type: none;
 }
-/* line 293, ../../scss/style.scss */
+/* line 300, ../../scss/style.scss */
 footer .footer-content .nav-map li h6 {
   font-family: "Open Sans", sans-serif;
 }
-/* line 296, ../../scss/style.scss */
+/* line 303, ../../scss/style.scss */
 footer .footer-content .nav-map li a {
   font-family: "Open Sans", sans-serif;
 }
 
 /*************************************** Content general styles boxes ********************************************************/
 /*.box-content Has styles boxes and properties */
-/* line 306, ../../scss/style.scss */
+/* line 313, ../../scss/style.scss */
 .box-content {
   float: left;
   width: 320px;
@@ -398,14 +406,14 @@ footer .footer-content .nav-map li a {
   /*the dimension of this div will be content  photos, ilustrations, animates and video*/
   /*the characteristics of this content only will be content API soundcloud*/
 }
-/* line 320, ../../scss/style.scss */
+/* line 327, ../../scss/style.scss */
 .box-content .header-box-content {
   width: 320px;
   height: 47px;
   background: white;
   overflow: hidden;
 }
-/* line 327, ../../scss/style.scss */
+/* line 334, ../../scss/style.scss */
 .box-content .header-box-content .title-box-content {
   float: left;
   width: 258px;
@@ -418,14 +426,14 @@ footer .footer-content .nav-map li a {
   font-weight: 300;
   font-size: 100%;
 }
-/* line 341, ../../scss/style.scss */
+/* line 348, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content {
   float: right;
   width: 47px;
   height: 47px;
   margin: 0;
 }
-/* line 351, ../../scss/style.scss */
+/* line 358, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-photo, .box-content .header-box-content .ico-id-content .ico-id-music, .box-content .header-box-content .ico-id-content .ico-id-video,
 .box-content .header-box-content .ico-id-content .ico-id-animation, .box-content .header-box-content .ico-id-content .ico-id-illustration, .box-content .header-box-content .ico-id-content .ico-id-web,
 .box-content .header-box-content .ico-id-content .ico-id-password, .box-content .header-box-content .ico-id-content .ico-id-about-you,
@@ -437,51 +445,51 @@ footer .footer-content .nav-map li a {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 361, ../../scss/style.scss */
+/* line 368, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-photo {
   background: url(../img/ico-photos.png);
 }
-/* line 362, ../../scss/style.scss */
+/* line 369, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-music {
   background: url(../img/ico-music.png);
 }
-/* line 363, ../../scss/style.scss */
+/* line 370, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-video {
   background: url(../img/ico-video.png);
 }
-/* line 364, ../../scss/style.scss */
+/* line 371, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-animation {
   background: url(../img/ico-animation.png);
 }
-/* line 365, ../../scss/style.scss */
+/* line 372, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-illustration {
   background: url(../img/ico-illustration.png);
 }
-/* line 366, ../../scss/style.scss */
+/* line 373, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-web {
   background: url(../img/ico-web.png);
 }
-/* line 367, ../../scss/style.scss */
+/* line 374, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-password {
   background: url(../img/ico-password.png);
 }
-/* line 368, ../../scss/style.scss */
+/* line 375, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-about-you {
   background: url(../img/ico-about-you.png);
 }
-/* line 369, ../../scss/style.scss */
+/* line 376, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-basic-info {
   background: url(../img/ico-basic-info.png);
 }
-/* line 370, ../../scss/style.scss */
+/* line 377, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-user-photo {
   background: url(../img/ico-user-photo.png);
 }
-/* line 371, ../../scss/style.scss */
+/* line 378, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-notification {
   background: url(../img/ico-notification.png);
 }
-/* line 375, ../../scss/style.scss */
+/* line 382, ../../scss/style.scss */
 .box-content .header-box-content .subtitle-box-content {
   float: left;
   width: 258px;
@@ -493,13 +501,13 @@ footer .footer-content .nav-map li a {
   font-weight: 300;
   font-size: 11px;
 }
-/* line 389, ../../scss/style.scss */
+/* line 396, ../../scss/style.scss */
 .box-content .line-color-grey {
   width: 320px;
   height: 1px;
   background: #d6d6d6;
 }
-/* line 398, ../../scss/style.scss */
+/* line 405, ../../scss/style.scss */
 .box-content .product-box-content {
   width: 300px;
   max-height: 150px;
@@ -507,7 +515,7 @@ footer .footer-content .nav-map li a {
   background: white;
   margin: 10px auto;
 }
-/* line 408, ../../scss/style.scss */
+/* line 415, ../../scss/style.scss */
 .box-content .music-box-content {
   width: 300px;
   max-height: 90px;
@@ -515,18 +523,18 @@ footer .footer-content .nav-map li a {
   background: white;
   margin: 10px auto;
 }
-/* line 417, ../../scss/style.scss */
+/* line 424, ../../scss/style.scss */
 .box-content .info-box-content {
   width: 320px;
   height: 30px;
   background: transparent;
   margin: 0px;
 }
-/* line 424, ../../scss/style.scss */
+/* line 431, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content {
   background: #ff0000;
 }
-/* line 428, ../../scss/style.scss */
+/* line 435, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content .user-name-mini {
   float: left;
   width: 220px;
@@ -536,7 +544,7 @@ footer .footer-content .nav-map li a {
   padding: 0 0 0 10px;
   font-size: 12px;
 }
-/* line 442, ../../scss/style.scss */
+/* line 449, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-social {
   float: right;
   background: transparent;
@@ -546,7 +554,7 @@ footer .footer-content .nav-map li a {
   cursor: pointer;
   /* social shares configuration  */
 }
-/* line 452, ../../scss/style.scss */
+/* line 459, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-social .share-fb {
   width: 20px;
   height: 20px;
@@ -555,7 +563,7 @@ footer .footer-content .nav-map li a {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 461, ../../scss/style.scss */
+/* line 468, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-social .share-tw {
   width: 20px;
   height: 20px;
@@ -564,7 +572,7 @@ footer .footer-content .nav-map li a {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 470, ../../scss/style.scss */
+/* line 477, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-social .share-g {
   width: 20px;
   height: 20px;
@@ -573,14 +581,14 @@ footer .footer-content .nav-map li a {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 483, ../../scss/style.scss */
+/* line 490, ../../scss/style.scss */
 .box-content .deleat-account {
   width: 200px;
   height: 2.3125rem;
   margin: 0 20%;
   background: transparent;
 }
-/* line 490, ../../scss/style.scss */
+/* line 497, ../../scss/style.scss */
 .box-content .deleat-account .ico-id-deleat {
   float: left;
   width: 35px;
@@ -592,7 +600,7 @@ footer .footer-content .nav-map li a {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 502, ../../scss/style.scss */
+/* line 509, ../../scss/style.scss */
 .box-content .deleat-account .label-link {
   float: left;
   font-size: 1rem;
@@ -600,7 +608,7 @@ footer .footer-content .nav-map li a {
   text-align: center;
   margin: 10px auto 0 20px;
 }
-/* line 512, ../../scss/style.scss */
+/* line 519, ../../scss/style.scss */
 .box-content .deleat-object {
   width: 200px;
   height: 2.3125rem;
@@ -609,7 +617,7 @@ footer .footer-content .nav-map li a {
   /*  */
   /*  */
 }
-/* line 518, ../../scss/style.scss */
+/* line 525, ../../scss/style.scss */
 .box-content .deleat-object .ico-id-deleat {
   float: left;
   width: 35px;
@@ -620,7 +628,7 @@ footer .footer-content .nav-map li a {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 528, ../../scss/style.scss */
+/* line 535, ../../scss/style.scss */
 .box-content .deleat-object .label-link {
   float: left;
   font-size: 0.875rem;
@@ -628,26 +636,26 @@ footer .footer-content .nav-map li a {
   text-align: center;
   margin: 10px auto 0 20px;
 }
-/* line 537, ../../scss/style.scss */
+/* line 544, ../../scss/style.scss */
 .box-content label {
   line-height: 100%;
   font-weight: 300;
   font-size: 12px;
 }
-/* line 544, ../../scss/style.scss */
+/* line 551, ../../scss/style.scss */
 .box-content .form-setting {
   width: 290px;
   height: auto;
   background: transparent;
   margin: 0 10px;
 }
-/* line 552, ../../scss/style.scss */
+/* line 559, ../../scss/style.scss */
 .box-content textarea {
   width: 300px;
   max-height: auto;
   min-height: 100px;
 }
-/* line 559, ../../scss/style.scss */
+/* line 566, ../../scss/style.scss */
 .box-content .preview-photo-user {
   width: 100px;
   height: 100px;
@@ -657,7 +665,7 @@ footer .footer-content .nav-map li a {
 
 /* ******************************** Content general styles boxes ************************************************************/
 /* content related to the event manager */
-/* line 572, ../../scss/style.scss */
+/* line 579, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -669,7 +677,7 @@ footer .footer-content .nav-map li a {
 }
 
 /***************************************************** form register and login ************************************************************ */
-/* line 585, ../../scss/style.scss */
+/* line 592, ../../scss/style.scss */
 #lean_overlay {
   position: fixed;
   z-index: 100;
@@ -681,7 +689,7 @@ footer .footer-content .nav-map li a {
   display: none;
 }
 
-/* line 597, ../../scss/style.scss */
+/* line 604, ../../scss/style.scss */
 .popupContainer {
   position: absolute;
   width: 330px;
@@ -691,61 +699,61 @@ footer .footer-content .nav-map li a {
   background: #FFF;
 }
 
-/* line 607, ../../scss/style.scss */
+/* line 614, ../../scss/style.scss */
 #modal_trigger {
   margin: 0px auto;
   width: 100px;
   display: block;
 }
 
-/* line 614, ../../scss/style.scss */
+/* line 621, ../../scss/style.scss */
 .btn {
   padding: 10px 20px;
   background: #F4F4F2;
 }
 
-/* line 619, ../../scss/style.scss */
+/* line 626, ../../scss/style.scss */
 .btn_red {
   background: #e84f35;
   color: #FFF;
 }
 
-/* line 625, ../../scss/style.scss */
+/* line 632, ../../scss/style.scss */
 .btn:hover {
   background: #E4E4E2;
 }
 
-/* line 629, ../../scss/style.scss */
+/* line 636, ../../scss/style.scss */
 .btn_red:hover {
   background: #C12B05;
 }
 
-/* line 633, ../../scss/style.scss */
+/* line 640, ../../scss/style.scss */
 a.btn {
   color: #666;
   text-align: center;
   text-decoration: none;
 }
 
-/* line 639, ../../scss/style.scss */
+/* line 646, ../../scss/style.scss */
 a.btn_red {
   color: #FFF;
 }
 
-/* line 644, ../../scss/style.scss */
+/* line 651, ../../scss/style.scss */
 .one_half {
   width: 50%;
   display: block;
   float: left;
 }
-/* line 650, ../../scss/style.scss */
+/* line 657, ../../scss/style.scss */
 .one_half .last {
   width: 45%;
   margin-left: 5%;
 }
 
 /* Popup Styles*/
-/* line 659, ../../scss/style.scss */
+/* line 666, ../../scss/style.scss */
 .popupHeader {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -756,7 +764,7 @@ a.btn_red {
   border-bottom: 1px solid #DDD;
   font-weight: bold;
 }
-/* line 670, ../../scss/style.scss */
+/* line 677, ../../scss/style.scss */
 .popupHeader .modal_close {
   position: absolute;
   right: 0;
@@ -768,13 +776,13 @@ a.btn_red {
   font-size: 16px;
 }
 
-/* line 681, ../../scss/style.scss */
+/* line 688, ../../scss/style.scss */
 .popupBody {
   padding: 20px;
 }
 
 /* Social Login Form */
-/* line 690, ../../scss/style.scss */
+/* line 697, ../../scss/style.scss */
 .social_login .social_box {
   display: block;
   clear: both;
@@ -783,7 +791,7 @@ a.btn_red {
   background: #F4F4F2;
   overflow: hidden;
 }
-/* line 698, ../../scss/style.scss */
+/* line 705, ../../scss/style.scss */
 .social_login .icon {
   display: block;
   width: 15px;
@@ -794,7 +802,7 @@ a.btn_red {
   font-size: 16px;
   text-align: center;
 }
-/* line 708, ../../scss/style.scss */
+/* line 715, ../../scss/style.scss */
 .social_login .icon_title {
   font-family: "Open Sans", sans-serif;
   display: block;
@@ -804,24 +812,24 @@ a.btn_red {
   font-size: 16px;
   color: #777;
 }
-/* line 717, ../../scss/style.scss */
+/* line 724, ../../scss/style.scss */
 .social_login .social_box:hover {
   background: #E4E4E2;
 }
-/* line 720, ../../scss/style.scss */
+/* line 727, ../../scss/style.scss */
 .social_login .fb .icon {
   background: #3B5998;
 }
-/* line 723, ../../scss/style.scss */
+/* line 730, ../../scss/style.scss */
 .social_login .google .icon {
   background: #DD4B39;
 }
-/* line 726, ../../scss/style.scss */
+/* line 733, ../../scss/style.scss */
 .social_login .tw .icon {
   background: #52a8e9;
 }
 
-/* line 732, ../../scss/style.scss */
+/* line 739, ../../scss/style.scss */
 .centeredText {
   text-align: center;
   margin: 20px 0;
@@ -831,28 +839,28 @@ a.btn_red {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 742, ../../scss/style.scss */
+/* line 749, ../../scss/style.scss */
 .action_btns {
   clear: both;
   overflow: hidden;
 }
-/* line 746, ../../scss/style.scss */
+/* line 753, ../../scss/style.scss */
 .action_btns a {
   display: inline-block;
 }
 
 /* User Login Form */
-/* line 752, ../../scss/style.scss */
+/* line 759, ../../scss/style.scss */
 .user_login {
   display: none;
 }
-/* line 755, ../../scss/style.scss */
+/* line 762, ../../scss/style.scss */
 .user_login label {
   display: block;
   margin-bottom: 5px;
   font-family: "Open Sans", sans-serif;
 }
-/* line 761, ../../scss/style.scss */
+/* line 768, ../../scss/style.scss */
 .user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {
   display: block;
   width: 90%;
@@ -860,23 +868,23 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 768, ../../scss/style.scss */
+/* line 775, ../../scss/style.scss */
 .user_login input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 772, ../../scss/style.scss */
+/* line 779, ../../scss/style.scss */
 .user_login input[type="checkbox"] + label {
   float: left;
 }
-/* line 775, ../../scss/style.scss */
+/* line 782, ../../scss/style.scss */
 .user_login .checkbox {
   margin-bottom: 10px;
   clear: both;
   overflow: hidden;
 }
 
-/* line 781, ../../scss/style.scss */
+/* line 788, ../../scss/style.scss */
 .forgot_password {
   display: block;
   margin: 20px 0 10px;
@@ -887,16 +895,16 @@ a.btn_red {
 }
 
 /* User Register Form */
-/* line 792, ../../scss/style.scss */
+/* line 799, ../../scss/style.scss */
 .user_register {
   display: none;
 }
-/* line 796, ../../scss/style.scss */
+/* line 803, ../../scss/style.scss */
 .user_register label {
   display: block;
   margin-bottom: 5px;
 }
-/* line 801, ../../scss/style.scss */
+/* line 808, ../../scss/style.scss */
 .user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {
   display: block;
   width: 90%;
@@ -904,23 +912,23 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 808, ../../scss/style.scss */
+/* line 815, ../../scss/style.scss */
 .user_register input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 812, ../../scss/style.scss */
+/* line 819, ../../scss/style.scss */
 .user_register input[type="checkbox"] + label {
   float: left;
 }
-/* line 815, ../../scss/style.scss */
+/* line 822, ../../scss/style.scss */
 .user_register .checkbox {
   margin-bottom: 10px;
   clear: both;
   overflow: hidden;
 }
 
-/* line 822, ../../scss/style.scss */
+/* line 829, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -930,19 +938,19 @@ a.btn_red {
   border: 1px dashed #8b8b8b;
   overflow: hidden;
 }
-/* line 831, ../../scss/style.scss */
+/* line 838, ../../scss/style.scss */
 .box-new-content .new-object {
   width: 258px;
   height: 40px;
   background: transparent;
   margin: 23px auto 0 auto;
 }
-/* line 836, ../../scss/style.scss */
+/* line 843, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content {
   width: auto;
   height: 40px;
 }
-/* line 839, ../../scss/style.scss */
+/* line 846, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .title-box-content {
   float: left;
   width: 220px;
@@ -956,7 +964,7 @@ a.btn_red {
   font-size: 1.05rem;
   color: #23aae1;
 }
-/* line 853, ../../scss/style.scss */
+/* line 860, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .ico-id-event, .box-new-content .new-object .header-box-content .ico-id-product {
   float: left;
   width: 35px;
@@ -965,11 +973,11 @@ a.btn_red {
   background-size: 100% 100%;
   background-position: center center;
 }
-/* line 861, ../../scss/style.scss */
+/* line 868, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .ico-id-event {
   background: url(../img/ico-event.png) no-repeat;
 }
-/* line 862, ../../scss/style.scss */
+/* line 869, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .ico-id-product {
   background: url(../img/ico-new-event.png) no-repeat;
 }

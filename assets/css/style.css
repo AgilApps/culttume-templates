@@ -706,54 +706,61 @@ footer .footer-content .nav-map li a {
   display: block;
 }
 
-/* line 621, ../../scss/style.scss */
+/* line 620, ../../scss/style.scss */
+#modal_register {
+  margin: 0px auto;
+  width: 100px;
+  display: block;
+}
+
+/* line 628, ../../scss/style.scss */
 .btn {
   padding: 10px 20px;
   background: #F4F4F2;
 }
 
-/* line 626, ../../scss/style.scss */
+/* line 633, ../../scss/style.scss */
 .btn_red {
   background: #e84f35;
   color: #FFF;
 }
 
-/* line 632, ../../scss/style.scss */
+/* line 639, ../../scss/style.scss */
 .btn:hover {
   background: #E4E4E2;
 }
 
-/* line 636, ../../scss/style.scss */
+/* line 643, ../../scss/style.scss */
 .btn_red:hover {
   background: #C12B05;
 }
 
-/* line 640, ../../scss/style.scss */
+/* line 647, ../../scss/style.scss */
 a.btn {
   color: #666;
   text-align: center;
   text-decoration: none;
 }
 
-/* line 646, ../../scss/style.scss */
+/* line 653, ../../scss/style.scss */
 a.btn_red {
   color: #FFF;
 }
 
-/* line 651, ../../scss/style.scss */
+/* line 658, ../../scss/style.scss */
 .one_half {
   width: 50%;
   display: block;
   float: left;
 }
-/* line 657, ../../scss/style.scss */
+/* line 664, ../../scss/style.scss */
 .one_half .last {
   width: 45%;
   margin-left: 5%;
 }
 
 /* Popup Styles*/
-/* line 666, ../../scss/style.scss */
+/* line 673, ../../scss/style.scss */
 .popupHeader {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -764,7 +771,7 @@ a.btn_red {
   border-bottom: 1px solid #DDD;
   font-weight: bold;
 }
-/* line 677, ../../scss/style.scss */
+/* line 684, ../../scss/style.scss */
 .popupHeader .modal_close {
   position: absolute;
   right: 0;
@@ -776,13 +783,13 @@ a.btn_red {
   font-size: 16px;
 }
 
-/* line 688, ../../scss/style.scss */
+/* line 695, ../../scss/style.scss */
 .popupBody {
   padding: 20px;
 }
 
 /* Social Login Form */
-/* line 697, ../../scss/style.scss */
+/* line 704, ../../scss/style.scss */
 .social_login .social_box {
   display: block;
   clear: both;
@@ -791,7 +798,7 @@ a.btn_red {
   background: #F4F4F2;
   overflow: hidden;
 }
-/* line 705, ../../scss/style.scss */
+/* line 712, ../../scss/style.scss */
 .social_login .icon {
   display: block;
   width: 15px;
@@ -802,7 +809,7 @@ a.btn_red {
   font-size: 16px;
   text-align: center;
 }
-/* line 715, ../../scss/style.scss */
+/* line 722, ../../scss/style.scss */
 .social_login .icon_title {
   font-family: "Open Sans", sans-serif;
   display: block;
@@ -812,24 +819,24 @@ a.btn_red {
   font-size: 16px;
   color: #777;
 }
-/* line 724, ../../scss/style.scss */
+/* line 731, ../../scss/style.scss */
 .social_login .social_box:hover {
   background: #E4E4E2;
 }
-/* line 727, ../../scss/style.scss */
+/* line 734, ../../scss/style.scss */
 .social_login .fb .icon {
   background: #3B5998;
 }
-/* line 730, ../../scss/style.scss */
+/* line 737, ../../scss/style.scss */
 .social_login .google .icon {
   background: #DD4B39;
 }
-/* line 733, ../../scss/style.scss */
+/* line 740, ../../scss/style.scss */
 .social_login .tw .icon {
   background: #52a8e9;
 }
 
-/* line 739, ../../scss/style.scss */
+/* line 746, ../../scss/style.scss */
 .centeredText {
   text-align: center;
   margin: 20px 0;
@@ -839,28 +846,28 @@ a.btn_red {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 749, ../../scss/style.scss */
+/* line 756, ../../scss/style.scss */
 .action_btns {
   clear: both;
   overflow: hidden;
 }
-/* line 753, ../../scss/style.scss */
+/* line 760, ../../scss/style.scss */
 .action_btns a {
   display: inline-block;
 }
 
 /* User Login Form */
-/* line 759, ../../scss/style.scss */
+/* line 766, ../../scss/style.scss */
 .user_login {
   display: none;
 }
-/* line 762, ../../scss/style.scss */
+/* line 769, ../../scss/style.scss */
 .user_login label {
   display: block;
   margin-bottom: 5px;
   font-family: "Open Sans", sans-serif;
 }
-/* line 768, ../../scss/style.scss */
+/* line 775, ../../scss/style.scss */
 .user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {
   display: block;
   width: 90%;
@@ -868,23 +875,23 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 775, ../../scss/style.scss */
+/* line 782, ../../scss/style.scss */
 .user_login input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 779, ../../scss/style.scss */
+/* line 786, ../../scss/style.scss */
 .user_login input[type="checkbox"] + label {
   float: left;
 }
-/* line 782, ../../scss/style.scss */
+/* line 789, ../../scss/style.scss */
 .user_login .checkbox {
   margin-bottom: 10px;
   clear: both;
   overflow: hidden;
 }
 
-/* line 788, ../../scss/style.scss */
+/* line 795, ../../scss/style.scss */
 .forgot_password {
   display: block;
   margin: 20px 0 10px;
@@ -895,15 +902,15 @@ a.btn_red {
 }
 
 /* User Register Form */
-/* line 799, ../../scss/style.scss */
+/* line 806, ../../scss/style.scss */
 .user_register {
   display: none;
 }
-/* line 803, ../../scss/style.scss */
+/* line 810, ../../scss/style.scss */
 .user_register label {
   display: block;
 }
-/* line 808, ../../scss/style.scss */
+/* line 815, ../../scss/style.scss */
 .user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {
   display: block;
   width: 90%;
@@ -911,23 +918,23 @@ a.btn_red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 815, ../../scss/style.scss */
+/* line 822, ../../scss/style.scss */
 .user_register input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 819, ../../scss/style.scss */
+/* line 826, ../../scss/style.scss */
 .user_register input[type="checkbox"] + label {
   float: left;
 }
-/* line 822, ../../scss/style.scss */
+/* line 829, ../../scss/style.scss */
 .user_register .checkbox {
   margin-bottom: 10px;
   clear: both;
   overflow: hidden;
 }
 
-/* line 829, ../../scss/style.scss */
+/* line 836, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -937,19 +944,19 @@ a.btn_red {
   border: 1px dashed #8b8b8b;
   overflow: hidden;
 }
-/* line 838, ../../scss/style.scss */
+/* line 845, ../../scss/style.scss */
 .box-new-content .new-object {
   width: 258px;
   height: 40px;
   background: transparent;
   margin: 23px auto 0 auto;
 }
-/* line 843, ../../scss/style.scss */
+/* line 850, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content {
   width: auto;
   height: 40px;
 }
-/* line 846, ../../scss/style.scss */
+/* line 853, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .title-box-content {
   float: left;
   width: 220px;
@@ -963,7 +970,7 @@ a.btn_red {
   font-size: 1.05rem;
   color: #23aae1;
 }
-/* line 860, ../../scss/style.scss */
+/* line 867, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .ico-id-event, .box-new-content .new-object .header-box-content .ico-id-product {
   float: left;
   width: 35px;
@@ -972,11 +979,11 @@ a.btn_red {
   background-size: 100% 100%;
   background-position: center center;
 }
-/* line 868, ../../scss/style.scss */
+/* line 875, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .ico-id-event {
   background: url(../img/ico-event.png) no-repeat;
 }
-/* line 869, ../../scss/style.scss */
+/* line 876, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .ico-id-product {
   background: url(../img/ico-new-event.png) no-repeat;
 }

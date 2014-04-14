@@ -26,7 +26,7 @@
               <a href="#"><img src="assets/img/mini-photo-user-blanc.png" alt=""></a>
                 <ul class="dropdown">
                   <li><a href="#modal" class="btn" id="modal_trigger">Inicia Sesión</a></li>
-                  <li><a href="#modal" class="btn" id="">Registrate!</a></li>
+                  <li><a href="#modal1" class="btn" id="modal_register">Registrate!</a></li>
                 </ul>   
             </li>
           </ul>
@@ -36,7 +36,7 @@
     </header>
     <!-- *********************************** End Header *************************************************-->
 
-    <!-- *************************************** login-popup *********************************************** -->
+    <!-- ****************************** login-popup *********************************************** -->
     <div id="modal" class="popupContainer" style="display:none;">
       <div class="popupHeader">
         <span class="header_title">Ingresa tus datos</span>
@@ -89,7 +89,7 @@
         </div>
 
         <!-- Register Form -->
-        <div class="user_register">
+        <div class="user_register" id="register_form">
         <form action="" method="">
 
           <label for="nameRegister">Nombre</label>
@@ -121,6 +121,54 @@
   </div>
 
     <!-- *********************************** end login-popup *********************************************** -->
+
+    <!-- *********************************** TEST******************************************************** -->
+
+    <div id="modal1" class="popupContainer" style="display:none;">
+
+      <div class="popupHeader">
+        <span class="header_title">Ingresa tus datos</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>  
+      </div>
+
+      <section class="popupBody">
+
+        <!-- Register Form -->
+        <div class="user_register" id="register_form">
+        <form action="" method="">
+
+          <label for="nameRegister">Nombre</label>
+          <input type="text" id="nameRegister" >
+         
+
+          <label for="emailRegister">Email</label>
+          <input type="email" id="emailRegister">
+          
+          <label for="usernameRegister">Nombre de Usuario</label>
+          <input type="text" id="usernameRegister">
+
+
+          <label for="passwordRegister">Contraseña</label>
+          <input type="password" id="passwordRegister">
+          
+          <div class="checkbox">
+            <input id="send_updates" type="checkbox">
+            <label for="send_updates">Acepto las condiciones de uso</label>
+          </div>
+          <div class="action_btns" align="center">
+            <div class="one_half"><a href="" class="btn back_btn">Atras</a></div>
+            <div class="one_half last"><a href="" class="btn btn_red">Registrarme</a></div>
+          </div>
+          </div>
+        </form>
+        </div>
+      </section>  
+    </div>
+  </div>
+
+
+
+    <!-- ******************************* END TEST******************************************************** -->
 
     <!-- *************************************** # Wrapper **************************************************-->
     <div id="wrapper">

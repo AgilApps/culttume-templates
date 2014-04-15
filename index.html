@@ -24,37 +24,56 @@
             <li class="has-dropdown">
               <a href="#"><img src="assets/img/mini-photo-user-blanc.png" alt=""></a>
                 <ul class="dropdown">
-                  <li><a href="#" data-reveal-id="myModal" data-reveal>Registrate!</a></li>
-                  <div class="reveal-modal" id="myModal" data-reveal>
+                  <li><a href="#" data-reveal-id="myModal1" data-reveal>Registrate!</a></li>
+                  <div class="reveal-modal" id="myModal1" data-reveal>
                     <div class="user_register">
                       <form>
 
-                        <label>Nombre Completo</label>
-                        <input type="text">
+                        <label for="name-register">Nombre Completo</label>
+                        <input type="text" id="name-register">
 
-                        <label>Email</label>
-                        <input type="email">
+                        <label for="email-register">Email</label>
+                        <input type="email" id="email-register">
 
-                        <label for="">Nombre de Usuario</label>
-                        <input type="text">
+                        <label for="username-register">Nombre de Usuario</label>
+                        <input type="text" id="username-register">
                       
-                        <label>Contraseña</label>
-                        <input type="password">
+                        <label for="password-register">Contraseña</label>
+                        <input type="password" id="password-register">
 
                         <div class="checkbox">
-                          <input id="send_updates" type="checkbox" />
-                          <label for="send_updates">Al registrarme acepto terminos y condiciones de uso</label>
+                          <input id="send-updates" type="checkbox" />
+                          <label for="send-updates">Al registrarme acepto terminos y condiciones de uso</label>
                         </div>
-                        <div class="action_btns">
-                          <div class="one_half last"><a href="#" class="button">Registrarme</a></div>
+                        <div class="action-btns">
+                          <div class="one-half last"><a href="#" class="button">Registrarme</a></div>
                         </div>
                       </form>
+                      <p align="center">o Conectarse con redes sociales</p>
                     </div>
                   </div>
-                  <li><a href="#" data-reveal-id="mymodal2" data-reveal>Iniciar Sesión</a></li>
-                  <div class="reveal-modal" id="mymodal2  " data-reveal>
-                    <label for="">Esto es una prueba</label>
-                    <input type="submit">
+                  <li><a href="#" data-reveal-id="myModal" data-reveal>Iniciar Sesión</a></li>
+                  <div class="reveal-modal" id="myModal" data-reveal>
+                    <div class="user_login">
+        <form>
+          <label for="username-login">Email o Nombre de usuario</label>
+          <input type="text" id="username-login">
+
+          <label for="password-login">Contraseña</label>
+          <input type="password" id="password-login">
+
+          <div class="checkbox">
+            <input id="remember" type="checkbox" />
+            <label for="remember">Recordar mis datos</label>
+          </div>
+
+          <div class="action_btns">
+            <a href="#" class="button">Iniciar Sesión</a>
+          </div>
+        </form>
+
+        <a href="#" class="forgot_password">Olvidaste tu contraseña?</a>
+      </div>
                   </div>
                 </ul>   
             </li>

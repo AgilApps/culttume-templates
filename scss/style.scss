@@ -103,9 +103,29 @@ header {
 	overflow: hidden;
 	font-family: $font-stack1;
 	//border: 1px solid $bluesky;
-	h1{
-		font-family: $font-stack1;
-		font-size: 1.5rem;
+	.section_faqs{
+
+		width:1030px;
+		border: 1px solid $grey1;
+		h1{
+			font-family:$font-stack1;
+			font-size: 1.8rem;
+		}
+		h2{
+			font-family:$font-stack1;
+			font-size: 1.3rem;
+		}
+		h3{
+			font-family: $font-stack1;
+			font-size: 1.0rem;
+		}
+
+		.section_subfaqs{
+			margin: 10px 10px 10px 10px;
+			padding: 10px 10px 10px 10px;
+			background: $white;
+			text-align:justify;
+		}
 	}
 
 	#section-aboutme{

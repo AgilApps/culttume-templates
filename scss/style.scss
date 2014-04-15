@@ -232,76 +232,86 @@ footer {
 	float:left;
 	
 	width:$dimensions-general;
-	height: $height-footer;
-	background: $white;
+	height: $height_footer+70px;
+	background: $grey1;
 	margin: 0px auto 0px auto;
 
 	/* ********* footer content, social, links, menu, agilapps ******** */
 	.footer-content{
-		width:$width-wrapper;
-		height:$height-footer-content+50px;
-		background: transparent;
+		width:$dimensions-general;
+		height:$height_footer_content+80px;
+		background: $white;
 		margin: 0px auto 0px auto;
 
 		@include transform-translate3d();
 		@include border-radius(0px);
-		padding: $pad-0;
+		padding: $pad_0;
 			/* ********* Sponsors culttume ******** */
 			.sponsors-logos{
-				width:$width-wrapper;
-				height:$height-box-content-small;
-				background: transparent;
+				width:$width_wrapper+-400px;
+				height:$height_box_content_small+60px;
+				background: $white;
 				margin: 0px auto 0px auto;
 				overflow: hidden;
 				.logo-sponsor{
 					display: inline-block;
 					
-					width: $width-menufloat;
-					height: $height-box-content-small; //
-					background: transparent;
-					margin:0px 70px;
+					width: $width_menufloat;
+					height: $height_box_content_small+-90px; //
+					margin:0px 23px;
 				}
 				/* ********* Opacity, filter greyscale and bg sponsors ******** */
-				#img-presidencia{	@include filter-grey(100%);opacity: 0.5; background:url(../img/Presidencia-160x45.png) center center no-repeat;}
-				#img-emprendetic2{	@include filter-grey(100%);opacity: 0.5; background:url(../img/EmprendeTic2-160x45.png) center center no-repeat;}
-				#img-parquesoft{	@include filter-grey(100%);opacity: 0.5; background:url(../img/ParqueSoft-160x45.png) center center no-repeat;}
-				#img-tecnoparque{	@include filter-grey(100%);opacity: 0.5; background:url(../img/Tecnoparque-160x87.png) center center no-repeat;}
-				#img-fondo-emprender{@include filter-grey(100%);opacity: 0.5; background:url(../img/FondoEmprender-160x45.png) center center no-repeat;}
-				#img-apssco{		@include filter-grey(100%);opacity: 0.5; background:url(../img/Apps.co-160x45.png) center center no-repeat;}
-				#img-c3-d{			@include filter-grey(100%);opacity: 0.5; background:url(../img/C3+d-120x155.jpg) center no-repeat;}
-				#img-ventures{		@include filter-grey(100%);opacity: 0.5; background:url(../img/Ventures-160x45.png) center center no-repeat;}
-				#img-fonade{		@include filter-grey(100%);opacity: 0.5; background:url(../img/Fonade-160x128.jpg) center center no-repeat;}
+				#img-presidencia{	@include filter-grey(100%);opacity: 0.5; background:url(../img/Presidencia-160x45.png) center center no-repeat, $white;}
+				#img-emprendetic2{	margin-left:50px; @include filter-grey(100%); opacity: 0.5; background:url(../img/EmprendeTic2-160x45.png) center center no-repeat, $white;}
+				#img-sena{			width: $width_menufloat+-100px;@include filter-grey(100%);opacity: 0.5;background:url(../img/SENA-160x45.png) center center no-repeat, $white;}
+				#img-fonade{		width: $width_menufloat+-60px;@include filter-grey(100%);opacity: 0.5;background:url(../img/Fonade-160x45.jpg) center center no-repeat, $white;}
+				#img-parquesoft{	@include filter-grey(100%);opacity: 0.5; background:url(../img/ParqueSoft-160x45.png) center center no-repeat, $white;}
+				#img-tecnoparque{	@include filter-grey(100%);opacity: 0.5; background:url(../img/Tecnoparque-160x87.png) center center no-repeat, $white;}
+				#img-fondo-emprender{@include filter-grey(100%);opacity: 0.5; background:url(../img/FondoEmprender-160x45.png) center center no-repeat, $white;}
+				#img-c3-d{
+					display: inline-block;
+					position:fixed;
+					width: $width_menufloat;
+					height: $height_box_content_small; //
+					margin:0px 23px;
+					top:13px;
+					left:$width_wrapper+-420px;
+					@include filter-grey(100%);
+					opacity: 0.5; 
+					background:url(../img/C3+d-120x155.jpg) center no-repeat, $white;
+				}
+				#img-apssco{	margin:0 20px 0 160px;	@include filter-grey(100%);	opacity: 0.5;	background:url(../img/Apps.co-160x45.png) center center no-repeat, $white;}
+				#img-ventures{	@include filter-grey(100%);	opacity: 0.5;	background:url(../img/Ventures-160x45.png) center center no-repeat, $white;}
+				
 				/* ********* Opacity and filter effect ******** */
-				#img-presidencia:hover,#img-emprendetic2:hover,#img-parquesoft:hover,
-				#img-tecnoparque:hover,#img-fondo-emprender:hover,#img-apssco:hover,
-				#img-c3-d:hover,#img-ventures:hover,#img-fonade:hover{
+				#img-presidencia:hover,#img-emprendetic2:hover,#img-sena:hover,
+				#img-parquesoft:hover,#img-tecnoparque:hover,#img-fondo-emprender:hover,
+				#img-apssco:hover,#img-c3-d:hover,#img-ventures:hover,#img-fonade:hover{
 					@include filter-grey(0%);opacity: 5;
 				}
 				
 			}
 			/* ********* navegation general ******** */
 			.nav-map{
-				width:$width-box-perfil+108px;
-				height:$height-box-content-small;
-				background: transparent;
+				width:$width_box_perfil+108px;
+				height:$height_box_content_small;
+				background: $white;
 				margin: 0px auto 0px auto;
 				overflow: hidden;
 					.sub-nav-map{
 						display: inline-block;
 						
-						width: $width-menufloat;
+						width: $width_menufloat;
 						height: auto; //
 						margin:1px 17.5px auto 17.5px;
-						background: transparent;
+						background: $white;
+					}
+					a{
+						font-family: $font-stack1;
 					}
 					li{
 						list-style-type:none;
-						h6{
-							font-family: $font-stack1;
-						}
-						a{
-							font-family: $font-stack1;
-						}
+						font-family: $font-stack1;
 					}
 			}
 	}

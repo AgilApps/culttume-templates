@@ -27,15 +27,13 @@ $(document).ready(function(){
       $(".header_title").text('Iniciar Sesión');
       return false;
     });
-
-
   });
 
 
   $("#modal_register").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
 
   $(function(){
-    
+
     $("#register_form").click(function(){
       $(".social_login").hide();
       $(".user_register").show();

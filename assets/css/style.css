@@ -1003,3 +1003,8 @@ a.btn-red {
 .box-new-content .new-object .header-box-content .ico-id-product {
   background: url(../img/ico-new-event.png) no-repeat;
 }
+
+/* line 890, ../../scss/style.scss */
+.social-networks-login {
+  text-align: center;
+}

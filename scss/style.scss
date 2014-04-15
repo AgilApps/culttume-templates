@@ -101,7 +101,12 @@ header {
 	margin: 10px 10px 10px 10px;
 	float:left;
 	overflow: hidden;
+	font-family: $font-stack1;
 	//border: 1px solid $bluesky;
+	h1{
+		font-family: $font-stack1;
+		font-size: 1.5rem;
+	}
 
 	#section-aboutme{
 
@@ -889,7 +894,6 @@ a.btn-red {
 }
 .social-networks-login{
 	text-align:center;
-
 }
 
 

@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700);
 @import '_mixins';
 
 // *********************************** Declaration of variables Culttu.me. ***********************************
@@ -17,10 +17,10 @@ $grey3  :#A5A5A5;
 $grey4  :#878787;
 $grey5  :#4D4D4D;
 $white  :#FFFFFF;
-$white2 :#F6F6F6;
-$color_google  :#DD4B39; 
-$color_twitter :#52A8E9; 
-$color_facebook:#537ABB;
+$white2 :#f6f6f6;
+$color-google  :#DD4B39; 
+$color-twitter :#52A8E9; 
+$color-facebook:#537ABB;
 
 
 // Fonts
@@ -32,52 +32,52 @@ $font-stack2:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $sizeh1:22px;
 
 // Dimensions Body
-$dimensions_general: 100%; //replace width_general and height_general
+$dimensions-general: 100%; //replace width_general and height_general
 
 //Dimensions Wrapper
-$width_wrapper: 1240px;
+$width-wrapper: 1240px;
 
 
 
-$width_menufloat: 160px; //Floating menu
+$width-menufloat: 160px; //Floating menu
 
 //Dimensions aboutme 
-$width_general_aboutme : 725px;	
-$width_followers       : 250px;
-$width_box_content 	   : 320px; 
-$height_box_content_small : 160px; 
-$height_box_content_big   : 250px; 
-$width_product_box_content: 300px; 
-$height_img_box_content   : 150px; 
-$height_music_box_content : 90px; 
-$height_info_box_content  : 30px; 
-$width_box_title_content  : 270px;
-$height_box_title_content : 47px;
-$width_h3_title_content   : 258px;
-$height_h3_title_content  : 37px;
-$width_p_title_content 	  : 220px;
-$height_p_title_content   : 20px;
-$dimensions_ico_social_title_content : 26px;
-$width_box_content_follower  : 240px;//box content
-$height_box_content_follower : 432px;//box content:
-$width_box_perfil            : 692px;//box configuration profile
-$width_box_form_setting 	 : 290px;//default form size
-$height_box_new_content      : 80px;//Set size for the height of div new event
-$dimensions_ico_social_share : 20px;
-$dimensions_ico_product      : 35px;
+$width-general-aboutme : 725px;	
+$width-followers       : 250px;
+$width-box_content 	   : 320px; 
+$height-box-content-small : 160px; 
+$height-box-content-big   : 250px; 
+$width-product-box-content: 300px; 
+$height-img-box-content   : 150px; 
+$height-music-box-content : 90px; 
+$height-info-box-content  : 30px; 
+$width-box-title-content  : 270px;
+$height-box-title-content : 47px;
+$width-h3-title-content   : 258px;
+$height-h3-title-content  : 37px;
+$width-p-title-content 	  : 220px;
+$height-p-title-content   : 20px;
+$dimensions-ico-social-title-content : 26px;
+$width-box-content-follower  : 240px;//box content
+$height-box-content-follower : 432px;//box content:
+$width-box-perfil            : 692px;//box configuration profile
+$width-box-form-setting 	 : 290px;//default form size
+$height-box-new-content      : 80px;//Set size for the height of div new event
+$dimensions-ico-social-share : 20px;
+$dimensions-ico-product      : 35px;
 
 //Wrapper
-$width_wrapper_content_div : 1020px;
-$width_mini_logo 		   : 154px ; //Logo head width
-$width_input               : 160px; //Width based inputs
-$height_header             : 40px; //Header
-$height_mini_logo          : 35px;
-$height_input              : 30px; //heigth base inputs
-$height_footer             : 350px; //heigth of footer
-$height_footer_content     : 325px; //heigth the content of footer
-$margin_cont               : 5px 10px; //Margin Windows Content
+$width-wrapper-content-div : 1020px;
+$width-mini-logo 		   : 154px ; //Logo head width
+$width-input               : 160px; //Width based inputs
+$height-header             : 40px; //Header
+$height-mini-logo          : 35px;
+$height-input              : 30px; //heigth base inputs
+$height-footer             : 350px; //heigth of footer
+$height-footer-content     : 325px; //heigth the content of footer
+$margin-cont               : 5px 10px; //Margin Windows Content
 $radius                    : 0px; //border of windows content
-$pad_0                     : 0px; //Padding
+$pad-0                     : 0px; //Padding
 
 
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es" class="no-js">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1,maximun-scale=1">
@@ -7,26 +7,26 @@
   <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/foundation.css" />
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700' rel='stylesheet' type='text/css'>
 </head>
   
-  <body style="background:#f6f6f6;">
+  <body>
     <!-- *************************************** Header ******************************************+******************-->
     <header class="fixed">
-      <nav id="subheader" class="top-bar" data-topbar>
+      <nav id="sub-header" class="top-bar" data-topbar>
         <ul class="title-area">
           <li class="name"><h1><a href="#"><img src="assets/img/culttume-img-bar-menu.png" alt="Culttu.me"></a></h1></li>
         </ul>
         <section class="top-bar-section">
           <!-- Right Nav Section -->
-          <div class="photo_user_mini">
+          <div class="photo-user-mini">
           <ul class="right">
             <li class="has-dropdown">
               <a href="#"><img src="assets/img/mini-photo-user-blanc.png" alt=""></a>
                 <ul class="dropdown">
-                  <li><a href="#modal" class="btn" id="modal_trigger">Inicia Sesión</a></li>
-                  <li><a href="#modal1" class="btn" id="modal_register">Registrate!</a></li>
+            
+                  <li><a href="#" class="reveal-modal" id="myModal" data-reveal>Inicia Sesión</a></li>
+                  <li><a href="#" data-reveal-id="myModal" data-reveal>Registrate!</a></li>
                 </ul>   
             </li>
           </ul>
@@ -36,147 +36,14 @@
     </header>
     <!-- *********************************** End Header *************************************************-->
 
-    <!-- ****************************** login-popup *********************************************** -->
-    <div id="modal" class="popupContainer" style="display:none;">
-      <div class="popupHeader">
-        <span class="header_title">Ingresa tus datos</span>
-        <span class="modal_close"><i class="fa fa-times"></i></span>  
-      </div>
-
-      <section class="popupBody">
-
-        <!-- Social Login -->
-        <div class="social_login">
-
-          <div class="">
-            <a href="#" class="social_box fb">
-              <span class="icon"><i class="fa fa-facebook"></i></span>
-              <span class="icon_title">Conectar con Facebook</span>
-            </a>
-            <a href="#" class="social_box tw">
-              <span class="icon"><i class="fa fa-twitter"></i></span>
-              <span class="icon_title">Conectar con Twitter</span>
-            </a>
-          </div>
-          <div class="centeredText">
-            <span>o ingresa con tu e-mail</span>
-          </div>
-          <div class="action_btns" align="center">
-            <div class="one_half"><a href="#" id="login_form" class="btn">Iniciar Sesión</a></div>
-            <div class="one_half last"><a href="#" id="register_form" class="btn">Registrase</a></div>
-          </div>
-        </div>
-
-          <!-- Username & Password Login form -->
-        <div class="user_login">
-          <form>
-            <label for="emailLogin">Email</label>
-            <input type="text" id="emailLogin">
-
-            <label for="passwordLogin">Contraseña</label>
-            <input type="password" id="passwordLogin">
-
-            <div class="checkbox">
-              <input id="remember" type="checkbox">
-              <label for="remember">Recordar mis datos</label>
-            </div>
-            <div class="action_btns" align="center">
-              <div class="one_half"><a href="#" class="btn back_btn">Atras</a></div>
-              <div class="one_half last"><a href="#" class="btn btn_red">Ingresar</a></div>
-            </div>
-          </form>
-          <a href="#" class="forgot_password">¿Has olvidado tu contraseña?</a>
-        </div>
-
-        <!-- Register Form -->
-        <div class="user_register" id="register_form">
-        <form action="" method="">
-
-          <label for="nameRegister">Nombre</label>
-          <input type="text" id="nameRegister" >
-         
-
-          <label for="emailRegister">Email</label>
-          <input type="email" id="emailRegister">
-          
-          <label for="usernameRegister">Nombre de Usuario</label>
-          <input type="text" id="usernameRegister">
-
-
-          <label for="passwordRegister">Contraseña</label>
-          <input type="password" id="passwordRegister">
-          
-          <div class="checkbox">
-            <input id="send_updates" type="checkbox">
-            <label for="send_updates">Acepto las condiciones de uso</label>
-          </div>
-          <div class="action_btns" align="center">
-            <div class="one_half"><a href="" class="btn back_btn">Atras</a></div>
-            <div class="one_half last"><a href="" class="btn btn_red">Registrarme</a></div>
-          </div>
-          </div>
-        </form>
-        </div>
-      </section>
-  </div>
-
-    <!-- *********************************** end login-popup *********************************************** -->
-
-    <!-- *********************************** TEST******************************************************** -->
-
-    <div id="modal1" class="popupContainer" style="display:none;">
-
-      <div class="popupHeader">
-        <span class="header_title">Ingresa tus datos</span>
-        <span class="modal_close"><i class="fa fa-times"></i></span>  
-      </div>
-
-      <section class="popupBody">
-
-        <!-- Register Form -->
-        <div class="user_register" id="register_form">
-        <form action="" method="">
-
-          <label for="nameRegister">Nombre</label>
-          <input type="text" id="nameRegister" >
-         
-
-          <label for="emailRegister">Email</label>
-          <input type="email" id="emailRegister">
-          
-          <label for="usernameRegister">Nombre de Usuario</label>
-          <input type="text" id="usernameRegister">
-
-
-          <label for="passwordRegister">Contraseña</label>
-          <input type="password" id="passwordRegister">
-          
-          <div class="checkbox">
-            <input id="send_updates" type="checkbox">
-            <label for="send_updates">Acepto las condiciones de uso</label>
-          </div>
-          <div class="action_btns" align="center">
-            <div class="one_half"><a href="" class="btn back_btn">Atras</a></div>
-            <div class="one_half last"><a href="" class="btn btn_red">Registrarme</a></div>
-          </div>
-          </div>
-        </form>
-        </div>
-      </section>  
-    </div>
-  </div>
-
-
-
-    <!-- ******************************* END TEST******************************************************** -->
-
     <!-- *************************************** # Wrapper **************************************************-->
     <div id="wrapper">
-    <div id="float_menu">
+    <div id="float-menu">
       <dl class="accordion" data-accordion>
       <dd>
         <h1>Explora</h1>
       </dd>
+
       <dd>
         <a href="#panel1">Productos</a>
         <div id="panel1" class="content active"><a href="#">Música</a></div>
@@ -204,7 +71,7 @@
       </dd>
       </dl>
     </div>
-  <div id="section_general">
+  <div id="section-general">
 
     <!-- Category Photograpic-->
     <div class="box-content">
@@ -215,15 +82,16 @@
       <div class="line-color-grey"></div>
       <div class="product-box-content">
         <img src="assets/img/ico-image-product.png">
+
       </div>
       <div class="info-box-content">
         <div class="user-name-box-content">
-          <div class="user-name-mini"><a href="">Edwin Gutierrez</a></div>
+          <div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
         </div>
         <div class="ico-social">
-          <a class="share-social" href=""><div class="share-fb"></div></a>
-          <a class="share-social" href=""><div class="share-tw"></div></a>
-          <a class="share-social" href=""><div class="share-g"></div></a>
+          <a class="share-social" href="#"><div class="share-fb"></div></a>
+          <a class="share-social" href="#"><div class="share-tw"></div></a>
+          <a class="share-social" href="#"><div class="share-g"></div></a>
         </div>
       </div>
     </div>
@@ -232,7 +100,7 @@
     <div class="box-content">
       <div class="header-box-content">
         <h3 class="title-box-content">Animación</h3>
-        <a class="ico-id-content" href=""><div class="ico-id-animation"></div></a>
+        <a class="ico-id-content" href="#"><div class="ico-id-animation"></div></a>
       </div>
       <div class="line-color-grey"></div>
       <div class="product-box-content">
@@ -240,12 +108,12 @@
       </div>
       <div class="info-box-content">
         <div class="user-name-box-content">
-          <div class="user-name-mini"><a href="">Edwin Gutierrez</a></div>
+          <div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
         </div>
         <div class="ico-social">
-          <a class="share-social" href=""><div class="share-fb"></div></a>
-          <a class="share-social" href=""><div class="share-tw"></div></a>
-          <a class="share-social" href=""><div class="share-g"></div></a>
+          <a class="share-social" href="#"><div class="share-fb"></div></a>
+          <a class="share-social" href="#"><div class="share-tw"></div></a>
+          <a class="share-social" href="#"><div class="share-g"></div></a>
         </div>
       </div>
     </div>
@@ -254,7 +122,7 @@
     <div class="box-content">
       <div class="header-box-content">
         <h3 class="title-box-content inline">Ilustracion</h3>
-        <a class="ico-id-content" href=""><div class="ico-id-illustration"></div></a>
+        <a class="ico-id-content" href="#"><div class="ico-id-illustration"></div></a>
       </div>
       <div class="line-color-grey"></div>
       <div class="product-box-content">
@@ -262,12 +130,12 @@
       </div>
       <div class="info-box-content">
         <div class="user-name-box-content">
-          <div class="user-name-mini"><a href="">Edwin Gutierrez</a></div>
+          <div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
         </div>
         <div class="ico-social">
-          <a class="share-social" href=""><div class="share-fb"></div></a>
-          <a class="share-social" href=""><div class="share-tw"></div></a>
-          <a class="share-social" href=""><div class="share-g"></div></a>
+          <a class="share-social" href="#"><div class="share-fb"></div></a>
+          <a class="share-social" href="#"><div class="share-tw"></div></a>
+          <a class="share-social" href="#"><div class="share-g"></div></a>
         </div>
       </div>
     </div>
@@ -276,7 +144,7 @@
     <div class="box-content">
       <div class="header-box-content">
         <h3 class="title-box-content inline">Diseño web</h3>
-        <a class="ico-id-content" href=""><div class="ico-id-web"></div></a>
+        <a class="ico-id-content" href="#"><div class="ico-id-web"></div></a>
       </div>
       <div class="line-color-grey"></div>
       <div class="product-box-content">
@@ -284,12 +152,12 @@
       </div>
       <div class="info-box-content">
         <div class="user-name-box-content">
-          <div class="user-name-mini"><a href="">Edwin Gutierrez</a></div>
+          <div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
         </div>
         <div class="ico-social">
-          <a class="share-social" href=""><div class="share-fb"></div></a>
-          <a class="share-social" href=""><div class="share-tw"></div></a>
-          <a class="share-social" href=""><div class="share-g"></div></a>
+          <a class="share-social" href="#"><div class="share-fb"></div></a>
+          <a class="share-social" href="#"><div class="share-tw"></div></a>
+          <a class="share-social" href="#"><div class="share-g"></div></a>
         </div>
       </div>
     </div>
@@ -298,7 +166,7 @@
     <div class="box-content">
       <div class="header-box-content">
         <h3 class="title-box-content">Música</h3>
-        <a class="ico-id-content" href=""><div class="ico-id-music"></div></a>
+        <a class="ico-id-content" href="#"><div class="ico-id-music"></div></a>
       </div>
       <div class="line-color-grey"></div>
         <div class="music-box-content">
@@ -306,12 +174,12 @@
         </div>
         <div class="info-box-content">
         <div class="user-name-box-content">
-          <div class="user-name-mini"><a href="">Edwin Gutierrez</a></div>
+          <div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
         </div>
         <div class="ico-social">
-          <a class="share-social" href=""><div class="share-fb"></div></a>
-          <a class="share-social" href=""><div class="share-tw"></div></a>
-          <a class="share-social" href=""><div class="share-g"></div></a>
+          <a class="share-social" href="#"><div class="share-fb"></div></a>
+          <a class="share-social" href="#"><div class="share-tw"></div></a>
+          <a class="share-social" href="#"><div class="share-g"></div></a>
         </div>
       </div>
     </div>
@@ -320,7 +188,7 @@
     <div class="box-content">
       <div class="header-box-content">
         <h3 class="title-box-content">fotografía</h3>
-        <a class="ico-id-content" href=""><div class="ico-id-photo"></div></a>
+        <a class="ico-id-content" href="#"><div class="ico-id-photo"></div></a>
       </div>
       <div class="line-color-grey"></div>
       <div class="product-box-content">
@@ -328,12 +196,12 @@
       </div>
       <div class="info-box-content">
         <div class="user-name-box-content">
-          <div class="user-name-mini"><a href="">Edwin Gutierrez</a></div>
+          <div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
         </div>
         <div class="ico-social">
-          <a class="share-social" href=""><div class="share-fb"></div></a>
-          <a class="share-social" href=""><div class="share-tw"></div></a>
-          <a class="share-social" href=""><div class="share-g"></div></a>
+          <a class="share-social" href="#"><div class="share-fb"></div></a>
+          <a class="share-social" href="#"><div class="share-tw"></div></a>
+          <a class="share-social" href="#"><div class="share-g"></div></a>
         </div>
       </div>
     </div>
@@ -341,7 +209,7 @@
     <div class="box-content">
       <div class="header-box-content">
         <h3 class="title-box-content">Animación</h3>
-        <a class="ico-id-content" href=""><div class="ico-id-animation"></div></a>
+        <a class="ico-id-content" href="#"><div class="ico-id-animation"></div></a>
       </div>
       <div class="line-color-grey"></div>
       <div class="product-box-content">
@@ -349,12 +217,12 @@
       </div>
       <div class="info-box-content">
         <div class="user-name-box-content">
-          <div class="user-name-mini"><a href="">Edwin Gutierrez</a></div>
+          <div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
         </div>
         <div class="ico-social">
-          <a class="share-social" href=""><div class="share-fb"></div></a>
-          <a class="share-social" href=""><div class="share-tw"></div></a>
-          <a class="share-social" href=""><div class="share-g"></div></a>
+          <a class="share-social" href="#"><div class="share-fb"></div></a>
+          <a class="share-social" href="#"><div class="share-tw"></div></a>
+          <a class="share-social" href="#"><div class="share-g"></div></a>
         </div>
       </div>
     </div>
@@ -363,7 +231,7 @@
     <div class="box-content">
       <div class="header-box-content">
         <h3 class="title-box-content inline">Ilustracion</h3>
-        <a class="ico-id-content" href=""><div class="ico-id-illustration"></div></a>
+        <a class="ico-id-content" href="#"><div class="ico-id-illustration"></div></a>
       </div>
       <div class="line-color-grey"></div>
       <div class="product-box-content">
@@ -371,12 +239,12 @@
       </div>
       <div class="info-box-content">
         <div class="user-name-box-content">
-          <div class="user-name-mini"><a href="">Edwin Gutierrez</a></div>
+          <div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
         </div>
         <div class="ico-social">
-          <a class="share-social" href=""><div class="share-fb"></div></a>
-          <a class="share-social" href=""><div class="share-tw"></div></a>
-          <a class="share-social" href=""><div class="share-g"></div></a>
+          <a class="share-social" href="#"><div class="share-fb"></div></a>
+          <a class="share-social" href="#"><div class="share-tw"></div></a>
+          <a class="share-social" href="#"><div class="share-g"></div></a>
         </div>
       </div>
     </div>
@@ -385,7 +253,7 @@
     <div class="box-content">
       <div class="header-box-content">
         <h3 class="title-box-content">fotografía</h3>
-        <a class="ico-id-content" href=""><div class="ico-id-photo"></div></a>
+        <a class="ico-id-content" href="#"><div class="ico-id-photo"></div></a>
       </div>
       <div class="line-color-grey"></div>
       <div class="product-box-content">
@@ -393,12 +261,12 @@
       </div>
       <div class="info-box-content">
         <div class="user-name-box-content">
-          <div class="user-name-mini"><a href="">Edwin Gutierrez</a></div>
+          <div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
         </div>
         <div class="ico-social">
-          <a class="share-social" href=""><div class="share-fb"></div></a>
-          <a class="share-social" href=""><div class="share-tw"></div></a>
-          <a class="share-social" href=""><div class="share-g"></div></a>
+          <a class="share-social" href="#"><div class="share-fb"></div></a>
+          <a class="share-social" href="#"><div class="share-tw"></div></a>
+          <a class="share-social" href="#"><div class="share-g"></div></a>
         </div>
       </div>
     </div>
@@ -407,7 +275,7 @@
     <div class="box-content">
       <div class="header-box-content">
         <h3 class="title-box-content">Animación</h3>
-        <a class="ico-id-content" href=""><div class="ico-id-animation"></div></a>
+        <a class="ico-id-content" href="#"><div class="ico-id-animation"></div></a>
       </div>
       <div class="line-color-grey"></div>
       <div class="product-box-content">
@@ -415,12 +283,12 @@
       </div>
       <div class="info-box-content">
         <div class="user-name-box-content">
-          <div class="user-name-mini"><a href="">Edwin Gutierrez</a></div>
+          <div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
         </div>
         <div class="ico-social">
-          <a class="share-social" href=""><div class="share-fb"></div></a>
-          <a class="share-social" href=""><div class="share-tw"></div></a>
-          <a class="share-social" href=""><div class="share-g"></div></a>
+          <a class="share-social" href="#"><div class="share-fb"></div></a>
+          <a class="share-social" href="#"><div class="share-tw"></div></a>
+          <a class="share-social" href="#"><div class="share-g"></div></a>
         </div>
       </div>
     </div>
@@ -429,7 +297,7 @@
     <div class="box-content">
       <div class="header-box-content">
         <h3 class="title-box-content inline">Ilustracion</h3>
-        <a class="ico-id-content" href=""><div class="ico-id-illustration"></div></a>
+        <a class="ico-id-content" href="#"><div class="ico-id-illustration"></div></a>
       </div>
       <div class="line-color-grey"></div>
       <div class="product-box-content">
@@ -437,12 +305,12 @@
       </div>
       <div class="info-box-content">
         <div class="user-name-box-content">
-          <div class="user-name-mini"><a href="">Edwin Gutierrez</a></div>
+          <div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
         </div>
         <div class="ico-social">
-          <a class="share-social" href=""><div class="share-fb"></div></a>
-          <a class="share-social" href=""><div class="share-tw"></div></a>
-          <a class="share-social" href=""><div class="share-g"></div></a>
+          <a class="share-social" href="#"><div class="share-fb"></div></a>
+          <a class="share-social" href="#"><div class="share-tw"></div></a>
+          <a class="share-social" href="#"><div class="share-g"></div></a>
         </div>
       </div>
     </div>
@@ -451,7 +319,7 @@
     <div class="box-content">
       <div class="header-box-content">
         <h3 class="title-box-content inline">Diseño web</h3>
-        <a class="ico-id-content" href=""><div class="ico-id-web"></div></a>
+        <a class="ico-id-content" href="#"><div class="ico-id-web"></div></a>
       </div>
       <div class="line-color-grey"></div>
       <div class="product-box-content">
@@ -459,15 +327,16 @@
       </div>
       <div class="info-box-content">
         <div class="user-name-box-content">
-          <div class="user-name-mini"><a href="">Edwin Gutierrez</a></div>
+          <div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
         </div>
         <div class="ico-social">
-          <a class="share-social" href=""><div class="share-fb"></div></a>
-          <a class="share-social" href=""><div class="share-tw"></div></a>
-          <a class="share-social" href=""><div class="share-g"></div></a>
+          <a class="share-social" href="#"><div class="share-fb"></div></a>
+          <a class="share-social" href="#"><div class="share-tw"></div></a>
+          <a class="share-social" href="#"><div class="share-g"></div></a>
         </div>
       </div>
     </div>
+
   </div>
 </div>
   <!-- *********************************** end # Wrapper **************************************************-->
@@ -476,18 +345,37 @@
   <footer>
     <div class="footer-content">
       <section class="sponsors-logos">
-        <a href="http://www.presidencia.gov.co/‎" target="_blank"><article class="logo-sponsor" id="img-presidencia"></article></a>
-        <a href="http://www.fondoemprender.com/" target="_blank"><article class="logo-sponsor" id="img-fondo-emprender"></article></a>
-        <a href="http://www.sena.edu.co/" target="_blank"><article class="logo-sponsor" id="img-sena"></article></a>
-        <a href="http://www.fonade.gov.co/portal/page/portal/WebSite/FonadeInicio" target="_blank"><article class="logo-sponsor" id="img-fonade"></article></a>
+        <a href="http://bit.ly/1noonSk" target="_blank">
+          <article class="logo-sponsor" id="img-presidencia"></article>
+        </a>
+        <a href="http://bit.ly/1gZKGbR" target="_blank">
+          <article class="logo-sponsor" id="img-fondo-emprender"></article>
+        </a>
+        <a href="http://bit.ly/P384yf" target="_blank">
+          <article class="logo-sponsor" id="img-sena"></article>
+        </a>
+        <a href="http://bit.ly/1p6ZhMk" target="_blank">
+          <article class="logo-sponsor" id="img-fonade"></article>
+        </a>
         <br>
-        <a href="http://www.emprendetic.co/" target="_blank"><article class="logo-sponsor" id="img-emprendetic2"></article></a>
-        <a href="http://www.parquesoftbogota.com/es/" target="_blank"><article class="logo-sponsor" id="img-parquesoft"></article></a>
-        <a href="http://tecnoparque.sena.edu.co/Paginas/default.aspx" target="_blank"><article class="logo-sponsor" id="img-tecnoparque"></article></a>
-        <a href="http://www.laboratorioc3masd.co/" target="_blank"><article id="img-c3-d"></article></a>
-        <a href="https://apps.co/" target="_blank"><article class="logo-sponsor" id="img-apssco"></article></a>
-        <a href="http://www.ventures.com.co/" target="_blank"><article class="logo-sponsor" id="img-ventures"></article></a>
-        
+        <a href="http://bit.ly/1t5i7Dj" target="_blank">
+          <article class="logo-sponsor" id="img-emprendetic2"></article>
+        </a>
+        <a href="http://bit.ly/1iU7QTi" target="_blank">
+          <article class="logo-sponsor" id="img-parquesoft"></article>
+        </a>
+        <a href="http://bit.ly/1nooHRf" target="_blank">
+          <article class="logo-sponsor" id="img-tecnoparque"></article>
+        </a>
+        <a href="http://bit.ly/1gBr5mf" target="_blank">
+          <article id="img-c3-d"></article>
+        </a>
+        <a href="http://bit.ly/P38jJD" target="_blank">
+          <article class="logo-sponsor" id="img-apssco"></article>
+        </a>
+        <a href="http://bit.ly/1jI1LLQ" target="_blank">
+          <article class="logo-sponsor" id="img-ventures"></article>
+        </a>
       </section>
       <section class="nav-map">
         <article class="sub-nav-map">
@@ -495,8 +383,8 @@
             <li>
               <h6>Culttu.me</h6>
             </li>
-            <li><a href="http://blog.culttu.me/quienes-somos/" target="_blank">Nosotros</a></li>
-            <li><a href="http://blog.culttu.me/que-es-culttu-me/" target="_blank">Objetivos</a></li>
+            <li><a href="http://bit.ly/1eEoCsN" target="_blank">Nosotros</a></li>
+            <li><a href="http://bit.ly/1iU8PmG" target="_blank">Objetivos</a></li>
             <li><a href="#" target="_blank">Servicios</a></li>
             <li><a href="#" target="_blank">FAQs</a></li>
           </ul>
@@ -505,9 +393,9 @@
           <ul>
             <li> <h6>Redes</h6> </li>
             
-            <li><a href="https://www.facebook.com/Culttu.me" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com/culttume" target="_blank">Twitter</a></li>
-            <li><a href="http://blog.culttu.me/" target="_blank">Blog</a></li>
+            <li><a href="http://on.fb.me/1m7XvpN" target="_blank">Facebook</a></li>
+            <li><a href="http://bit.ly/1hI1JVK" target="_blank">Twitter</a></li>
+            <li><a href="http://bit.ly/1iU97tG" target="_blank">Blog</a></li>
             <li>&nbsp;</li>
           </ul>
         </article>
@@ -515,7 +403,7 @@
           <ul>
             <li> <h6>Ágilapps</h6> </li>
             
-            <li><a href="http://agilapps.co/" target="_blank">Website</a></li>
+            <li><a href="http://bit.ly/1qYrpwU" target="_blank">Website</a></li>
             <li>&nbsp;</li>
             <li>&nbsp;</li>
             <li>&nbsp;</li>
@@ -525,7 +413,7 @@
           <ul>
             <li> <h6>Guía</h6> </li>
             
-            <li><a href="http://agilapps.co/" target="_blank">Unete a Culttu.me</a></li>
+            <li><a href="http://bit.ly/1qYrpwU" target="_blank">Unete a Culttu.me</a></li>
             <li><a href="#" target="_blank">Terminos y condiciones</a></li>
             <li><a href="#" target="_blank">Copyright</a></li>
           </ul>
@@ -537,6 +425,7 @@
     <!-- ************************************* end footer ***************************************************-->
   <script src="assets/js/vendor/jquery.js"></script>
   <script src="assets/js/foundation/foundation.js"></script>
+  <script src="assets/js/foundation/foundation.reveal.js"></script>
   <script src="assets/js/foundation/foundation.topbar.js"></script>
   <script src="assets/js/vendor/jquery.leanModal.min.js"></script>
   <script src="assets/js/vendor/modernizr.js"></script>

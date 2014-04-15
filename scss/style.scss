@@ -8,7 +8,6 @@ body {
 
 	width:$dimensions_general; 
 	height:$dimensions_general !important;
-	background:$white2; 
 	overflow-x:hidden;
 	overflow-y:visible;
 	font-family:$font-stack1;
@@ -48,8 +47,8 @@ header {
 #wrapper {
 
 	float:left;
-	min-width: $width_wrapper;//1240px
-	max-width: $width_wrapper;//1240px
+	min-width: $width-wrapper;//1240px
+	max-width: $width-wrapper;//1240px
 	//border: 1px solid $bluesky;
 	height: auto;
 	background: transparent;
@@ -57,7 +56,7 @@ header {
 	font-family: $font-stack2;
 	font-size:100%;
 	line-height:100%;
-	padding: $pad_0;
+	padding: $pad-0;
 
 	#subwrapper{
 		float: left;
@@ -69,9 +68,9 @@ header {
 
 
 /* menu where they go from which they access any product or category */
-#float_menu{
+#float-menu{
 
-	width:$width_menufloat; //160px
+	width:$width-menufloat; //160px
 	height:auto;
 	position: fixed;
 	background: $black;
@@ -86,7 +85,7 @@ header {
     top: 0px;
     right: 0;
     left: 0px;
-    padding: $pad_0;
+    padding: $pad-0;
     h1{
     	font-family: $font-stack1;
     	text-align:center;
@@ -96,7 +95,7 @@ header {
     }
 }
 
-#section_general{
+#section-general{
 	width: 1030px;
 	height:auto;
 	margin: 10px 10px 10px 10px;
@@ -104,7 +103,7 @@ header {
 	overflow: hidden;
 	//border: 1px solid $bluesky;
 
-	#section_aboutme{
+	#section-aboutme{
 
 		width:239px;
 		background:$white;
@@ -115,7 +114,7 @@ header {
 		text-align:justify;
 		padding: 5px 5px 5px 5px;
 	
-		#description_aboutme{
+		#description-aboutme{
 			width: 239;
 			margin: auto;
 			font-family: $font-stack1;
@@ -126,7 +125,7 @@ header {
 		}
 	}
 
-	#section_aboutme2{
+	#section-aboutme2{
 
 		width:400px;
 		background:$white;
@@ -138,7 +137,7 @@ header {
 		padding: 5px 5px 5px 5px;
 	}
 
-	#section_social_profile{
+	#section-social-profile{
 
 		width:70px;
 		background:$white;
@@ -150,9 +149,9 @@ header {
 		padding: 5px 5px 5px 5px;
 	}
 
-	#section_followers{
+	#section-followers{
 
-		width:$width_followers;
+		width:$width-followers;
 		//border: 1px solid $bluesky;
 		float:left;
 		background:$white;
@@ -160,7 +159,7 @@ header {
 		font-family: $font-stack1;
 	}
 
-	#description_aboutme{
+	#description-aboutme{
 		width: 239;
 		margin: auto;
 		font-family: $font-stack1;
@@ -173,7 +172,7 @@ header {
 			}
 		}
 
-	#section_statistics{
+	#section-statistics{
 
 		width: 1010px;
 		background:$white;
@@ -199,7 +198,7 @@ header {
 
 		    li{
 		    	float:left;
-    			width:$width_menufloat;
+    			width:$width-menufloat;
     			background:transparent;
     			padding:5px;
     			a{
@@ -232,33 +231,33 @@ header {
 footer {
 	float:left;
 	
-	width:$dimensions_general;
-	height: $height_footer;
+	width:$dimensions-general;
+	height: $height-footer;
 	background: $white;
 	margin: 0px auto 0px auto;
 
 	/* ********* footer content, social, links, menu, agilapps ******** */
 	.footer-content{
-		width:$width_wrapper;
-		height:$height_footer_content+50px;
+		width:$width-wrapper;
+		height:$height-footer-content+50px;
 		background: transparent;
 		margin: 0px auto 0px auto;
 
 		@include transform-translate3d();
 		@include border-radius(0px);
-		padding: $pad_0;
+		padding: $pad-0;
 			/* ********* Sponsors culttume ******** */
 			.sponsors-logos{
-				width:$width_wrapper;
-				height:$height_box_content_small;
+				width:$width-wrapper;
+				height:$height-box-content-small;
 				background: transparent;
 				margin: 0px auto 0px auto;
 				overflow: hidden;
 				.logo-sponsor{
 					display: inline-block;
 					
-					width: $width_menufloat;
-					height: $height_box_content_small; //
+					width: $width-menufloat;
+					height: $height-box-content-small; //
 					background: transparent;
 					margin:0px 70px;
 				}
@@ -282,15 +281,15 @@ footer {
 			}
 			/* ********* navegation general ******** */
 			.nav-map{
-				width:$width_box_perfil+108px;
-				height:$height_box_content_small;
+				width:$width-box-perfil+108px;
+				height:$height-box-content-small;
 				background: transparent;
 				margin: 0px auto 0px auto;
 				overflow: hidden;
 					.sub-nav-map{
 						display: inline-block;
 						
-						width: $width_menufloat;
+						width: $width-menufloat;
 						height: auto; //
 						margin:1px 17.5px auto 17.5px;
 						background: transparent;
@@ -313,10 +312,10 @@ footer {
 .box-content{
 
 	float:left;
-	width: $width_box_content;
+	width: $width-box-content;
 	height: auto;
 	background: $white;
-	margin: $margin_cont;
+	margin: $margin-cont;
 	border: 1px solid $grey1;
 	overflow: hidden;
 	line-height:100%;
@@ -326,16 +325,16 @@ footer {
     
 	.header-box-content{
 
-		width: $width_box_content;
-		height: $height_box_title_content;
+		width: $width-box-content;
+		height: $height-box-title-content;
 		background: $white;
 		overflow: hidden;
 	
 		.title-box-content{
 
 			float:left;
-			width: $width_h3_title_content;
-			height: $height_h3_title_content;
+			width: $width-h3-title-content;
+			height: $height-h3-title-content;
 			background: transparent;
 			margin: 0;
 			padding:5px 5px 5px 10px;
@@ -348,8 +347,8 @@ footer {
 		.ico-id-content{
 
 			float:right;
-			width: $height_box_title_content;
-			height: $height_box_title_content;
+			width: $height-box-title-content;
+			height: $height-box-title-content;
 			margin:0;
 
 				.ico-id-photo,.ico-id-music,.ico-id-video,
@@ -357,8 +356,8 @@ footer {
 				.ico-id-password, .ico-id-about-you,
 				.ico-id-basic-info, .ico-id-user-photo, .ico-id-notification{
 
-					width:$dimensions_ico_product;
-					height:$dimensions_ico_product;
+					width:$dimensions-ico-product;
+					height:$dimensions-ico-product;
 					margin:5px auto 0 auto;  
 					background-size:100% 100%;
 					background-repeat:no-repeat;
@@ -382,8 +381,8 @@ footer {
 		.subtitle-box-content{
 
 			float:left;
-			width: $width_h3_title_content;
-			height: $height_h3_title_content;
+			width: $width-h3-title-content;
+			height: $height-h3-title-content;
 			background: transparent;
 			margin: -10px 0 0 0;
 			padding:0px 0px 0px 10px;
@@ -395,7 +394,7 @@ footer {
 
 	.line-color-grey{
 
-		width:$width_box_content;
+		width:$width-box-content;
 		height:1px;
 		background: $grey0;
 	}
@@ -404,9 +403,9 @@ footer {
     /*the dimension of this div will be content  photos, ilustrations, animates and video*/
 	.product-box-content{
 
-		width: $width_product_box_content;
-		max-height: $height_img_box_content;
-		min-height: $height_img_box_content;
+		width: $width-product-box-content;
+		max-height: $height-img-box-content;
+		min-height: $height-img-box-content;
 		background: $white;
 		margin:10px auto;	
 	}
@@ -414,17 +413,17 @@ footer {
 	/*the characteristics of this content only will be content API soundcloud*/
 	.music-box-content{
 
-		width: $width_product_box_content;
-		max-height: $height_music_box_content;
-		min-height: $height_music_box_content;
+		width: $width-product-box-content;
+		max-height: $height-music-box-content;
+		min-height: $height-music-box-content;
 		background: $white;
 		margin:10px auto;
 	}
 
 	.info-box-content{
 
-		width: $width_box_content;
-		height: $height_info_box_content;
+		width: $width-box-content;
+		height: $height-info-box-content;
 		background: transparent;
 		margin:0px;
 
@@ -435,8 +434,8 @@ footer {
 			.user-name-mini{
 
 				float:left;
-				width: $width_p_title_content;
-				height: $height_p_title_content;
+				width: $width-p-title-content;
+				height: $height-p-title-content;
 				background: transparent;
 				margin:5px 0;
 				padding:0 0 0 10px;
@@ -450,16 +449,16 @@ footer {
 
                 float:right;
                 background: transparent;
-                width:$dimensions_ico_social_title_content;
-                height:$dimensions_ico_social_title_content;
+                width:$dimensions-ico-social-title-content;
+                height:$dimensions-ico-social-title-content;
                 margin:5px 5px 0 0;
                 cursor: pointer;
 
 					/* social shares configuration  */
                     .share-fb{
 
-                        width:$dimensions_ico_social_share;
-                        height:$dimensions_ico_social_share;
+                        width:$dimensions-ico-social-share;
+                        height:$dimensions-ico-social-share;
                         background:url(../img/ico-fb.png), $white;//  
                         background-size:16px 16px;
                         background-repeat:no-repeat;
@@ -467,8 +466,8 @@ footer {
                     }
                     .share-tw{
 
-                        width:$dimensions_ico_social_share;
-                        height:$dimensions_ico_social_share;
+                        width:$dimensions-ico-social-share;
+                        height:$dimensions-ico-social-share;
                         background:url(../img/ico-tw.png), $white;//  
                         background-size:16px 16px;
                         background-repeat:no-repeat;
@@ -476,8 +475,8 @@ footer {
                     }
                     .share-g{
 
-                        width:$dimensions_ico_social_share;
-                        height:$dimensions_ico_social_share;
+                        width:$dimensions-ico-social-share;
+                        height:$dimensions-ico-social-share;
                         background:url(../img/ico-g.png), $white;//  
                         background-size:16px 16px;
                         background-repeat:no-repeat;
@@ -497,8 +496,8 @@ footer {
 		.ico-id-deleat{
 
 			float:left;
-			width:$dimensions_ico_product;
-			height:$dimensions_ico_product;
+			width:$dimensions-ico-product;
+			height:$dimensions-ico-product;
 			margin:0 1px 0 auto;
 			font-size: 0.875rem;
 			background:url(../img/ico-deleat.png);
@@ -524,8 +523,8 @@ footer {
 		/*  */
 		.ico-id-deleat{
 				float:left;
-				width:$dimensions_ico_product;
-				height:$dimensions_ico_product;
+				width:$dimensions-ico-product;
+				height:$dimensions-ico-product;
 				margin:0 1px 0 auto;
 				background:url(../img/ico-deleat.png);
 				background-size:100% 100%;
@@ -550,7 +549,7 @@ footer {
 
 	.form-setting{
 
-		width: $width_box_form_setting;
+		width: $width-box-form-setting;
 		height: auto;
 		background: transparent;
 		margin:0 10px;
@@ -558,9 +557,9 @@ footer {
 
 	textarea{
 
-		width: $width_product_box_content;
+		width: $width-product-box-content;
 		max-height: auto;
-		min-height: $height_img_box_content+-50px;
+		min-height: $height-img-box-content+-50px;
 	}
 
     .preview-photo-user{
@@ -579,17 +578,17 @@ footer {
 .box-new-content{
 	
 	float:left;
-	width: $width_box_content;
-	height: $height_box_new_content;
+	width: $width-box-content;
+	height: $height-box-new-content;
 	background: $white;
-	margin: $margin_cont;
+	margin: $margin-cont;
 	border: 1px dashed $grey2;
 	overflow: hidden;
 }
 
 /***************************************************** form register and login ************************************************************ */
 
-#lean_overlay {
+#lean-overlay {
 
     position: fixed;
     z-index:100;
@@ -601,7 +600,7 @@ footer {
     display: none;
 }
 
-.popupContainer{
+.popup-container{
 
 	position:absolute;
 	width:330px;
@@ -611,13 +610,13 @@ footer {
 	background: #FFF;
 }
 
-#modal_trigger {
+#modal-trigger {
 
 	margin:0px auto; 
 	width:100px; 
 	display:block;
 }
-#modal_register{
+#modal-register{
 	margin:0px auto; 
 	width:100px; 
 	display:block;
@@ -650,12 +649,12 @@ a.btn {
 	text-align: center; 
 	text-decoration: none;
 }
-a.btn_red {
+a.btn-red {
 
 	color: #FFF;
 }
 
-.one_half {
+.one-half {
 
 	width:50%; 
 	display: block; 
@@ -670,7 +669,7 @@ a.btn_red {
 
 /* Popup Styles*/
 
-.popupHeader {
+.popup-header {
 
 	font-size:16px; 
 	font-family:$font-stack1;
@@ -681,7 +680,7 @@ a.btn_red {
 	border-bottom:1px solid #DDD; 
 	font-weight:bold;
 
-	.modal_close {
+	.modal-close {
 		position: absolute; 
 		right: 0; 
 		top:0; 
@@ -692,16 +691,16 @@ a.btn_red {
 		font-size:16px;
 	}
 }
-.popupBody {
+.popup-body {
 
 	padding:20px;
 }
 
 
 /* Social Login Form */
-.social_login {
+.social-login {
 
-	.social_box {
+	.social-box {
 		display:block; 
 		clear:both; 
 		padding:10px; 
@@ -719,7 +718,7 @@ a.btn_red {
 		font-size:16px; 
 		text-align: center;
 	}
-	.icon_title {
+	.icon-title {
 		font-family:$font-stack1;
 		display:block; 
 		padding:5px 0; 
@@ -728,7 +727,7 @@ a.btn_red {
 		font-size: 16px; 
 		color:#777;
 	}
-	.social_box:hover {
+	.social-box:hover {
 		background: #E4E4E2;
 	}
 	.fb .icon {
@@ -738,12 +737,12 @@ a.btn_red {
 		background:#DD4B39;
 	}
 	.tw .icon{
-		background:$color_twitter;
+		background:$color-twitter;
 	}
 }
 
 
-.centeredText {
+.centered-text {
 
 	text-align: center; 
 	margin: 20px 0; 
@@ -753,7 +752,7 @@ a.btn_red {
 	font-family: $font-stack1;
 }
 
-.action_btns {
+.action-btns {
 	clear:both; 
 	overflow: hidden;
 
@@ -763,7 +762,7 @@ a.btn_red {
 }
 
 /* User Login Form */
-.user_login {
+.user-login {
 	display: none;
 
 	label {
@@ -792,7 +791,7 @@ a.btn_red {
 		overflow: hidden;
 	}
 }
-.forgot_password {
+.forgot-password {
 
 	display:block; 
 	margin: 20px 0 10px; 
@@ -803,7 +802,7 @@ a.btn_red {
 }
 
 /* User Register Form */
-.user_register {
+.user-register {
 
 	display: none;
 

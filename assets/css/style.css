@@ -19,10 +19,11 @@ header {
   height: 40px;
   background: white;
   opacity: 0.9;
+  box-shadow: 0px 3px 10px #888888;
   z-index: 999;
   /*properties of the div that is inside header*/
 }
-/* line 28, ../../scss/style.scss */
+/* line 29, ../../scss/style.scss */
 header #subheader {
   max-width: 1240px;
   height: 40px;
@@ -32,7 +33,7 @@ header #subheader {
   padding: 0px;
   /* photo that appears on the right side of the header */
 }
-/* line 38, ../../scss/style.scss */
+/* line 39, ../../scss/style.scss */
 header #subheader .photo_user_mini {
   float: right;
   height: 40px;
@@ -40,7 +41,7 @@ header #subheader .photo_user_mini {
 }
 
 /* This will be the content of the page */
-/* line 48, ../../scss/style.scss */
+/* line 49, ../../scss/style.scss */
 #wrapper {
   float: left;
   min-width: 1240px;
@@ -53,7 +54,7 @@ header #subheader .photo_user_mini {
   line-height: 100%;
   padding: 0px;
 }
-/* line 62, ../../scss/style.scss */
+/* line 63, ../../scss/style.scss */
 #wrapper #subwrapper {
   float: left;
   width: 1060px;
@@ -61,13 +62,13 @@ header #subheader .photo_user_mini {
 }
 
 /* menu where they go from which they access any product or category */
-/* line 72, ../../scss/style.scss */
+/* line 73, ../../scss/style.scss */
 #float-menu {
   width: 160px;
   height: auto;
   position: fixed;
   font-family: "Open Sans", sans-serif;
-  background: #f39720;
+  background: #E55B48;
   margin: 10px 10px 10px 10px;
   float: left;
   overflow: hidden;
@@ -87,16 +88,16 @@ header #subheader .photo_user_mini {
   left: 0px;
   padding: 0px;
 }
-/* line 91, ../../scss/style.scss */
+/* line 92, ../../scss/style.scss */
 #float-menu h1 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   font-size: 1.5rem;
-  background: #f39720;
+  background: #E55B48;
   color: white;
 }
 
-/* line 100, ../../scss/style.scss */
+/* line 101, ../../scss/style.scss */
 #section-general {
   width: 1030px;
   height: auto;
@@ -105,34 +106,34 @@ header #subheader .photo_user_mini {
   overflow: hidden;
   font-family: "Open Sans", sans-serif;
 }
-/* line 108, ../../scss/style.scss */
+/* line 109, ../../scss/style.scss */
 #section-general .section_faqs {
   width: 1030px;
   border: 1px solid #eeeeee;
 }
-/* line 112, ../../scss/style.scss */
+/* line 113, ../../scss/style.scss */
 #section-general .section_faqs h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.8rem;
 }
-/* line 116, ../../scss/style.scss */
+/* line 117, ../../scss/style.scss */
 #section-general .section_faqs h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.3rem;
 }
-/* line 120, ../../scss/style.scss */
+/* line 121, ../../scss/style.scss */
 #section-general .section_faqs h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.0rem;
 }
-/* line 125, ../../scss/style.scss */
+/* line 126, ../../scss/style.scss */
 #section-general .section_faqs .section_subfaqs {
   margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
   background: white;
   text-align: justify;
 }
-/* line 133, ../../scss/style.scss */
+/* line 134, ../../scss/style.scss */
 #section-general #section-aboutme {
   width: 239px;
   background: white;
@@ -142,18 +143,18 @@ header #subheader .photo_user_mini {
   text-align: justify;
   padding: 5px 5px 5px 5px;
 }
-/* line 144, ../../scss/style.scss */
+/* line 145, ../../scss/style.scss */
 #section-general #section-aboutme #description-aboutme {
   width: 239;
   margin: auto;
   font-family: "Open Sans", sans-serif;
 }
-/* line 148, ../../scss/style.scss */
+/* line 149, ../../scss/style.scss */
 #section-general #section-aboutme #description-aboutme h1 {
   font-size: 24px;
   font-family: "Open Sans", sans-serif;
 }
-/* line 155, ../../scss/style.scss */
+/* line 156, ../../scss/style.scss */
 #section-general #section-aboutme2 {
   width: 400px;
   background: white;
@@ -163,7 +164,7 @@ header #subheader .photo_user_mini {
   text-align: justify;
   padding: 5px 5px 5px 5px;
 }
-/* line 167, ../../scss/style.scss */
+/* line 168, ../../scss/style.scss */
 #section-general #section-social-profile {
   width: 70px;
   background: white;
@@ -173,7 +174,7 @@ header #subheader .photo_user_mini {
   text-align: justify;
   padding: 5px 5px 5px 5px;
 }
-/* line 179, ../../scss/style.scss */
+/* line 180, ../../scss/style.scss */
 #section-general #section-followers {
   width: 250px;
   float: left;
@@ -181,23 +182,23 @@ header #subheader .photo_user_mini {
   margin: 5px 5px 5px 30px;
   font-family: "Open Sans", sans-serif;
 }
-/* line 189, ../../scss/style.scss */
+/* line 190, ../../scss/style.scss */
 #section-general #description-aboutme {
   width: 239;
   margin: auto;
   font-family: "Open Sans", sans-serif;
 }
-/* line 193, ../../scss/style.scss */
+/* line 194, ../../scss/style.scss */
 #section-general #description-aboutme p {
   font-size: 0.9rem;
   font-family: "Open Sans", sans-serif;
 }
-/* line 197, ../../scss/style.scss */
+/* line 198, ../../scss/style.scss */
 #section-general #description-aboutme h1 {
   font-size: 1.5rem;
   font-family: "Open Sans", sans-serif;
 }
-/* line 203, ../../scss/style.scss */
+/* line 204, ../../scss/style.scss */
 #section-general #section-statistics {
   width: 1010px;
   background: white;
@@ -209,13 +210,13 @@ header #subheader .photo_user_mini {
   text-align: center;
 }
 
-/* line 221, ../../scss/style.scss */
+/* line 222, ../../scss/style.scss */
 .menu ul {
   list-style: none;
   float: left;
   margin: 10px 10px auto 10px;
 }
-/* line 227, ../../scss/style.scss */
+/* line 228, ../../scss/style.scss */
 .menu ul li {
   float: left;
   width: 160px;
@@ -223,18 +224,18 @@ header #subheader .photo_user_mini {
   padding: 5px;
   margin: auto;
 }
-/* line 233, ../../scss/style.scss */
+/* line 234, ../../scss/style.scss */
 .menu ul li a {
   color: white;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
 }
-/* line 240, ../../scss/style.scss */
+/* line 241, ../../scss/style.scss */
 .menu ul li a :hover {
   background: white;
 }
-/* line 245, ../../scss/style.scss */
+/* line 246, ../../scss/style.scss */
 .menu ul li h2 {
   text-align: center;
   color: white;
@@ -244,7 +245,7 @@ header #subheader .photo_user_mini {
 /*here are all the sections belonging to profile*/
 /* This section will display the list of followers */
 /* properties general footer  */
-/* line 260, ../../scss/style.scss */
+/* line 261, ../../scss/style.scss */
 footer {
   float: left;
   width: 100%;
@@ -253,7 +254,7 @@ footer {
   margin: 0px auto 0px auto;
   /* ********* footer content, social, links, menu, agilapps ******** */
 }
-/* line 269, ../../scss/style.scss */
+/* line 270, ../../scss/style.scss */
 footer .footer-content {
   width: 100%;
   height: 405px;
@@ -272,7 +273,7 @@ footer .footer-content {
   /* ********* Sponsors culttume ******** */
   /* ********* navegation general ******** */
 }
-/* line 279, ../../scss/style.scss */
+/* line 280, ../../scss/style.scss */
 footer .footer-content .sponsors-logos {
   width: 840px;
   height: 220px;
@@ -282,14 +283,14 @@ footer .footer-content .sponsors-logos {
   /* ********* Opacity, filter greyscale and bg sponsors ******** */
   /* ********* Opacity and filter effect ******** */
 }
-/* line 285, ../../scss/style.scss */
+/* line 286, ../../scss/style.scss */
 footer .footer-content .sponsors-logos .logo-sponsor {
   display: inline-block;
   width: 160px;
   height: 70px;
   margin: 0px 23px;
 }
-/* line 293, ../../scss/style.scss */
+/* line 294, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-presidencia {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -299,7 +300,7 @@ footer .footer-content .sponsors-logos #img-presidencia {
   opacity: 0.5;
   background: url(../img/Presidencia-160x45.png) center center no-repeat, white;
 }
-/* line 294, ../../scss/style.scss */
+/* line 295, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-emprendetic2 {
   margin-left: 50px;
   -webkit-filter: grayscale(100%);
@@ -310,7 +311,7 @@ footer .footer-content .sponsors-logos #img-emprendetic2 {
   opacity: 0.5;
   background: url(../img/EmprendeTic2-160x45.png) center center no-repeat, white;
 }
-/* line 295, ../../scss/style.scss */
+/* line 296, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-sena {
   width: 60px;
   -webkit-filter: grayscale(100%);
@@ -321,7 +322,7 @@ footer .footer-content .sponsors-logos #img-sena {
   opacity: 0.5;
   background: url(../img/SENA-160x45.png) center center no-repeat, white;
 }
-/* line 296, ../../scss/style.scss */
+/* line 297, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-fonade {
   width: 100px;
   -webkit-filter: grayscale(100%);
@@ -332,7 +333,7 @@ footer .footer-content .sponsors-logos #img-fonade {
   opacity: 0.5;
   background: url(../img/Fonade-160x45.jpg) center center no-repeat, white;
 }
-/* line 297, ../../scss/style.scss */
+/* line 298, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-parquesoft {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -342,7 +343,7 @@ footer .footer-content .sponsors-logos #img-parquesoft {
   opacity: 0.5;
   background: url(../img/ParqueSoft-160x45.png) center center no-repeat, white;
 }
-/* line 298, ../../scss/style.scss */
+/* line 299, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-tecnoparque {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -352,7 +353,7 @@ footer .footer-content .sponsors-logos #img-tecnoparque {
   opacity: 0.5;
   background: url(../img/Tecnoparque-160x87.png) center center no-repeat, white;
 }
-/* line 299, ../../scss/style.scss */
+/* line 300, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-fondo-emprender {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -362,7 +363,7 @@ footer .footer-content .sponsors-logos #img-fondo-emprender {
   opacity: 0.5;
   background: url(../img/FondoEmprender-160x45.png) center center no-repeat, white;
 }
-/* line 300, ../../scss/style.scss */
+/* line 301, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-c3-d {
   display: inline-block;
   position: fixed;
@@ -379,7 +380,7 @@ footer .footer-content .sponsors-logos #img-c3-d {
   opacity: 0.5;
   background: url(../img/C3+d-120x155.jpg) center no-repeat, white;
 }
-/* line 312, ../../scss/style.scss */
+/* line 313, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-apssco {
   margin: 0 20px 0 160px;
   -webkit-filter: grayscale(100%);
@@ -390,7 +391,7 @@ footer .footer-content .sponsors-logos #img-apssco {
   opacity: 0.5;
   background: url(../img/Apps.co-160x45.png) center center no-repeat, white;
 }
-/* line 313, ../../scss/style.scss */
+/* line 314, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-ventures {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -400,7 +401,7 @@ footer .footer-content .sponsors-logos #img-ventures {
   opacity: 0.5;
   background: url(../img/Ventures-160x45.png) center center no-repeat, white;
 }
-/* line 318, ../../scss/style.scss */
+/* line 319, ../../scss/style.scss */
 footer .footer-content .sponsors-logos #img-presidencia:hover, footer .footer-content .sponsors-logos #img-emprendetic2:hover, footer .footer-content .sponsors-logos #img-sena:hover,
 footer .footer-content .sponsors-logos #img-parquesoft:hover, footer .footer-content .sponsors-logos #img-tecnoparque:hover, footer .footer-content .sponsors-logos #img-fondo-emprender:hover,
 footer .footer-content .sponsors-logos #img-apssco:hover, footer .footer-content .sponsors-logos #img-c3-d:hover, footer .footer-content .sponsors-logos #img-ventures:hover, footer .footer-content .sponsors-logos #img-fonade:hover {
@@ -411,7 +412,7 @@ footer .footer-content .sponsors-logos #img-apssco:hover, footer .footer-content
   filter: grayscale(0%);
   opacity: 5;
 }
-/* line 324, ../../scss/style.scss */
+/* line 325, ../../scss/style.scss */
 footer .footer-content .nav-map {
   width: 800px;
   height: 160px;
@@ -419,7 +420,7 @@ footer .footer-content .nav-map {
   margin: 0px auto 0px auto;
   overflow: hidden;
 }
-/* line 330, ../../scss/style.scss */
+/* line 331, ../../scss/style.scss */
 footer .footer-content .nav-map .sub-nav-map {
   display: inline-block;
   width: 160px;
@@ -427,11 +428,11 @@ footer .footer-content .nav-map .sub-nav-map {
   margin: 1px 17.5px auto 17.5px;
   background: white;
 }
-/* line 338, ../../scss/style.scss */
+/* line 339, ../../scss/style.scss */
 footer .footer-content .nav-map a {
   font-family: "Open Sans", sans-serif;
 }
-/* line 341, ../../scss/style.scss */
+/* line 342, ../../scss/style.scss */
 footer .footer-content .nav-map li {
   list-style-type: none;
   font-family: "Open Sans", sans-serif;
@@ -439,7 +440,7 @@ footer .footer-content .nav-map li {
 
 /*************************************** Content general styles boxes ********************************************************/
 /*.box-content Has styles boxes and properties */
-/* line 351, ../../scss/style.scss */
+/* line 352, ../../scss/style.scss */
 .box-content {
   float: left;
   width: 320px;
@@ -454,14 +455,14 @@ footer .footer-content .nav-map li {
   /*the dimension of this div will be content  photos, ilustrations, animates and video*/
   /*the characteristics of this content only will be content API soundcloud*/
 }
-/* line 365, ../../scss/style.scss */
+/* line 366, ../../scss/style.scss */
 .box-content .header-box-content {
   width: 320px;
   height: 47px;
   background: white;
   overflow: hidden;
 }
-/* line 372, ../../scss/style.scss */
+/* line 373, ../../scss/style.scss */
 .box-content .header-box-content .title-box-content {
   float: left;
   width: 258px;
@@ -474,14 +475,14 @@ footer .footer-content .nav-map li {
   font-weight: 300;
   font-size: 100%;
 }
-/* line 386, ../../scss/style.scss */
+/* line 387, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content {
   float: right;
   width: 47px;
   height: 47px;
   margin: 0;
 }
-/* line 396, ../../scss/style.scss */
+/* line 397, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-photo, .box-content .header-box-content .ico-id-content .ico-id-music, .box-content .header-box-content .ico-id-content .ico-id-video,
 .box-content .header-box-content .ico-id-content .ico-id-animation, .box-content .header-box-content .ico-id-content .ico-id-illustration, .box-content .header-box-content .ico-id-content .ico-id-web,
 .box-content .header-box-content .ico-id-content .ico-id-password, .box-content .header-box-content .ico-id-content .ico-id-about-you,
@@ -493,51 +494,51 @@ footer .footer-content .nav-map li {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 406, ../../scss/style.scss */
+/* line 407, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-photo {
   background: url(../img/ico-photos.png);
 }
-/* line 407, ../../scss/style.scss */
+/* line 408, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-music {
   background: url(../img/ico-music.png);
 }
-/* line 408, ../../scss/style.scss */
+/* line 409, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-video {
   background: url(../img/ico-video.png);
 }
-/* line 409, ../../scss/style.scss */
+/* line 410, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-animation {
   background: url(../img/ico-animation.png);
 }
-/* line 410, ../../scss/style.scss */
+/* line 411, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-illustration {
   background: url(../img/ico-illustration.png);
 }
-/* line 411, ../../scss/style.scss */
+/* line 412, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-web {
   background: url(../img/ico-web.png);
 }
-/* line 412, ../../scss/style.scss */
+/* line 413, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-password {
   background: url(../img/ico-password.png);
 }
-/* line 413, ../../scss/style.scss */
+/* line 414, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-about-you {
   background: url(../img/ico-about-you.png);
 }
-/* line 414, ../../scss/style.scss */
+/* line 415, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-basic-info {
   background: url(../img/ico-basic-info.png);
 }
-/* line 415, ../../scss/style.scss */
+/* line 416, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-user-photo {
   background: url(../img/ico-user-photo.png);
 }
-/* line 416, ../../scss/style.scss */
+/* line 417, ../../scss/style.scss */
 .box-content .header-box-content .ico-id-content .ico-id-notification {
   background: url(../img/ico-notification.png);
 }
-/* line 420, ../../scss/style.scss */
+/* line 421, ../../scss/style.scss */
 .box-content .header-box-content .subtitle-box-content {
   float: left;
   width: 258px;
@@ -549,13 +550,13 @@ footer .footer-content .nav-map li {
   font-weight: 300;
   font-size: 11px;
 }
-/* line 434, ../../scss/style.scss */
+/* line 435, ../../scss/style.scss */
 .box-content .line-color-grey {
   width: 320px;
   height: 1px;
   background: #d6d6d6;
 }
-/* line 443, ../../scss/style.scss */
+/* line 444, ../../scss/style.scss */
 .box-content .product-box-content {
   width: 300px;
   max-height: 150px;
@@ -563,7 +564,7 @@ footer .footer-content .nav-map li {
   background: white;
   margin: 10px auto;
 }
-/* line 453, ../../scss/style.scss */
+/* line 454, ../../scss/style.scss */
 .box-content .music-box-content {
   width: 300px;
   max-height: 90px;
@@ -571,18 +572,18 @@ footer .footer-content .nav-map li {
   background: white;
   margin: 10px auto;
 }
-/* line 462, ../../scss/style.scss */
+/* line 463, ../../scss/style.scss */
 .box-content .info-box-content {
   width: 320px;
   height: 30px;
   background: transparent;
   margin: 0px;
 }
-/* line 469, ../../scss/style.scss */
+/* line 470, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content {
   background: #ff0000;
 }
-/* line 473, ../../scss/style.scss */
+/* line 474, ../../scss/style.scss */
 .box-content .info-box-content .user-name-box-content .user-name-mini {
   float: left;
   width: 220px;
@@ -592,7 +593,7 @@ footer .footer-content .nav-map li {
   padding: 0 0 0 10px;
   font-size: 12px;
 }
-/* line 487, ../../scss/style.scss */
+/* line 488, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-social {
   float: right;
   background: transparent;
@@ -602,7 +603,7 @@ footer .footer-content .nav-map li {
   cursor: pointer;
   /* social shares configuration  */
 }
-/* line 497, ../../scss/style.scss */
+/* line 498, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-social .share-fb {
   width: 20px;
   height: 20px;
@@ -611,7 +612,7 @@ footer .footer-content .nav-map li {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 506, ../../scss/style.scss */
+/* line 507, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-social .share-tw {
   width: 20px;
   height: 20px;
@@ -620,7 +621,7 @@ footer .footer-content .nav-map li {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 515, ../../scss/style.scss */
+/* line 516, ../../scss/style.scss */
 .box-content .info-box-content .ico-social .share-social .share-g {
   width: 20px;
   height: 20px;
@@ -629,14 +630,14 @@ footer .footer-content .nav-map li {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 528, ../../scss/style.scss */
+/* line 529, ../../scss/style.scss */
 .box-content .deleat-account {
   width: 200px;
   height: 2.3125rem;
   margin: 0 20%;
   background: transparent;
 }
-/* line 535, ../../scss/style.scss */
+/* line 536, ../../scss/style.scss */
 .box-content .deleat-account .ico-id-deleat {
   float: left;
   width: 35px;
@@ -648,7 +649,7 @@ footer .footer-content .nav-map li {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 547, ../../scss/style.scss */
+/* line 548, ../../scss/style.scss */
 .box-content .deleat-account .label-link {
   float: left;
   font-size: 1rem;
@@ -656,7 +657,7 @@ footer .footer-content .nav-map li {
   text-align: center;
   margin: 10px auto 0 20px;
 }
-/* line 557, ../../scss/style.scss */
+/* line 558, ../../scss/style.scss */
 .box-content .deleat-object {
   width: 200px;
   height: 2.3125rem;
@@ -665,7 +666,7 @@ footer .footer-content .nav-map li {
   /*  */
   /*  */
 }
-/* line 563, ../../scss/style.scss */
+/* line 564, ../../scss/style.scss */
 .box-content .deleat-object .ico-id-deleat {
   float: left;
   width: 35px;
@@ -676,7 +677,7 @@ footer .footer-content .nav-map li {
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* line 573, ../../scss/style.scss */
+/* line 574, ../../scss/style.scss */
 .box-content .deleat-object .label-link {
   float: left;
   font-size: 0.875rem;
@@ -684,26 +685,26 @@ footer .footer-content .nav-map li {
   text-align: center;
   margin: 10px auto 0 20px;
 }
-/* line 582, ../../scss/style.scss */
+/* line 583, ../../scss/style.scss */
 .box-content label {
   line-height: 100%;
   font-weight: 300;
   font-size: 12px;
 }
-/* line 589, ../../scss/style.scss */
+/* line 590, ../../scss/style.scss */
 .box-content .form-setting {
   width: 290px;
   height: auto;
   background: transparent;
   margin: 0 10px;
 }
-/* line 597, ../../scss/style.scss */
+/* line 598, ../../scss/style.scss */
 .box-content textarea {
   width: 300px;
   max-height: auto;
   min-height: 100px;
 }
-/* line 604, ../../scss/style.scss */
+/* line 605, ../../scss/style.scss */
 .box-content .preview-photo-user {
   width: 100px;
   height: 100px;
@@ -713,7 +714,7 @@ footer .footer-content .nav-map li {
 
 /* ******************************** Content general styles boxes ************************************************************/
 /* content related to the event manager */
-/* line 617, ../../scss/style.scss */
+/* line 618, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -725,7 +726,7 @@ footer .footer-content .nav-map li {
 }
 
 /***************************************************** form register and login ************************************************************ */
-/* line 630, ../../scss/style.scss */
+/* line 631, ../../scss/style.scss */
 #lean-overlay {
   position: fixed;
   z-index: 100;
@@ -737,7 +738,7 @@ footer .footer-content .nav-map li {
   display: none;
 }
 
-/* line 642, ../../scss/style.scss */
+/* line 643, ../../scss/style.scss */
 .popup-container {
   position: absolute;
   width: 330px;
@@ -747,68 +748,68 @@ footer .footer-content .nav-map li {
   background: #FFF;
 }
 
-/* line 652, ../../scss/style.scss */
+/* line 653, ../../scss/style.scss */
 #modal-trigger {
   margin: 0px auto;
   width: 100px;
   display: block;
 }
 
-/* line 658, ../../scss/style.scss */
+/* line 659, ../../scss/style.scss */
 #modal-register {
   margin: 0px auto;
   width: 100px;
   display: block;
 }
 
-/* line 666, ../../scss/style.scss */
+/* line 667, ../../scss/style.scss */
 .btn {
   padding: 10px 20px;
   background: #F4F4F2;
 }
 
-/* line 671, ../../scss/style.scss */
+/* line 672, ../../scss/style.scss */
 .btn_red {
   background: #e84f35;
   color: #FFF;
 }
 
-/* line 677, ../../scss/style.scss */
+/* line 678, ../../scss/style.scss */
 .btn:hover {
   background: #E4E4E2;
 }
 
-/* line 681, ../../scss/style.scss */
+/* line 682, ../../scss/style.scss */
 .btn_red:hover {
   background: #C12B05;
 }
 
-/* line 685, ../../scss/style.scss */
+/* line 686, ../../scss/style.scss */
 a.btn {
   color: #666;
   text-align: center;
   text-decoration: none;
 }
 
-/* line 691, ../../scss/style.scss */
+/* line 692, ../../scss/style.scss */
 a.btn-red {
   color: #FFF;
 }
 
-/* line 696, ../../scss/style.scss */
+/* line 697, ../../scss/style.scss */
 .one-half {
   width: 50%;
   display: block;
   float: left;
 }
-/* line 702, ../../scss/style.scss */
+/* line 703, ../../scss/style.scss */
 .one-half .last {
   width: 45%;
   margin-left: 5%;
 }
 
 /* Popup Styles*/
-/* line 711, ../../scss/style.scss */
+/* line 712, ../../scss/style.scss */
 .popup-header {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -819,7 +820,7 @@ a.btn-red {
   border-bottom: 1px solid #DDD;
   font-weight: bold;
 }
-/* line 722, ../../scss/style.scss */
+/* line 723, ../../scss/style.scss */
 .popup-header .modal-close {
   position: absolute;
   right: 0;
@@ -831,13 +832,13 @@ a.btn-red {
   font-size: 16px;
 }
 
-/* line 733, ../../scss/style.scss */
+/* line 734, ../../scss/style.scss */
 .popup-body {
   padding: 20px;
 }
 
 /* Social Login Form */
-/* line 742, ../../scss/style.scss */
+/* line 743, ../../scss/style.scss */
 .social-login .social-box {
   display: block;
   clear: both;
@@ -846,7 +847,7 @@ a.btn-red {
   background: #F4F4F2;
   overflow: hidden;
 }
-/* line 750, ../../scss/style.scss */
+/* line 751, ../../scss/style.scss */
 .social-login .icon {
   display: block;
   width: 15px;
@@ -857,7 +858,7 @@ a.btn-red {
   font-size: 16px;
   text-align: center;
 }
-/* line 760, ../../scss/style.scss */
+/* line 761, ../../scss/style.scss */
 .social-login .icon-title {
   font-family: "Open Sans", sans-serif;
   display: block;
@@ -867,24 +868,24 @@ a.btn-red {
   font-size: 16px;
   color: #777;
 }
-/* line 769, ../../scss/style.scss */
+/* line 770, ../../scss/style.scss */
 .social-login .social-box:hover {
   background: #E4E4E2;
 }
-/* line 772, ../../scss/style.scss */
+/* line 773, ../../scss/style.scss */
 .social-login .fb .icon {
   background: #3B5998;
 }
-/* line 775, ../../scss/style.scss */
+/* line 776, ../../scss/style.scss */
 .social-login .google .icon {
   background: #DD4B39;
 }
-/* line 778, ../../scss/style.scss */
+/* line 779, ../../scss/style.scss */
 .social-login .tw .icon {
   background: #52a8e9;
 }
 
-/* line 784, ../../scss/style.scss */
+/* line 785, ../../scss/style.scss */
 .centered-text {
   text-align: center;
   margin: 20px 0;
@@ -894,28 +895,28 @@ a.btn-red {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 794, ../../scss/style.scss */
+/* line 795, ../../scss/style.scss */
 .action-btns {
   clear: both;
   overflow: hidden;
 }
-/* line 798, ../../scss/style.scss */
+/* line 799, ../../scss/style.scss */
 .action-btns a {
   display: inline-block;
 }
 
 /* User Login Form */
-/* line 804, ../../scss/style.scss */
+/* line 805, ../../scss/style.scss */
 .user-login {
   display: none;
 }
-/* line 807, ../../scss/style.scss */
+/* line 808, ../../scss/style.scss */
 .user-login label {
   display: block;
   margin-bottom: 5px;
   font-family: "Open Sans", sans-serif;
 }
-/* line 813, ../../scss/style.scss */
+/* line 814, ../../scss/style.scss */
 .user-login input[type="text"], .user-login input[type="email"], .user-login input[type="password"] {
   display: block;
   width: 90%;
@@ -923,16 +924,16 @@ a.btn-red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 820, ../../scss/style.scss */
+/* line 821, ../../scss/style.scss */
 .user-login input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 824, ../../scss/style.scss */
+/* line 825, ../../scss/style.scss */
 .user-login input[type="checkbox"] + label {
   float: left;
 }
-/* line 827, ../../scss/style.scss */
+/* line 828, ../../scss/style.scss */
 .user-login .checkbox {
   text-align: "center";
   margin-bottom: 10px;
@@ -940,7 +941,7 @@ a.btn-red {
   overflow: hidden;
 }
 
-/* line 834, ../../scss/style.scss */
+/* line 835, ../../scss/style.scss */
 .forgot-password {
   display: block;
   margin: 20px 0 10px;
@@ -951,15 +952,15 @@ a.btn-red {
 }
 
 /* User Register Form */
-/* line 845, ../../scss/style.scss */
+/* line 846, ../../scss/style.scss */
 .user-register {
   display: none;
 }
-/* line 849, ../../scss/style.scss */
+/* line 850, ../../scss/style.scss */
 .user-register label {
   display: block;
 }
-/* line 854, ../../scss/style.scss */
+/* line 855, ../../scss/style.scss */
 .user-register input[type="text"], .user-register input[type="email"], .user-register input[type="password"] {
   display: block;
   width: 90%;
@@ -967,23 +968,23 @@ a.btn-red {
   border: 1px solid #DDD;
   color: #666;
 }
-/* line 861, ../../scss/style.scss */
+/* line 862, ../../scss/style.scss */
 .user-register input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
-/* line 865, ../../scss/style.scss */
+/* line 866, ../../scss/style.scss */
 .user-register input[type="checkbox"] + label {
   float: left;
 }
-/* line 868, ../../scss/style.scss */
+/* line 869, ../../scss/style.scss */
 .user-register .checkbox {
   margin-bottom: 10px;
   clear: both;
   overflow: hidden;
 }
 
-/* line 875, ../../scss/style.scss */
+/* line 876, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -993,19 +994,19 @@ a.btn-red {
   border: 1px dashed #8b8b8b;
   overflow: hidden;
 }
-/* line 884, ../../scss/style.scss */
+/* line 885, ../../scss/style.scss */
 .box-new-content .new-object {
   width: 258px;
   height: 40px;
   background: transparent;
   margin: 23px auto 0 auto;
 }
-/* line 889, ../../scss/style.scss */
+/* line 890, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content {
   width: auto;
   height: 40px;
 }
-/* line 892, ../../scss/style.scss */
+/* line 893, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .title-box-content {
   float: left;
   width: 220px;
@@ -1019,7 +1020,7 @@ a.btn-red {
   font-size: 1.05rem;
   color: #23aae1;
 }
-/* line 906, ../../scss/style.scss */
+/* line 907, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .ico-id-event, .box-new-content .new-object .header-box-content .ico-id-product {
   float: left;
   width: 35px;
@@ -1028,16 +1029,16 @@ a.btn-red {
   background-size: 100% 100%;
   background-position: center center;
 }
-/* line 914, ../../scss/style.scss */
+/* line 915, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .ico-id-event {
   background: url(../img/ico-event.png) no-repeat;
 }
-/* line 915, ../../scss/style.scss */
+/* line 916, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .ico-id-product {
   background: url(../img/ico-new-event.png) no-repeat;
 }
 
-/* line 920, ../../scss/style.scss */
+/* line 921, ../../scss/style.scss */
 .social-networks-login {
   text-align: center;
 }

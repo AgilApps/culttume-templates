@@ -22,6 +22,7 @@ header {
 	height: $height_header;//40px
 	background: $white;
 	opacity: 0.9;
+	box-shadow: 0px 3px 10px #888888;
 	z-index: 999;
     
     /*properties of the div that is inside header*/
@@ -75,7 +76,7 @@ header {
 	height:auto;
 	position: fixed;
 	font-family:$font-stack1;
-	background: $orange;
+	background: #E55B48;
 	margin: 10px 10px 10px 10px;
 	float:left;
 	overflow: hidden;
@@ -92,7 +93,7 @@ header {
     	font-family: $font-stack1;
     	text-align:center;
     	font-size: 1.5rem;
-    	background:$orange;
+    	background:#E55B48;
     	color:$white;
     }
 }

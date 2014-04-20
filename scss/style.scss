@@ -616,6 +616,26 @@ footer {
 
 /* ******************************** Content general styles boxes ************************************************************/
 
+/*Style register and login*/
+
+.header-modal{
+	color: $black;
+	text-align: center;
+	font-family: $font-stack1;
+	display:block;
+	margin-bottom:15px;
+	h2{
+		font-family:$font-stack1;
+		font-size: 1.8rem;
+	}
+	h3{
+		font-family:$font-stack1;
+		font-size: 1.2rem;
+	}
+}
+
+/*end style register and login*/
+
 /* content related to the event manager */
 
 .box-new-content{
@@ -628,254 +648,6 @@ footer {
 	border: 1px dashed $grey2;
 	overflow: hidden;
 }
-
-/***************************************************** form register and login ************************************************************ */
-
-#lean-overlay {
-
-    position: fixed;
-    z-index:100;
-    top: 0px;
-    left: 0px;
-    height:100%;
-    width:100%;
-    background: #000;
-    display: none;
-}
-
-.popup-container{
-
-	position:absolute;
-	width:330px;
-	height: auto;
-	left:45%;
-	top:80px;
-	background: #FFF;
-}
-
-#modal-trigger {
-
-	margin:0px auto; 
-	width:100px; 
-	display:block;
-}
-#modal-register{
-	margin:0px auto; 
-	width:100px; 
-	display:block;
-}
-
-
-
-.btn {
-
-	padding:10px 20px; 
-	background: #F4F4F2;
-}
-.btn_red {
-
-	background: $red; 
-	color: #FFF;
-}
-
-.btn:hover {
-
-	background: #E4E4E2;
-}
-.btn_red:hover {
-	background: #C12B05;
-}
-
-a.btn {
-
-	color:#666; 
-	text-align: center; 
-	text-decoration: none;
-}
-a.btn-red {
-
-	color: #FFF;
-}
-
-.one-half {
-
-	width:50%; 
-	display: block; 
-	float:left;
-
-	.last {
-		width:45%; 
-		margin-left:5%;
-	}
-
-}
-
-/* Popup Styles*/
-
-.popup-header {
-
-	font-size:16px; 
-	font-family:$font-stack1;
-	background:#F4F4F2;
-	text-align:center; 
-	position:relative; 
-	padding:10px 20px; 
-	border-bottom:1px solid #DDD; 
-	font-weight:bold;
-
-	.modal-close {
-		position: absolute; 
-		right: 0; 
-		top:0; 
-		padding:10px 15px; 
-		background:#E4E4E2; 
-		cursor: pointer; 
-		color:$red; 
-		font-size:16px;
-	}
-}
-.popup-body {
-
-	padding:20px;
-}
-
-
-/* Social Login Form */
-.social-login {
-
-	.social-box {
-		display:block; 
-		clear:both; 
-		padding:10px; 
-		margin-bottom: 10px; 
-		background: #F4F4F2; 
-		overflow: hidden;
-	}
-	.icon {
-		display:block; 
-		width:15px; 
-		padding:5px 20px; 
-		margin-right:10px; 
-		float:left; 
-		color:#FFF; 
-		font-size:16px; 
-		text-align: center;
-	}
-	.icon-title {
-		font-family:$font-stack1;
-		display:block; 
-		padding:5px 0; 
-		float:left; 
-		font-weight: bold; 
-		font-size: 16px; 
-		color:#777;
-	}
-	.social-box:hover {
-		background: #E4E4E2;
-	}
-	.fb .icon {
-		background:#3B5998;
-	}
-	.google .icon {
-		background:#DD4B39;
-	}
-	.tw .icon{
-		background:$color-twitter;
-	}
-}
-
-
-.centered-text {
-
-	text-align: center; 
-	margin: 20px 0; 
-	clear: both;
-	padding-bottom: 10px;
-	overflow: hidden;
-	font-family: $font-stack1;
-}
-
-.action-btns {
-	clear:both; 
-	overflow: hidden;
-
-	a {
-		display: inline-block;
-	}
-}
-
-/* User Login Form */
-.user-login {
-	display: none;
-
-	label {
-		display: block; 
-		margin-bottom:5px;
-		font-family: $font-stack1;
-	}
-
-	input[type="text"],input[type="email"],input[type="password"]{
-		display: block; 
-		width:90%; 
-		padding: 10px; 
-		border:1px solid #DDD; 
-		color:#666;
-	}
-	input[type="checkbox"] {
-		float:left; 
-		margin-right:5px;
-	}
-	 input[type="checkbox"]+label {
-		float:left;
-	}
-	.checkbox {
-		text-align:"center";
-		margin-bottom: 10px; 
-		clear: both; 
-		overflow: hidden;
-	}
-}
-.forgot-password {
-
-	display:block; 
-	margin: 20px 0 10px; 
-	clear: both; 
-	overflow: hidden; 
-	text-decoration: none; 
-	color:#ED6347;
-}
-
-/* User Register Form */
-.user-register {
-
-	display: none;
-
-	label {
-		display: block; 
-		//margin-bottom:5px;
-	}
-
-	input[type="text"],input[type="email"],input[type="password"]{
-		display: block; 
-		width:90%; 
-		padding: 10px; 
-		border:1px solid #DDD; 
-		color:#666;
-	}
-	input[type="checkbox"] {
-		float:left; 
-		margin-right:5px;
-	}
-	input[type="checkbox"]+label {
-		float:left;
-	}
-	.checkbox {
-		margin-bottom: 10px; 
-		clear: both; 
-		overflow: hidden;
-	}
-} 
-
 .box-new-content{
 	float:left;
 
@@ -923,6 +695,89 @@ a.btn-red {
 }
 .social-networks-login{
 	text-align:center;
+}
+
+/*Esto es un div de prueba*/
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+#cssmenu a {
+  line-height: 1.3;
+}
+#cssmenu {
+  width: 250px;
+}
+#cssmenu > ul > li > a {
+  padding-right: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  background: #bd0e36;
+  color: #ffffff;
+  border-bottom: 1px solid #5e071b;
+  text-transform: uppercase;
+}
+#cssmenu > ul > li > a > span {
+  background: #ed1144;
+  padding: 10px;
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+}
+#cssmenu > ul > li > a:hover {
+  text-decoration: none;
+}
+#cssmenu > ul > li.active {
+  border-bottom: none;
+}
+#cssmenu > ul > li.active > a {
+  color: #fff;
+}
+#cssmenu > ul > li.active > a span {
+  background: #bd0e36;
+}
+#cssmenu span.cnt {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+/* Sub menu */
+#cssmenu ul ul {
+  display: none;
+}
+#cssmenu ul ul li {
+  border: 1px solid #e0e0e0;
+  border-top: 0;
+}
+#cssmenu ul ul a {
+  padding: 10px;
+  display: block;
+  color: #ed1144;
+  font-size: 13px;
+}
+#cssmenu ul ul a:hover {
+  color: #bd0e36;
+}
+#cssmenu ul ul li.odd {
+  background: #f4f4f4;
+}
+#cssmenu ul ul li.even {
+  background: #fff;
 }
 
 

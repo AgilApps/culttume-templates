@@ -727,8 +727,29 @@ footer .footer-content .copyright {
 }
 
 /* ******************************** Content general styles boxes ************************************************************/
-/* content related to the event manager */
+/*Style register and login*/
 /* line 621, ../../scss/style.scss */
+.header-modal {
+  color: #323232;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  margin-bottom: 15px;
+}
+/* line 627, ../../scss/style.scss */
+.header-modal h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+}
+/* line 631, ../../scss/style.scss */
+.header-modal h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+/*end style register and login*/
+/* content related to the event manager */
+/* line 641, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -739,266 +760,7 @@ footer .footer-content .copyright {
   overflow: hidden;
 }
 
-/***************************************************** form register and login ************************************************************ */
-/* line 634, ../../scss/style.scss */
-#lean-overlay {
-  position: fixed;
-  z-index: 100;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  background: #000;
-  display: none;
-}
-
-/* line 646, ../../scss/style.scss */
-.popup-container {
-  position: absolute;
-  width: 330px;
-  height: auto;
-  left: 45%;
-  top: 80px;
-  background: #FFF;
-}
-
-/* line 656, ../../scss/style.scss */
-#modal-trigger {
-  margin: 0px auto;
-  width: 100px;
-  display: block;
-}
-
-/* line 662, ../../scss/style.scss */
-#modal-register {
-  margin: 0px auto;
-  width: 100px;
-  display: block;
-}
-
-/* line 670, ../../scss/style.scss */
-.btn {
-  padding: 10px 20px;
-  background: #F4F4F2;
-}
-
-/* line 675, ../../scss/style.scss */
-.btn_red {
-  background: #e84f35;
-  color: #FFF;
-}
-
-/* line 681, ../../scss/style.scss */
-.btn:hover {
-  background: #E4E4E2;
-}
-
-/* line 685, ../../scss/style.scss */
-.btn_red:hover {
-  background: #C12B05;
-}
-
-/* line 689, ../../scss/style.scss */
-a.btn {
-  color: #666;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* line 695, ../../scss/style.scss */
-a.btn-red {
-  color: #FFF;
-}
-
-/* line 700, ../../scss/style.scss */
-.one-half {
-  width: 50%;
-  display: block;
-  float: left;
-}
-/* line 706, ../../scss/style.scss */
-.one-half .last {
-  width: 45%;
-  margin-left: 5%;
-}
-
-/* Popup Styles*/
-/* line 715, ../../scss/style.scss */
-.popup-header {
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  background: #F4F4F2;
-  text-align: center;
-  position: relative;
-  padding: 10px 20px;
-  border-bottom: 1px solid #DDD;
-  font-weight: bold;
-}
-/* line 726, ../../scss/style.scss */
-.popup-header .modal-close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 10px 15px;
-  background: #E4E4E2;
-  cursor: pointer;
-  color: #e84f35;
-  font-size: 16px;
-}
-
-/* line 737, ../../scss/style.scss */
-.popup-body {
-  padding: 20px;
-}
-
-/* Social Login Form */
-/* line 746, ../../scss/style.scss */
-.social-login .social-box {
-  display: block;
-  clear: both;
-  padding: 10px;
-  margin-bottom: 10px;
-  background: #F4F4F2;
-  overflow: hidden;
-}
-/* line 754, ../../scss/style.scss */
-.social-login .icon {
-  display: block;
-  width: 15px;
-  padding: 5px 20px;
-  margin-right: 10px;
-  float: left;
-  color: #FFF;
-  font-size: 16px;
-  text-align: center;
-}
-/* line 764, ../../scss/style.scss */
-.social-login .icon-title {
-  font-family: "Open Sans", sans-serif;
-  display: block;
-  padding: 5px 0;
-  float: left;
-  font-weight: bold;
-  font-size: 16px;
-  color: #777;
-}
-/* line 773, ../../scss/style.scss */
-.social-login .social-box:hover {
-  background: #E4E4E2;
-}
-/* line 776, ../../scss/style.scss */
-.social-login .fb .icon {
-  background: #3B5998;
-}
-/* line 779, ../../scss/style.scss */
-.social-login .google .icon {
-  background: #DD4B39;
-}
-/* line 782, ../../scss/style.scss */
-.social-login .tw .icon {
-  background: #52a8e9;
-}
-
-/* line 788, ../../scss/style.scss */
-.centered-text {
-  text-align: center;
-  margin: 20px 0;
-  clear: both;
-  padding-bottom: 10px;
-  overflow: hidden;
-  font-family: "Open Sans", sans-serif;
-}
-
-/* line 798, ../../scss/style.scss */
-.action-btns {
-  clear: both;
-  overflow: hidden;
-}
-/* line 802, ../../scss/style.scss */
-.action-btns a {
-  display: inline-block;
-}
-
-/* User Login Form */
-/* line 808, ../../scss/style.scss */
-.user-login {
-  display: none;
-}
-/* line 811, ../../scss/style.scss */
-.user-login label {
-  display: block;
-  margin-bottom: 5px;
-  font-family: "Open Sans", sans-serif;
-}
-/* line 817, ../../scss/style.scss */
-.user-login input[type="text"], .user-login input[type="email"], .user-login input[type="password"] {
-  display: block;
-  width: 90%;
-  padding: 10px;
-  border: 1px solid #DDD;
-  color: #666;
-}
-/* line 824, ../../scss/style.scss */
-.user-login input[type="checkbox"] {
-  float: left;
-  margin-right: 5px;
-}
-/* line 828, ../../scss/style.scss */
-.user-login input[type="checkbox"] + label {
-  float: left;
-}
-/* line 831, ../../scss/style.scss */
-.user-login .checkbox {
-  text-align: "center";
-  margin-bottom: 10px;
-  clear: both;
-  overflow: hidden;
-}
-
-/* line 838, ../../scss/style.scss */
-.forgot-password {
-  display: block;
-  margin: 20px 0 10px;
-  clear: both;
-  overflow: hidden;
-  text-decoration: none;
-  color: #ED6347;
-}
-
-/* User Register Form */
-/* line 849, ../../scss/style.scss */
-.user-register {
-  display: none;
-}
-/* line 853, ../../scss/style.scss */
-.user-register label {
-  display: block;
-}
-/* line 858, ../../scss/style.scss */
-.user-register input[type="text"], .user-register input[type="email"], .user-register input[type="password"] {
-  display: block;
-  width: 90%;
-  padding: 10px;
-  border: 1px solid #DDD;
-  color: #666;
-}
-/* line 865, ../../scss/style.scss */
-.user-register input[type="checkbox"] {
-  float: left;
-  margin-right: 5px;
-}
-/* line 869, ../../scss/style.scss */
-.user-register input[type="checkbox"] + label {
-  float: left;
-}
-/* line 872, ../../scss/style.scss */
-.user-register .checkbox {
-  margin-bottom: 10px;
-  clear: both;
-  overflow: hidden;
-}
-
-/* line 879, ../../scss/style.scss */
+/* line 651, ../../scss/style.scss */
 .box-new-content {
   float: left;
   width: 320px;
@@ -1008,19 +770,19 @@ a.btn-red {
   border: 1px dashed #8b8b8b;
   overflow: hidden;
 }
-/* line 888, ../../scss/style.scss */
+/* line 660, ../../scss/style.scss */
 .box-new-content .new-object {
   width: 258px;
   height: 40px;
   background: transparent;
   margin: 23px auto 0 auto;
 }
-/* line 893, ../../scss/style.scss */
+/* line 665, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content {
   width: auto;
   height: 40px;
 }
-/* line 896, ../../scss/style.scss */
+/* line 668, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .title-box-content {
   float: left;
   width: 220px;
@@ -1034,7 +796,7 @@ a.btn-red {
   font-size: 1.05rem;
   color: #23aae1;
 }
-/* line 910, ../../scss/style.scss */
+/* line 682, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .ico-id-event, .box-new-content .new-object .header-box-content .ico-id-product {
   float: left;
   width: 35px;
@@ -1043,16 +805,130 @@ a.btn-red {
   background-size: 100% 100%;
   background-position: center center;
 }
-/* line 918, ../../scss/style.scss */
+/* line 690, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .ico-id-event {
   background: url(../img/ico-event.png) no-repeat;
 }
-/* line 919, ../../scss/style.scss */
+/* line 691, ../../scss/style.scss */
 .box-new-content .new-object .header-box-content .ico-id-product {
   background: url(../img/ico-new-event.png) no-repeat;
 }
 
-/* line 924, ../../scss/style.scss */
+/* line 696, ../../scss/style.scss */
 .social-networks-login {
   text-align: center;
+}
+
+/*Esto es un div de prueba*/
+/* line 704, ../../scss/style.scss */
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+
+/* line 716, ../../scss/style.scss */
+#cssmenu a {
+  line-height: 1.3;
+}
+
+/* line 719, ../../scss/style.scss */
+#cssmenu {
+  width: 250px;
+}
+
+/* line 722, ../../scss/style.scss */
+#cssmenu > ul > li > a {
+  padding-right: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  background: #bd0e36;
+  color: #ffffff;
+  border-bottom: 1px solid #5e071b;
+  text-transform: uppercase;
+}
+
+/* line 732, ../../scss/style.scss */
+#cssmenu > ul > li > a > span {
+  background: #ed1144;
+  padding: 10px;
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+/* line 739, ../../scss/style.scss */
+#cssmenu > ul > li > a:hover {
+  text-decoration: none;
+}
+
+/* line 742, ../../scss/style.scss */
+#cssmenu > ul > li.active {
+  border-bottom: none;
+}
+
+/* line 745, ../../scss/style.scss */
+#cssmenu > ul > li.active > a {
+  color: #fff;
+}
+
+/* line 748, ../../scss/style.scss */
+#cssmenu > ul > li.active > a span {
+  background: #bd0e36;
+}
+
+/* line 751, ../../scss/style.scss */
+#cssmenu span.cnt {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+
+/* Sub menu */
+/* line 760, ../../scss/style.scss */
+#cssmenu ul ul {
+  display: none;
+}
+
+/* line 763, ../../scss/style.scss */
+#cssmenu ul ul li {
+  border: 1px solid #e0e0e0;
+  border-top: 0;
+}
+
+/* line 767, ../../scss/style.scss */
+#cssmenu ul ul a {
+  padding: 10px;
+  display: block;
+  color: #ed1144;
+  font-size: 13px;
+}
+
+/* line 773, ../../scss/style.scss */
+#cssmenu ul ul a:hover {
+  color: #bd0e36;
+}
+
+/* line 776, ../../scss/style.scss */
+#cssmenu ul ul li.odd {
+  background: #f4f4f4;
+}
+
+/* line 779, ../../scss/style.scss */
+#cssmenu ul ul li.even {
+  background: #fff;
 }

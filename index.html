@@ -28,10 +28,10 @@
           <div class="photo-user-mini">
             <ul class="right">
               <li class="has-form">
-                <a href="#" class="button" data-reveal-id="myModal" data-reveal>Iniciar Sesión</a>
+                <a href="#" class="secundary" data-reveal-id="myModal" data-reveal>Iniciar Sesión</a>
               </li>
               <li class="has-form">
-                <a href="#" class="button" data-reveal-id="myModal1" data-reveal>Registrate!</a>
+                <a href="#" class="button " data-reveal-id="myModal1" data-reveal>Registrate!</a>
               </li>
             </ul>
           </div>
@@ -44,10 +44,17 @@
     
     <!-- Is this modal of register -->
     <div class="reveal-modal" id="myModal1" data-reveal>
-      <div>
-        <h2>Registrarse</h2>
-        <form>
-
+      <div >
+        <section class="header-modal"><h2>Registrarse</h2></section>
+        <hr>
+        <section class="header-modal"><h3>Usa tus redes sociales</h3></section>
+        <div class="social-networks-login">
+          <input type="submit" value="Conectarse con Facebook" class="button [tiny small large]">
+        </div>
+        <div class="social-networks-login">
+          <input type="submit" value="   Conectarse con Twitter   " class="button [tiny small large]">
+        </div>
+        <form >
           <label for="name-register">Nombre Completo</label>
           <input type="text" id="name-register">
 
@@ -68,41 +75,34 @@
             <a href="#" class="button">Registrarme</a>
           </div>
         </form>
-        <div class="social-networks-login">
-          <label>o Conectarse con redes sociales</label>
-          <input type="submit" value="Conectarse con Facebook" class="button [tiny small large]">
-          <input type="submit" value="Conectarse con Twitter" class="button [tiny small large]">
-        </div>
       </div>
     </div>
 
     <!-- Is this modal of login -->
     <div class="reveal-modal" id="myModal" data-reveal>
       <div >
+        <section class="header-modal"><h2>Inciar Sesión</h2></section>
+        <hr>
+        <section class="header-modal"><h3>Usa tus redes sociales</h3></section>
+        <div class="social-networks-login">
+          <input type="submit" value="Inicia con Facebook" class="button [tiny small large]">
+        </div>
+        <div class="social-networks-login">
+          <input type="submit" value="  Inicia con Twitter   " class="button [tiny small large]">
+        </div>  
+        <section class="header-modal"><h3>o ingresa tus datos</h3></section>
         <form>
-          <label for="username-login">Correo Electronico</label>
-          <input type="text" id="username-login">
+          <input type="text" id="username-login" placeholder="Correo Electronico">
+          <input type="password" id="password-login" placeholder="Contraseña">
 
-          <label for="password-login">Contraseña</label>
-          <input type="password" id="password-login">
 
           <div class="social-networks-login">
-            <input id="remember" type="checkbox" />
-            <label for="remember">Recordar mis datos</label>
-          </div>
-
-          <div class="social-networks-login">
-            <a href="#" class="button">Iniciar Sesión</a>
+            <a href="#" class="button ">Iniciar Sesión</a>
           </div>
           <div class="social-networks-login">
           <a href="#" class="forgot_password">Olvidaste tu contraseña?</a>
         </div>
         </form>
-        <div class="social-networks-login">
-          <label>o Conectarse con redes sociales</label>
-          <input type="submit" value="Iniciar sesión con Facebook" class="button [tiny small large]">
-          <input type="submit" value="Iniciar sesión con Twitter" class="button [tiny small large]">
-        </div>
       </div>
     </div>
 

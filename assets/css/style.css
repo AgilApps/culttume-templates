@@ -842,53 +842,52 @@ footer .footer-content .copyright {
   line-height: 1.3;
 }
 
-/* line 719, ../../scss/style.scss */
+/* line 720, ../../scss/style.scss */
 #cssmenu {
   width: 250px;
 }
 
-/* line 722, ../../scss/style.scss */
+/* line 723, ../../scss/style.scss */
 #cssmenu > ul > li > a {
   padding-right: 40px;
   font-size: 25px;
   font-weight: bold;
   display: block;
-  background: #bd0e36;
+  background: #e55b48;
   color: #ffffff;
-  border-bottom: 1px solid #5e071b;
-  text-transform: uppercase;
+  border-bottom: 1px solid #eeeeee;
 }
 
-/* line 732, ../../scss/style.scss */
+/* line 733, ../../scss/style.scss */
 #cssmenu > ul > li > a > span {
-  background: #ed1144;
+  background: #e55b48;
   padding: 10px;
   display: block;
   font-size: 13px;
   font-weight: 300;
 }
 
-/* line 739, ../../scss/style.scss */
+/* line 740, ../../scss/style.scss */
 #cssmenu > ul > li > a:hover {
   text-decoration: none;
 }
 
-/* line 742, ../../scss/style.scss */
+/* line 743, ../../scss/style.scss */
 #cssmenu > ul > li.active {
   border-bottom: none;
 }
 
-/* line 745, ../../scss/style.scss */
+/* line 746, ../../scss/style.scss */
 #cssmenu > ul > li.active > a {
   color: #fff;
 }
 
-/* line 748, ../../scss/style.scss */
+/* line 749, ../../scss/style.scss */
 #cssmenu > ul > li.active > a span {
-  background: #E55B48;
+  background: #e55b48;
 }
 
-/* line 751, ../../scss/style.scss */
+/* line 752, ../../scss/style.scss */
 #cssmenu span.cnt {
   position: absolute;
   top: 8px;
@@ -899,36 +898,36 @@ footer .footer-content .copyright {
 }
 
 /* Sub menu */
-/* line 760, ../../scss/style.scss */
+/* line 761, ../../scss/style.scss */
 #cssmenu ul ul {
   display: none;
 }
 
-/* line 763, ../../scss/style.scss */
+/* line 764, ../../scss/style.scss */
 #cssmenu ul ul li {
   border: 1px solid #e0e0e0;
   border-top: 0;
 }
 
-/* line 767, ../../scss/style.scss */
+/* line 768, ../../scss/style.scss */
 #cssmenu ul ul a {
   padding: 10px;
   display: block;
-  color: #ed1144;
+  color: #e55b48;
   font-size: 13px;
 }
 
-/* line 773, ../../scss/style.scss */
+/* line 774, ../../scss/style.scss */
 #cssmenu ul ul a:hover {
-  color: #bd0e36;
+  color: #e55b48;
 }
 
-/* line 776, ../../scss/style.scss */
+/* line 777, ../../scss/style.scss */
 #cssmenu ul ul li.odd {
-  background: #f4f4f4;
+  background: #ffffff;
 }
 
-/* line 779, ../../scss/style.scss */
+/* line 780, ../../scss/style.scss */
 #cssmenu ul ul li.even {
   background: #fff;
 }

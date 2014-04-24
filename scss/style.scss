@@ -716,21 +716,22 @@ footer {
 #cssmenu a {
   line-height: 1.3;
 }
+
 #cssmenu {
   width: 250px;
 }
 #cssmenu > ul > li > a {
+
   padding-right: 40px;
   font-size: 25px;
   font-weight: bold;
   display: block;
-  background: #bd0e36;
+  background: #e55b48;
   color: #ffffff;
-  border-bottom: 1px solid #5e071b;
-  text-transform: uppercase;
+  border-bottom: 1px solid #eeeeee;
 }
 #cssmenu > ul > li > a > span {
-  background: #ed1144;
+  background: #e55b48;
   padding: 10px;
   display: block;
   font-size: 13px;
@@ -746,7 +747,7 @@ footer {
   color: #fff;
 }
 #cssmenu > ul > li.active > a span {
-  background: #E55B48;
+  background: #e55b48;
 }
 #cssmenu span.cnt {
   position: absolute;
@@ -767,14 +768,14 @@ footer {
 #cssmenu ul ul a {
   padding: 10px;
   display: block;
-  color: #ed1144;
+  color: #e55b48;
   font-size: 13px;
 }
 #cssmenu ul ul a:hover {
-  color: #bd0e36;
+  color: #e55b48;
 }
 #cssmenu ul ul li.odd {
-  background: #f4f4f4;
+  background: #ffffff;
 }
 #cssmenu ul ul li.even {
   background: #fff;

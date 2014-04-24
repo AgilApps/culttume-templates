@@ -134,37 +134,42 @@
     <div id="wrapper">
       <!-- The div id float menu is where sections of the menu located on the left side -->
       <div id="float-menu">
-        <dl class="accordion" data-accordion>
-          <!-- Title of menu -->
-          <dd>
-            <h1>Explora</h1>
-          </dd>
-          <dd>
-            <a href="#panel1">Productos</a>
-            <div class="content active"><a href="#">Música</a></div>
-            <div class="content active"><a href="#">Ilustración</a></div>
-            <div class="content active"><a href="#">Animación</a></div>
-            <div class="content active"><a href="#">Diseño Web</a></div>
-            <div class="content active"><a href="#">Audiovisual</a></div>
-            <div class="content active"><a href="#">Fotografia</a></div>
-          </dd>
-          <dd>
-            <a href="#panel2">Eventos</a>
-            <div id="panel2" class="content"></div>
-          </dd>
-          <dd>
-            <a href="#panel3">Campañas</a>
-            <div id="panel3" class="content"></div>
-          </dd>
-          <dd>
-            <a href="#panel4">Tiendas</a>
-            <div id="panel4" class="content"></div>
-          </dd>
-          <dd>
-            <a href="#panel5">Artistas</a>
-            <div id="panel5" class="content"></div>
-          </dd>
-        </dl>
+        <div id='cssmenu'>
+        <ul>
+            <li class='active'><a href='#'><span>Explora</span></a></li>
+            <li class='has-sub'><a href='#'><span>Creaciones</span></a>
+                <ul>
+                  <li><a href='#'><span>Música</span></a></li>
+                  <li><a href='#'><span>Ilustración</span></a></li>
+                  <li><a href='#'><span>Animación</span></a></li>
+                  <li><a href='#'><span>Audiovisual</span></a></li>
+                  <li><a href='#'><span>Diseño web</span></a></li>
+                  <li><a href='#'><span>Ilustración</span></a></li>
+                  <li class='last'><a href='#'><span>Fotografia</span></a></li>
+                </ul>
+            </li>
+            <li class='has-sub'><a href='#'><span>Eventos</span></a>
+                <ul>
+                  <li><a href='#'><span></span></a></li>
+                </ul>
+            </li>
+            <li class='last'><a href='#'><span>Campañas</span></a>
+              <ul>
+                <li><a href='#'><span></span></a></li>
+              </ul>
+            </li>
+            <li class='last'><a href='#'><span>Tiendas</span></a>
+              <ul>
+                <li><a href='#'><span></span></a></li>
+              </ul>
+            </li>
+            <li class='last'><a href='#'><span>Artistas</span></a>
+              <ul>
+                <li><a href='#'><span></span></a></li>
+              </ul>
+            </li>
+        </ul>
+      </div>
       </div>
       <!-- This div is the container that is the right and inside the boxes are events or products -->
       <div id="section-general">

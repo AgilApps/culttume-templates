@@ -265,7 +265,19 @@ footer {
 	height: auto;
 	background: $grey1;
 	margin: 0px auto 0px auto;
-
+	/* **  ** */
+	.more-content {
+		.simbol-plus{
+			font-size: 1.5rem;
+			color:$red;
+			margin:0 2px;
+		}
+		.simbol-plus-text{
+			font-size: 1.2rem;
+			color:$red;
+			margin:0 5px;
+		}
+	}
 	/* ********* footer content, social, links, menu, agilapps ******** */
 	.footer-content{
 		width:$dimensions-general;
@@ -498,34 +510,34 @@ footer {
                 cursor: pointer;
 
 					/* social shares configuration  */
-                    .share-fb{
+					.share-fb{
 
-                        width:$dimensions-ico-social-share;
-                        height:$dimensions-ico-social-share;
-                        background:url(../img/ico-fb.png), $white;//  
-                        background-size:16px 16px;
-                        background-repeat:no-repeat;
-                        background-position:center center;
-                    }
-                    .share-tw{
+						width:$dimensions-ico-social-share;
+						height:$dimensions-ico-social-share;
+						background:url(../img/ico-fb.png), $white;//  
+						background-size:16px 16px;
+						background-repeat:no-repeat;
+						background-position:center center;
+					}
+					.share-tw{
 
-                        width:$dimensions-ico-social-share;
-                        height:$dimensions-ico-social-share;
-                        background:url(../img/ico-tw.png), $white;//  
-                        background-size:16px 16px;
-                        background-repeat:no-repeat;
-                        background-position:center center;
-                    }
-                    .share-g{
+						width:$dimensions-ico-social-share;
+						height:$dimensions-ico-social-share;
+						background:url(../img/ico-tw.png), $white;//  
+						background-size:16px 16px;
+						background-repeat:no-repeat;
+						background-position:center center;
+					}
+					.share-g{
 
-                        width:$dimensions-ico-social-share;
-                        height:$dimensions-ico-social-share;
-                        background:url(../img/ico-g.png), $white;//  
-                        background-size:16px 16px;
-                        background-repeat:no-repeat;
-                        background-position:center center;
-                    }
-           		}
+						width:$dimensions-ico-social-share;
+						height:$dimensions-ico-social-share;
+						background:url(../img/ico-g.png), $white;//  
+						background-size:16px 16px;
+						background-repeat:no-repeat;
+						background-position:center center;
+					}
+				}
 			}
 		}	
 
@@ -595,14 +607,15 @@ footer {
 		width: $width-box-form-setting;
 		height: auto;
 		background: transparent;
-		margin:0 10px;
+		margin:10px 10px;
 	}
 
 	textarea{
 
-		width: $width-product-box-content;
+		width: $width-product-box-content+-80px;
 		max-height: auto;
 		min-height: $height-img-box-content+-50px;
+		margin:10px auto;
 	}
 
     .preview-photo-user{

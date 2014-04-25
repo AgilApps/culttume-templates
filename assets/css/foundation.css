@@ -1463,7 +1463,7 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
         color: white; }
   .top-bar-section ul li:hover:not(.has-form) > a {
-    background: #272727;
+    background: #f6f6f6; /* Cambio de color de #272727 a #f6f6f6*/
     color: white; }
   .top-bar-section ul li.active > a {
     background: #23aae1;
@@ -1588,9 +1588,9 @@ meta.foundation-mq-topbar {
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      background: #333333; }
+      background: #FFFFFF; /*Cambio de Color de #333333 a #FFFFFF*/ }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
-        background: #272727; }
+        background: #f6f6f6; /*272727*/ }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
@@ -1606,7 +1606,7 @@ meta.foundation-mq-topbar {
         width: 0;
         height: 0;
         border: inset 5px;
-        border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
+        border-color: rgba(0, 0, 0, 0.4) transparent transparent transparent;/*Cambio de color de blanco 255 a negro 0*/
         border-top-style: solid;
         margin-top: -2.5px;
         top: 22.5px; }
@@ -1646,11 +1646,11 @@ meta.foundation-mq-topbar {
         padding: 12px 15px;
         background: #333333; }
       .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
-        color: white;
-        background: #333333; }
+        color: black;/*Cambio de color white a black*/
+        background: #FFFFFF; /*Cambio de color #333333 a #ffffff*/}
       .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
-        color: white;
-        background: #272727; }
+        color: black;/*Cambio de color white a black*/
+        background: #f6f6f6; /*Cambio de color #272727 a #f6f6f6*/}
       .top-bar-section .dropdown li label {
         white-space: nowrap;
         background: #333333; }

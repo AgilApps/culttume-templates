@@ -265,7 +265,19 @@ footer {
 	height: auto;
 	background: $grey1;
 	margin: 0px auto 0px auto;
-
+	/* **  ** */
+	.more-content {
+		.simbol-plus{
+			font-size: 1.5rem;
+			color:$red;
+			margin:0 2px;
+		}
+		.simbol-plus-text{
+			font-size: 1.2rem;
+			color:$red;
+			margin:0 5px;
+		}
+	}
 	/* ********* footer content, social, links, menu, agilapps ******** */
 	.footer-content{
 		width:$dimensions-general;
@@ -498,34 +510,34 @@ footer {
                 cursor: pointer;
 
 					/* social shares configuration  */
-                    .share-fb{
+					.share-fb{
 
-                        width:$dimensions-ico-social-share;
-                        height:$dimensions-ico-social-share;
-                        background:url(../img/ico-fb.png), $white;//  
-                        background-size:16px 16px;
-                        background-repeat:no-repeat;
-                        background-position:center center;
-                    }
-                    .share-tw{
+						width:$dimensions-ico-social-share;
+						height:$dimensions-ico-social-share;
+						background:url(../img/ico-fb.png), $white;//  
+						background-size:16px 16px;
+						background-repeat:no-repeat;
+						background-position:center center;
+					}
+					.share-tw{
 
-                        width:$dimensions-ico-social-share;
-                        height:$dimensions-ico-social-share;
-                        background:url(../img/ico-tw.png), $white;//  
-                        background-size:16px 16px;
-                        background-repeat:no-repeat;
-                        background-position:center center;
-                    }
-                    .share-g{
+						width:$dimensions-ico-social-share;
+						height:$dimensions-ico-social-share;
+						background:url(../img/ico-tw.png), $white;//  
+						background-size:16px 16px;
+						background-repeat:no-repeat;
+						background-position:center center;
+					}
+					.share-g{
 
-                        width:$dimensions-ico-social-share;
-                        height:$dimensions-ico-social-share;
-                        background:url(../img/ico-g.png), $white;//  
-                        background-size:16px 16px;
-                        background-repeat:no-repeat;
-                        background-position:center center;
-                    }
-           		}
+						width:$dimensions-ico-social-share;
+						height:$dimensions-ico-social-share;
+						background:url(../img/ico-g.png), $white;//  
+						background-size:16px 16px;
+						background-repeat:no-repeat;
+						background-position:center center;
+					}
+				}
 			}
 		}	
 
@@ -595,14 +607,15 @@ footer {
 		width: $width-box-form-setting;
 		height: auto;
 		background: transparent;
-		margin:0 10px;
+		margin:10px 10px;
 	}
 
 	textarea{
 
-		width: $width-product-box-content;
+		width: $width-product-box-content+-80px;
 		max-height: auto;
 		min-height: $height-img-box-content+-50px;
+		margin:10px auto;
 	}
 
     .preview-photo-user{
@@ -616,265 +629,27 @@ footer {
 
 /* ******************************** Content general styles boxes ************************************************************/
 
-/* content related to the event manager */
+/*Style register and login*/
 
-.box-new-content{
-	
-	float:left;
-	width: $width-box-content;
-	height: $height-box-new-content;
-	background: $white;
-	margin: $margin-cont;
-	border: 1px dashed $grey2;
-	overflow: hidden;
-}
-
-/***************************************************** form register and login ************************************************************ */
-
-#lean-overlay {
-
-    position: fixed;
-    z-index:100;
-    top: 0px;
-    left: 0px;
-    height:100%;
-    width:100%;
-    background: #000;
-    display: none;
-}
-
-.popup-container{
-
-	position:absolute;
-	width:330px;
-	height: auto;
-	left:45%;
-	top:80px;
-	background: #FFF;
-}
-
-#modal-trigger {
-
-	margin:0px auto; 
-	width:100px; 
-	display:block;
-}
-#modal-register{
-	margin:0px auto; 
-	width:100px; 
-	display:block;
-}
-
-
-
-.btn {
-
-	padding:10px 20px; 
-	background: #F4F4F2;
-}
-.btn_red {
-
-	background: $red; 
-	color: #FFF;
-}
-
-.btn:hover {
-
-	background: #E4E4E2;
-}
-.btn_red:hover {
-	background: #C12B05;
-}
-
-a.btn {
-
-	color:#666; 
-	text-align: center; 
-	text-decoration: none;
-}
-a.btn-red {
-
-	color: #FFF;
-}
-
-.one-half {
-
-	width:50%; 
-	display: block; 
-	float:left;
-
-	.last {
-		width:45%; 
-		margin-left:5%;
-	}
-
-}
-
-/* Popup Styles*/
-
-.popup-header {
-
-	font-size:16px; 
-	font-family:$font-stack1;
-	background:#F4F4F2;
-	text-align:center; 
-	position:relative; 
-	padding:10px 20px; 
-	border-bottom:1px solid #DDD; 
-	font-weight:bold;
-
-	.modal-close {
-		position: absolute; 
-		right: 0; 
-		top:0; 
-		padding:10px 15px; 
-		background:#E4E4E2; 
-		cursor: pointer; 
-		color:$red; 
-		font-size:16px;
-	}
-}
-.popup-body {
-
-	padding:20px;
-}
-
-
-/* Social Login Form */
-.social-login {
-
-	.social-box {
-		display:block; 
-		clear:both; 
-		padding:10px; 
-		margin-bottom: 10px; 
-		background: #F4F4F2; 
-		overflow: hidden;
-	}
-	.icon {
-		display:block; 
-		width:15px; 
-		padding:5px 20px; 
-		margin-right:10px; 
-		float:left; 
-		color:#FFF; 
-		font-size:16px; 
-		text-align: center;
-	}
-	.icon-title {
-		font-family:$font-stack1;
-		display:block; 
-		padding:5px 0; 
-		float:left; 
-		font-weight: bold; 
-		font-size: 16px; 
-		color:#777;
-	}
-	.social-box:hover {
-		background: #E4E4E2;
-	}
-	.fb .icon {
-		background:#3B5998;
-	}
-	.google .icon {
-		background:#DD4B39;
-	}
-	.tw .icon{
-		background:$color-twitter;
-	}
-}
-
-
-.centered-text {
-
-	text-align: center; 
-	margin: 20px 0; 
-	clear: both;
-	padding-bottom: 10px;
-	overflow: hidden;
+.header-modal{
+	color: $black;
+	text-align: center;
 	font-family: $font-stack1;
-}
-
-.action-btns {
-	clear:both; 
-	overflow: hidden;
-
-	a {
-		display: inline-block;
+	display:block;
+	margin-bottom:15px;
+	h2{
+		font-family:$font-stack1;
+		font-size: 1.8rem;
+	}
+	h3{
+		font-family:$font-stack1;
+		font-size: 1.2rem;
 	}
 }
 
-/* User Login Form */
-.user-login {
-	display: none;
+/*end style register and login*/
 
-	label {
-		display: block; 
-		margin-bottom:5px;
-		font-family: $font-stack1;
-	}
-
-	input[type="text"],input[type="email"],input[type="password"]{
-		display: block; 
-		width:90%; 
-		padding: 10px; 
-		border:1px solid #DDD; 
-		color:#666;
-	}
-	input[type="checkbox"] {
-		float:left; 
-		margin-right:5px;
-	}
-	 input[type="checkbox"]+label {
-		float:left;
-	}
-	.checkbox {
-		text-align:"center";
-		margin-bottom: 10px; 
-		clear: both; 
-		overflow: hidden;
-	}
-}
-.forgot-password {
-
-	display:block; 
-	margin: 20px 0 10px; 
-	clear: both; 
-	overflow: hidden; 
-	text-decoration: none; 
-	color:#ED6347;
-}
-
-/* User Register Form */
-.user-register {
-
-	display: none;
-
-	label {
-		display: block; 
-		//margin-bottom:5px;
-	}
-
-	input[type="text"],input[type="email"],input[type="password"]{
-		display: block; 
-		width:90%; 
-		padding: 10px; 
-		border:1px solid #DDD; 
-		color:#666;
-	}
-	input[type="checkbox"] {
-		float:left; 
-		margin-right:5px;
-	}
-	input[type="checkbox"]+label {
-		float:left;
-	}
-	.checkbox {
-		margin-bottom: 10px; 
-		clear: both; 
-		overflow: hidden;
-	}
-} 
+/* content related to the event manager */
 
 .box-new-content{
 	float:left;
@@ -886,7 +661,7 @@ a.btn-red {
 	border: 1px dashed $grey2;
 	overflow: hidden;
 		.new-object{
-			width: $width_h3_title_content;
+			width: $width_h3_title_content+10px;
 			height: $height_header;
 			background: transparent;
 			margin: 23px auto 0 auto;
@@ -895,11 +670,11 @@ a.btn-red {
 			height: $height_header;
 				.title-box-content{
 					float:left;
-					width: $width_p_title_content;
+					width: $width_p_title_content+-25px;
 					height: $height_h3_title_content;
 					background: $white;
 					margin: 0;
-					padding:5px 5px 5px 10px;
+					padding:7px 5px 5px 10px;
 
 					font-variant: small-caps;
 					line-height:100%;
@@ -921,8 +696,93 @@ a.btn-red {
 			}
 		}
 }
+
 .social-networks-login{
 	text-align:center;
+}
+
+/*Esto es un div de prueba*/
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+#cssmenu a {
+  line-height: 1.3;
+}
+
+#cssmenu {
+  width: 250px;
+}
+#cssmenu > ul > li > a {
+
+  padding-right: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  background: #e55b48;
+  color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+#cssmenu > ul > li > a > span {
+  background: #e55b48;
+  padding: 10px;
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+}
+#cssmenu > ul > li > a:hover {
+  text-decoration: none;
+}
+#cssmenu > ul > li.active {
+  border-bottom: none;
+}
+#cssmenu > ul > li.active > a {
+  color: #fff;
+}
+#cssmenu > ul > li.active > a span {
+  background: #e55b48;
+}
+#cssmenu span.cnt {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+/* Sub menu */
+#cssmenu ul ul {
+  display: none;
+}
+#cssmenu ul ul li {
+  border: 1px solid #e0e0e0;
+  border-top: 0;
+}
+#cssmenu ul ul a {
+  padding: 10px;
+  display: block;
+  color: #e55b48;
+  font-size: 13px;
+}
+#cssmenu ul ul a:hover {
+  color: #e55b48;
+}
+#cssmenu ul ul li.odd {
+  background: #ffffff;
+}
+#cssmenu ul ul li.even {
+  background: #fff;
 }
 
 

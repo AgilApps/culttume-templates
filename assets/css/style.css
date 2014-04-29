@@ -275,8 +275,7 @@ footer {
   height: auto;
   background: #eeeeee;
   margin: 0px auto 0px auto;
-  /* **  ** */
-  /* ********* footer content, social, links, menu, agilapps ******** */
+  /* footer content, social, links, menu, agilapps*/
 }
 /* line 291, ../../scss/style.scss */
 footer .more-content .simbol-plus {
@@ -307,7 +306,7 @@ footer .footer-content {
   border-radius: 0px;
   padding: 0px;
   /* ********* Sponsors culttume ******** */
-  /* ********* navegation general ******** */
+  /*  navegation general */
 }
 /* line 313, ../../scss/style.scss */
 footer .footer-content .sponsors-logos {
@@ -316,8 +315,8 @@ footer .footer-content .sponsors-logos {
   background: white;
   margin: 0px auto 0px auto;
   overflow: hidden;
-  /* ********* Opacity, filter greyscale and bg sponsors ******** */
-  /* ********* Opacity and filter effect ******** */
+  /*  Opacity, filter greyscale and bg sponsors */
+  /*  Opacity and filter effect  */
 }
 /* line 319, ../../scss/style.scss */
 footer .footer-content .sponsors-logos .logo-sponsor {
@@ -488,7 +487,7 @@ footer .footer-content .copyright {
   color: white;
 }
 
-/*************************************** Content general styles boxes ********************************************************/
+/* Content general styles boxes*/
 /*.box-content Has styles boxes and properties */
 /* line 388, ../../scss/style.scss */
 .box-content {
@@ -763,7 +762,7 @@ footer .footer-content .copyright {
   margin: 0 30px 30px;
 }
 
-/* ******************************** Content general styles boxes ************************************************************/
+/* Content general styles boxes*/
 /*Style register and login*/
 /* line 655, ../../scss/style.scss */
 .header-modal {

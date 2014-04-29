@@ -31,7 +31,7 @@ header {
 		max-width: $width_wrapper; //1240px
 		height: $height_header; //40px
 		margin: auto;
-		background: transparent;//
+		background: transparent;
 		overflow: visible;
 		padding: $pad_0;
         
@@ -286,7 +286,7 @@ footer {
 	height: auto;
 	background: $grey1;
 	margin: 0px auto 0px auto;
-	/* **  ** */
+
 	.more-content {
 		.simbol-plus{
 			font-size: 1.5rem;
@@ -299,7 +299,7 @@ footer {
 			margin:0 5px;
 		}
 	}
-	/* ********* footer content, social, links, menu, agilapps ******** */
+	/* footer content, social, links, menu, agilapps*/
 	.footer-content{
 		width:$dimensions-general;
 		height:auto;
@@ -320,10 +320,10 @@ footer {
 					display: inline-block;
 					
 					width: $width_menufloat;
-					height: $height_box_content_small+-90px; //
+					height: $height_box_content_small+-90px; 
 					margin:0px 23px;
 				}
-				/* ********* Opacity, filter greyscale and bg sponsors ******** */
+				/*  Opacity, filter greyscale and bg sponsors */
 				#img-presidencia{	@include filter-grey(100%);opacity: 0.5; background:url(../img/Presidencia-160x45.png) center center no-repeat, $white;}
 				#img-emprendetic2{	position:relative;top:-80px;margin-left:50px; @include filter-grey(100%); opacity: 0.5; background:url(../img/EmprendeTic2-160x45.png) center center no-repeat, $white;}
 				#img-sena{			width: $width_menufloat+-100px;@include filter-grey(100%);opacity: 0.5;background:url(../img/SENA-160x45.png) center center no-repeat, $white;}
@@ -345,7 +345,7 @@ footer {
 				#img-apssco{	position:relative;top:-70px;margin:0 20px 0 160px;	@include filter-grey(100%);	opacity: 0.5;	background:url(../img/Apps.co-160x45.png) center center no-repeat, $white;}
 				#img-ventures{	position:relative;top:-70px;@include filter-grey(100%);	opacity: 0.5;	background:url(../img/Ventures-160x45.png) center center no-repeat, $white;}
 				
-				/* ********* Opacity and filter effect ******** */
+				/*  Opacity and filter effect  */
 				#img-presidencia:hover,#img-emprendetic2:hover,#img-sena:hover,
 				#img-parquesoft:hover,#img-tecnoparque:hover,#img-fondo-emprender:hover,
 				#img-apssco:hover,#img-c3-d:hover,#img-ventures:hover,#img-fonade:hover{
@@ -353,7 +353,7 @@ footer {
 				}
 				
 			}
-			/* ********* navegation general ******** */
+			/*  navegation general */
 			.nav-map{
 				width:$width_box_perfil+108px;
 				height:$height_box_content_small;
@@ -382,7 +382,7 @@ footer {
 	}
 }
 
-/*************************************** Content general styles boxes ********************************************************/
+/* Content general styles boxes*/
 
 /*.box-content Has styles boxes and properties */
 .box-content{
@@ -648,7 +648,7 @@ footer {
     }
 }
 
-/* ******************************** Content general styles boxes ************************************************************/
+/* Content general styles boxes*/
 
 /*Style register and login*/
 

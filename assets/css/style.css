@@ -850,6 +850,24 @@ footer .footer-content .copyright {
 
 /*Is this div test*/
 /* line 729, ../../scss/style.scss */
+.photo-user-left- {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+/* line 741, ../../scss/style.scss */
+.photo-user-left- a {
+  line-height: 1.3;
+}
+
+/* line 749, ../../scss/style.scss */
 #css-menu, #css-menu ul, #css-menu li,
 #css-menu a {
   margin: 0;
@@ -863,22 +881,22 @@ footer .footer-content .copyright {
   font-size: 14px;
   position: relative;
 }
-/* line 741, ../../scss/style.scss */
+/* line 761, ../../scss/style.scss */
 #css-menu a, #css-menu ul a, #css-menu li a,
 #css-menu a a {
   line-height: 1.3;
 }
 
-/* line 746, ../../scss/style.scss */
+/* line 766, ../../scss/style.scss */
 #css-menu {
   width: 250px;
 }
-/* line 748, ../../scss/style.scss */
+/* line 768, ../../scss/style.scss */
 #css-menu h1 {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 752, ../../scss/style.scss */
+/* line 772, ../../scss/style.scss */
 #css-menu > ul > li > a {
   padding-right: 40px;
   font-size: 25px;
@@ -889,7 +907,7 @@ footer .footer-content .copyright {
   border-bottom: 1px solid #eeeeee;
 }
 
-/* line 762, ../../scss/style.scss */
+/* line 782, ../../scss/style.scss */
 #css-menu > ul > li > a > span {
   background: #e55b48;
   padding: 10px;
@@ -898,27 +916,27 @@ footer .footer-content .copyright {
   font-weight: 300;
 }
 
-/* line 769, ../../scss/style.scss */
+/* line 789, ../../scss/style.scss */
 #css-menu > ul > li > a:hover {
   text-decoration: none;
 }
 
-/* line 772, ../../scss/style.scss */
+/* line 792, ../../scss/style.scss */
 #css-menu > ul > li.active {
   border-bottom: none;
 }
 
-/* line 775, ../../scss/style.scss */
+/* line 795, ../../scss/style.scss */
 #css-menu > ul > li.active > a {
   color: #fff;
 }
 
-/* line 778, ../../scss/style.scss */
+/* line 798, ../../scss/style.scss */
 #css-menu > ul > li.active > a span {
   background: #e55b48;
 }
 
-/* line 781, ../../scss/style.scss */
+/* line 801, ../../scss/style.scss */
 #css-menu span.cnt {
   position: absolute;
   top: 8px;
@@ -929,18 +947,18 @@ footer .footer-content .copyright {
 }
 
 /* Sub menu */
-/* line 790, ../../scss/style.scss */
+/* line 810, ../../scss/style.scss */
 #css-menu ul ul {
   display: none;
 }
 
-/* line 793, ../../scss/style.scss */
+/* line 813, ../../scss/style.scss */
 #css-menu ul ul li {
   border: 1px solid #e0e0e0;
   border-top: 0;
 }
 
-/* line 797, ../../scss/style.scss */
+/* line 817, ../../scss/style.scss */
 #css-menu ul ul a {
   padding: 10px;
   display: block;
@@ -948,17 +966,17 @@ footer .footer-content .copyright {
   font-size: 13px;
 }
 
-/* line 803, ../../scss/style.scss */
+/* line 823, ../../scss/style.scss */
 #css-menu ul ul a:hover {
   color: #e55b48;
 }
 
-/* line 806, ../../scss/style.scss */
+/* line 826, ../../scss/style.scss */
 #css-menu ul ul li.odd {
   background: #ffffff;
 }
 
-/* line 809, ../../scss/style.scss */
+/* line 829, ../../scss/style.scss */
 #css-menu ul ul li.even {
   background: #fff;
 }

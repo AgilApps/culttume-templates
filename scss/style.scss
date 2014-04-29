@@ -34,6 +34,8 @@ header {
 		background: transparent;
 		overflow: visible;
 		padding: $pad_0;
+
+		.logo-culttume{background:url(../img/Culttume-logo-123x28.png);}
         
         /* photo that appears on the right side of the header */
 		.photo_user_mini{
@@ -807,7 +809,4 @@ footer {
 #css-menu ul ul li.even {
   background: #fff;
 }
-
-
-
 

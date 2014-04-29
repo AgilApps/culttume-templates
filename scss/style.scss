@@ -139,7 +139,7 @@ header {
 		margin: 5px 5px 5px 5px;
 		//border: 1px solid $bluesky;
 		height:auto;
-		text-align:justify;
+		text-align:center;
 		padding: 5px 5px 5px 5px;
 	
 		.description-aboutme{
@@ -147,7 +147,7 @@ header {
 			margin: auto;
 			font-family: $font-stack1;
 				h1{
-					font-size: 24px;
+					font-size: 20px;
 					font-family: $font-stack1;
 			}
 		}
@@ -163,6 +163,16 @@ header {
 		height:auto;
 		text-align:justify;
 		padding: 5px 5px 5px 5px;
+
+		.description-aboutme{
+			width: 239;
+			margin: auto;
+			font-family: $font-stack1;
+				h1{
+					font-size: 24px;
+					font-family: $font-stack1;
+			}
+		}
 	}
 
 	#section-social-profile{
@@ -185,6 +195,17 @@ header {
 		background:$white;
 		margin: 5px 5px 5px 30px;
 		font-family: $font-stack1;
+
+		.description-aboutme{
+			width: 239;
+			margin: auto;
+			font-family: $font-stack1;
+			margin-left: 15px;
+				h1{
+					font-size: 24px;
+					font-family: $font-stack1;
+			}
+		}
 	}
 
 	#description-aboutme{

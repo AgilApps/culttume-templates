@@ -701,11 +701,9 @@ footer {
 	text-align:center;
 }
 
-/*Esto es un div de prueba*/
-#cssmenu,
-#cssmenu ul,
-#cssmenu li,
-#cssmenu a {
+/*Is this div test*/
+#css-menu,#css-menu ul, #css-menu li,
+#css-menu a {
   margin: 0;
   padding: 0;
   border: 0;
@@ -717,14 +715,14 @@ footer {
   font-size: 14px;
   position: relative;
 }
-#cssmenu a {
+#css-menu a {
   line-height: 1.3;
 }
 
-#cssmenu {
+#css-menu {
   width: 250px;
 }
-#cssmenu > ul > li > a {
+#css-menu > ul > li > a {
 
   padding-right: 40px;
   font-size: 25px;
@@ -734,26 +732,26 @@ footer {
   color: #ffffff;
   border-bottom: 1px solid #eeeeee;
 }
-#cssmenu > ul > li > a > span {
+#css-menu > ul > li > a > span {
   background: #e55b48;
   padding: 10px;
   display: block;
   font-size: 13px;
   font-weight: 300;
 }
-#cssmenu > ul > li > a:hover {
+#css-menu > ul > li > a:hover {
   text-decoration: none;
 }
-#cssmenu > ul > li.active {
+#css-menu > ul > li.active {
   border-bottom: none;
 }
-#cssmenu > ul > li.active > a {
+#css-menu > ul > li.active > a {
   color: #fff;
 }
-#cssmenu > ul > li.active > a span {
+#css-menu > ul > li.active > a span {
   background: #e55b48;
 }
-#cssmenu span.cnt {
+#css-menu span.cnt {
   position: absolute;
   top: 8px;
   right: 15px;
@@ -762,26 +760,26 @@ footer {
   background: none;
 }
 /* Sub menu */
-#cssmenu ul ul {
+#css-menu ul ul {
   display: none;
 }
-#cssmenu ul ul li {
+#css-menu ul ul li {
   border: 1px solid #e0e0e0;
   border-top: 0;
 }
-#cssmenu ul ul a {
+#css-menu ul ul a {
   padding: 10px;
   display: block;
   color: #e55b48;
   font-size: 13px;
 }
-#cssmenu ul ul a:hover {
+#css-menu ul ul a:hover {
   color: #e55b48;
 }
-#cssmenu ul ul li.odd {
+#css-menu ul ul li.odd {
   background: #ffffff;
 }
-#cssmenu ul ul li.even {
+#css-menu ul ul li.even {
   background: #fff;
 }
 

@@ -847,8 +847,12 @@ footer .footer-content .copyright {
 #css-menu {
   width: 250px;
 }
+/* line 725, ../../scss/style.scss */
+#css-menu h1 {
+  font-family: "Open Sans", sans-serif;
+}
 
-/* line 726, ../../scss/style.scss */
+/* line 729, ../../scss/style.scss */
 #css-menu > ul > li > a {
   padding-right: 40px;
   font-size: 25px;
@@ -859,7 +863,7 @@ footer .footer-content .copyright {
   border-bottom: 1px solid #eeeeee;
 }
 
-/* line 736, ../../scss/style.scss */
+/* line 739, ../../scss/style.scss */
 #css-menu > ul > li > a > span {
   background: #e55b48;
   padding: 10px;
@@ -868,27 +872,27 @@ footer .footer-content .copyright {
   font-weight: 300;
 }
 
-/* line 743, ../../scss/style.scss */
+/* line 746, ../../scss/style.scss */
 #css-menu > ul > li > a:hover {
   text-decoration: none;
 }
 
-/* line 746, ../../scss/style.scss */
+/* line 749, ../../scss/style.scss */
 #css-menu > ul > li.active {
   border-bottom: none;
 }
 
-/* line 749, ../../scss/style.scss */
+/* line 752, ../../scss/style.scss */
 #css-menu > ul > li.active > a {
   color: #fff;
 }
 
-/* line 752, ../../scss/style.scss */
+/* line 755, ../../scss/style.scss */
 #css-menu > ul > li.active > a span {
   background: #e55b48;
 }
 
-/* line 755, ../../scss/style.scss */
+/* line 758, ../../scss/style.scss */
 #css-menu span.cnt {
   position: absolute;
   top: 8px;
@@ -899,18 +903,18 @@ footer .footer-content .copyright {
 }
 
 /* Sub menu */
-/* line 764, ../../scss/style.scss */
+/* line 767, ../../scss/style.scss */
 #css-menu ul ul {
   display: none;
 }
 
-/* line 767, ../../scss/style.scss */
+/* line 770, ../../scss/style.scss */
 #css-menu ul ul li {
   border: 1px solid #e0e0e0;
   border-top: 0;
 }
 
-/* line 771, ../../scss/style.scss */
+/* line 774, ../../scss/style.scss */
 #css-menu ul ul a {
   padding: 10px;
   display: block;
@@ -918,17 +922,17 @@ footer .footer-content .copyright {
   font-size: 13px;
 }
 
-/* line 777, ../../scss/style.scss */
+/* line 780, ../../scss/style.scss */
 #css-menu ul ul a:hover {
   color: #e55b48;
 }
 
-/* line 780, ../../scss/style.scss */
+/* line 783, ../../scss/style.scss */
 #css-menu ul ul li.odd {
   background: #ffffff;
 }
 
-/* line 783, ../../scss/style.scss */
+/* line 786, ../../scss/style.scss */
 #css-menu ul ul li.even {
   background: #fff;
 }

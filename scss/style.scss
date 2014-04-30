@@ -726,6 +726,25 @@ footer {
 
 /*Is this div test*/
 
+.title-user-left{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  text-align:center;
+  position: relative;
+  background-color: $grey1;
+  
+  h2{
+  	font-family: $font-stack1;
+  	color: $white;
+  	font-size: 1.4rem;
+  }
+}
+
 .photo-user-left{
   margin: 0;
   padding: 0;
@@ -734,10 +753,10 @@ footer {
   font-weight: normal;
   text-decoration: none;
   line-height: 1;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-stack1;
   font-size: 14px;
   position: relative;
-  background-color: $grey2;
+  background-color: $grey1;
 }
 
 

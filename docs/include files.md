@@ -14,6 +14,7 @@ Files with extension. Css are loaded just before closing the header, and should 
 </head>
 ```
 in the line where references to
+
 `<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700' rel='stylesheet' type='text/css'> `
 
 This calling an external source from google fonts

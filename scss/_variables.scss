@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700);
+@import '_mixins';
+
+// *********************************** Declaration of variables Culttu.me. ***********************************
+
+//Colors Culttume
+$black  :#323232;
+$yellow :#FFEE20;
+$purple :#64387F;
+$orange :#F39720;
+$bluesky:#23AAE1;
+$red    :#E84F35;
+$red2 : #E55B48;
+$grey0  :#d6d6d6;
+$grey1  :#eeeeee; 
+$grey2  :#8B8B8B;
+$grey3  :#A5A5A5;
+$grey4  :#878787;
+$grey5  :#4D4D4D;
+$white  :#FFFFFF;
+$white2 :#f6f6f6;
+$color-google  :#DD4B39; 
+$color-twitter :#52A8E9; 
+$color-facebook:#537ABB;
+
+
+// Fonts
+$font-stack1:"Open Sans", sans-serif;//google font
+$font-stack2:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
+
+//Size of titles
+$sizeh1:22px;
+
+// Dimensions Body
+$dimensions-general: 100%; //replace width_general and height_general
+
+//Dimensions Wrapper
+$width-wrapper: 1240px;
+
+
+
+$width-menufloat: 160px; //Floating menu
+
+//Dimensions aboutme 
+$width-general-aboutme : 725px;	
+$width-followers       : 250px;
+$width-box_content 	   : 320px; 
+$height-box-content-small : 160px; 
+$height-box-content-big   : 250px; 
+$width-product-box-content: 300px; 
+$height-img-box-content   : 150px; 
+$height-music-box-content : 90px; 
+$height-info-box-content  : 30px; 
+$width-box-title-content  : 270px;
+$height-box-title-content : 47px;
+$width-h3-title-content   : 258px;
+$height-h3-title-content  : 37px;
+$width-p-title-content 	  : 220px;
+$height-p-title-content   : 20px;
+$dimensions-ico-social-title-content : 26px;
+$width-box-content-follower  : 240px;//box content
+$height-box-content-follower : 432px;//box content:
+$width-box-perfil            : 692px;//box configuration profile
+$width-box-form-setting 	 : 290px;//default form size
+$height-box-new-content      : 80px;//Set size for the height of div new event
+$dimensions-ico-social-share : 20px;
+$dimensions-ico-product      : 35px;
+
+//Wrapper
+$width-wrapper-content-div : 1020px;
+$width-mini-logo 		   : 154px ; //Logo head width
+$width-input               : 160px; //Width based inputs
+$height-header             : 40px; //Header
+$height-mini-logo          : 35px;
+$height-input              : 30px; //heigth base inputs
+$height-footer             : 350px; //heigth of footer
+$height-footer-content     : 325px; //heigth the content of footer
+$margin-cont               : 5px 10px; //Margin Windows Content
+$radius                    : 0px; //border of windows content
+$pad-0                     : 0px; //Padding
+
+
+
+
+

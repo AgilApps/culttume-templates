@@ -1,0 +1,847 @@
+/* styles are imported and declared variables */
+
+@import '_mixins';
+@import '_variables';
+
+/*General properties of the body*/
+body {
+
+	width:$dimensions_general; 
+	height:$dimensions_general !important;
+	overflow-x:hidden;
+	overflow-y:visible;
+	font-family:$font-stack1;
+	font-weight:300;
+	font-size:100%;
+}
+
+/* General properties of the Header */
+header {
+
+	width: $dimensions_general;//100%
+	height: $height_header;//40px
+	background: $white;
+	opacity: 0.9;
+	box-shadow: 0px 3px 10px #888888;
+	z-index: 999;
+    
+    /*properties of the div that is inside header*/
+	#subheader{
+
+		max-width: $width_wrapper; //1240px
+		height: $height_header; //40px
+		margin: auto;
+		background: transparent;
+		overflow: visible;
+		padding: $pad_0;
+
+		.logo-culttume{background:url(../img/Culttume-logo-123x28.png);}
+        
+        /* photo that appears on the right side of the header */
+		.photo_user_mini{
+			float:right;
+			height:$height_header;
+			margin:-5px 0 0 0;
+		}
+	}	
+}
+
+
+/* This will be the content of the page */
+#wrapper {
+
+	float:left;
+	min-width: $width-wrapper;//1240px
+	max-width: $width-wrapper;//1240px
+	//border: 1px solid $bluesky;
+	height: auto;
+	background: transparent;
+	margin: 30px 10px 10px ;
+	font-family: $font-stack2;
+	font-size:100%;
+	line-height:100%;
+	padding: $pad-0;
+
+	#subwrapper{
+		float: left;
+		width: 1060px;
+		//border: 1px solid $bluesky;
+		margin: 10px 10px 10px 10px;
+	}
+}
+
+
+/* menu where they go from which they access any product or category */
+#float-menu{
+
+	width:$width-menufloat; //160px
+	height:auto;
+	position: fixed;
+	font-family:$font-stack1;
+	background: #E55B48;
+	margin: 10px 10px 10px 10px;
+	float:left;
+	overflow: hidden;
+	@include transform-translate3d();
+	@include border-radius(0px);
+	z-index: 90;
+	position: relative;
+	//border: 1px solid $bluesky;
+    top: 0px;
+    right: 0;
+    left: 0px;
+    padding: $pad-0;
+    h1{
+    	font-family: $font-stack1;
+    	text-align:center;
+    	font-size: 1.5rem;
+    	background:#E55B48;
+    	color:$white;
+    }
+}
+
+#section-general{
+	width: 1030px;
+	height:auto;
+	margin: 10px;
+	float:left;
+	overflow: hidden;
+	font-family: $font-stack1;
+	//border: 1px solid $bluesky;
+	.section_faqs{
+
+		width:1030px;
+		border: 1px solid $grey1;
+		h1{
+			font-family:$font-stack1;
+			font-size: 1.8rem;
+		}
+		h2{
+			font-family:$font-stack1;
+			font-size: 1.3rem;
+		}
+		h3{
+			font-family: $font-stack1;
+			font-size: 1.0rem;
+		}
+
+		.section_subfaqs{
+			margin: 10px 10px 10px 10px;
+			padding: 10px 10px 10px 10px;
+			background: $white;
+			text-align:justify;
+		}
+	}
+
+	#section-aboutme{
+
+		width:239px;
+		background:$white;
+		float:left;
+		margin: 5px 5px 5px 5px;
+		//border: 1px solid $bluesky;
+		height:auto;
+		text-align:center;
+		padding: 5px 5px 5px 5px;
+	
+		.description-aboutme{
+			width: 239;
+			margin: auto;
+			font-family: $font-stack1;
+				h1{
+					font-size: 20px;
+					font-family: $font-stack1;
+			}
+		}
+	}
+
+	#section-aboutme2{
+
+		width:400px;
+		background:$white;
+		float:left;
+		margin: 5px 5px 5px 5px;
+		//border: 1px solid $bluesky;
+		height:auto;
+		text-align:justify;
+		padding: 5px 5px 5px 5px;
+
+		.description-aboutme{
+			width: 239;
+			margin: auto;
+			font-family: $font-stack1;
+				h1{
+					font-size: 24px;
+					font-family: $font-stack1;
+			}
+		}
+	}
+
+	#section-social-profile{
+
+		width:70px;
+		background:$white;
+		float:left;
+		margin: 5px 5px 5px 5px;
+		//border: 1px solid $bluesky;
+		height:auto;
+		text-align:justify;
+		padding: 5px 5px 5px 5px;
+	}
+
+	#section-followers{
+
+		width:$width-followers;
+		//border: 1px solid $bluesky;
+		float:left;
+		background:$white;
+		margin: 5px 5px 5px 30px;
+		font-family: $font-stack1;
+
+		.description-aboutme{
+			width: 239;
+			margin: auto;
+			font-family: $font-stack1;
+			margin-left: 15px;
+				h1{
+					font-size: 24px;
+					font-family: $font-stack1;
+			}
+		}
+	}
+
+	#description-aboutme{
+		width: 239;
+		margin: auto;
+		font-family: $font-stack1;
+			p{
+				font-size:0.9rem;
+				font-family:$font-stack1;
+			}
+			h1{
+				font-size: 1.5rem;
+				font-family: $font-stack1;
+			}
+		}
+
+	#section-statistics{
+
+		width: 1010px;
+		background:$white;
+		float:left;
+		margin: 5px 5px 5px 5px;
+		//border: 1px solid $bluesky;
+		height:auto;
+		text-align:justify;
+		padding: 5px 5px 5px 5px;
+		text-align: center;
+	}
+
+}
+
+.menu{
+
+
+		ul{
+
+		    list-style:none;
+		    float:left;
+		    margin: 10px 10px auto 10px;
+
+		    li{
+		    	float:left;
+    			width:$width-menufloat;
+    			background:transparent;
+    			padding:5px;
+    			margin:auto;
+    			a{
+
+				    color: $white;
+				    text-decoration:none;
+				    font-family:$font-stack1;
+				    font-size: 13px;
+
+				    :hover{
+
+					    background:$white ;
+					}
+				}
+				h2{
+					text-align: center;
+					color: $white;
+					font-family:$font-stack1;
+				}
+		    }
+		}
+	}
+
+/*here are all the sections belonging to profile*/
+
+
+/* This section will display the list of followers */
+
+/* properties general footer  */
+footer {
+	float:left;
+	
+	width:$dimensions-general;
+	height: auto;
+	background: $grey1;
+	margin: 0px auto 0px auto;
+
+	.more-content {
+		.simbol-plus{
+			font-size: 1.5rem;
+			color:$red;
+			margin:0 2px;
+		}
+		.simbol-plus-text{
+			font-size: 1.2rem;
+			color:$red;
+			margin:0 5px;
+		}
+	}
+	/* footer content, social, links, menu, agilapps*/
+	.footer-content{
+		width:$dimensions-general;
+		height:auto;
+		background: $white;
+		margin: 0px auto 0px auto;
+
+		@include transform-translate3d();
+		@include border-radius(0px);
+		padding: $pad_0;
+			/* ********* Sponsors culttume ******** */
+			.sponsors-logos{
+				width:$width_wrapper+-350px;
+				height:$height_box_content_small+150px;
+				background: $white;
+				margin: 0px auto 0px auto;
+				overflow: hidden;
+				.logo-sponsor{
+					display: inline-block;
+					
+					width: $width_menufloat;
+					height: $height_box_content_small+-90px; 
+					margin:0px 23px;
+				}
+				/*  Opacity, filter greyscale and bg sponsors */
+				#img-presidencia{	@include filter-grey(100%);opacity: 0.5; background:url(../img/Presidencia-160x45.png) center center no-repeat, $white;}
+				#img-emprendetic2{	position:relative;top:-80px;margin-left:50px; @include filter-grey(100%); opacity: 0.5; background:url(../img/EmprendeTic2-160x45.png) center center no-repeat, $white;}
+				#img-sena{			width: $width_menufloat+-100px;@include filter-grey(100%);opacity: 0.5;background:url(../img/SENA-160x45.png) center center no-repeat, $white;}
+				#img-fonade{		width: $width_menufloat+-60px;@include filter-grey(100%);opacity: 0.5;background:url(../img/Fonade-160x45.jpg) center center no-repeat, $white;}
+				#img-parquesoft{	position:relative;top:-80px;@include filter-grey(100%);opacity: 0.5; background:url(../img/ParqueSoft-160x45.png) center center no-repeat, $white;}
+				#img-tecnoparque{	position:relative;top:-80px;@include filter-grey(100%);opacity: 0.5; background:url(../img/Tecnoparque-160x87.png) center center no-repeat, $white;}
+				#img-fondo-emprender{@include filter-grey(100%);opacity: 0.5; background:url(../img/FondoEmprender-160x45.png) center center no-repeat, $white;}
+				#img-c3-d{
+					display: inline-block;
+					position:relative;
+					width: $width_menufloat;
+					height: $height_box_content_small; //
+					margin:0px 1px;
+					top:-13px;
+					@include filter-grey(100%);
+					opacity: 0.5; 
+					background:url(../img/C3+d-120x155.jpg) center no-repeat, $white;
+				}
+				#img-apssco{	position:relative;top:-70px;margin:0 20px 0 160px;	@include filter-grey(100%);	opacity: 0.5;	background:url(../img/Apps.co-160x45.png) center center no-repeat, $white;}
+				#img-ventures{	position:relative;top:-70px;@include filter-grey(100%);	opacity: 0.5;	background:url(../img/Ventures-160x45.png) center center no-repeat, $white;}
+				
+				/*  Opacity and filter effect  */
+				#img-presidencia:hover,#img-emprendetic2:hover,#img-sena:hover,
+				#img-parquesoft:hover,#img-tecnoparque:hover,#img-fondo-emprender:hover,
+				#img-apssco:hover,#img-c3-d:hover,#img-ventures:hover,#img-fonade:hover{
+					@include filter-grey(0%);opacity: 5;
+				}
+				
+			}
+			/*  navegation general */
+			.nav-map{
+				width:$width_box_perfil+108px;
+				height:$height_box_content_small;
+				background: $white;
+				margin: 0px auto 0px auto;
+				overflow: hidden;
+					.sub-nav-map{
+						display: inline-block;
+						
+						width: $width_menufloat;
+						height: auto; //
+						margin:1px 17.5px 0 17.5px;
+						background: $white;
+					}
+					a{
+						font-family: $font-stack1;
+					}
+					li{
+						list-style-type:none;
+						font-family: $font-stack1;
+					}
+			}
+        .copyright{
+        background-color: #E55B48;
+        color:$white;}
+	}
+}
+
+/* Content general styles boxes*/
+
+/*.box-content Has styles boxes and properties */
+.box-content{
+
+	float:left;
+	width: $width-box-content;
+	height: auto;
+	background: $white;
+	margin: $margin-cont;
+	border: 1px solid $grey1;
+	overflow: hidden;
+	line-height:100%;
+	font-weight:300;
+	font-size:100%;
+    
+    
+	.header-box-content{
+
+		width: $width-box-content;
+		height: $height-box-title-content;
+		background: $white;
+		overflow: hidden;
+	
+		.title-box-content{
+
+			float:left;
+			width: $width-h3-title-content;
+			height: $height-h3-title-content;
+			background: transparent;
+			margin: 0;
+			padding:5px 5px 5px 10px;
+			font-variant: small-caps;
+			line-height:100%;
+			font-weight:300;
+			font-size:100%;
+		}
+
+		.ico-id-content{
+
+			float:right;
+			width: $height-box-title-content;
+			height: $height-box-title-content;
+			margin:0;
+
+				.ico-id-photo,.ico-id-music,.ico-id-video,
+				.ico-id-animation,.ico-id-illustration,.ico-id-web,
+				.ico-id-password, .ico-id-about-you,
+				.ico-id-basic-info, .ico-id-user-photo, .ico-id-notification{
+
+					width:$dimensions-ico-product;
+					height:$dimensions-ico-product;
+					margin:5px auto 0 auto;  
+					background-size:100% 100%;
+					background-repeat:no-repeat;
+					background-position:center center;
+				}
+
+				.ico-id-photo{background:url(../img/ico-photos.png);}
+				.ico-id-music{background:url(../img/ico-music.png);}
+				.ico-id-video{background:url(../img/ico-video.png);}
+				.ico-id-animation{background:url(../img/ico-animation.png);}
+				.ico-id-illustration{background:url(../img/ico-illustration.png);}
+				.ico-id-web{background:url(../img/ico-web.png);}
+				.ico-id-password{background:url(../img/ico-password.png);}
+				.ico-id-about-you{background:url(../img/ico-about-you.png);}
+				.ico-id-basic-info{background:url(../img/ico-basic-info.png);}
+				.ico-id-user-photo{background:url(../img/ico-user-photo.png);}
+				.ico-id-notification{background:url(../img/ico-notification.png);
+			}
+		}
+        
+		.subtitle-box-content{
+
+			float:left;
+			width: $width-h3-title-content;
+			height: $height-h3-title-content;
+			background: transparent;
+			margin: -10px 0 0 0;
+			padding:0px 0px 0px 10px;
+			line-height:100%;
+			font-weight:300;
+			font-size:11px;
+		}
+	}
+
+	.line-color-grey{
+
+		width:$width-box-content;
+		height:1px;
+		background: $grey0;
+	}
+
+
+    /*the dimension of this div will be content  photos, ilustrations, animates and video*/
+	.product-box-content{
+
+		width: $width-product-box-content;
+		max-height: $height-img-box-content;
+		min-height: $height-img-box-content;
+		background: $white;
+		margin:10px auto;	
+	}
+
+	/*the characteristics of this content only will be content API soundcloud*/
+	.music-box-content{
+
+		width: $width-product-box-content;
+		max-height: $height-music-box-content;
+		min-height: $height-music-box-content;
+		background: $white;
+		margin:10px auto;
+	}
+
+	.info-box-content{
+
+		width: $width-box-content;
+		height: $height-info-box-content;
+		background: transparent;
+		margin:0px;
+
+		.user-name-box-content{
+
+			background: #ff0000;
+
+			.user-name-mini{
+
+				float:left;
+				width: $width-p-title-content;
+				height: $height-p-title-content;
+				background: transparent;
+				margin:5px 0;
+				padding:0 0 0 10px;
+				font-size: 12px;
+            }
+        }
+
+		.ico-social{
+
+			.share-social{
+
+                float:right;
+                background: transparent;
+                width:$dimensions-ico-social-title-content;
+                height:$dimensions-ico-social-title-content;
+                margin:5px 5px 0 0;
+                cursor: pointer;
+
+					/* social shares configuration  */
+					.share-fb{
+
+						width:$dimensions-ico-social-share;
+						height:$dimensions-ico-social-share;
+						background:url(../img/ico-fb.png), $white;//  
+						background-size:16px 16px;
+						background-repeat:no-repeat;
+						background-position:center center;
+					}
+					.share-tw{
+
+						width:$dimensions-ico-social-share;
+						height:$dimensions-ico-social-share;
+						background:url(../img/ico-tw.png), $white;//  
+						background-size:16px 16px;
+						background-repeat:no-repeat;
+						background-position:center center;
+					}
+					.share-g{
+
+						width:$dimensions-ico-social-share;
+						height:$dimensions-ico-social-share;
+						background:url(../img/ico-g.png), $white;//  
+						background-size:16px 16px;
+						background-repeat:no-repeat;
+						background-position:center center;
+					}
+				}
+			}
+		}	
+
+	.deleat-account{
+
+		width:200px;
+		height:2.3125rem;
+		margin:0 20%;
+		background: transparent;
+
+		.ico-id-deleat{
+
+			float:left;
+			width:$dimensions-ico-product;
+			height:$dimensions-ico-product;
+			margin:0 1px 0 auto;
+			font-size: 0.875rem;
+			background:url(../img/ico-deleat.png);
+			background-size:100% 100%;
+			background-repeat:no-repeat;
+			background-position:center center;
+		}
+		.label-link{
+
+			float:left;
+			font-size: 1rem;
+			color:$bluesky;
+			text-align: center;
+			margin:10px auto 0 20px;
+		}
+	}
+
+	.deleat-object{
+		width:200px;
+		height:2.3125rem;
+		margin:0 20%;
+		background: transparent;
+		/*  */
+		.ico-id-deleat{
+				float:left;
+				width:$dimensions-ico-product;
+				height:$dimensions-ico-product;
+				margin:0 1px 0 auto;
+				background:url(../img/ico-deleat.png);
+				background-size:100% 100%;
+				background-repeat:no-repeat;
+				background-position:center center;
+		}/*  */
+		.label-link{
+			float:left;
+			font-size: 0.875rem;
+			color:$bluesky;
+			text-align: center;
+			margin:10px auto 0 20px;
+		}
+	}
+
+    label{	
+
+		line-height:100%;
+		font-weight:300;
+		font-size:12px;
+	}
+
+	.form-setting{
+
+		width: $width-box-form-setting;
+		height: auto;
+		background: transparent;
+		margin:10px 10px;
+	}
+
+	textarea{
+
+		width: $width-product-box-content+-80px;
+		max-height: auto;
+		min-height: $height-img-box-content+-50px;
+		margin:10px auto;
+	}
+
+    .preview-photo-user{
+
+        width: 100px;
+		height: 100px;
+		background: $white;
+        margin: 0 30px 30px;
+    }
+}
+
+/* Content general styles boxes*/
+
+/*Style register and login*/
+
+.header-modal{
+	color: $black;
+	text-align: center;
+	font-family: $font-stack1;
+	display:block;
+	margin-bottom:15px;
+	h2{
+		font-family:$font-stack1;
+		font-size: 1.8rem;
+	}
+	h3{
+		font-family:$font-stack1;
+		font-size: 1.2rem;
+	}
+}
+
+/*end style register and login*/
+
+/* content related to the event manager */
+
+.box-new-content{
+	float:left;
+
+	width: $width_box_content;
+	height: $height_box_new_content;
+	background: $white;
+	margin: $margin_cont;
+	border: 1px dashed $grey2;
+	overflow: hidden;
+		.new-object{
+			width: $width_h3_title_content+10px;
+			height: $height_header;
+			background: transparent;
+			margin: 23px auto 0 auto;
+			.header-box-content{
+			width: auto;
+			height: $height_header;
+				.title-box-content{
+					float:left;
+					width: $width_p_title_content+-25px;
+					height: $height_h3_title_content;
+					background: $white;
+					margin: 0;
+					padding:7px 5px 5px 10px;
+
+					font-variant: small-caps;
+					line-height:100%;
+					font-weight:300;
+					font-size:1.05rem;
+					color:$bluesky;
+				}
+					.ico-id-event, .ico-id-product{
+						float:left;
+						width:$dimensions_ico_product;
+						height:$dimensions_ico_product;
+						margin:0 5px 0 10px;  
+						background-size:100% 100%;
+						background-position:center center;
+					}
+					.ico-id-event{	background: url(../img/ico-event.png) no-repeat;}
+					.ico-id-product{	background: url(../img/ico-new-event.png) no-repeat;}
+				.ico-id-content{}	
+			}
+		}
+}
+
+.social-networks-login{
+	text-align:center;
+}
+
+/*Is this div test*/
+
+.title-user-left{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  text-align:center;
+  position: relative;
+  background-color: $grey1;
+  
+  h2{
+  	font-family: $font-stack1;
+  	color: $white;
+  	font-size: 1.4rem;
+  }
+}
+
+.photo-user-left{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: $font-stack1;
+  font-size: 14px;
+  position: relative;
+  background-color: $grey1;
+}
+
+
+#css-menu,#css-menu ul, #css-menu li,
+#css-menu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  position: relative;
+
+  a {
+  	line-height: 1.3;
+  }
+}
+
+#css-menu {
+  width: 250px;
+  h1{
+  	font-family: $font-stack1;
+  }
+}
+#css-menu > ul > li > a {
+
+  padding-right: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  background: #e55b48;
+  color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+#css-menu > ul > li > a > span {
+  background: #e55b48;
+  padding: 10px;
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+}
+#css-menu > ul > li > a:hover {
+  text-decoration: none;
+}
+#css-menu > ul > li.active {
+  border-bottom: none;
+}
+#css-menu > ul > li.active > a {
+  color: #fff;
+}
+#css-menu > ul > li.active > a span {
+  background: #e55b48;
+}
+#css-menu span.cnt {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+/* Sub menu */
+#css-menu ul ul {
+  display: none;
+}
+#css-menu ul ul li {
+  border: 1px solid #e0e0e0;
+  border-top: 0;
+}
+#css-menu ul ul a {
+  padding: 10px;
+  display: block;
+  color: #e55b48;
+  font-size: 13px;
+}
+#css-menu ul ul a:hover {
+  color: #e55b48;
+}
+#css-menu ul ul li.odd {
+  background: #ffffff;
+}
+#css-menu ul ul li.even {
+  background: #fff;
+}
+

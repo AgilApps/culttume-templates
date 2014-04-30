@@ -1,16 +1,21 @@
 <!doctype html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1,maximun-scale=1">
-	<title>culttu.me - Animaciones</title>
-	<link rel="shortcut icon" href="assets/favicon/favicon.ico">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/foundation.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-	<header class="fixed">
+	<!--  head -->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximun-scale=1">
+		<title>culttu.me - Inicio</title>
+		<link rel="shortcut icon" href="assets/favicon/favicon.ico">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/foundation.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700' rel='stylesheet' type='text/css'>
+	</head>
+	<!--  end head  -->
+
+	<!--  Body  -->
+	<body>
+		<!-- This is the initiation of the header where the logo and the list to login or register -->
+		<header class="fixed">
 
     <nav id="sub-header" class="top-bar" data-topbar>
     	<!-- Here is the logo -->
@@ -37,33 +42,89 @@
     </nav>
   </header>
 
-  <div id="wrapper">
+		<!-- wrapper -->
+		<!-- Wrapper It is the general container where the menu divs and sections -->
+		<div id="wrapper">
+			<!-- The div id float menu is where sections of the menu located on the left side -->
+			<div id="float-menu">
+				<div class="photo-user-left">
+				<a href="profile.html"><img src="assets/img/without-photo.png" alt="Mi Perfil">
+				</a>
+			</div>
+				<div id='css-menu'>
+					<ul>
+						<li class='active'><a href='Profile.html'><span>Ir a mi perfil</span></a></li>
+						<li class='has-sub'><a href='#'><span>Creaciones</span></a>
+								<ul>
+									<li><a href='category-music.html'><span>Música</span></a></li>
+									<li><a href='category-illustration.html'><span>Ilustración</span></a></li>
+									<li><a href='category-animation.html'><span>Animación</span></a></li>
+									<li><a href='category-audiovisual.html'><span>Audiovisual</span></a></li>
+									<li><a href='category-web-design.html'><span>Diseño web</span></a></li>
+									<li class='last'><a href='category-pictures.html'><span>Fotografia</span></a></li>
+								</ul>
+						</li>
+						<li class='has-sub'><a href='#'><span>Eventos</span></a>
+								<ul>
+									<li><a href='#'><span>Ver Eventos</span></a></li>
+								</ul>
+						</li>
+						<li class='last'><a href='#'><span>Campañas</span></a>
+							<ul>
+								<li><a href='#'><span>Ver Campañas</span></a></li>
+							</ul>
+						</li>
+						<li class='last'><a href='#'><span>Tienda</span></a>
+							<ul>
+								<li><a href='#'><span>productos disponibles</span></a></li>
+							</ul>
+						</li>
+						<li class='last'><a href='#'><span>Artistas</span></a>
+							<ul>
+								<li><a href='category-artist.html'><span>Ver lista de artistas</span></a></li>
+							</ul>
+						</li>
+				</ul>
+			</div>
+		</div>
 
-		<div id="float-menu">
-			<div id='css-menu'>
-        	<ul>
-        	<li class='active'><a href='#'><span>Animaciones</span></a></li>
-        	<li class='has-sub'><a href='profile.html'><span>Gestor de Perfil</span></a></li>
-        	<li class='has-sub'><a href='#'><span>Gestor de eventos</span></a></li>
-        	<li class='last'><a href='product-manager.html'><span>Gestor de productos</span></a></li>
-        	<li class='last'><a href='#'><span>Gestor de artistas</span></a></li>
-        </ul>
-      </div>
-    </div>
-    <div id="section-general">
+			<!-- This div is the container that is the right and inside the boxes are events or products -->
+			<div id="section-general">
 
-				<!-- Category web design-->
+				<!-- Category Photograpic-->
 				<div class="box-content">
-				<div class="header-box-content">
-					<h3 class="title-box-content inline">Diseño web</h3>
-					<a class="ico-id-content" href="#"><div class="ico-id-web"></div></a>
+					<div class="header-box-content">
+						<h3 class="title-box-content">fotografía</h3>
+						<a class="ico-id-content" href=""><div class="ico-id-photo"></div></a>
+					</div>
+					<div class="line-color-grey"></div>
+					<div class="product-box-content">
+						<img src="assets/img/photo_1.jpg" alt="">
+					</div>
+					<div class="info-box-content">
+						<div class="user-name-box-content">
+							<div class="user-name-mini"><a href="#">Harley Santos</a></div>
+						</div>
+						<div class="ico-social">
+							<a class="share-social" href="#"><div class="share-fb"></div></a>
+							<a class="share-social" href="#"><div class="share-tw"></div></a>
+							<a class="share-social" href="#"><div class="share-g"></div></a>
+						</div>
+					</div>
 				</div>
-				<div class="line-color-grey"></div>
-				<div class="product-box-content">
-					<img src="assets/img/web_design_1.jpg" alt="">
-				</div>
-				<div class="info-box-content">
-					<div class="user-name-box-content">
+
+				<!--Category Product-->
+				<div class="box-content">
+					<div class="header-box-content">
+						<h3 class="title-box-content">Animación</h3>
+						<a class="ico-id-content" href="#"><div class="ico-id-animation"></div></a>
+					</div>
+					<div class="line-color-grey"></div>
+					<div class="product-box-content">
+						<div class="animate-product"><img src="assets/img/cvxcvc.gif " alt=""></div>
+					</div>
+					<div class="info-box-content">
+						<div class="user-name-box-content">
 						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
 					</div>
 					<div class="ico-social">
@@ -74,8 +135,30 @@
 				</div>
 			</div>
 
-			<!-- Category web design-->
-				<div class="box-content">
+			<!--Category Ilustration -->
+			<div class="box-content">
+				<div class="header-box-content">
+					<h3 class="title-box-content inline">Ilustracion</h3>
+					<a class="ico-id-content" href="#"><div class="ico-id-illustration"></div></a>
+				</div>
+				<div class="line-color-grey"></div>
+				<div class="product-box-content">
+					<img src="assets/img/illustration_1.jpg" alt="">
+				</div>
+				<div class="info-box-content">
+					<div class="user-name-box-content">
+					<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
+					</div>
+					<div class="ico-social">
+						<a class="share-social" href="#"><div class="share-fb"></div></a>
+						<a class="share-social" href="#"><div class="share-tw"></div></a>
+						<a class="share-social" href="#"><div class="share-g"></div></a>
+					</div>
+				</div>
+			</div>
+
+			<!--Category Web Design-->
+			<div class="box-content">
 				<div class="header-box-content">
 					<h3 class="title-box-content inline">Diseño web</h3>
 					<a class="ico-id-content" href="#"><div class="ico-id-web"></div></a>
@@ -95,141 +178,16 @@
 					</div>
 				</div>
 			</div>
-			<!-- Category web design-->
-				<div class="box-content">
+		
+			<!--Category Product-->
+			<div class="box-content">
 				<div class="header-box-content">
-					<h3 class="title-box-content inline">Diseño web</h3>
-					<a class="ico-id-content" href="#"><div class="ico-id-web"></div></a>
+					<h3 class="title-box-content">Música</h3>
+					<a class="ico-id-content" href="#"><div class="ico-id-music"></div></a>
 				</div>
 				<div class="line-color-grey"></div>
-				<div class="product-box-content">
-					<img src="assets/img/web_design_1.jpg" alt="">
-				</div>
-				<div class="info-box-content">
-					<div class="user-name-box-content">
-						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
-					</div>
-					<div class="ico-social">
-						<a class="share-social" href="#"><div class="share-fb"></div></a>
-						<a class="share-social" href="#"><div class="share-tw"></div></a>
-						<a class="share-social" href="#"><div class="share-g"></div></a>
-					</div>
-				</div>
-			</div>
-			<!-- Category web design-->
-				<div class="box-content">
-				<div class="header-box-content">
-					<h3 class="title-box-content inline">Diseño web</h3>
-					<a class="ico-id-content" href="#"><div class="ico-id-web"></div></a>
-				</div>
-				<div class="line-color-grey"></div>
-				<div class="product-box-content">
-					<img src="assets/img/web_design_1.jpg" alt="">
-				</div>
-				<div class="info-box-content">
-					<div class="user-name-box-content">
-						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
-					</div>
-					<div class="ico-social">
-						<a class="share-social" href="#"><div class="share-fb"></div></a>
-						<a class="share-social" href="#"><div class="share-tw"></div></a>
-						<a class="share-social" href="#"><div class="share-g"></div></a>
-					</div>
-				</div>
-			</div>
-			<!-- Category web design-->
-				<div class="box-content">
-				<div class="header-box-content">
-					<h3 class="title-box-content inline">Diseño web</h3>
-					<a class="ico-id-content" href="#"><div class="ico-id-web"></div></a>
-				</div>
-				<div class="line-color-grey"></div>
-				<div class="product-box-content">
-					<img src="assets/img/web_design_1.jpg" alt="">
-				</div>
-				<div class="info-box-content">
-					<div class="user-name-box-content">
-						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
-					</div>
-					<div class="ico-social">
-						<a class="share-social" href="#"><div class="share-fb"></div></a>
-						<a class="share-social" href="#"><div class="share-tw"></div></a>
-						<a class="share-social" href="#"><div class="share-g"></div></a>
-					</div>
-				</div>
-			</div>
-			<!-- Category web design-->
-				<div class="box-content">
-				<div class="header-box-content">
-					<h3 class="title-box-content inline">Diseño web</h3>
-					<a class="ico-id-content" href="#"><div class="ico-id-web"></div></a>
-				</div>
-				<div class="line-color-grey"></div>
-				<div class="product-box-content">
-					<img src="assets/img/web_design_1.jpg" alt="">
-				</div>
-				<div class="info-box-content">
-					<div class="user-name-box-content">
-						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
-					</div>
-					<div class="ico-social">
-						<a class="share-social" href="#"><div class="share-fb"></div></a>
-						<a class="share-social" href="#"><div class="share-tw"></div></a>
-						<a class="share-social" href="#"><div class="share-g"></div></a>
-					</div>
-				</div>
-			</div>
-			<!-- Category web design-->
-				<div class="box-content">
-				<div class="header-box-content">
-					<h3 class="title-box-content inline">Diseño web</h3>
-					<a class="ico-id-content" href="#"><div class="ico-id-web"></div></a>
-				</div>
-				<div class="line-color-grey"></div>
-				<div class="product-box-content">
-					<img src="assets/img/web_design_1.jpg" alt="">
-				</div>
-				<div class="info-box-content">
-					<div class="user-name-box-content">
-						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
-					</div>
-					<div class="ico-social">
-						<a class="share-social" href="#"><div class="share-fb"></div></a>
-						<a class="share-social" href="#"><div class="share-tw"></div></a>
-						<a class="share-social" href="#"><div class="share-g"></div></a>
-					</div>
-				</div>
-			</div>
-			<!-- Category web design-->
-				<div class="box-content">
-				<div class="header-box-content">
-					<h3 class="title-box-content inline">Diseño web</h3>
-					<a class="ico-id-content" href="#"><div class="ico-id-web"></div></a>
-				</div>
-				<div class="line-color-grey"></div>
-				<div class="product-box-content">
-					<img src="assets/img/web_design_1.jpg" alt="">
-				</div>
-				<div class="info-box-content">
-					<div class="user-name-box-content">
-						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
-					</div>
-					<div class="ico-social">
-						<a class="share-social" href="#"><div class="share-fb"></div></a>
-						<a class="share-social" href="#"><div class="share-tw"></div></a>
-						<a class="share-social" href="#"><div class="share-g"></div></a>
-					</div>
-				</div>
-			</div>
-			<!-- Category web design-->
-				<div class="box-content">
-				<div class="header-box-content">
-					<h3 class="title-box-content inline">Diseño web</h3>
-					<a class="ico-id-content" href="#"><div class="ico-id-web"></div></a>
-				</div>
-				<div class="line-color-grey"></div>
-				<div class="product-box-content">
-					<img src="assets/img/web_design_1.jpg" alt="">
+				<div class="music-box-content">
+					<img src="assets/img/music_1.png" alt="">
 				</div>
 				<div class="info-box-content">
 					<div class="user-name-box-content">
@@ -243,10 +201,166 @@
 				</div>
 			</div>
 
-	</div>
-</div>
+			<!-- Category Photograpic-->
+			<div class="box-content">
+				<div class="header-box-content">
+					<h3 class="title-box-content">fotografía</h3>
+					<a class="ico-id-content" href="#"><div class="ico-id-photo"></div></a>
+				</div>
+				<div class="line-color-grey"></div>
+				<div class="product-box-content">
+					<img src="assets/img/photo_3.jpg" alt="">
+				</div>
+				<div class="info-box-content">
+					<div class="user-name-box-content">
+						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
+					</div>
+					<div class="ico-social">
+						<a class="share-social" href="#"><div class="share-fb"></div></a>
+						<a class="share-social" href="#"><div class="share-tw"></div></a>
+						<a class="share-social" href="#"><div class="share-g"></div></a>
+					</div>
+				</div>
+			</div>
 
-	<footer>
+			<!--Category Product-->
+			<div class="box-content">
+				<div class="header-box-content">
+					<h3 class="title-box-content">Animación</h3>
+					<a class="ico-id-content" href="#"><div class="ico-id-animation"></div></a>
+				</div>
+				<div class="line-color-grey"></div>
+				<div class="product-box-content">
+					<div class="animate-product"><img src="assets/img/KhK4v9V.gif" alt=""></div>
+				</div>
+				<div class="info-box-content">
+					<div class="user-name-box-content">
+						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
+					</div>
+					<div class="ico-social">
+						<a class="share-social" href="#"><div class="share-fb"></div></a>
+						<a class="share-social" href="#"><div class="share-tw"></div></a>
+						<a class="share-social" href="#"><div class="share-g"></div></a>
+					</div>
+				</div>
+			</div>
+
+			<!--Category Ilustration -->
+			<div class="box-content">
+				<div class="header-box-content">
+					<h3 class="title-box-content inline">Ilustracion</h3>
+					<a class="ico-id-content" href="#"><div class="ico-id-illustration"></div></a>
+				</div>
+				<div class="line-color-grey"></div>
+				<div class="product-box-content">
+					<img src="assets/img/illustration_4.jpg" alt="">
+				</div>
+				<div class="info-box-content">
+					<div class="user-name-box-content">
+						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
+					</div>
+					<div class="ico-social">
+						<a class="share-social" href="#"><div class="share-fb"></div></a>
+						<a class="share-social" href="#"><div class="share-tw"></div></a>
+						<a class="share-social" href="#"><div class="share-g"></div></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Category Photograpic-->
+			<div class="box-content">
+				<div class="header-box-content">
+					<h3 class="title-box-content">fotografía</h3>
+					<a class="ico-id-content" href="#"><div class="ico-id-photo"></div></a>
+				</div>
+				<div class="line-color-grey"></div>
+				<div class="product-box-content">
+					<img src="assets/img/photo_4.jpg" alt="">
+				</div>
+				<div class="info-box-content">
+					<div class="user-name-box-content">
+						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
+					</div>
+					<div class="ico-social">
+						<a class="share-social" href="#"><div class="share-fb"></div></a>
+						<a class="share-social" href="#"><div class="share-tw"></div></a>
+						<a class="share-social" href="#"><div class="share-g"></div></a>
+					</div>
+				</div>
+			</div>
+
+			<!--Category Product-->
+			<div class="box-content">
+				<div class="header-box-content">
+					<h3 class="title-box-content">Animación</h3>
+					<a class="ico-id-content" href="#"><div class="ico-id-animation"></div></a>
+				</div>
+				<div class="line-color-grey"></div>
+				<div class="product-box-content">
+					<div class="animate-product"><img src="assets/img/illustration_5.jpg" alt=""></div>
+				</div>
+				<div class="info-box-content">
+					<div class="user-name-box-content">
+						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
+					</div>
+					<div class="ico-social">
+						<a class="share-social" href="#"><div class="share-fb"></div></a>
+						<a class="share-social" href="#"><div class="share-tw"></div></a>
+						<a class="share-social" href="#"><div class="share-g"></div></a>
+					</div>
+				</div>
+			</div>
+
+			<!--Category Ilustration -->
+			<div class="box-content">
+				<div class="header-box-content">
+					<h3 class="title-box-content inline">Ilustracion</h3>
+					<a class="ico-id-content" href="#"><div class="ico-id-illustration"></div></a>
+				</div>
+				<div class="line-color-grey"></div>
+				<div class="product-box-content">
+					<img src="assets/img/illustration_6.jpg" alt="">
+				</div>
+				<div class="info-box-content">
+					<div class="user-name-box-content">
+						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
+					</div>
+					<div class="ico-social">
+						<a class="share-social" href="#"><div class="share-fb"></div></a>
+						<a class="share-social" href="#"><div class="share-tw"></div></a>
+						<a class="share-social" href="#"><div class="share-g"></div></a>
+					</div>
+				</div>
+			</div>
+
+			<!--Category Web Design-->
+			<div class="box-content">
+				<div class="header-box-content">
+					<h3 class="title-box-content inline">Diseño web</h3>
+					<a class="ico-id-content" href="#"><div class="ico-id-web"></div></a>
+				</div>
+				<div class="line-color-grey"></div>
+				<div class="product-box-content">
+					<img src="assets/img/web_design_2.jpg" alt="">
+				</div>
+				<div class="info-box-content">
+					<div class="user-name-box-content">
+						<div class="user-name-mini"><a href="#">Edwin Gutierrez</a></div>
+					</div>
+					<div class="ico-social">
+						<a class="share-social" href="#"><div class="share-fb"></div></a>
+						<a class="share-social" href="#"><div class="share-tw"></div></a>
+						<a class="share-social" href="#"><div class="share-g"></div></a>
+					</div>
+				</div>
+				</div>
+			</div> 
+			<!-- End Section-general-->
+		</div> 
+		<!-- end Wrapper-->
+
+		<!--  footer -->
+		<footer>
 			<!--Is this div contains all the footer sections -->
 			<div class="footer-content">
 				<!-- In this section of the footer are the sponsor's logos -->
@@ -330,21 +444,19 @@
 				<label class="copyright postfix">Derechos reservados - Copyright © 2014 - Táctica Marketing StarUp S.A.S</label>
 			</div>
 		</footer>
+		<!--  end footer -->
 
-
-  </div>
-
-
-	<script src="assets/js/vendor/jquery.js"></script>
-	<script src="assets/js/foundation.min.js"></script>
-	<script src="assets/js/foundation/foundation.reveal.js"></script>
-	<script src="assets/js/foundation/foundation.topbar.js"></script>
-	<script src="assets/js/vendor/modernizr.js"></script>
-	<script src="assets/js/login.js"></script>
-	<script>
-		$(document).foundation();
-		var doc = document.documentElement;
-		doc.setAttribute('data-useragent', navigator.userAgent);
-	</script>	
-</body>
+		<!--Scripts-->
+		<script src="assets/js/vendor/jquery.js"></script>
+		<script src="assets/js/foundation.min.js"></script>
+		<script src="assets/js/foundation/foundation.reveal.js"></script>
+		<script src="assets/js/foundation/foundation.topbar.js"></script>
+		<script src="assets/js/vendor/modernizr.js"></script>
+		<script src="assets/js/login.js"></script>
+		<script>
+			$(document).foundation();
+			var doc = document.documentElement;
+			doc.setAttribute('data-useragent', navigator.userAgent);
+		</script>
+	</body>
 </html>

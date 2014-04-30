@@ -13,6 +13,8 @@
         <meta name="generator" content="www.gitbook.io">
 
         
+        <link rel="next" href="./General structure.html" />
+        
         
         <link rel="prev" href="./include files.html" />
         
@@ -40,7 +42,7 @@
 
 
         
-    <div class="book"  data-level="1.2" data-basepath="." data-revision="1398900286141">
+    <div class="book"  data-level="1.2" data-basepath="." data-revision="1398902116534">
     <div class="book-header">
     <!-- Actions Left -->
     
@@ -124,6 +126,27 @@
                 
             </li>
         
+            <li  data-level="2" data-path="General structure.html">
+                
+                <a href="./General structure.html">
+                    <i class="fa fa-check"></i> <b>2.</b> General structure
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="2.1" data-path="header.html">
+                            
+                            <a href="./header.html">
+                                <i class="fa fa-check"></i> <b>2.1.</b> header
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
     </ul>
 </div>
 
@@ -132,26 +155,43 @@
             <div class="page-wrapper" tabindex="-1">
                 <div class="book-progress">
     <div class="bar">
-        <div class="inner" style="width: 100%;min-width: 66.66666666666667%;"></div>
+        <div class="inner" style="width: 60%;min-width: 40%;"></div>
     </div>
     <div class="chapters">
     
         <a href="./index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
     
-        <a href="./development libraries.html" title="development libraries" class="chapter done new-chapter" data-progress="1" style="left: 33.333333333333336%;"></a>
+        <a href="./development libraries.html" title="development libraries" class="chapter done new-chapter" data-progress="1" style="left: 20%;"></a>
     
-        <a href="./include files.html" title="Files includes to head" class="chapter done " data-progress="1.1" style="left: 66.66666666666667%;"></a>
+        <a href="./include files.html" title="Files includes to head" class="chapter done " data-progress="1.1" style="left: 40%;"></a>
     
-        <a href="./Includes of files Javascript.html" title="Includes of files Javascript" class="chapter done " data-progress="1.2" style="left: 100%;"></a>
+        <a href="./Includes of files Javascript.html" title="Includes of files Javascript" class="chapter done " data-progress="1.2" style="left: 60%;"></a>
+    
+        <a href="./General structure.html" title="General structure" class="chapter  new-chapter" data-progress="2" style="left: 80%;"></a>
+    
+        <a href="./header.html" title="header" class="chapter  " data-progress="2.1" style="left: 100%;"></a>
     
     </div>
 </div>
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_277">
+                    <section class="normal" id="section-gitbook_372">
                     
                         <h1 id="includes-of-files-javascript">Includes of files Javascript</h1>
+<p>It is recommended that when we call files with extension. Js we do just before closing the body, this in order that the application is not too late to start , it is mandatory to leave the files in the order in which it is calling</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"assets/js/vendor/jquery.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"assets/js/foundation.min.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"assets/js/foundation/foundation.reveal.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"assets/js/foundation/foundation.topbar.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"assets/js/vendor/modernizr.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"assets/js/login.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    $(document).foundation();
+    <span class="hljs-keyword">var</span> doc = document.documentElement;
+    doc.setAttribute(<span class="hljs-string">'data-useragent'</span>, navigator.userAgent);
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
 
                     
                     </section>
@@ -163,6 +203,8 @@
         
         <a href="./include files.html" class="navigation navigation-prev"><i class="fa fa-angle-left"></i></a>
         
+        
+        <a href="./General structure.html" class="navigation navigation-next"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

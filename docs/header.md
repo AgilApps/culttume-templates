@@ -8,19 +8,24 @@ the general structure of the header is composed of several sections where you wi
 ```html
 <header class="fixed">
     <nav id="sub-header" class="top-bar" data-topbar>
+        <!-- Here is the logo -->
 		<ul class="title-area">
-		    <li class="name">
-		    <h1><a href="#"><img src="assets/img/img-culttume.png" alt="Culttu.me"></a></h1>
+	        <li class="name">
+	        <!--this tag <h1>  is necessary to take the document to take the padding, if the image is
+	        superimposed and does not look good-->
+		        <h1><a href="#"><img src="assets/img/img-culttume.png" alt="Culttu.me"></a></h1>
 		    </li>
 		</ul>
 		<section class="top-bar-section">
 			<div class="photo-user-mini">
 			    <ul class="right">
                     <li class="has-form">
+                    <!--  this hyperlink refers to modal login -->
                         <a href="#" class="secundary" data-reveal-id="modal-login" data-reveal>Iniciar
                         Sesión</a>
 					</li>
 					<li class="has-form">
+					<!--  this hyperlink refers to modal register -->
 					    <a href="#" class="button " data-reveal-id="modal-register"
 					    data-reveal>Registrate!</a>
 					</li>

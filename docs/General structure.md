@@ -1,4 +1,4 @@
-# General structure index.html
+# General structure all pages
 
 here the general structure will share all pages are described, these structures are the header, the body, the menu, the wrapper and footer
 

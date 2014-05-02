@@ -44,6 +44,44 @@ internally in `<nav id="sub-header">`  is a list of the form: `<ul class="title-
 
 at the end of the list there is a section called `<section class="top-bar-section">`, is located on the right side of the header and contains buttons login and register.
 
+The registration and login button are in `<div class="photo-user-mini">` described below
+
+```html
+<div class="photo-user-mini">
+	<ul class="right">
+	    <li class="has-form">
+	        <a href="#" class="secundary" data-reveal-id="modal-login" data-reveal>Iniciar
+	        Sesión</a>
+	    </li>
+	    <li class="has-form">
+		<a href="#" class="button " data-reveal-id="modal-register" data-reveal>Registrate!</a>
+		</li>
+	</ul>
+</div>
+```
+the list shown in the preceding code shows tags `<a hfer=""> </a>`
+show modal registration and login
+
+so that they show the modal tag needs to have the following parameters:
+
+1. `data-reveal-id="modal-login"`: refers to the id of modal gonna show
+
+2. `data-reveal`: references that will display a modal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

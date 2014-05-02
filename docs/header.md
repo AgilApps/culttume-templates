@@ -40,6 +40,12 @@ the `id= "sub-header"` is an identifier that is created directly in the file sty
 
 and `class = "top-bar" class data-top bar` is part of foundation, structure refers to the header of a document
 
+internally in `<nav id="sub-header">`  is a list of the form: `<ul class="title-area">`, this list is located at the left side of the header and that is where we call the logo culttu.me
+
+at the end of the list there is a section called `<section class="top-bar-section">`, is located on the right side of the header and contains buttons login and register.
+
+
+
 
 
 

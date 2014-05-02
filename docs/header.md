@@ -31,3 +31,16 @@ the general structure of the header is composed of several sections where you wi
 </header>
 ```
 
+`<header class="fixed">` the class fixed by default in foundation and structure is in `foundation.css`.
+
+within it is the nav structure within it is the logo and buttons to login and register.
+`<nav id="sub-header" class="top-bar" data-topbar>`
+
+the `id= "sub-header"` is an identifier that is created directly in the file style.css to style and color to the header
+
+and `class = "top-bar" class data-top bar` is part of foundation, structure refers to the header of a document
+
+
+
+
+

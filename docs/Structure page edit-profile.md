@@ -1,4 +1,4 @@
-# Structure page profile
+# Structure page edit-profile
 
 this page lthough have the same strucuture general of all differs in some sections that are specific to this page, the sections that are shared with other pages:
 
@@ -9,14 +9,6 @@ this page lthough have the same strucuture general of all differs in some sectio
 
 The sections themselves are:
 
-1. section-aboutme
-2. section-aboutme2
-3. section-social-profile
-4. section-followers
-5. section-statistics
-
-
-
-
-
+1. Basic Information
+2.
 

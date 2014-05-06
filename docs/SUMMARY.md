@@ -8,4 +8,5 @@
     * [wrapper](wrapper.md)
     * [box-content](box-content.md)
     * [footer](footer.md)
+* [Modals](Modals.md)
 

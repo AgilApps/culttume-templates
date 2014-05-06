@@ -91,5 +91,3 @@ so that they show the modal tag needs to have the following parameters:
 
 
 
-
-

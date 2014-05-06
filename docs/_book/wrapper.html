@@ -40,7 +40,7 @@
 
 
         
-    <div class="book" data-github="AgilApps/culttume-templates/" data-level="2.2" data-basepath="." data-revision="1399297531055">
+    <div class="book" data-github="AgilApps/culttume-templates/" data-level="2.2" data-basepath="." data-revision="1399391695226">
     <div class="book-header">
     <!-- Actions Left -->
     
@@ -203,7 +203,7 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_40">
+                    <section class="normal" id="section-gitbook_200">
                     
                         <h1 id="wrapper">wrapper</h1>
 <p>Wrapper It is the general container where the menu divs and sections</p>
@@ -236,6 +236,19 @@
 <p>This part belongs to the menu code that is located on the left side, can be accessed using the links to the pages of the other categories.</p>
 <p><code>&lt;div id=&quot;float-menu&quot;&gt;</code> It is the container menu.</p>
 <p>Being located within this div there are two div, the first have the title of section <code>&lt;div class=&quot;title-user-left&quot;&gt;</code> and the second the menu <code>&lt;div id=&#39;css-menu&#39;&gt;</code>.</p>
+<p>in  the <code>&lt;div id=&#39;css-menu&#39;&gt;</code> exist one desplegable list in which ago reference to the categories that redirect to other pages</p>
+<p>for begin is created one tag <code>&lt;ul&gt;</code> that include the list and contents</p>
+<p>`example</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">li</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">'has-sub'</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">'#'</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>Creaciones<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">'category-music.html'</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>Música<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span>
+</code></pre>
+<p>when finished the list is created one new div <code>&lt;div id=&quot;section-general&quot;&gt;</code></p>
+<p>this list will be which contains the boxes of works of art of artist</p>
 
                     
                     </section>

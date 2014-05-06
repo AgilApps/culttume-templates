@@ -36,6 +36,32 @@ This part belongs to the menu code that is located on the left side, can be acce
 
 Being located within this div there are two div, the first have the title of section `<div class="title-user-left">` and the second the menu `<div id='css-menu'>`.
 
+in  the `<div id='css-menu'>` exist one desplegable list in which ago reference to the categories that redirect to other pages
+
+for begin is created one tag `<ul>` that include the list and contents
+
+`example
+```html
+<ul>
+	<li class='has-sub'><a href='#'><span>Creaciones</span></a>
+		<ul>
+			<li><a href='category-music.html'><span>Música</span></a></li>
+		</ul>
+	</li>
+</ul>
+```
+
+when finished the list is created one new div `<div id="section-general">`
+
+this list will be which contains the boxes of works of art of artist
+
+
+
+
+
+
+
+
 
 
 

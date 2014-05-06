@@ -34,4 +34,10 @@ This part belongs to the menu code that is located on the left side, can be acce
 
 `<div id="float-menu">` It is the container menu.
 
+Being located within this div there are two div, the first have the title of section `<div class="title-user-left">` and the second the menu `<div id='css-menu'>`.
+
+
+
+
+
 

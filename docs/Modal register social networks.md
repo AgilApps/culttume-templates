@@ -1,5 +1,4 @@
 # Modal register social networks
-## Modal register social networks
 
 ```html
 <div class="reveal-modal" id="modal-register" data-reveal>
@@ -19,8 +18,7 @@
 
 		<!-- This link redirects to modal register by email -->
 		<div class="social-networks-login"><hr>
-			<a href="#" data-reveal-id="modal-register-email" data-reveal >Regístrate
-			con tu dirección de email</a>
+			<a href="#" data-reveal-id="modal-register-email" data-reveal                  >Regístrate con tu dirección de email</a>
 		</div>
 	</div>
 </div>
@@ -56,7 +54,7 @@ the button to register with twitter is this:
 
 ```html
 <div class="social-networks-login">
-	<!-- spaces in the value is to leave this pin with the same size button facebook -->
+	<!-- spaces in the value is to leave this pin with the same size button facebook-->
 	<input type="submit" value="Conectarse con Twitter" class="button [tiny small large]">
 </div>
 ```
@@ -65,7 +63,6 @@ This link redirects to modal register by email
 
 ```html
 <div class="social-networks-login"><hr>
-	<a href="#" data-reveal-id="modal-register-email" data-reveal >Regístrate  con tu
-	dirección de email</a>
+	<a href="#" data-reveal-id="modal-register-email" data-reveal >Regístrate  con tu dirección de email</a>
 </div>
 ```

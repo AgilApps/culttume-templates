@@ -18,7 +18,7 @@
 
 		<!-- This link redirects to modal register by email -->
 		<div class="social-networks-login"><hr>
-			<a href="#" data-reveal-id="modal-register-email" data-reveal>Regístrate con tu dirección de email</a>
+			<a href="#" data-reveal-id="modal-register-email" data-reveal                  >Regístrate con tu dirección de email</a>
 		</div>
 	</div>
 </div>
@@ -66,3 +66,5 @@ This link redirects to modal register by email
 	<a href="#" data-reveal-id="modal-register-email" data-reveal >Regístrate  con tu dirección de email</a>
 </div>
 ```
+
+

@@ -11,4 +11,6 @@
 * [Modals](Modals.md)
     * [Modal register social networks](Modal register social networks.md)
     * [Modal login social networks](Modal login social networks.md)
+    * [Modal register email](Modal register email.md)
+    * [Modal recover password](Modal recover password.md)
 

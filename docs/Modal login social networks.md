@@ -13,8 +13,9 @@
 
 		<!--button to login with twitter -->
 		<div class="social-networks-login">
-			<!-- spaces in the value is to leave this pin with the same size button facebook -->
-			<input type="submit" value="  Inicia con Twitter   " class="button [tiny small large]">
+			<!-- spaces in the value is to leave this pin with the same size button facebook-->
+			<input type="submit" value="  Inicia con Twitter   " class="button [tiny small
+			large]">
 		</div>
 	    <hr>
 
@@ -29,7 +30,8 @@
 			</div>
 			<div class="social-networks-login">
 			    <!-- this is the link that redirects to modem password Forgot -->
-				<a href="#" class="forgot_password" data-reveal-id="recover-password" data-reveal>¿Olvidaste tu                      contraseña?</a>
+				<a href="#" class="forgot_password" data-reveal-id="recover-password"
+				data-reveal>¿Olvidaste tucontraseña?</a>
 			</div>
 		</form>
 	</div>

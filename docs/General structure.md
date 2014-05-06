@@ -4,8 +4,8 @@ here the general structure will share all pages are described, these structures 
 
 The structure works in the following manner
 
-1. Header
-2. Wrapper
-3. css-menu
-4. section-general
-5.
+1. header
+2. wrapper
+3. box-content
+4. footer
+

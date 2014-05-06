@@ -7,16 +7,16 @@ the structure general is this:
 ```html
 <div class="box-content">
 	<div class="header-box-content">
-		<h3 class="title-box-content">fotografía</h3>
+		<h3 class="title-box-content">Category Name</h3>
 		<a class="ico-id-content" href=""><div class="ico-id-photo"></div></a>
 	</div>
 	<div class="line-color-grey"></div>
 		<div class="product-box-content">
-			<img src="assets/img/photo_1.jpg" alt="">
+			<img src="images upload" alt="">
 	    </div>
 		<div class="info-box-content">
 			<div class="user-name-box-content">
-			<div class="user-name-mini"><a href="#">Harley Santos</a></div>
+			<div class="user-name-mini"><a href="#">Name Artist</a></div>
 		</div>
 		<div class="ico-social">
 			<a class="share-social" href="#"><div class="share-fb"></div></a>
@@ -26,3 +26,5 @@ the structure general is this:
 	</div>
 </div>
 ```
+the div with the class header-box-content have one tag `<h3 class="title-box-content">Category Name</h3>` this is the title of category that brings of form dynamic the data of database
+

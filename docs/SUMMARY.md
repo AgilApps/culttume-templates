@@ -9,4 +9,5 @@
     * [box-content](box-content.md)
     * [footer](footer.md)
 * [Modals](Modals.md)
+    * [Modal register social networks](Modal register social networks.md)
 

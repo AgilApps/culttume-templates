@@ -6,4 +6,5 @@
 * [General structure all pages](General structure.md)
     * [header](header.md)
     * [wrapper](wrapper.md)
+    * [box-content](box-content.md)
 
